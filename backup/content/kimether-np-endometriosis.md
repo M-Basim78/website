@@ -1,0 +1,786 @@
+# Kimether, NP, Endometriosis
+
+- **URL:** https://medpsycmoss.com/kimether-np-endometriosis
+- **Captured:** 2026-07-27T04:49:22
+- **og:image:** https://storage.googleapis.com/gator-sitethumbnails/site-787567/800x500.jpg
+
+## Content
+
+Home
+
+About Me
+
+Blog
+
+Podcast
+
+Store
+
+Resources
+
+My Work
+
+Contact
+
+### Psychiatry
+
+Psychiatry Resident
+
+Lived Experience
+
+### Moss
+
+### Medicine
+
+Medical Doctor (M.D)
+
+0
+
+### Public Health and Endometriosis Advocacy: Interview with Kimether Redmon, NP
+
+### Transcript:
+
+[00:00:00]
+
+Chronic illness will try to attack your confidence. You're already going to have your confidence attacked as a new clinician. You're already going to feel inadequate. You're already going to feel that you are absolutely just overwhelmed by the amount of things that you now are responsible for. It is really important to be grounded in why you joined this field, the fact that you were able to get through your training, and that says a lot, and how important it is for chronically ill folks to be in these positions.
+
+Kimether, NP:
+
+Welcome to life as a patient doctor. I'm your host, Dr. Stephanie Moss. Navigating life as a patient and a doctor. Join me as I interview other doctors, students, and healthcare workers on their own journeys. Listen to their unique stories on how they balance their health. While caring for others in the health profession.
+
+Stephanie Moss, MD:
+
+Introduction to Kimether
+
+Welcome everyone. Today I am so excited to interview our guest who is Kimether,
+
+who is a family nurse practitioner serving low income, uninsured patients.
+
+Before her nursing career,
+
+she was a research consultant
+
+with a background in brain injury research, disability, and employment.
+
+Her goals are to increase provider awareness of healthcare inequity,
+
+become a leader in bridging gaps between research and clinical practice in underserved communities,
+
+and empower patients to make well informed healthcare decisions
+
+for themselves and their patients.
+
+After being diagnosed with stage four endometriosis back in 2021,
+
+after over 20 years of countless incidents of dismissal, gaslighting, bias, and incompetency, has fueled her own diligence as a healthcare provider and educator that prioritized high quality, trauma informed care for all.
+
+[00:02:00]
+
+Kimather enjoys translating complex research findings into easy to understand health education for the general community. Engaging in medical missions work and volunteering at her church, she inspires to visit every continent and to one day be pain free. Furthermore, she also hosts a podcast called Endo Thick of It, at Endo Thick of It, with her husband Brandon. The podcast aims to support couples who are navigating chronic illness. Thank you for being here, Kimather.
+
+I'm really glad. Thanks for having me.
+
+Kimether Redmon, NP:
+
+Early Fascination with Medicine and Path to Public Health
+
+Well, oh my goodness, there is so many things. We could talk for hours about
+
+everything
+
+from our shared diagnosis to medicine, advocacy, but really, just take me back.
+
+Tell me about your story, and journey into medicine.
+
+[00:03:00]
+
+Kimether Redmon, NP:
+
+Well, I have always been remarkably curious about human anatomy and pathophysiology. In short, really is just quite a nerd and always have been. And I always wanted a book for my birthday and for Christmas
+
+and my god mom, who I so greatly appreciate, would always give me what I asked for. Um, when I say, Oh, can I get a book that's about like the human body
+
+and everything that goes wrong with it? And she just would always be able to find, age appropriate, because I'm like 8, 9, 10 around this time. But one year, I was maybe around 11 years old, I learned about Grey's Anatomy. And I'm not talking about the show.
+
+So for those who don't know the name of the show, Grey's Anatomy is a play on the title of the Human Anatomy medical reference book that was written by Henry Grey. Back in like, I think it was like originally published in like 1858.
+
+[00:04:00]
+
+And when I learned of that book,
+
+I was like, I want this as a gift and my god mom got it for me
+
+and I still have it and I just absolutely poured myself into absorbing everything I could about, the human anatomy and just how the body worked and all of the names, the Latin names.
+
+It's pretty ridiculous.
+
+So I knew that I was really fascinated with human anatomy, but I just didn't know exactly what I wanted to do. I assumed I wanted to be a a medical doctor, even though I had no idea really what that was. So I initially was like, okay, I'm going to be a doctor plus an astronaut and a firefighter and all the things that kids love.
+
+And as I finally got into college, I had the opportunity to study abroad for a public health program. And I just am so thankful for that because it was that public health program that made me decide that I actually wanna work with public health and, and help those who are underserved, be able to have a [00:05:00] fighting chance and, and life to be able to make well-informed health decisions
+
+to be able to take care of their families and their community.
+
+And I quickly learned that there was many ways that I could do that. Um, so I. I took interest in health education, community advocacy work,
+
+and eventually started doing research to help inform a lot of community programs. And then it probably took at least a good 10, 15 years of working professionally for me to finally just get the courage to bridge that background with some clinical training.
+
+So that could actually start helping people at an individual
+
+level, specific to actual like health conditions and overall wellness. it took a while for me to decide to land on becoming a nurse and then a nurse practitioner. But I can tell you what really made me jump towards being a nurse was a medical admission trip that I took, before I was a clinician, of course.
+
+[00:06:00]
+
+And I just was in awe by the nurse practitioners and the nurses on the mission. they just were amazing at how they were delivering this holistic, patient centered, wonderful care with fantastic bedside manner, and it just really aligned with my public health background, for sure. So I just kind of gravitated towards that.
+
+Didn't look back.
+
+Wow, I'm in awe. What a unique, but so purposeful and meaningful background,
+
+coming from public health
+
+and seeing that you could do something to help others
+
+that are underserved ,
+
+and don't have the same resources
+
+and find that that's your passion and find a way to kind of incorporate all your previous passions. So you became
+
+A career that was like, it took many experiences to get here. But I think that's part of that's part of the beauty of it, for sure.
+
+[00:07:00]
+
+Exactly. I love that because I like to talk about how journeys aren't linear. And I think you're showing how different things
+
+have influenced who you are today
+
+and then how you practice medicine.
+
+Absolutely, because each step certainly informs the kind of practitioner I am.
+
+I think it's absolutely priceless
+
+that I had my undergrad and master's of public health
+
+and had already done years of public health work in the community
+
+and then in research.
+
+Like even as a new grad nurse practitioner,
+
+it kind of felt like I'd been doing this for 20 years already,
+
+and I just was tying in the actual, like, clinical component,
+
+which really does make me feel like my career feels complete.
+
+From a young age, Kimether's curiosity about human anatomy and pathophysiology was insatiable. Her godmother would always gift her books on the subject, fueling her passion. At 11, she discovered "Gray's Anatomy" (the medical book, not the TV show), and this comprehensive guide captivated her. This early fascination led her to explore various career dreams, from becoming a doctor to an astronaut, all driven by her love for understanding how the body works
+
+The Impact of Medical Missions and Global Health Perspectives
+
+Yes. Oh my goodness. Yes. What about, you said you traveled abroad. Were those like small time, like only a couple months or how long did you spend in those trips?
+
+[00:08:00]
+
+So my first trip, was a summer, because it was a studying abroad program at Costa Rica. but it was specific to public health.
+
+we basically were going there. as a group of us from our university. To study the Costa Rica Healthcare system, and not just in general, but we traveled throughout the country to see how are people interacting with the health care system in urban areas, rural areas, and the mountains and more rural sites, and it was so fascinating.
+
+That's really what opened my eyes to public health and what it was, and how, depending on someone's geography, education, income and the class system of their country plays such a huge role in how they were able to take full advantage of the health care system that was available to them.
+
+And Costa Rica actually had a pretty amazing health care system, but even with their public system being fairly well done at the time, it was still just really challenging for some individuals to be able to really take the best care of themselves because of access issues and other, challenges.
+
+[00:09:00]
+
+And I knew that that was also an issue here, but I had to really see it in that country to come back home and have my eyes open to seeing how it's just as prevalent here to have those same challenges.
+
+I definitely got the travel bug after that, so I do love doing mission trips some with my church and like I say, even before I was a clinician, I had already started doing medical mission work. And I basically would just assist with like project management because I was an analyst after all, so I could absolutely make sure that the operation of a pop up clinic in a rural village could go smoothly.
+
+And that gave me front row seat also to what it looks like to provide care in even the most challenging environments and how, if you just meet people where they are, They can absolutely as well be able to excel in their health, management too. They just have to be met where they are. And in this case, it was sometimes just rural village in the mountains but also I was able to see just how hard it was for them as well to take really good care of themselves, especially with chronic conditions when they were just so far or it's just like so difficult, like two, three hours in a paid car ride to get to, like, a medical facility or, even just struggles with being able to store medication.
+
+And again, these all issues is right here in the United States. But I feel blessed
+
+to have the opportunity to see what it looks like in other places as well and find the parallels and the differences.
+
+Thank you so much for explaining, that, especially the lessons that you learned. A lot of them, I feel like, are very transferable, you said, to hear that a lot of people with chronic illness, there's so much that they have to take care of, how are they going to afford medications, where to put medications,
+
+how to take medications, so many aspects that sometimes individuals who don't have those same healthcare experiences wouldn't know.
+
+Would you say your own healthcare experience had any influence or any connection when you were working with those patients?
+
+Well, when doing my mission work, I would say yes, but not the way it does now that I'm working as a clinician.
+
+[00:11:00]
+
+Then I could recognize the impact of the clinicians primarily being white, for example, in an area that was serving people of color, and the dynamic that created, and how refreshing it was for them to see someone of their skin color being a part of the team, or even leading the team. It provided, trust and it helps us just facilitate greater patient provider communication, because I would sometimes be the first person that they would speak to and I could just establish that relationship and let them know that we're here to help. We're not here to be anyone's savior.
+
+We are here to address any concerns that you have medically and just do the best that we can and if it's something that we can't manage, then we'll try our best to see if we can get you to that next step care. And it truly did make a difference. But even with, even with a language barrier, because I do not speak fluently any languages of places that I've been, but it's still spoke volumes for them to see the diversity within that team. And I used to think that I had no business going out of the country to serve when there was just so many problems here in the United States.
+
+[00:12:00]
+
+But now looking back, I can see how my time serving overseas has absolutely just really enriched my abilities here in the States as well and I use my time here in the States to also hone my skills so I'm even, better, provider when I go out the country. Because they deserve to have high quality care that I fight for my patients to get now here in the States, so.
+
+Medical mission trips were pivotal in my career. Observing nurse practitioners deliver holistic, patient-centered care inspired me to become a nurse practitioner. These experiences also highlighted the importance of meeting patients where they are, both geographically and culturall
+
+The Importance of Diversity and Trauma-Informed Care in Healthcare
+
+Yes, I'm so glad you brought up race
+
+and how important that is to have a, health care provider that looks like them. Could you talk more about how having more diverse healthcare workers
+
+can have an influence on the care that we provide?
+
+I'll try to, without taking too much time, because I can definitely say in short that it can really have a significant impact.
+
+I try to keep in mind that the majority of us trained here in the United States
+
+were trained within a medical system that by nature is foundationally problematic,
+
+and racist underpinnings it has, a lot of issues with it.
+
+[00:13:00]
+
+I keep that in mind that even with, more people of color, more gender diversity, that the buck doesn't stop there, we have to also really be intentional about acknowledging our biases and being aware of what's important to patients.
+
+So the biggest difference particularly happens when you have a provider who is very aware that they were trained within a problematic medical training system. That even though it has allowed them the privilege of being able to have this position of power as a clinician, that we can still do harm when even we have really good intentions. So I've learned that by remaining really intentional about knowing that, that I know that I'm able to help patients have a better experience when they encounter this problematic health care system that has probably treated them awful over the years, or has neglected them entirely, or they've avoided entirely for multiple reasons.
+
+S
+
+o when you, as a clinician, when you're made deeply aware of that, which is why I think it needs to really be embedded within our training to be aware, of these challenges, then you can actually approach your clinical practice with a greater degree of empathy and a greater, awareness of trauma-informed care that's beyond just what we learn in a class, but actually is what we could do in real life to not contribute to people's trauma, when they're in front of us seeking help.
+
+So, that, that is what makes a huge difference. And I have full confidence that providers of any background, of any, ethnicity, have the ability to do that but I keep in mind that people do have a great appreciation for seeing people that look like them or look like a family member.
+
+So I, I just try to kind of keep that all in mind. And, I know that I've, I definitely have had patients who were completely, defensive.
+
+[00:15:00]
+
+Standoffish, however you want to interpret their fear or lack of perceived safety in the moment, that completely drops once I'm talking with them. And I know that my, I know that my skin color, and even maybe my gender is playing a role there. But I think what they see, it's the full package. I think it's what matters. It's the smile that they get. It's the eye contact it's the acknowledging that, man, you did a really big thing today coming to this appointment when I know this is a scary experience.
+
+You know, I want to know why you're here and what I can do to help. Everyone deserves that full package of culturally responsive trauma care. And I think we can all deliver that. I just feel maybe a little, you know, Uh, like a, maybe, could I say a little one up by being a black woman? Primarily from my lived experience and knowledge of history, but I know that that's not all.
+
+[00:16:00]
+
+I'm so glad you mentioned trauma informed care because that's also one of my passions. And it is definitely something so important,
+
+especially when talking about patients of color and in pain. And there's so many traumas that they can have that are constantly brought up
+
+through the healthcare system or re-traumatized in the healthcare system.
+
+I love that you gave some examples of eye contact, a smile.
+
+Is there any other ways that you provide trauma informed care in your practice
+
+or you encourage other health care providers to incorporate it?
+
+Patients often feel more comfortable and trusting when they see a provider who looks like them, which can break down barriers and foster better communication. It's not just about diversity in appearance but also about delivering culturally responsive, empathetic care. While I may have an advantage as a Black woman in connecting with some patients, it's crucial for all providers to strive for this level of care.
+
+Behind the Scenes: Advocating for Quality Care in Underserved Communities
+
+So there's things that I do behind the scenes and then there's things that are patient facing. B
+
+ehind the scenes I really like to ensure
+
+that we understand that just because we are providing care to those who are low income and uninsured that there's no reason why we can't provide high quality care, that even someone with insurance who is not low income would have a good experience.
+
+[00:17:00]
+
+It's an unfortunate expectation that it's for those who are uninsured, have low income, that they automatically think it's okay for them to get substandard care, to have really long wait times, be overly policed, to be, you know, wander in that setting because this is a lot of issues. Every single one of them is a pet peeve of mine because I just really, you know, behind the scenes, ensure that what are we doing about patient flow, logistics, patient satisfaction, the patient experience,
+
+are we doing what we would do if this was a private practice making a million bucks, you know, because we'd make no money, but, that's okay, we're not driven by that.
+
+Why not be just driven by ensuring that people are having a good experience? And are walking out with the information that they need to make better health decisions, or patching problems before they become emergency. Like that's how we get to measure success and that's the reason why I've chosen to work within these fields.
+
+[00:18:00]
+
+You know, even as a nurse, I worked at the VA because I just, I was like, I want to serve within like a public serving system that isn't, as drenched in the private, very monetary driven, system. I just gravitate to that for those reasons.
+
+So those are advocacy behind the scenes for sure, that it's not acceptable for people to just get just enough, that we should be striving for excellence just like any other practice.
+
+Let me get the question 1 more time because I definitely just want to make sure that I answer it specifically.
+
+I just want to hear your thoughts on trauma informed care because
+
+I'm very passionate about trauma informed care, but then everyone has kind of their own experience, their own thought process, and own way that they incorporate it.
+
+So you answered it really well on how as administration, on that end, we should make sure that we're doing the best care for patients. But yeah, I would love to hear also your side as a provider. As as a nurse practitioner.
+
+[00:19:00]
+
+Great. So for patients, once it's just me and them in the room, that's all that matters to me.
+
+And I make that really clear that they're my priority in that moment. And no matter how behind I am,
+
+they're going to get that time with me that what their appointments for. And a few things that I do to ensure that I am doing little to no harm
+
+or not contributing to their trauma is, first and foremost,
+
+welcoming them as a human being and recognizing their own humanity, asking how they're doing, how their family is doing, actually meaning it when you ask.
+
+If I'm talking about their health especially if I'm, I have a patient that I am, maybe a new patient where I'm gathering history, I ask history as mindfully as I can, because a lot of times as clinicians, we just are like, we got to get the information
+
+and we'll sometimes zoom right past, the demise of a pregnancy
+
+and zoom right past the death of a parent that just happened maybe a few months ago, you know, because we're just stuck on the mission of, Let's get this family history.
+
+Well, how old were they when they died? You know, do you know what type of cancer it was? it doesn't take us much to literally take five seconds, to actually listen to what they're saying while they're giving us that information.
+
+I also try not to ask information that I don't need, that literally can just, be traumatic to have the answer. If I don't need that information to be able to provide the best care, then I don't need to, I don't need to ask it, I don't need to skip it. Same thing when it comes to physical exams, like if I don't have to touch you, I won't touch you. If I don't have to do a pelvic exam, I won't do one.
+
+If I don't need you to be undressed in any capacity, I'm not gonna have you get undressed. So, I try my best to have all conversations fully clothed, sitting at the same level, especially when I'm meeting someone new who wants to have the first time they meet someone they're naked, wearing a paper gown.
+
+[00:21:00]
+
+I also really try to ask questions because I see a lot of the assigned female at birth patients at my job. And so if I'm doing any type of pelvic exams for whatever reason, we've had a conversation, so I already know if you have had traumatic gynecological experiences, if you're dealing with dyspareunia if you're, um, even if you're like, just really nervous because the last time you did a pelvic, it was way more uncomfortable than you expected.
+
+I try to be very mindful that I let them know that, I'm also really big on just active informed consent, and letting them know that that consent can be revoked at absolutely any time. So, even if you gave me consent to do, let's say a bimanual exam at any point in time, I see that you're uncomfortable or you want me to stop, or it even looks like you might want me to stop, We're just done. And patients need to know that they have a right, that, when someone is touching your body, that being clinician doesn't just give them free reign to do whatever they want to their body. And no one should be touching you without you knowing exactly what it is that they're about to do.
+
+And I know a lot of this comes from my own medical trauma and my own need for that as a patient. But it has been very helpful that my patients have been able to benefit from my really bad experience. because I do that for everyone. It's, to me, that's just is a category of, providing patients with dignity.
+
+Stephanie Moss, MD:
+
+Beautiful. Oh my goodness. I, I want you as my provider and I want to work with you. Cause, oh my goodness, I believe in everything that you just said, and I want all clinicians to be able to hear what you just said and, to take it to heart because it, I think it would change medicine.
+
+It would change just the whole concept that we just see patients as human
+
+and treat them like you would treat another human. Oh my goodness.
+
+I know. And I know it's not, I know it's not easy. I'm doing it. So I know it's not easy. I know that. We are working within healthcare systems that really aren't built for it.
+
+[00:23:00]
+
+Sometimes when you're within that type of system, sometimes the best that you can do is to refer to them by name and look them in the eye, to give them the dignity of knowing when you have the answers and when you don't, to give them the decency of letting it be okay to defer the physical exam portion
+
+and let disappointment just be about history. Because that's all you have time for, because you want to be able to do it well and thoughtful.
+
+Like, there's little things that we could do within the more problematic areas
+
+of our healthcare system, but I understand that it's very challenging. And sometimes it could burn us out even trying to work against the grain.
+
+And you know, I just, I work through it myself and have my own boundaries that I have to set to ensure that can maintain it's that personal standard of work ethic, because the healthcare system does not encourage it.
+
+Stephanie Moss, MD: I like that.
+
+Kimether avoids unnecessary questions or physical exams that could be traumatic unless absolutely needed for optimal care. She maintains patient comfort by having conversations while fully clothed and at the same level, especially during initial meetings. This approach is particularly crucial for sensitive exams, like pelvic exams, where she ensures thorough discussions to understand any past trauma.
+
+Personal Health Callenges and Professional Fulfillment
+
+And you mentioned briefly of how hard it is to sometimes maintain all this work when the healthcare system is not built for this type of person focused medicine and care.
+
+[00:24:00]
+
+How do you take care of yourself and your own body and mind when you run against this friction?
+
+Because I've always been passionate about these patient populations that I've really just been devoting all that I can professionally to for the majority of my adult life, I have tried to make decisions along the way that
+
+hopefully helps to facilitate being able to have what I need to be able to do it well.
+
+I've worked within the fast paced five minute appointment type settings and I've worked within hospitals that overwork the nurses and give them tons of patients so they're really not able to provide anything beyond throwing meds at you and doing a quick assessment.
+
+And I have had to make decisions within my career, not only because I insisted on making certain sacrifices so that I can serve people in a way that I think is the most dignifying and respectful, but I've also had to make those decisions because of my own chronic health challenges too. I could not do the 12 hour shifts in the hospitals anymore with six, seven, eight patients who were all varying levels of acuity running around like my head cut off, because not only was it completely unfulfilling, but for someone who is just, maybe a little too empathetic and I would always be that nurse that was there like an hour after the shift ended because I spent a little bit of time with patients um, instead of charting.
+
+So now here I am charting at the end of the day instead, or I was extra burnt out, you know, because I gave a patient actually what they needed, which was like someone to actually listen to them and provide them a little extra care than what I really had the time to do.
+
+So just my own morals had to make that change, but then I also physically, it was, too much, for me to keep up with that, especially if it wasn't fulfilling.
+
+[00:26:00]
+
+:A lot of us, we can be completely burnt out, but just driven by us doing really meaningful work, but I wasn't getting that either way. The busy work schedule was not only exasperating my chronic illnesses, but it really just kept me often very depressed because you just saw up close and personal day in, day out, everything wrong with the health care system. You see patients discharged too early, see patient complications because of errors that are naturally going to happen when staff are overworked and patients aren't getting the care that they need.
+
+I just decided that there's too many reasons to not be a part of that machine,
+
+and to find a place that not only prioritize those who are marginalized, but to really help keep them out of the emergency room and help them live healthy lives, but that also valued the importance of, having time with the patients.
+
+So the majority of my patients, English is not their native language.
+
+[00:27:00]
+
+So I'm using interpreter for 98% of my appointments. I have advocated very hard to have minimum 30 minute appointments so that time can be factored in for translation, for looking them in the eye, and being able to actually provide what I see as a quality healthcare appointment, and I don't get those decisions in big healthcare systems that really just care about the numbers. But in this smaller setting, I can say I want 45 minutes for new patients, no less than 15 minutes for an acute visit, and 30 minutes for follow ups and have that be respected because as a clinician, I know what's best for my patients. I know what they need.
+
+And again, it's not being dictated by insurance because they're uninsured. So, that helps too, and I was intentional about going in environments that were like that.
+
+I love that. You talked about so many things. You talked about just noticing your own boundaries
+
+and how your body is reacting and also, what is most meaningful, what can you do where you find meaning, but then you're also taking care of your own health and being able to have that balance.
+
+So, thank you so much for sharing those tidbits and sharing your vulnerability and struggle because a lot of people, including myself, very much understand and appreciate it.
+
+I just decided that there's too many reasons to not be a part of that machine, and to find a place that not only prioritize those who are marginalized, but to really help keep them out of the emergency room and help them live healthy lives, but that also valued the importance of, having time with the patients
+
+Navigating Healthcare with Chronic Illness
+
+I'm personally most concerned with going into residency and doing 24 hour shifts. I specifically was looking for residencies that didn't require 24 hour shifts.
+
+And even that do,
+
+I know that you can request accommodations to not have to do those 24 hour shifts.
+
+As we close off, because we could talk forever,
+
+do you have any advice or pearls of wisdom for other healthcare providers, future clinicians, or even current clinicians that have health conditions or disabilities?
+
+Sure. I definitely have learned some lessons along the way. School was a little bit challenging because I still didn't know that I had endometriosis.
+
+Kimether Redmin, NP:
+
+[00:29:00]
+
+I didn't quite know why my health was just spiraling down during grad school. I assume that I'm just stressed or this is just normal and I have to work with it.
+
+But even with those limitations, I did make the decision, at one point to drop down to part time, for example.
+
+Hard decision to make because you just want to be done. You just want to, and you want to stay along with your cohort. But I needed that, that was just a point in time that I, at the same time that I went part time at work, went part time at school, as well.
+
+And I was later able to go back to full time and finish out school, a little bit behind my original cohort, but I had a great group that we still stayed in touch and honestly, it ended up really being helpful because they had already been through, some of the things, you know. They were ahead a semester or two, so they actually were able to mentor me as I ventured into those final semesters and the residency training experiences.
+
+[00:30:00]
+
+I also really wanted to have a say of where I was going for clinical training. Obviously with some programs, you justg o where they tell you, and I knew that that might mean long drives that will be really hard on my chronic pain issues, potentially really long shifts.
+
+But I did choose a school that I knew that though it's a risk, I would be responsible for finding my clinical assignments, my preceptors. And I leaned really on my professional background and connections and networking abilities and, you know, ability to just shine and say, I'm a wonderful student that already has a background in public health. I will be a wonderful temporary addition to your team. Yeah, so by having the ability to choose and decide where I was going, that did help me find places that provided what I needed, like no longer than eight hour shifts and availability on the weekend so I could balance class and clinicals, no overnights, you know, things like that and it was worth it. It's a risk because it can be very hard and COVID did happen during this time, so it became exponentially harder to be able to find those assignments, but it all worked out.
+
+Once I actually started working, I did have excision surgery right after becoming a nurse practitioner, in hopes that I'll be able to work full time after this, and this just wasn't the case.
+
+So, a piece of advice would be to, one, have grace for yourself if you're not able to work in the capacity that you originally intended. I fully intended on as soon as I finished school, I'll take a month vacation and just hit the ground running working as a nurse practitioner for,a busy safety net clinic somewhere probably out of D.C. or Baltimore, a major city in the area. But when my health did not really allow for that, even several months after a decision, I had to make some, really strong decisions about how should I move forward then, and for me, it meant that I did disclose my health condition, during my interview, for example, I waited to end.
+
+Not every interview, but the ones that I was like, this was a really good interview. I, yeah, that was the one that I was like, I'm not sure I want to work here anyway. I didn't bother. But, for me, select interviews that I felt were really good, interviews I did at the end, after I already knew that I sold them on my awesomeness, that I do have a chronic condition.
+
+Most of the time, I was being interviewed by a Clinician. If it was HR, I didn't go into detail. But if it was a clinician, I could tell them that I have endometriosis. And I am very excited to get back to work. But, in order to give my all to my patients when I'm in clinic, I'm going to need to work part time and, so I hope that that will be okay, since I saw that the physician was part time or full time.
+
+[00:33:00]
+
+And for this position, that transparency worked out and they were able to provide that as well as some accommodation requests that I wanted as well when I first started. It's hard to know when to do that. You really do have to have that gut feeling and even when to do it once you're already working. So even if you don't choose to disclose in the beginning, don't feel bad if you end up feeling a need to disclose sometime later in your employment. Especially if there are new accommodation requests that are needed or if you have a change in condition.
+
+The last one that I'll share is chronic illness will try to attack your confidence. You're already going to have your confidence attacked as a new clinician. You're already going to feel inadequate. You're already going to feel that you are absolutely just overwhelmed by the amount of things that you now are responsible for. It is really important to be grounded in why you joined this field,
+
+the fact that you were able to get through your training, and that says a lot, and how important it is for chronically ill folks to be in these positions.
+
+The healthcare system is obviously full of people who have chronic illness, many of us choose to completely compartmentalize and decide to, at work, I'm just a doctor, I'm just a nurse practitioner, who I am as a patient. No, like, that, can't enter this space because I don't want anyone to see me as weak or whatever.
+
+I've chosen to fully embrace being a patient and a clinician, and I'm both, 24/7, and that has been empowering for me, it's been freeing for me, so it's something that I want people to consider. It's not for everyone. But it is something that I want people to consider that I am a better clinician because I show up as a patient who's a clinician.
+
+I show up as someone who is dealing with their own health issues and,
+
+when I'm with my patient, of course, I'm centering their health experience, my experience, and helps ensure that they get the best care.
+
+[00:35:00]
+
+They're going to get the care that I think every person deserves. They're going to get someone who understands what 10 out of 10 pain on a regular basis feels like.
+
+They're going to get someone who is not going to dismiss their pain, or dismiss their symptoms. I don't care really what outlandish thing a patient says. That if that's it, if they believe that, I'm like, oh, that's an interesting observation. But let me write that down and I'll keep that in mind while we're going through our other questions.
+
+Because it's so empowering,
+
+and I see the beauty of what patients can do with their health
+
+when they have a safe space to manage their health care. So it's worth me being transparent and, you know, sometimes needing to use a cane or needing to sit. It's completely fine, to me,
+
+because especially if it's going to actually, help the patient feel better
+
+and just more comfortable and safer when they're around.
+
+[00:36:00]
+
+Oh my goodness. You are a full patient clinician. Like that, that is why you're here and I want those experiences to shine. I love that you said all that because it's so true. You're not the only one. People are human. They have to have, if they're not right now struggling,
+
+they will struggle with health at some point because that's humanity.
+
+Exactly. And have you ever encountered, a clinician
+
+who actually is dealing with a chronic illness, but because they're within a broken health care system that kind of forces them to tough it down, they almost actually do more harm. I've had clinicians who would say, I got,really bad periods too, yours can't be that bad or, you know, childbirth was really awful for me, it was ridiculous, but you just don't have to go through that or I have pain issues all the time, you know, you don't see me complaining.
+
+[00:37:00]
+
+I've seen what it looks like when clinicians also are broken and have experienced their own trauma that they haven't dealt with. Our patients don't deserve that either,
+
+so they don't deserve us to be void of emotion and have this image of perfection,
+
+and they also don't deserve to have a clinician who has unresolved trauma and issues
+
+with their own health, who now is deflecting that onto the patient.
+
+Patients deserve to have a healthy, balanced, well adjusted clinician who,
+
+even within their chronic illness, has found ways to thrive. We need to continue doing this for our patients, but most importantly for ourselves, because we show up as our best selves that way.
+
+Yes. Oh, my goodness.
+
+Thank you so much. And oh, you said something really important.
+
+Disclosure to Patients: Balancing Professional and Personal
+
+So I want to ask, because a lot of people ask me and I'm still trying to figure out. So I would love to hear your thoughts on disclosure to patients. How do you do that? And How do you balance when it's appropriate or not?
+
+[00:38:00]
+
+So disclosure of my health conditions.
+
+Oh, great. Okay. Great question. So, typically, I don't give specifics of what my health conditions are. I just think that it's too easy for a patient to either compare and think, Oh no, she got sick. She has it worse than me. and I might lose the appointment being patient centered. But I am able to disclose that I know what it feels like to not be believed.
+
+I've had patients who say, I went to the emergency room and I had all this pelvic pain, especially on the left side. And they kept asking me, am I sexually active? I keep telling them I've never had sex before and no one believed me and it was just so embarrassing and they almost tried to do a internal transvaginal ultrasound on me anyway.
+
+In those moments when they're pouring their heart out about a traumatic experience, I don't say, Oh my God, had that same exact thing happen to you, but I will say, You were absolutely right to advocate to not get an internal ultrasound. I'm so glad that you spoke up. It was wrong that they kept asking you.
+
+Unfortunately, I've experienced that even too and it's unacceptable. And so I only will disclose just enough to validate. But that for me has worked well. Now, for patients who even specifically have my conditions, even in that case, I haven't specifically, said, oh, I have endometriosis as well, or adenomyosis, because again, my concern is that they might center me, and I don't need my patient to feel like they now have to take care of me, you know.
+
+Therapists will speak really well about the importance of even if you disclose, but disclosing in a way that still is patient centered, and being mindful that depending on what you disclose, you do risk, losing that patient centered experience for them.
+
+So that's worked well for me, for now.
+
+Now where I do disclose is when I'm doing specific work in endometriosis.
+
+[00:40:00]
+
+If I'm speaking to an endometriosis patient, for example, in a group setting, a support group, and I'm giving a presentation, about endometriosis, and it's, Pathophysiology, clinical manifestations, you know, things like that. I really do love, in those cases, incorporating my own personal experience, especially if I'm speaking to clinicians. But even if it's the community, I like to incorporate it. But I think that we have a special opportunity when and where we're teaching about our conditions, especially if you have a condition that is so poorly understood by the health care system to resonate in a unique way when I'm providing clinical education from both a practitioner and patient standpoint.
+
+I get med students attention way more than they'll give their professor attention. If I go through, like, here are the various, symptoms that can show up with endometriosis. And I can tell you that I've experienced every single one of those except for two. and] let them know how students just like them have dismissed me in the past because it didn't make sense to them.
+
+That someone could have all these symptoms, and it could be caused by one condition, that, it just gets their attention in a new way. That's why I love talking to med students. I like to get them before they get, you know, impacted by life. and before certain things have completely locked in to their brain, so if I could catch the med students in like their first and second year to teach them about, endometriosis from a clinician and patient standpoint, the best, the best.
+
+Oh my goodness. Yes. I love that. that's such great advice. I like specifically you said disclose to validate.
+
+That purpose is very helpful as a patient clinician, patient doctor, myself, or a future doctor. It's really helpful when navigating those tricky situations to disclose,
+
+how much to disclose, will it be helpful, will it take away from the patient?
+
+[00:42:00]
+
+Because all we want to do is do the best for the patient and we don't want to cause harm.
+
+So it's really good to hear positive experiences and how to make sure you're being as supportive as possible and it being a benefit instead of a harm or just not as helpful.
+
+A
+
+bsolutely. I try to tell folks that I try to save all the traumatic elements of my chronic illness for my therapist,
+
+not for my work, my coworkers, or my patients.
+
+Oh my goodness, yes, right, exactly. There's a balance. But I think you provided some really great strategies of
+
+how to work on that balance and also where it is really helpful to disclose specifics
+
+when you're talking about education,
+
+whether it's educating a group of patients or
+
+educating other clinicians or clinicians in training on how to best approach patients and how to see endometriosis as all these different symptoms, instead of just putting it in a box.
+
+Because I think that is definitely a challenge of when we're learning about endometriosis, we sometimes think it's only about the pelvic floor or only about, one organ when there is so many aspects, so many symptoms.so much that it's such a very unique experience for all.
+
+Oh, yes. Oh yeah. And just the,heterogeneity of it it's hard for clinicians to wrap their head around that. I understand that. So it helps to give them like a real life. Then they're able to ask questions as both a clinician,
+
+but also as a patient, like what did you wish a doctor said when presented with these symptoms?
+
+Like what would have been better than what you experienced? I'm really excited just about this generation of medical students who really do want to do what's best. No ones going into this to cause harm and people really do have genuine interestin learning how to better care for their patients of our society, and I love that. So anyone willing to listen, I'm always happy to share.
+
+Well, that's what you're doing right now. So thank you so much for sharing
+
+just a little slither of your story that brought you into medicine,
+
+you being a little science girl, a reader, and getting into the Grey's Anatomy. T
+
+rying to understand how the body works
+
+and being taken abroad and just being enamored with public health
+
+and understanding population health and how systems and society
+
+can have a direct impact on someone's health and someone's health care,
+
+and how you then brought those experiences back to the states
+
+and you were able to get your master's in public health
+
+and then your nursing and then your nurse practitioner
+
+and still as a nurse that use your skills now as a clinician with a public health background
+
+to help individuals in rural villages going on medical missions trips
+
+and really showing how you can be there learning how to be humanistic.
+
+Learning how to really foster that communication and trust with a patient.
+
+And you also talked about how just important it is to provide trauma informed, empathetic care where you take the time to be with the patient and provide them the utmost care that they deserve. That you maybe as yourself, as a patient, maybe did not have. But you want it for your patient and you advocate that to happen.
+
+You advocate our health care system to also be patient centered, to provide them the highest quality care, even if they can't afford the best, they deserve the best, and so they receive the best.
+
+[00:46:00]
+
+Absolutely, none of us is going to get the quality care that we deserve
+
+without Ensuring that we're taking care of those who need the care the most.
+
+I think that we have a special opportunity when and where we're teaching about our conditions, especially if you have a condition that is so poorly understood by the health care system to resonate in a unique way when I'm providing clinical education from both a practitioner and patient standpoint.
+
+Endometriosis Advocacy
+
+I agree with you and I'm so glad you were also able to give us a little bit of your own patient experience
+
+and be able to share how that impacted you as a patient clinician
+
+because that's what this podcast is all about
+
+is showing how people can be in that duality of being a person and also a health care provider
+
+and how they don't have to be separate
+
+but there's a huge benefit to be both a benefit for the patient and benefit for the health care system
+
+when we can now have experiences to share to help the next generation of clinicians. So thank you Kimether so much for being here today and sharing your very unique and heartfelt story.
+
+[00:47:00]
+
+Thank you so much for having me. We definitely could talk forever. So, but thank you so much for this opportunity and I hope we get to talk again soon.
+
+We also didn't mention, you being the vice president of Peach Corp. So you want to quickly mention that.
+
+One of the ways that I try to formalize my advocacy efforts in the endo, adeno, PCOS space is that I joined the board of the Peach Corps. The Peach Corps is a 501c3 non profit organization that raises awareness for those three conditions and we're having our first in person, Patient Conference this May, so May 17th to the 19th in Yonkers, New York.
+
+So for anyone who might be interested in attending that event, certainly make sure that you're following us on Instagram @peach_ corps, and we'll soon be putting the early bird tickets on sale and that there'll be surgeons, practitioners, patients, professional certified patient advocates.
+
+[00:48:00]
+
+It's going to be a wonderful time. Really excited about that. And I'll be doing a good amount of facilitating and moderating and also just hoping that everyone is having a fun time while getting all of this great knowledge. So I hope you can make it. You're certainly welcome to come.
+
+Stephanie Moss, MD: Yeah, thank you.
+
+I was just pulling up my calendar. I was like, okay, what, like, what day?
+
+I'll make sure to include Peach Corps down below in that information. Cause yeah, that sounds awesome. What is with New York? All these places are in New York City. What about Chicago?
+
+I know. Believe me, I was looking there too.
+
+Cause I think one of the conditions, I think maybe PCOS or POTS,
+
+are having their annual conference in Chicago this year. I can get back to you on which one.
+
+I will look at my calendar because that sounds amazing.
+
+Stephanie Moss, MD:
+
+So thank you so much for sharing both those organizations and I'll include those down below.
+
+Kimether is actively involved in the endometriosis, adenomyosis, and PCOS advocacy space by serving on the board of the Peach Corps, a 501(c)(3) nonprofit organization dedicated to raising awareness for these conditions. Follow Peach Corps on Instagram (@peach_corp) for updates.
+
+Connecting and Supporting Through Social Media
+
+I know we said at the beginning, your podcast, but you want to quickly shout out your podcast and your social media and how people can get in contact with you.
+
+[00:49:00]
+
+So people can probably reach me best at my Instagram.
+
+It's .
+
+@therebelliousuterus
+
+And you can also hear from my husband, Brandon and I, in our podcast called Endo Thick of It. It's a podcast that is aimed to really to provide support and information
+
+for couples who are navigating chronic illness. It's something that we decided to create because it was what we were looking for.
+
+And when we didn't see it existed, we decided to create that also.
+
+Endo Black is another organization that I volunteer with in Maryland. They raise awareness of the impact of endometriosis on African Americans. And my work with them is where I get those opportunities
+
+to educate the community and clinicians and medical students about,endometriosis and how it impacts the black community and the history, as well of endometriosis in the black community.
+
+[00:50:00
+
+And it's definitely something I'm really passionate about.
+
+Those are two great resources, and I know I have the EndoThic of it, on my website, . I have a section for endometriosis,
+
+medpsychmos.com
+
+and then a section for all the podcasts that have to do with endometriosis. So I know I have that one, but I'll make sure to add in,
+
+because I have another section that says websites and different support groups.
+
+I'll make sure to add in Endoblack on that resource list.
+
+So thank you so much for for stating those and I'll also stay on also include them below for everyone.
+
+So thank you everyone so much for joining
+
+if this is the first time you listen to this podcast,
+
+Thank you so much for sticking through and listening
+
+and I hope you can subscribe wherever you're listening to your podcast t
+
+hat way you know when the next one is available and you can see what all the other amazing patient clinicians and patient health care providers that exist and are sharing their journey
+
+in this dual role, so thank you all so much.
+
+You can find me on social media , and like I said, my website , where I share my journey in blog form and on video podcast form.
+
+@medpsychmos
+
+So thank you all so much, and thank you to my amazing guest. Kimether, thank you for being here today.
+
+More
+
+#### Stephanie Moss, MD
+
+Psychiatry Resident Physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.
+
+##### Explore
+
+[About](https://medpsycmoss.com/about)
+
+[Workbooks & Courses](https://medpsycmoss.com/store)
+
+[Podcast](https://medpsycmoss.com/podcast)
+
+[Blog](https://medpsycmoss.com/blog)
+
+[Contact](https://medpsycmoss.com/contact)
+
+##### Popular Resources
+
+[Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+
+[Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+
+[Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+
+[USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+
+##### Connect
+
+[Instagram](https://instagram.com/stephmossmd)
+
+[YouTube](https://youtube.com/@doctormoss)
+
+© Stephanie Moss, MD | MedPsycMoss. Educational content only — not medical or legal advice.
+
+2026
+
+## Images (6)
+
+- ![](https://medpsycmoss.com/x/cdn/?https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1450)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/7026c6e1305d400eb1cb1eaf464daa91)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f27c30978f354446a8df4409d49195bc)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/1fe16d51108047b3a227421313aea10b)
+- ![](https://medpsycmoss.com/x/cdn/?https://i.ytimg.com/vi/fgXFTUrCt5E/sddefault.jpg)
+- ![background image](https://components.mywebsitebuilder.com/g-202604200904488775/viewer-gator/viewer-sprite.png)
+
+## Link map (17)
+
+- [Home](https://medpsycmoss.com/)
+- [About Me](https://medpsycmoss.com/about-me)
+- [Blog](https://medpsycmoss.com/blog)
+- [Podcast](https://medpsycmoss.com/podcast)
+- [Store](https://medpsycmoss.com/store)
+- [Resources](https://medpsycmoss.com/resources)
+- [My Work](https://medpsycmoss.com/my-work)
+- [Contact](https://medpsycmoss.com/contact)
+- [About](https://medpsycmoss.com/about)
+- [Workbooks & Courses](https://medpsycmoss.com/store)
+- [Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+- [Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+- [Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+- [USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+- [Instagram](https://instagram.com/stephmossmd)
+- [YouTube](https://youtube.com/@doctormoss)
+- [Podcast](https://open.spotify.com/)

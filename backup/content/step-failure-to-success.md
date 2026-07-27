@@ -1,0 +1,615 @@
+# I Failed Step1 Twice - Transforming Failure to Success
+
+- **URL:** https://medpsycmoss.com/step-failure-to-success
+- **Captured:** 2026-07-27T04:49:06
+- **description:** This episode delves into the journey of Dr. Moss who shares valuable insights on overcoming failures in the USMLE Step 1 exam by emphasizing the importance of thorough preparation, meeting basic needs like physical, mental, and financial well-being, and utilizing effective study strategies. Thisunderscores the significance of learning from mistakes, utilizing resources like UWorld and First Aid, and the impact of questioning strategies, trust in knowledge, and external supports in academic succe
+- **og:image:** https://storage.googleapis.com/gator-sitethumbnails/site-787567/800x500.jpg
+- **keywords:** STEP1, USMLE STEP1, Medical School, failing STEP, test taking strategies
+
+## Content
+
+Home
+
+About Me
+
+Blog
+
+Podcast
+
+Store
+
+Resources
+
+My Work
+
+Contact
+
+### Psychiatry
+
+Psychiatry Resident
+
+Lived Experience
+
+### Moss
+
+### Medicine
+
+Medical Doctor (M.D)
+
+0
+
+### I Failed Step1 Twice - Transforming Failure to Success
+
+### Transcript:
+
+I am going over the lessons learned from failing USMLE Step 1. When I only had one or two passing and the rest were failing or scoring under the passing, that's when I ended up failing the actual exam. So do not take the exam unless you're consistently on average scoring higher. Don't do my mistake You have to have your basic needs met in order to be successful. We're talking about physical health, mental health, your finances. So you can't be Freaking out that you won't be able to afford more NBME practice exams or stressed about not being able to afford rent or food. You have to reach all your basic needs. You have to be well fed, eating healthy food. You have to be in a safe environment and supported. So there's a lot of other factors that [00:01:00] have to be met. in order for you to be successful specifically on step one
+
+Stephanie Moss, MD: [00:00:00]
+
+Welcome to Life as a Patient Doctor. I'm your host, Stephanie Moss, navigating life as a patient and a future MD. Walk alongside me as I reflect on the challenges and lessons I've learned undergoing medical school with invisible disabilities. Join me as I interview other doctors, students, and health care workers on their own journeys.
+
+Listen to their unique stories on how they have balanced their health while caring for others in the health profession.
+
+### Related Blog Post
+
+### Tutoring with Dr. Moss
+
+### Workbook
+
+Today, I'll be going over something that everyone has been requesting I am going over the lessons learned from failing USMLE Step 1. I'll be going over a
+
+Stephanie Moss, MD:
+
+blog post
+
+that I wrote on medpsycmoss.com.
+
+[00:02:00]
+
+With this comprehensive guide on how I failed step one, was able to redeem myself eventually by getting accommodations. Getting through COVID, taking a leave of absence, but eventually passing, step one. And, if you haven't heard, I matched into residency.
+
+You can fail, even fail twice, like me, and it will be okay.
+
+It takes time, and being a good doctor does not mean that you have to be really good at taking tests. I am very excited to share some of the lessons I learned through this struggle and being able to implement a lot of the strategies that I learned throughout my step one experience into my step two exam where I was able to pass on the first time and go beyond passing.
+
+So let's go back a little bit, I was a second year medical student during the beginnings of COVID. And so at this time, it was all virtual. I'm going to go over my experience of why I failed. And I do want to note, I failed by one point.
+
+[00:03:00]
+
+Yes, it was back in the time. that we still had scores, and my school had me take it before they transitioned to the pass fail system. Fortunately, I failed by one point. They switched to the pass fail system. Then I took it again. And this time when they gave me my results back, it was again, They just had a passing line and my line was right next to it, but not on the passing side on the failing side Oh very frustrating But I made it
+
+Getting everything in order, making sure I had the time to study, making sure I didn't have other circumstances, other things distracting me, like having to work because while I was studying I was also working full time because I was on a leave of absence and they take away your funding.
+
+[00:04:00]
+
+If you want to learn more about the
+
+[leave of absence, check out that other episode](https://youtu.be/7kmr7-v8mlA?si=9CHKwYzNAvvvfp6m)
+
+, but we'll talk specifically on step one. So let me go back. We'll get to my experience later.
+
+"Having a disability is like not having a passcode to a room." This insightful analogy resonates deeply with me, Dr. Moss, as I step into the world of medical education, both as a graduate and a lifelong learner. Disabilities, visible and invisible, shape experiences in unique ways, often acting as barriers to opportunities and experiences that are readily accessible to others.
+
+This journey through medical education, peppered with personal reflections and insights, aims to demystify the process of seeking accommodations and underline the importance of equitable access.
+
+Top 5 Study Lessons
+
+First, the top five lessons learned. So one, it's important to do multiple UWorld. questions at a time in a row. And so the reason that's so important is because the exam is sitting down, you do 40 questions in a row, take a break, 40 questions in a row, take a break.
+
+And that's not how we do them in medical school. Also you world questions and step exam questions are so unique in that it's not. Question and then it's an easy answer.
+
+[00:05:00]
+
+It's called a multiple question step that you have to know so it asks you one question and then you have to determine. Okay, what's the disease?
+
+What's the mechanism of the action of that disease, and then what treats it, and then it asks about that medication. There's multiple layers, multiple steps that you have to know before actually getting to the answer. And that is very unique, because up to this point, In like undergrad it's really based on like really quick knowledge, do you know this specific fact?
+
+And for this type of questions, you have to know let's say three facts and it's really important So if you're starting to study and you do practice questions, because you're going to be tested using questions. So it's really important early on to get used to doing those practice questions.
+
+And even more important to get used to doing them sittingdown as if it was testing.
+
+[00:06:00]
+
+So not getting distracted, not getting up, like sitting down, doing the questions for the time that you're allotted in the exam, then take a break. It's really important to even while you're practicing while you're just studying To emulate that testing environment to get your body and mind used to focusing relax
+
+begin doing 40 questions at a time during the actual time. So normally it's 40 questions for 60 minutes. Now, if you receive accommodations, that could be extra time. It can be extra time and a quarter. So maybe 75 minutes or maybe time and a half. So in 90 minutes, then when you're practicing, do it at that time. Again, start this early. Next critical lesson.
+
+Number two
+
+, use UWorld for questions [00:07:00] and first aid as your two most important resources.
+
+Number three
+
+Now, why is this? There are so many resources. You can go back to during the taboos and also during my step one studying video I go through all the different types of resources that exist and there's a lot of them.
+
+UWorld is specifically made to emulate the style and the types of information that the NBME is going to be testing on. So it's important use those as practice. And of course there are so many other programs out there to do practice question. Use those as a supplement. So some of those additional examples are Boards and Beyond, Osmosis, AMBOS Kaplan.
+
+All those are additional ones that you can use, but try to really focus on UWorld because there are thousands of questions that it's really important to go through all of them. Some people say even go through twice.
+
+[00:08:00]
+
+Now, It's really hard to get through twice unless you have enough time Sometimes the dedicated six to eight weeks is really just it's really hard and not enough time to get through all 2, 000 or whatever questions. If you have an extension of time or starting them earlier Before the actual dedicated that's when that can be helpful, but we'll talk about that a bit later So what I like to recommend and I was recommended is making sure you just use UWorld and First Aid as your two main resources, and then anytime you want to get a more in depth dive of really I still don't understand.
+
+Even doing those questions and learn for First Aid, that's when you can go to the other resources.
+
+[00:09:00]
+
+Critical lesson this is super, super important. Do not take the exam until you're consistently scoring above the practice score.
+
+number four
+
+So if you're taking practice exams, now practice exams are emulating like test day that could be using the UWorld number one and number two that they have or using NBME practice If all those together, if you're scoring sbelow the score, there's a risk that once you get to test day there'll be other factors that play in on test day, whether that's anxiety.
+
+being fatigued because the exam is eight hours without even accommodations. That can be even longer. And so it gets really exhausting. And so , based on that, to be flexible with that make sure you're consistently means two or three or more. Probably you don't need as many as I did, but making sure that you are comfortable that there is a super high chance. of passingI know that nowadays, they have a percent and 95 to 99 percent chance of passing.
+
+[00:10:00]
+
+Cause yeah, you never have a hundred percent chance of passing, even if you score super high on a practice test. something could happen on test day. Now, the likelihood, if you're taking practice exams and you're scoring well, most likely you're going to pass.
+
+So I like to have , that 95 to 99 percent chance of passing. And that was like how I was on step two. I learned that like percentage and it did check out. And then same thing when I did my practice exams, it was only when I was consistent. doing practice exams way over that I actually passed.
+
+When I only had one or two passing and the rest were failing or scoring under the passing, that's when I ended up failing the actual exam. So going back, do not take the exam unless you're consistently on average scoring higher.
+
+[00:11:00]
+
+Don't do my mistake by just saying we'll see what happens because , there are emotional consequences if you don't pass, there are academic consequences and then there are possible residency consequences that we'll talk about a bit later. Now, reminder, I was able to match but I worked really hard to make sure that the rest of my application Was really strong And that I talked about my failures and I talked about Different lessons that I learned.
+
+Okay going to if you fail It is okay, and you'll get through it. I talk about this in other episodes. It's really painful and really hard when you fail because You've worked and put in so many hours and this is like during your second or third year medical school So you've already put in sweat [00:12:00] tears money What at this point like oh probably over a hundred thousand dollars at this point and it's emotionally taxing to Be told that you weren't good enough or you're not smart enough and those things aren't true
+
+number five
+
+You are good enough.
+
+You are smart enough. You just are not there yet And for whatever reason you need to identify a why things didn't go Your way on test day. It will be okay And so I do have a and a , getting through those failures. So you can work on that, but I'm really going to focus on this one of just how to get yourself back up and what are the strategies, what are the things that you can look for to figure out what went wrong and how to identify how can I improve?
+
+[podcast episode](https://youtu.be/UtWlgnK6vso)
+
+[blog post about failing](https://medpsycmoss.com/%E2%81%A0https://medpsycmoss.com/blog/identity_and_trauma)
+
+It's also important to note that. Once you fail, some people are like, Oh my God, what's going to happen? Am I going to get kicked out of medical [school? Most likely, no.
+
+[00:13:00]
+
+Most likely. Now every school's policy is different. And usually, greater chance is that you'll have the opportunity to take it again.
+
+Now, the NBME actually says that you have to pass after six times. Like you can only take it six times, but every school is different and what their requirements are. Sometimes they might say, okay, you're going to need to take time off to study, or you're going to need some extra time to study. For example, in our school, were different options that individual.
+
+People were offered, some people were sent straight to a leave of absence. Some people were given like extra time for a block to retake it. So you really have to talk to your school and see what they'll offer. And hopefully they provide you the opportunity to take it again.
+
+[00:14:00]
+
+And something that I do note is that there are resources out there specifically. It's important to ask for them, maybe ask for a tutor. My school was able to provide me extra NBME vouchers. That way I could do more practice exams because they get expensive. Especially when you're talking about doing them over and over and over again.
+
+That gets expensive. And sometimes the UWorld is only, Like a year. So maybe, you have to pay to extend the UWorld. You maybe have to pay to have additional UWorld practice tests to be activated. And so it's important to ask. It never hurts to ask and hopefully you're able to get what you need.
+
+[00:15:00]
+
+Let's talk a little bit more about failing And I hate that word, fail, because failing doesn't mean that you are a failure. It means that the specific score that they've determined and that number is constantly changing and actually has been constantly increasing every single year. For example, when I was.
+
+First was doing the score it was then it went up to 196 and it just kept increasing and that's hard because when I took from one exam to the second exam, I did pass at that point like I scored a number that would have been passing if I had taken it just two or three months before but I By that time, they had shifted the designated number to pass, and that number keeps increasing.
+
+[00:16:00]
+
+Now, it's really weird because now they don't even do a score, but they still are increasing. They're still deciding what percent of the questions. That you determine is necessary to allow people to go to take the second step. But anyway, want to talk about something from the AAMC, something that helped me something that they put out that said, "no, a step one failure won't doom your medical career". That's when the AAMC. continued in 2017 72 percent of the U. S. M. D.'s. which includes U. S. M. D.'s and people who have previously graduated and now have their M.D.'s who initially failed step one on their first attempt did go on to residency compared to 94 percent of the applicants who passed on the first time. And again, going back, I did match and that was failing twice.
+
+[00:17:00]
+
+Again, it will not say that you will not be a doctor. Now, it might be a bit more challenging. Maybe there'll be some specialties that will not like it, or some, specific program directors that don't like it, but that doesn't mean that you can't achieve your dream.
+
+Okay, going back this is from the AAMC. However, we know that from longitudinal data that within six years from graduation from medical school, more than 99 percent of all graduates have records of graduate medical education training. Residency, And, or, are already practicing in the U. S. If you can keep that number to your heart, 99 percent chance that you will work, you will be a doctor, and you will work as a doctor. Looking at those numbers, that means 6 percent of people, on average, and it did go up, let me say A couple, like when I took it, I remember cause it was COVID.
+
+[00:18:00]
+
+There was a lot of factors, but there was slightly more, but around 6 percent of medical students, every single time they do a step one exam, there are some people who fail. If you look at. What they determine is the passing, there's always people that don't pass. And know that you're not alone. And that's something that I like to mention in all my podcasts or vlog episodes, is that Struggling is real and there will always be other people struggling. It won't just be you and the impact of that emotionally can be really important because it can help people persevere and know that they can keep going.
+
+I know that after I learned that I wasn't the only one who failed. It helped me be like, okay, I'm going to do this. Other people have failed. [00:19:00] Actually thinking about it. When I failed I talked to one of my groups that had students from all years of medical school. And I remember one of the third years was like, oh yeah, I failed.
+
+And they were on their process of matching. They were interviewing already. and That was really impactful for me in a positive way. It really helped me be like, Oh, you failed, but you were able to take it again, pass it and keep going. And that's one of the reasons why I like to share my journey to motivate others, to know that they don't need to give up, that there is light at the end of the tunnel.
+
+You can do it. Let's go a little bit more to my experience.
+
+The Importance of Practice Questions and Test Strategies - [00:20:00]
+
+So one of the things that I struggled with during second year of medical school Is that I had a lot of people tell us that we should start uworld early because like I said, there's Thousands of questions and it was recommended that we do it twice And I was like how in the world are we going to do that?
+
+We don't have infinite time and second year medical school. We're still learning new information So what I decided is to do a couple questions every day on the material that we were doing in class and so I would be learning the material so for example the neurology block so learning on the brain this is an example.
+
+I would do uworld questions on neurology while we're also doing the homework assignments and all that to do in class. Now, it probably would have been successful. I know other students who were able to do it. But I didn't have enough time.
+
+[00:21:00]
+
+And so then I struggled with not having enough time to do and learn all the material that they were requesting in class.And so then when they actually had the exam in class, I was missing some things that were specific to the school that they wanted us to know, but I hadn't learned stuff for like step one. And the problem is there's only so many points in the school exam and you still have to pass the school.
+
+And I think that's one of the things I want to impart is focus on the school material, because if you don't pass the school material, you will still have to do the school material before you. Are able to take step one. So for example, I had the very last block before our step one dedicated is called complex cases.
+
+And I was like, Oh, it's probably just bringing all these material together. And it wasn't.
+
+[00:22:00]
+
+We learned a lot of key diseases. We learned I think we learned about malaria. We learned about lupus. All these complicated disorders, but Instead of focusing on that material, I had kept, I had even bumped up my study and I was like, okay, I'm going to do 20 year old questions a day.
+
+Now, there are students who are still able to do that, but I struggled with that and That led me to actually fail that complex cases. And so when you fail an exam, you have to retake the exam, at least for my school. Some schools make you retake the entire course. Thankfully, that's not our school. Which means I had to take time away from my step studying like from my dedicated time.
+
+I had to take that time away And restudy and relearn the material I had missed because I was so focused on step So instead of having eight weeks of dedicated I then was shortened to six weeks of dedicated So that's something hopefully that will help.
+
+[00:23:00]
+
+Okay, so after I was able to retake my complex exam and start my dedicated, this is different strategies that I looked at that different individuals can take.
+
+And so there's the strategy of, focusing every single day on a different topic. So for example monday cardiology, tuesday urology, Wednesday gi so that is one strategy and you can be doing questions on it reading on it videos on it
+
+okay, and then there's also the strategy of just Mixing it up and doing whatever comes.
+
+And I tried the first strategy because I felt at first that I wasn't confident in all the material that was being presented and so I worked on doing some questions In the morning, because I work better in the morning, and then in the afternoon, I would try to read up and learn the information.
+
+[00:24:00]
+
+Reading from first aid, and using all the different video options that I talked about. Osmosis, Boards and Beyond, Sketchy and Picturize. And I remember there was a point where, I'll make sure I share my spreadsheet, where I was able to download the names of every single Boards and Beyond video, and every single Sketchy video, because I really wanted to just organize what are all the topics?
+
+And I struggled to find a location that would just tell me where everything was. And I went through and figured out, okay, what topics do I not feel very comfortable on?
+
+And just looking at the names of the boards and beyond. And then I also did this for Sketchy. I selected Okay, I need to review. I need to review this. And so then I would go through every day and then try to get through all the ones that I didn't understand. And I have pros and cons for doing that strategy.
+
+[00:25:00]
+
+The pros is yes, you get the information. And you're able to learn the information. However, doing videos is very passive. And there is definitely a time and a place for videos. But I think we have to acknowledge that, is not the same as doing a practice question. And we are tested on a practice question.
+
+Yes, you can take in information, especially if you take in really good information through visual and audio. So yeah, that is great. And there's definitely great ways in mnemonics not saying that you shouldn't use these to learn the information I'm saying that we should be careful To not spend so much time using this as our main way to learn the information.
+
+[00:26:00]
+
+And it is actually better to learn the information through a practice question. And the reason I say this is because when you do a practice question, you're using different parts of your brain. You're looking at the question your are connecting the different pieces in your brain going back on past memory.
+
+So going to your hippocampus, grabbing and maybe something from last year, and then maybe grabbing something a little bit more recent that you've learned. And really doing complex brain processing where you're trying to. critically think between, okay, this information, and then actually answer the question.
+
+The immediate feedback is super important in being able to like, okay, here's my process.
+
+[00:27:00]
+
+This is the answer, I believe. And then you're immediately told no or yes. And then you're reading why you got it wrong or didn't think through things all the way.
+
+That's where things can really stick. response and feedback really close together. And that's actually been found in a lot of research of why questions and practice questions are so important I didn't do this initially, and I think that is one of the reasons why I struggled so much the very first time I took Step 1.
+
+And later down below in the blog, you can actually see all the different practice exams.
+
+I am going up. So like the very first exam I took, When I first started studying was like 161. And so then I did go up 161, 176, 168, 181. And , I think I had to go above 190s to pass. And it looks like a 194 or something to pass.
+
+[00:28:00]
+
+That's what it was initially. And, I'm going up. So I am learning the information But i'm not doing these huge strides that I was hoping for And I spent more time learning from a book and videos I think the reason why is because I didn't early on do do enough practice questions in this Practice response. So that's what we call the tutor mode in u world.
+
+That is definitely a very important thing that I implemented the second time I did my step one studying after I failed is practicing on the tutor mode. Okay, something I do want to mention though is just the time and When you're initially doing it, it does take a lot of time To do that questionanswer because you are and you do want to read all the answers and understand if it asked it slightly different this way.
+
+[00:29:00]
+
+Then this is why this answer would be correct or this is why this answer is not correct And that can take a while.So on average it is seen that you can do 10 questions in tutor mode per hour. So to do a 40 question bank would take four hours of studying. And I was trying to do 80 questions.
+
+So initially I think I did 40 in the morning, 40 in the night, 40 in the morning for four hours, had a lunch break, four hours in the afternoon, dinner break,
+
+and then at night is really where I went back and did those videos and relooking at information that I didn't get enough information from the answers and wanted to look more into now. I do I want to say [00:30:00] that those practice questions do have enough information for you to learn. They have pictures, they have great tables. UWorld takes a lot of time to make those really high quality information.
+
+So another strategy that I didn't implement till later, I did a lot more, in my step two, which helped, is I really, I created flashcards with UWorld information directly on UWorld. They have a flashcard app, so in the nighttime, I then would review those flashcards that I created. And, Yes, a lot of people can also use Anki, and I'm not saying to not do that, just for me, it was better to do directly from the UWorld.
+
+[00:31:00]
+
+And you can see in the other videos why I didn't do Anki, because it was just too much for me and too stressful, but it is successful for some individuals.
+
+Something that helped me is I had a running list on my notes app. Also I I switched, I had a a binder depending on if I was on step one or step two that I was like, okay, these are the topics that I need to review from today's question, bank.
+
+And that was helpful because I learned that if I went and looked at outside information while I was doing the practice questions, I would spend too much time going out and learning the information, and I was losing time that I could be using just doing more practice questions. And so that was also another strategy that I learned.
+
+If it seems a little chaotic. I'll see when I review this, if it's all over the place. I'm trying to stay with what I have written down in my blog. So if it's easier for you, go to the blog and read. I'm trying to read it, but then also use my experiences and memory, but hopefully it works.
+
+[00:32:00]
+
+Okay, so let's go back. The transition to mixed questions. Yeah, that was a good point. In the actual exam, it doesn't go. Cardiology. Urology, they're all mixed up. You can have a cardiology one and then the second question Also be cardiology, but have nothing to do.
+
+So it's really important to do them mixed. And so I really wish I would have started that part earlier. You can do mixed questions and in tutor mode
+
+That was really helpful when I was able to get that I definitely saw my scores starting to improve because i'm actually doing things that are like the test
+
+now i'm not doing it in the time that i'm supposed to so that's where I started to definitely see how it would be helpful to get that in accommodations
+
+because By the time I read the question Thought about the question deleted er, right click, crossed out the wrong answers.
+
+[00:33:00]
+
+I was going over a minute. I was doing like an average 90 seconds, a minute and a half. And I think now I have to re look because I don't remember. But like one and a half minutes to two minutes is too long. Let's do it together.
+
+There's 60 minutes and then there's 40 questions. Okay, so a minute and a half. So that should be what you're aiming for. But the problem is, there are always going to be questions that stump you and could take longer. Whoa I'm going and I'm adding in so many strategies hopefully you catch all these.
+
+Another strategy I learned later on is to skip the ones I don't, that I'm taking too long on. Now, I don't skip it when I hit the 1 minute 30 seconds, because I have to go back. And I then used up my time. So there's two strategies that you can go with .
+
+[00:34:00]
+
+You can be like, I have no idea, flag it, move on. And then when you come back, because your brain's been working in the background, the subconscious, you might have a better way. You might be like, oh, I remember now. Or maybe another question helps you connect the dots. So that's one strategy.
+
+The other strategy is you have no idea, you cross out the ones that you definitely are like, yeah, there's no way Flag and move on the third way is see it. I have no idea Same thing cross out the ones you don't get do your best guess And move on and never come back. So I just threw out like three different strategies, but Choose which one feel works best for you and they might be different.
+
+However, one of the big things that I learned throughout this STEP medical school process.
+
+[00:35:00]
+
+is to trust your gut. So our brain has a lot of information. You spent hundreds of hours studying and there will always be a question that stumps you. They're made for that. They literally put questions in to stump you.
+
+And the time point when I realized like, Oh, those questions will exist. I'm not supposed to know everything. And I just going to trust my gut. That's when I got them correct and you'll learn this a lot especially during your fourth year and later on during residency is Because we've learned so much information our brain does know the answer and sometimes our consciousness our frontal lobe Just can't get to it or maybe you can't articulate it and so it's important to trust our gut because our gut is our subconscious and our brain working in the background So,
+
+trust your gut, because that's when you'll do the best. And, if you don't know it, move on. You can click something and move on, or you can come back, but move on.
+
+[00:36:00]
+
+And, that was something that took me a long time to learn, because I really wanted to spend so much time learning all little details. Or getting every question right and you'll learn if you haven't learned already There will be so many details and the important thing is that you learn the Things that are that keep coming up if there's a question on Uworld in a topic that comes up more than once I can almost guarantee that it's important enough That will also show up on nbme
+
+Because if you think about it, there's 40 questions, and I think there's eight sections. That's 320 questions. And since there's so many steps in those question topics, there's way over 320 facts. And there's no way you'll be [00:37:00] able to learn all 320 facts plus, because it's random. And so it's important to really just get comfortable with the big ideas.
+
+And move on.
+
+I'm not going to talk about disabilities accommodations in this video because it's already gone too long. But I have a , how to request accommodations what types of accommodations you can receive. I'll also make a vlog slash podcast, probably next on that topic, but I'm not going to focus on that topic right now.
+
+[blog post on disability accommodations](https://medpsycmoss.com/blog/disability-accommodations-and-accessibility)
+
+But you can see that on
+
+[medpsycmoss. com](https://medpsycmoss.com/)
+
+The realization that I might qualify for accommodations came as a surprise. Growing up bilingual and facing the challenges that come with it, like being subjected to an English as a Second Language (ESL) test, taught me to work harder to not distinguish myself due to perceived differences.
+
+This persistence followed me through academia, from struggling in AP classes to facing the daunting MCAT, where I first encountered my limitations in a high-stakes testing environment.
+
+The immediate feedback is super important!
+
+Use Tutor Mode on UWorld
+
+On average you can do 10 questions in tutor mode per hour. So to do a 40 question bank would take four hours of studying. And I was trying to do 80 questions. So initially I think I did 40 in the morning, 40 in the night
+
+Do mixed questions and in tutor mode
+
+That was really helpful when I was able to do that I definitely saw my scores starting to improve because i'm actually doing things that are like the test!
+
+Skip the ones I don't know or that I'm taking too long
+
+Now, I don't skip it when I hit the 1 minute 30 seconds because I have to go back. I then used up my time.
+
+One and a half minutes to two minutes is too long
+
+TRUST YOUR GUT!
+
+Read of the Accommodations Episode
+
+[Transcript](https://medpsycmoss.com/guide-to-accommodations)
+
+Testing Taking Strategies
+
+Something else I wanted to bring up that was important was the testing strategy. During this time I had a lot of different tutors. Both 3rd and 4th year tutors and professional tutors that were really strong on test taking and do well on standardized
+
+[00:38:00]
+
+The common strategy that kept coming up that was also very successful once I got it down is to read the question first. And if you don't do this already, it seems weird and you have to train yourself to do it. And the reason that's beneficial is because there's so much information up in the question stem and having the question can help you in knowing, is this a question that I need information from the question stem?
+
+Or is this question just asking about the mechanism of action of a specific drug? Like a quick and dirty fact That can save you time. We talked about time and how important time is in time management because even when you have accommodations and extension of time, it's still a limited time.
+
+You don't have infinite time to take these questions.
+
+[00:39:00]
+
+And then one strategy is to look at the answers. But I don't like to look at the answers, because it can get you it can trick you in the sense it can lead you to be stuck in that answer. And this is a problem that can happen later on when you're in clinicals in third year and fourth year in residency. Let me think of the word.
+
+Anchoring. You can anchor. And so you don't want to trick yourself.
+
+They're always going to give you answers that sound similar, but there's one little thing in the question stem that makes it completely wrong. Because there's one little thing. Maybe it's their age that's wrong. Maybe it's the gender that's wrong. Or maybe they're missing something about a symptom.
+
+And that's important to know the knowledge that there will always give you answers that close, but there is just something off about it. And it's hard to do it, but erase that like put a line through it.
+
+[00:40:00]
+
+Because they will trick you into it. And they do that on purpose. The thing about questions is they go on.
+
+The perfect world situation. Patient only has one medical condition. And I think this is hard because this is not how real world presents. People just don't come in with every single perfect symptom that only leads to one diagnosis. People are complex. And they can have multiple diseases. But that's not what it is on standardized exams
+
+I hope that helps to know that if the question stem is missing something or is slightly off then it's not that diagnosis It's something else. They will trick you in that sense.
+
+So there will always be a answers that's slightly off or is definitely wrong.
+
+[00:41:00]
+
+So right there, there's two that you can remove. Now you have two, 50 50 chance. Now, 50 50 chance if you have no idea. But like I mentioned earlier, your gut, Your knowledge you need to trust that go with whatever feels right
+
+I definitely gave a lot more strategies that I mentioned here on the blog post. But hopefully they were helpful
+
+But I don't like to look at the answers, because it can get you it can trick you in the sense it can lead you to be stuck in that answer.
+
+If the question stem is missing something or is slightly off then it's not that diagnosis it's something else!
+
+Questions & More Questions
+
+let's see what other important things it's important to recognize that you will start doing better when doing questions , in the time period allotted that's really where you'll do the best on these exams the more questions you do the better on the exam And that's why they say to do all of Uworld once and a half because that's a lot of questions So think about it this way:
+
+[00:42:00]
+
+The more questions the greater likelihood something will come up in the exam that you've seen before and that you've been able to memorize or learn.
+
+That was also a fact it's helpful to not think of things as memorizing. Because when you get stuck in this memorizing, this means this. That's where the questions can get very confusing And not as helpful. And so it is more helpful to learn the entire topic as a whole And learn key components.
+
+I was just talking to a student that was studying and at the very back of step one There's an entire section that is really helpful and there are certain symptoms that correlate specifically with these diseases and they'll be tested on in some way and so knowing Those connections is really helpful go to the back of your step one, you'll see it's a lot of pages. but those are the most common symptoms that is really helpful to do Anki or just saying out loud I remember one of my tutors did that, every day she looked at those connections to remind herself, and she quizzed herself.
+
+[00:43:00]
+
+And she would just block out one side of the page, and she would be like Staph Aureus, and then Impact on the Heart, Tricuspid Valve. So whenever you see Staff Aureus, you always think of Tricuspid Valve. And so things like that.
+
+So also good ways. Sketchy, Those are all really great strategies that really help with those pictures.
+
+Actually, yeah, the reason they're so helpful because they use something that's Heuristics and just mind map and I'll use something that's not related to medicine. , if I say the color red, maybe your brain goes to apple.
+
+Then, when you think of apple, you think of fruit. When you think of fruit, you maybe think of banana. Now, banana isn't red, but my brain did that .
+
+[00:44:00]
+
+And that's what you want to do. You want to build up. When you think one thing, you think of all these different aspects. And you create a mind map.
+
+It's helpful because I'm thinking of Sketchy. Someone says staph aureus, my brain goes to that picture with Moses with the Staff - staph aureus, the camel in the background his three humps for the tricuspid valve, like this picture in my head comes in, and I have that for every single medication, every single bacteria, every single disease.
+
+So that is also a helpful strategy to learn all these different symptoms. related to one picture. Now, in clinicals, maybe that won't be as helpful, but at least for the exam, it is helpful because that's how they work.
+
+The more questions the greater likelihood something will come up in the exam that you've seen before and that you've been able to memorize or learn.
+
+And that's why they say to do all of Uworld once and a half because that's a lot of questions
+
+Practice with the back section of First Aid
+
+Addressing the Social Determinants of Learning
+
+Now, at the end of this blog post, I talked about the social determinants of learning, and I'll just really briefly touch on it.
+
+[00:45:00]
+
+The fact is, in order to be successful at studying, It's not just about you, but your environment . You have to reach all your basic needs. You have to be well fed, eating healthy food. You have to be in a safe environment, a place that you're with either a partner or a roommate that you feel safe. in and supported.
+
+You have to be free from physical elements. So your heater can't be broken and be freezing. You have to have an AC So you're not too hot. So there's a lot of other factors that have to be met. in order for you to be successful. And this is not just on step one. This is in general, this is in school, this is when you're out in clinic.
+
+[00:46:00]
+
+You have to have your basic needs met in order to be successful. And , not just environment, we're talking about physical health, mental health, your finances. So , you can't be constantly Freaking out that you won't be able to afford more NBME practice exams or stressed about not being able to afford rent or food.
+
+And I talk about these in other , I had my finances removed, so half of our income was taken away and. This led , for me and my husband to suffer significantly, and I'm not , giving this as an excuse of why I failed. I'm giving this as an understanding more understanding for myself of course.
+
+[episodes about how, when I took a leave of absence](https://youtu.be/7kmr7-v8mlA?si=HDRvzvHqj7c1X5TK)
+
+[00:47:00]
+
+Because even though I was working as hard as I can to study, I did not have my physical, emotional needs met. I was unhealthy. My mental health was deteriorating. And This is important to mention because students have to have all their needs met and even if you're not on a leave of absence, if you're not taking care of your health during your studying and spending over 12 hours a day just focused on studying, not eating healthy, not drinking water, not exercising, not catching up with your friends and family.
+
+Eventually, it's really going to impact your academics, specifically your UWorld. And some of the students that I saw having to take a leave of absence from school, or just being fully burnt out, it's because they overworked themselves during STEP and didn't focus holistically on getting all those needs met.
+
+[00:48:00]
+
+I will finish there of just how important it is to take the time. And for me, it was helpful to schedule time that I could get those needs. It was important to schedule break times where I went and had breakfast or lunch or dinner with my husband. Important to go out with my dogs.
+
+Important to have my therapy appointments, go to my doctor appointments. And I really hope that This is a lesson for you, even though we won't be doing tests and be off like this very often. Think of it as practicing and learning how to take care of yourself. So when you get to clinical in third year or you get to residency or get to attending, you can take care of yourself so you don't burn out.
+
+As burnout is a huge problem in medicine. So take this as an opportunity. To say I have full control of my calendar of when I get to study when I'm going to take the test and when I can take care of my health. So I hope that helps you.
+
+[00:49:00]
+
+And you can learn more . It's By the Chamberlain University, they published some great papers about how environment and the health of students can impact their academics, and I think step one is really where it shows for a lot of students the different challenges that can arise.
+
+[on my blog post on social determinants of learning](https://medpsycmoss.com/blog/how-to-not-fail-step)
+
+in medicine and which impacted my STEP exam because of social determinates on learning.
+
+[Blog post on financial difficulties](https://medpsycmoss.com/blog/financial-realities-of-being-a-medical-student-in-a-lower-social-economic-status)
+
+[during LOA](https://medpsycmoss.com/blog/financial-traumas-during-medical-school)
+
+Closing Thoughts and Future Episodes
+
+Stephanie Moss, MD:
+
+Okay, I hope that was helpful. Please put in the comments or send me a message if there's anything that you really want me to go over that I missed in this episode. Check out, the blog post for more information on Lessons Learned from Failing USMLE Step 1
+
+. I really hope it helps. I will make sure to do another and maybe on how I implemented these strategies on step two.
+
+[s](https://medpsycmoss.com/guide-to-accommodations)
+
+episode on accommodation
+
+[00:50:00]
+
+But beyond that, thank you so much for listening in. If this is the first time that you've listened, click subscribe and follow on either YouTube, Spotify, Apple, Amazon, wherever you're listening to your podcast or vlog if it's on YouTube.
+
+And you can follow me @MedPsycMoss and of course you can get more information on my journey and more resources for residency and all the lessons that I've learned throughout medical school and as I go on to psychiatry residency thank you so much for joining.
+
+I'll see you next time.
+
+More
+
+Welcome
+
+Videos
+
+Intro
+
+Study Lessons
+
+Question Strategies
+
+Testing Strategies
+
+#### Stephanie Moss, MD
+
+Psychiatry Resident Physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.
+
+##### Explore
+
+[About](https://medpsycmoss.com/about)
+
+[Workbooks & Courses](https://medpsycmoss.com/store)
+
+[Podcast](https://medpsycmoss.com/podcast)
+
+[Blog](https://medpsycmoss.com/blog)
+
+[Contact](https://medpsycmoss.com/contact)
+
+##### Popular Resources
+
+[Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+
+[Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+
+[Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+
+[USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+
+##### Connect
+
+[Instagram](https://instagram.com/stephmossmd)
+
+[YouTube](https://youtube.com/@doctormoss)
+
+© Stephanie Moss, MD | MedPsycMoss. Educational content only — not medical or legal advice.
+
+2026
+
+## Images (6)
+
+- ![](https://medpsycmoss.com/x/cdn/?https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1450)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/7026c6e1305d400eb1cb1eaf464daa91)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f27c30978f354446a8df4409d49195bc)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/1fe16d51108047b3a227421313aea10b)
+- ![](https://medpsycmoss.com/x/cdn/?https://i.ytimg.com/vi/eg1AuQsj3gc/maxresdefault.jpg)
+- ![background image](https://components.mywebsitebuilder.com/g-202604200904488775/viewer-gator/viewer-sprite.png)
+
+## Link map (32)
+
+- [Home](https://medpsycmoss.com/)
+- [About Me](https://medpsycmoss.com/about-me)
+- [Blog](https://medpsycmoss.com/blog)
+- [Podcast](https://medpsycmoss.com/podcast)
+- [Store](https://medpsycmoss.com/store)
+- [Resources](https://medpsycmoss.com/resources)
+- [My Work](https://medpsycmoss.com/my-work)
+- [Contact](https://medpsycmoss.com/contact)
+- [Related Blog Post](https://medpsycmoss.com/blog/how-to-not-fail-step)
+- [Tutoring with Dr. Moss](https://medpsycmoss.com/store/p_3291739/advising-session-1-hour)
+- [Workbook](https://medpsycmoss.com/store/p_3287196/medical-school-workbook)
+- [blog post](https://medpsycmoss.com/blog/how-to-not-fail-step)
+- [leave of absence, check out that other episode](https://youtu.be/7kmr7-v8mlA?si=9CHKwYzNAvvvfp6m)
+- [podcast episode](https://youtu.be/UtWlgnK6vso)
+- [blog post about failing](https://medpsycmoss.com/%E2%81%A0https://medpsycmoss.com/blog/identity_and_trauma)
+- [blog post on disability accommodations](https://medpsycmoss.com/blog/disability-accommodations-and-accessibility)
+- [medpsycmoss. com](https://medpsycmoss.com/)
+- [Transcript](https://medpsycmoss.com/guide-to-accommodations)
+- [episodes about how, when I took a leave of absence](https://youtu.be/7kmr7-v8mlA?si=HDRvzvHqj7c1X5TK)
+- [on my blog post on social determinants of learning](https://medpsycmoss.com/blog/how-to-not-fail-step)
+- [Blog post on financial difficulties](https://medpsycmoss.com/blog/financial-realities-of-being-a-medical-student-in-a-lower-social-economic-status)
+- [during LOA](https://medpsycmoss.com/blog/financial-traumas-during-medical-school)
+- [episode on accommodations](https://medpsycmoss.com/guide-to-accommodations)
+- [About](https://medpsycmoss.com/about)
+- [Workbooks & Courses](https://medpsycmoss.com/store)
+- [Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+- [Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+- [Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+- [USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+- [Instagram](https://instagram.com/stephmossmd)
+- [YouTube](https://youtube.com/@doctormoss)
+- [Podcast](https://open.spotify.com/)

@@ -1,0 +1,194 @@
+==========================================================================
+BACKUP VERIFICATION REPORT  -  medpsycmoss.com
+generated: 2026-07-27T05:41:25
+==========================================================================
+
+CHECK 1 - JS rendering (body text in saved HTML)
+--------------------------------------------------------------------------
+  HTML files saved ................ 294
+  files with > 2000 chars ......... 191   (need >= 15)
+  files with <= 500 chars ......... 7   (possible empty shells)
+  median body text ................ 2983 chars
+  largest ......................... 53248 chars
+  RESULT: PASS
+
+  top 15 pages by rendered text:
+    kimether-np-endometriosis.html                         53248 chars
+    residency-app.html                                     52288 chars
+    student-loan-repayments.html                           49240 chars
+    step-failure-to-success.html                           44557 chars
+    guide-to-accommodations.html                           41542 chars
+    malikiya-m2-one-hand.html                              41445 chars
+    taboos.html                                            41255 chars
+    dr-andrea-done-obgyn-parenthood.html                   38390 chars
+    vickie-ms3.html                                        37440 chars
+    dr-marshall-infertility.html                           35940 chars
+    mami-ms1-phd-autism-adhd.html                          32732 chars
+    parul-np-low-vision.html                               31786 chars
+    dr-elmarie-alexandra-md.html                           31460 chars
+    clinical-rotations.html                                29742 chars
+    blog_taboos.html                                       22774 chars
+  files that look like shells (<=500 chars):
+    E2-81-A0https-_medpsycmoss.com_blog_identity_and_trauma.html      64 chars
+    about.html                                                64 chars
+    product-page.html                                         64 chars
+    products_loa-guide.html                                   64 chars
+    products_mock-interviews.html                             64 chars
+    products_residency-personal-statement.html                64 chars
+    products_usmle-accommodations.html                        64 chars
+
+CHECK 2 - screenshots
+--------------------------------------------------------------------------
+  screenshots saved ............... 294
+  larger than 50 KB ............... 276
+  total screenshot bytes .......... 349.9 MB
+  largest ......................... 9.0 MB
+  pages missing a screenshot ...... 0
+  RESULT: PASS
+
+CHECK 3 - assets
+--------------------------------------------------------------------------
+  asset files saved ............... 1391
+  image files ..................... 869
+  total asset bytes ............... 647.8 MB
+  distinct hosts .................. 57
+    medpsycmoss.com                              610 files    387.7 MB
+    st-shop.mywebsitebuilder.com                 302 files     36.3 MB
+    storage.googleapis.com                       160 files    149.9 MB
+    i.ytimg.com                                   54 files      2.4 MB
+    howardbrown.org                               41 files      1.5 MB
+    kevinmd.com                                   39 files      1.1 MB
+    www.omgyes.com                                24 files      1.6 MB
+    embed-cdn.spotifycdn.com                      18 files      1.9 MB
+    www.google.com                                11 files    430.0 KB
+    components.mywebsitebuilder.com                9 files      2.4 MB
+    awas.aweber-static.com                         8 files      1.4 KB
+    images.ctfassets.net                           8 files    222.0 KB
+    bookshop.org                                   7 files    660.1 KB
+    wzuk.blob.core.windows.net                     7 files    222.2 KB
+    yt3.ggpht.com                                  7 files     18.9 KB
+    www.googletagmanager.com                       6 files      2.4 MB
+    cdn-cookieyes.com                              5 files     56.6 KB
+    cdn.segment.com                                5 files    190.4 KB
+    d1rx8vrt2hn1hc.cloudfront.net                  5 files      6.9 MB
+    www.ncbi.nlm.nih.gov                           5 files      8.9 KB
+    www.youtube.com                                5 files      3.6 MB
+    forms.aweber.com                               4 files     36.7 KB
+    www.gstatic.com                                4 files    953.8 KB
+    assets.mywebsitebuilder.com                    3 files     54.5 KB
+    d3t3ozftmdmh3i.cloudfront.net                  3 files    138.0 KB
+    encore.scdn.co                                 3 files    141.9 KB
+    fonts.gstatic.com                              3 files     70.1 KB
+    assets.transistor.fm                           2 files    146.5 KB
+    fonts.googleapis.com                           2 files     11.9 KB
+    js.stripe.com                                  2 files      1.0 MB
+    securepubads.g.doubleclick.net                 2 files    742.0 KB
+    www.hopkinsmedicine.org                        2 files    214.6 KB
+    assets.production.linktr.ee                    1 files      7.1 KB
+    cdn-4.convertexperiments.com                   1 files    238.7 KB
+    clf1.medpagetoday.com                          1 files      7.0 KB
+    ctys.org                                       1 files     11.7 MB
+    findyourselfbethat.com                         1 files     21.1 MB
+    hostedimages-cdn.aweber-static.com             1 files     24.1 KB
+    ilcourtsaudio.blob.core.windows.net            1 files    144.1 KB
+    images.unsplash.com                            1 files      1.3 MB
+    img.transistorcdn.com                          1 files      9.0 KB
+    localize.mywebsitebuilder.com                  1 files      29.0 B
+    m.stripe.network                               1 files     86.7 KB
+    static.cloudflareinsights.com                  1 files     30.9 KB
+    static.doubleclick.net                         1 files      29.0 B
+    webzaitest.blob.core.windows.net               1 files    379.6 KB
+    www.accessdata.fda.gov                         1 files      1.0 MB
+    www.amsa.org                                   1 files    560.3 KB
+    www.asam.org                                   1 files    155.9 KB
+    www.cps.edu                                    1 files    950.7 KB
+    www.datadoghq-browser-agent.com                1 files    149.6 KB
+    www.docswithdisabilities.org                   1 files    858.3 KB
+    www.innovating-education.org                   1 files    885.6 KB
+    www.lgbtqiahealtheducation.org                 1 files      5.1 MB
+    www.nrmp.org                                   1 files    164.4 KB
+    www.phsa.ca                                    1 files    127.1 KB
+    www.rushu.rush.edu                             1 files    153.1 KB
+  by extension:
+    jpeg           436
+    js             416
+    png            374
+    webp            45
+    css             32
+    pdf             26
+    text/code       22
+    woff2           13
+    svg             13
+    woff            10
+    otf              3
+    gif              1
+  RESULT: PASS
+
+CHECK 4 - content extraction
+--------------------------------------------------------------------------
+  markdown files .................. 294
+  pages missing markdown .......... 0
+  RESULT: PASS
+
+CHECK 4b - crawled URLs vs saved files
+--------------------------------------------------------------------------
+  URLs crawled (manifest) ......... 295
+  HTML files on disk .............. 294
+  difference ...................... 1
+  cause: Windows filesystem is case-insensitive, so URLs differing only
+         by letter case collapse into one file (same page, same content).
+  RESULT: PASS
+
+CHECK 5 - store and product pages
+--------------------------------------------------------------------------
+    product-page.md                                          480 chars no price text
+    products-endometriosis.md                               7137 chars PRICE FOUND
+    products-for-infertility.md                             8617 chars PRICE FOUND
+    products-for-menopause.md                               4865 chars PRICE FOUND
+    products-for-sexual-health.md                           6231 chars PRICE FOUND
+    products-mental-health.md                               5059 chars PRICE FOUND
+    products-pelvic-pain.md                                 8923 chars PRICE FOUND
+    products-trauma.md                                      5057 chars PRICE FOUND
+    products_loa-guide.md                                    486 chars no price text
+    products_mock-interviews.md                              492 chars no price text
+    products_residency-personal-statement.md                 505 chars no price text
+    products_usmle-accommodations.md                         497 chars no price text
+    store.md                                                6153 chars PRICE FOUND
+    store_p_3287163_medical-school-hidden-curriculum-workbook.md    2010 chars no price text
+    store_p_3287196_medical-school-workbook.md              1992 chars no price text
+    store_p_3288428_dr-moss-personal-statements-for-residency.md    2010 chars no price text
+    store_p_3288429_dr-moss-full-2023-residency-eras-application.md   15331 chars PRICE FOUND
+    store_p_3288536_accommodations-request-usmle.md         1998 chars no price text
+    store_p_3288536_dr-moss-accommodations-request-usmle.md    2006 chars no price text
+    store_p_3291607_application-or-personal-statement-editing.md   23152 chars PRICE FOUND
+    store_p_3291607_personal-statement-editing.md          23137 chars PRICE FOUND
+    store_p_3291739_advising-session-1-hour.md              1992 chars no price text
+    store_p_3291868_residency-application-workbook.md      23552 chars PRICE FOUND
+    store_p_3292498_navigating-medical-school-hidden-curriculum.md    2012 chars no price text
+    store_p_3302643_eras-editing.md                         1982 chars no price text
+    store_p_3302656_virtual-mock-interview.md               1991 chars no price text
+    store_p_3308550_dr-s-moss-interview-and-match-list.md    4796 chars PRICE FOUND
+    store_p_3308550_residency-program-and-rank-list.md      4794 chars PRICE FOUND
+    store_p_3309866_rank-list-neurology.md                  1988 chars no price text
+    store_p_3313250_mock-interview-with-dr-moss.md         54706 chars PRICE FOUND
+    store_p_3313250_residency-mock-interview-with-dr-moss.md   54716 chars PRICE FOUND
+    store_p_3313253_mock-interview-course.md               28122 chars PRICE FOUND
+    store_p_3313253_residency-mock-interview-course-workbook.md   28141 chars PRICE FOUND
+    store_p_3353076_usmle-accommodations-request-workbook.md    2007 chars no price text
+    store_p_3370950_advising-with-dr-moss-1-hr.md          36799 chars PRICE FOUND
+    store_p_3377397_medical-school-application-workbook.md   35636 chars PRICE FOUND
+    store_p_3380308_testing-accommodations-workbook-mcat-usmle-comlex.md   24164 chars PRICE FOUND
+    store_p_3387065_2026-eras-and-ps-for-fellowship.md      9449 chars PRICE FOUND
+  store/product pages ............. 38
+  of those, containing prices ..... 22
+  RESULT: PASS
+
+==========================================================================
+  [PASS] JS rendering (>=15 pages >2000 chars)
+  [PASS] screenshots present and >50KB
+  [PASS] assets incl. images captured
+  [PASS] markdown extraction complete
+  [PASS] crawled URLs reconcile with saved files
+  [PASS] store/product pages captured
+  OVERALL: PASS
+==========================================================================

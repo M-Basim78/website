@@ -1,0 +1,16 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# The packaged backup archive (946 MB) - regenerate with verify.py
+*.zip
+
+# Heavy backup payloads - kept in the zip archive, not in git.
+# These exceed GitHub's practical repo limits (1.1 GB combined).
+backup/pages/
+backup/screenshots/
+backup/assets/
+
+# The small, text-only backup artifacts ARE tracked; see .gitignore exceptions
+# below and README.md for what is and isn't in this repo.

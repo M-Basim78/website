@@ -1,0 +1,401 @@
+# For Years I Pretended To Be White - My Reality with Racism
+
+- **URL:** https://medpsycmoss.com/blog/for-years-i-pretended-to-be-white-my-reality-with-racism
+- **Captured:** 2026-07-27T04:58:46
+- **og:image:** https://storage.googleapis.com/gator-sitethumbnails/site-787567/800x500.jpg
+
+## Content
+
+Home
+
+About Me
+
+Blog
+
+Podcast
+
+Store
+
+Resources
+
+My Work
+
+Contact
+
+### Psychiatry
+
+Psychiatry Resident
+
+Lived Experience
+
+### Moss
+
+### Medicine
+
+Medical Doctor (M.D)
+
+0
+
+### For Years I Pretended To Be White - My Reality with Racism
+
+Sunday, November 20, 2022
+
+When asked to share our stories about race and racism with my medical school peers, my legs instantly began to quiver. Interestingly, we all shared a privilege of going to prestigious high schools which then prepared us to excel in college and eventually get into to medical school. However, what we didn't similarly experience on our journeys was the emphasis of pretending to be someone we were not.
+
+I pretended to be white. I pretended to not be from the Hispanic and Mexican heritage. For a significant amount of time I thought it would work. However, looking back at how teachers, councilors, administration, and peers sometimes treated me, I didn’t do a great job fooling them. The only one I was lying too was myself.
+
+Every struggle or disappointing response I received from others I took it personally instead of considering it as a systemic problem which society had created toward individuals who did not have white skin.
+
+My first conception of race started in 1st grade when I was pulled out of class and taken to a tiny dark room with a teacher. She said that I had to be there because I had to learn to speak English and become as smart as the other kids. She asked me with a broken accent if knew English. I looked at her in confusion, and with a 6 year-old sass responded, "of course I speak English, why wouldn’t I?" Yes, my mom was from Mexico, and we spoke Spanish at home, but why did that mean I couldn't be with the other kids?
+
+As I took her silly tests I became further frustrated, and silently plotted my revenge. All I needed to do was show her and the rest of my teachers I was smart enough to be with all the other kids. What was so special about those kids back in the classroom? I soon recognized that they were the ones who only spoke English and were "white." That was my first and last day in an ESL class.
+
+My Elementary school was situated next to a low-income trailer park. Each day as I rode in to school on the school bus, I would watch a couple classmates be sent off to school by their dark skinned parent(s). These kids were the different ones. They were looked down upon by our classmates for having broken English, a Spanish accent, and parents who worked in the lowest paying jobs of the community. They were the "Mexicans," and their fate was already decided by society. They would one day become a pregnant teenager, drop out of school, do drugs, and work in the cleaning and hospitality industry.
+
+I refused to associate myself with these "Mexicans," because I feared my classmates would think I was one of "them." My house was a couple miles away in a suburban style home where people could afford to pay for these kids' parents to clean our houses and cut our grass. I promised myself I would not become one of them.
+
+Therefore, I hid any part that associated me with being "Mexican." I did not speak Spanish outside my house, I developed a disgust toward "Mexican" food, and prevented my parents from being seen by my peers. It was a basic trauma and survival response to the societal pressures of not wanting to be seen as inferior and unintelligent.
+
+For so many years I tried to hide my skin tone, second language, and heritage. I was very lucky that my honey colored skin tone allowed me to pass as for many years as "white" or at least "not Mexican."
+
+Interestingly, when I became older, if a local police man pulled me over or stopped me on the sidewalk I would instinctually say that I was a college student. I did this because I wanted to make sure they knew I was educated and wasn’t an illegal Mexican citizen. My subconscious was trying protect myself against racial biases they might have been using based on my skin tone, which could increase the probability of getting a fine or being arrested.
+
+The officer would promptly change their composer and became more lenient through giving me a warning or just replying they were just checking in on me. I recognize that this was a significant privilege compared to individuals who were darker skinned than I, and unjustly have to pray that this said traffic stop, trash run, or late night with a friend will not be their last.
+
+Even though I didn't believe I was being segregated, it is still a miracle I got to where I am today. By chance my family became friends with a neighboor who was taking their kids to another Elementary school outside of our assigned zip code. This school had classes for "gifted children," a robust music and arts program, and after school clubs. Therefore, my 5th grade year of school, my parents were able to open-enroll me into that school for the final year of elementary school. It was a difficult transition as I felt academically behind and an intruder to the social clicks that had already developed over the past five years. However, I persevered and made it out with a couple friends I still have to this day.
+
+For both Middle School and High School I had the choice of returning to my zip code assigned schools, or continue on with my new group of students. Of course, following my interests and the societal pressures I followed the preferred academic path to where the science and math curriculum were robust. For the two possible public High Schools in Boulder, Colorado I had the easy pick of choosing between a school that was the least funded and had the highest drop out rate, or according to the US news rating, choosing from one of the top ranked schools in the State (12th) and country (#174 in Stem HS). Fairview High School was in the zip code where houses were over a million dollars, and had parents funding every type of program one could imagine. It had both IB and AP classes on almost every subject, a phenomenal music and fine arts department, state winning sports teams, and multiple teachers who had PHDs. Drop out rate was close to 0% and we were all expected to apply and go on to prestigious colleges.
+
+Part of me knew that even though I was "faking" being white, it didn’t mean I magically became "white." According to the current racial demographic statistics from my previous High School they have .7% Black individuals and 10.8% Hispanics. However, I wouldn't be surprised if when I was there in the early 2010s it was a lot lower. In regards to having students who are economically disadvantaged, the current reported rate is 10% with only 2% being eligible for free or reduced lunch. Being in this phenomenal school, surrounded by this demographic, by default made me feel like I was intelligent, wealthy, and successful.
+
+Unfortunately, reality began to set in when I began to consider applying to college. I remember the counselors multiple times mentioning to me that I didn't have to go to college if I don’t want to, and "that college isn’t for everyone."
+
+I never was a straight A student. However, I tried tooth and nail to get all A’s and B’s. It is possible that my successful grades and societies' low expectations allowed me to slip through the cracks of the academic support system. Since third grade I have struggled with reading, spelling, and writing. Unfortunately, no one provided me extra support, nor would I have accepted it since I wanted to look "smart." I ran my own school schedule. In High school I signed myself up for the "easy" college-prep classes in Language Arts instead of the Advanced or AP/IB classes. They were easy A's which took me little effort to do well. I used this as a way to balance all the advanced science and math classes, which I preferred, but sometimes drowned in.
+
+Unfortunately, no one noticed my academic struggles especially when it came to the yearly state and college application standardized exams. I scored horrendously on the SAT Test and a mere 25 on my ACT Test. I needed a 27 on the ACT to even be eligible to apply for a prestigious scholarship that would provide me free college tuition at any Colorado University.
+
+My father thankfully didn't let my mediocre scores dictate my academic success as he knew how to help me "play the race card." He had me apply to schools out of my league, apply for "minority" scholarships, and click the box for families that make under $100,000. I didn’t understand what the big deal was. However, it was helpful because I received second place for a full tuition scholarship for a private University just because I was Hispanic.
+
+Entering college was another transition in regards to my views on my skin tone and racial background. I am not going to sugar coat it, there were multiple times derogatory and racial stereotypes were said in front of me or behind my back. Sometimes they added in apologies that I was the "exception" to the stereotype.
+
+When it eventually came the time to apply to medical school I had the unfortunate reality of having to re-remind myself that I was Hispanic and that schools would be willing to take me with a lower MCAT score. The topic of Affirmative Action was consistently brought up by the family. I felt ashamed that I had a greater chance than my own husband of getting in to medical school even though his MCAT score was over the 90th percentile. Even though, I studied my very best, the highest I could score was a 505. Thankfully, my extensive list of extracurriculars and leadership opportunities allowed me to get over 12 interviews and multiple acceptances. Unfortunately, I was surrounded by voices whom would say that my success was only attributed to my race instead of who I was as a person or who I could become as a physician.
+
+I started to become more interested in my heritage during my gap year when I became a bilingual case manager for children with disabilities. Through talking with families in their own language, I was interested to learn the extensive and complex challenges they endured. The Medicare distributed $40,000/year which I was responsible for helping allocate to each family, was just bonus money for extra toys or a broken tv for children of wealthy white families. However, individuals who were Hispanic and commonly also low income, desperately needed that extra money for therapies, daycare, and clothing for their children.
+
+One family I worked with was a single mother with three kids with autism, a baby and an older child. They slept on the floor and barely had any food or clothing. I spent extra time working with them to get food stamps, WIC, and SSI income for each disabled child. I also learned that child protective services can even provide supportive services to keep the family together which included babysitting and academic support systems.
+
+I also worked with families who were non-citizens and were terrified to ask for extra services because they thought they would be deported if they accepted government support. Therefore, I had to find services they could go to that did not require background checks. For example we were able to use the $40,000 to get one family a wheelchair lift for their child with cerebral palsy who was too heavy to carry to their second floor bathroom and bedroom. Another family we used the money to update their trailer home bathroom to be easier to navigate to wash their child. Working as a case manager truly opened up my heart to the disabled and Hispanic community who were both marginalized in the community.
+
+In 2019, my husband and I moved to Chicago to attend Medical School. I can't overstate the culture shock the diverse city had on our transition. This beautiful city encompassed a wide range of people from different social, economic, racial, cultural, and countries of origin. As I began to be a part of the community and I felt finally felt like I was at home. For the first time in my life I felt accepted, free, and proud to be who I was including a Hispanic with a Mexican background.
+
+In medical school, I received my Qualified Bilingual Speaker approval so I could translate for my patients and also interview them in their own language. I love translating for my families because I can more easily build rapport and they trust me that I have their best needs in mind because I am willing to talk to them in their own language.
+
+Unfortunately, the medical system frequently demonstrates that people who don’t speak English are a burden because the system has to spend extra time and money to pay for online or in person translators. Since it is common for black and brown individuals to have lower health care literacy, it takes additional time to explain the medical process and steps post discharge. If the time is not spent to confirm the patient actually understands their condition and their instructions, the patient is most likely not going to improve and just return to the hospital at a later date with a progressed health problem.
+
+I think back to all the times this year I haver personally been reprimanded by my resident and attending physician for taking to much time with a patient or working about their non-medical needs. The reality is so much of a patient's day-to-day life impacts their healthcare, including not being able to afford their medication or transportation to return for a follow up appointment. I am frequently told it is "not my job" to talk to my patients about this and to instead let the case manager handle the non-medical problems. However, there is usually only one case manager per floor or clinic, and they rarely have the time to reach every individual. I know this because I was one not too long ago.
+
+One of the most meaningful lessons I have taken from medical school is that race has NOTHING to do with Genetics or Biology. Race is a societal built classification system based on the amount of melanin, pigment, in an individual's skin. Unfortunately, medical students are frequently taught to use race in medicine to alert us to possible diagnosis or an increased risk of disease (like Sickle cell in Black individuals). Even though, this method of classification may have served a function for diagnosis in the past, this is an outdated method with the advent of modern health technologies and an increased understanding of societal impacts on health.
+
+For example, just because I check the “hispanic” box doesn’t mean medical professions should automatically assume I am obese, have high blood pressure, diabetes, and am highly fertile. For years I had gone to the doctor myself and was dismissed for my pain as just being menstruation. It wasn’t until I went to medical school and learned the science myself that I was able to ask my doctors for tests which determined out I had medical conditions. My pain was real! After over 10 years of suffering I was finally diagnosed with endometriosis. This shouldn’t have been the case. Unfortunately, medicine opened up another box of societal racism which frequently benefits those who are white and have financial and social class resources
+
+Developing Story:
+
+- I inherently believed that If I didn't do well in school, then there would be no one out there who would care to help me - this is where I developed perseverance and resilience
+
+- I need to forgive myself for surviving society's racial trauma
+
+- I didn’t know there was pride to be Latina until I became a medical student - 2.5% of MD's are Latinas
+
+- I need to grieve the loss of support I didn't receive all those years
+
+- Hispanic Stereotypes: hyper-fertility, constantly pregnant, unintelligent, their life revolves around family
+
+### Racial Discrimination Among Children in the U.S. from 2016-2020: an Analysis of the National Survey of Children's Health
+
+This study looked at parental reporting of racist experiences that they saw their children faced between 2016 and 2020. Data was analyzed from the National Survey of Children’s Health.
+
+reported experiencing discrimination at rates from 10.8% in 2016 to 15.7% in 2020
+
+Indigenous children
+
+ranged from 9.69% in 2018 to 15.04% in 2020
+
+Black children
+
+ranged 4.39% in 2016 to 6.8 % in 2020
+
+Hispanic children
+
+ranged from .98% in 2016 to 1.68% in 2020
+
+White children
+
+is the “acceptance, by marginalized racial populations, of the negative societal beliefs and stereotypes about themselves [...] which can lead them to question their worth and place."
+
+Internalized racism
+
+Institutional racism
+
+has been seen to increase the "likelihood of poverty, food insecurity, poor health and incarceration among Native Americans and Black, Latinx and Asian people."
+
+Read the CNN Article:
+
+[Structural racism is taking a toll on children’s mental health](https://www.cnn.com/interactive/2020/11/health/childrens-day-2020-mental-health-wellness/)
+
+by Kristen Rogers (2020)
+
+Check out my for trauma-informed resources if you also suffer from and/or or want to learn how to support others.
+
+[Collections Tab](https://medpsycmoss.com/resources)
+
+[racial trauma](https://medpsycmoss.com/trauma-resources)
+
+[mental health challenges](https://medpsycmoss.com/mental-health-resources)
+
+If you are a health care provider you can also see trauma-informed resources to support .
+
+[Black and Brown patients](https://medpsycmoss.com/black-and-brown-patients)
+
+### Stephanie Moss
+
+I blog about living as a patient and a medical doctor.
+
+Check out
+
+my Workbook, Residency App, &
+
+[advising](https://medpsycmoss.com/)
+
+Here
+
+### TAGS
+
+medical school
+
+37
+
+mental health
+
+20
+
+ms3
+
+18
+
+medicine
+
+12
+
+failure
+
+11
+
+endometriosis
+
+10
+
+pre-med
+
+psychiatry
+
+step
+
+loa
+
+9
+
+disability
+
+8
+
+residency
+
+residency app
+
+finances
+
+7
+
+imposter syndrome
+
+6
+
+infertility
+
+medical school app
+
+pre-clinical
+
+sexual health
+
+5
+
+caregiver
+
+4
+
+racism
+
+3
+
+suicide
+
+lgbtqia
+
+2
+
+marriage
+
+mcat
+
+pelvic pain
+
+death
+
+1
+
+Facebook
+
+Twitter
+
+LinkedIn
+
+Sign up for monthly email newsletter to find out when new posts & resources are added!
+
+Only 1 email a month!
+
+Name
+
+Email
+
+### Subscribe
+
+### Guide to Applying for Accommodations for...
+
+10/29/2025
+
+### Overcoming USMLE Step One Failures to...
+
+03/15/2025
+
+### Lessons Learned from Failing USMLE STEP1: A...
+
+06/27/2024
+
+### RECENT POSTS
+
+More
+
+#### Stephanie Moss, MD
+
+Psychiatry Resident Physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.
+
+##### Explore
+
+[About](https://medpsycmoss.com/about)
+
+[Workbooks & Courses](https://medpsycmoss.com/store)
+
+[Podcast](https://medpsycmoss.com/podcast)
+
+[Blog](https://medpsycmoss.com/blog)
+
+[Contact](https://medpsycmoss.com/contact)
+
+##### Popular Resources
+
+[Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+
+[Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+
+[Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+
+[USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+
+##### Connect
+
+[Instagram](https://instagram.com/stephmossmd)
+
+[YouTube](https://youtube.com/@doctormoss)
+
+© Stephanie Moss, MD | MedPsycMoss. Educational content only — not medical or legal advice.
+
+2026
+
+## Images (11)
+
+- ![](https://medpsycmoss.com/x/cdn/?https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1450)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/7026c6e1305d400eb1cb1eaf464daa91)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f27c30978f354446a8df4409d49195bc)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/1fe16d51108047b3a227421313aea10b)
+- ![27db57e3-0f41-87c3-161d-d96aa1ea035f.jpg](https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/40bf894bb26c44559f8b057d37d432a4)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/cf2f52f8a18f4e3783044dc92be85c07)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/47fd3dce44a340eb9e0ac12aeac2c361)
+- ![Guide to Applying for Accommodations for USMLE, COMLEX, MCAT](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/48ffc142ac7e48c3a10e132513fc87ea)
+- ![Overcoming USMLE Step One Failures to Residency Success](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/5dd9feeb3c444da381cfb310e900bf83)
+- ![Lessons Learned from Failing USMLE STEP1: A Comprehensive Guide](https://medpsycmoss.com/x/cdn/?https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
+- ![background image](https://components.mywebsitebuilder.com/g-202604200904488775/viewer-gator/images/yt_icon_rgb.png)
+
+## Link map (61)
+
+- [Home](https://medpsycmoss.com/)
+- [About Me](https://medpsycmoss.com/about-me)
+- [Blog](https://medpsycmoss.com/blog)
+- [Podcast](https://medpsycmoss.com/podcast)
+- [Store](https://medpsycmoss.com/store)
+- [Resources](https://medpsycmoss.com/resources)
+- [My Work](https://medpsycmoss.com/my-work)
+- [Contact](https://medpsycmoss.com/contact)
+- [Racial Discrimination Among Children in the U.S. from 2016-2020: an Analysis of the National Survey of Children's Health](https://www.degruyter.com/document/doi/10.1515/jom-2022-0175/html)
+- [Structural racism is taking a toll on children’s mental health](https://www.cnn.com/interactive/2020/11/health/childrens-day-2020-mental-health-wellness/)
+- [Collections Tab](https://medpsycmoss.com/resources)
+- [racial trauma](https://medpsycmoss.com/trauma-resources)
+- [mental health challenges](https://medpsycmoss.com/mental-health-resources)
+- [Black and Brown patients](https://medpsycmoss.com/black-and-brown-patients)
+- [(no text)](https://medpsycmoss.com/)
+- [Check out](https://medpsycmoss.com/)
+- [advising](https://medpsycmoss.com/)
+- [Here](https://medpsycmoss.com/)
+- [(no text)](https://www.instagram.com/)
+- [(no text)](https://www.linkedin.com/in/stephanie-e-moss/)
+- [(no text)](https://twitter.com/medpsycmoss)
+- [(no text)](https://www.youtube.com/@StephMossMD)
+- [medical school](https://medpsycmoss.com/blog/tag/medical%20school)
+- [mental health](https://medpsycmoss.com/blog/tag/mental%20health)
+- [ms3](https://medpsycmoss.com/blog/tag/ms3)
+- [medicine](https://medpsycmoss.com/blog/tag/medicine)
+- [failure](https://medpsycmoss.com/blog/tag/failure)
+- [endometriosis](https://medpsycmoss.com/blog/tag/endometriosis)
+- [pre-med](https://medpsycmoss.com/blog/tag/pre-med)
+- [psychiatry](https://medpsycmoss.com/blog/tag/psychiatry)
+- [step](https://medpsycmoss.com/blog/tag/step)
+- [loa](https://medpsycmoss.com/blog/tag/loa)
+- [disability](https://medpsycmoss.com/blog/tag/disability)
+- [residency](https://medpsycmoss.com/blog/tag/residency)
+- [residency app](https://medpsycmoss.com/blog/tag/residency%20app)
+- [finances](https://medpsycmoss.com/blog/tag/finances)
+- [imposter syndrome](https://medpsycmoss.com/blog/tag/imposter%20syndrome)
+- [infertility](https://medpsycmoss.com/blog/tag/infertility)
+- [medical school app](https://medpsycmoss.com/blog/tag/medical%20school%20app)
+- [pre-clinical](https://medpsycmoss.com/blog/tag/pre-clinical)
+- [sexual health](https://medpsycmoss.com/blog/tag/sexual%20health)
+- [caregiver](https://medpsycmoss.com/blog/tag/caregiver)
+- [racism](https://medpsycmoss.com/blog/tag/racism)
+- [suicide](https://medpsycmoss.com/blog/tag/suicide)
+- [lgbtqia](https://medpsycmoss.com/blog/tag/lgbtqia)
+- [marriage](https://medpsycmoss.com/blog/tag/marriage)
+- [mcat](https://medpsycmoss.com/blog/tag/mcat)
+- [pelvic pain](https://medpsycmoss.com/blog/tag/pelvic%20pain)
+- [death](https://medpsycmoss.com/blog/tag/death)
+- [Guide to Applying for Accommodations for...10/29/2025](https://medpsycmoss.com/blog/accommodations-usmle)
+- [Overcoming USMLE Step One Failures to...03/15/2025](https://medpsycmoss.com/blog/step-failure-to-match)
+- [Lessons Learned from Failing USMLE STEP1: A...06/27/2024](https://medpsycmoss.com/blog/step1)
+- [About](https://medpsycmoss.com/about)
+- [Workbooks & Courses](https://medpsycmoss.com/store)
+- [Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+- [Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+- [Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+- [USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+- [Instagram](https://instagram.com/stephmossmd)
+- [YouTube](https://youtube.com/@doctormoss)
+- [Podcast](https://open.spotify.com/)

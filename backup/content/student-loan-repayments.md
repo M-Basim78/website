@@ -1,0 +1,909 @@
+# Medical School Student Loan Repayment Plans EXPLAINED Part 1
+
+- **URL:** https://medpsycmoss.com/student-loan-repayments
+- **Captured:** 2026-07-27T04:50:18
+- **description:** Questions answered: I just graduated do I start having to pay loans? ​
+How do I financial afford rent between medical school and residency?
+What is the difference between reconcilation and refinancing?
+When or should  I do this?
+Why would you choose between private and public loans?​​
+How do you pay little or nothing on student loan repayment during residency?
+What does it mean for a student loan to balloon?
+What is the income driven repayment plan?
+What are my options
+- **og:image:** https://storage.googleapis.com/gator-sitethumbnails/site-787567/800x500.jpg
+- **keywords:** SAVE Plan, Federal Loans, Federal Student Loans, Medical School Loans, Residency Loan Repayment
+
+## Prices / commerce text found on page
+
+- `That's a lot of money. That's if we're talking about $4,000 that's more than our rent payment.`
+- `Jonah Moss, MD: Or I could just use the computer. So you know, if you're starting a salary of $70,000, your monthly take home without any taxes on that is like $5,800.`
+- `That $300,000 can easily get up into $600,000- 700,000.`
+- `I'm making $90 a month, but my interest on that loan might be a thousand.`
+- `So essentially, if I make $90`
+- `let's say I've got a $300,000 loan, my payment, my`
+- `interest on that loan every month is $1,000, but I pay $90.`
+- `That means that essentially $910 of interest is forgiven every single month. Now, ultimately, it's not as satisfying as it sounds because you see your student loan balance just stays the same.`
+- `Exactly. You're not seeing it balloon. You're not seeing it grow, but essentially you're throwing $90 into an infinite well, but it's preventing it from ballooning.`
+- `So now all of a sudden I go from a payment of $90 dollars to let's arbitrarily say my payment becomes $2,000 or $3,000.`
+- `Now all of a sudden i'm making enough that i'm not just covering the $1,000 of interest But slowly chipping away at the total debt as well.`
+- `So I've got compounded interest. So all of a sudden my $300,000 loan becomes $500,000 by the end of residency, even though I was paying $100 a month into it.`
+- `Versus the current income driven repayment plan, the SAVE plan, which essentially, as long as I'm paying my $100 or $90 a month into it, when I graduate, my student loan will be at $300,000.`
+
+## Content
+
+Home
+
+About Me
+
+Blog
+
+Podcast
+
+Store
+
+Resources
+
+My Work
+
+Contact
+
+### Psychiatry
+
+Psychiatry Resident
+
+Lived Experience
+
+### Moss
+
+### Medicine
+
+Medical Doctor (M.D)
+
+0
+
+### Medical School Student Loan Repayment Plans
+
+### EXPLAINED Part 1
+
+### Transcript:
+
+the student loan servicers are sanctioned by the U S government to handle student loans.
+
+Jonah Moss, MD: [00:00:00]
+
+Almost every resident focused student loan payment program, whether it's through a refinancing, through a big bank, Or it's through the income driven repayment plans, which is something I'll talk about on the Federal government side is going to offer you a way to pay less or pay nothing throughout your residency and fellowship.
+
+Right now, the big one that just came out over the last year or two years, is the SAVE income driven repayment plan, or you'll frequently see this referred to as the Biden Harris SAVE plan.
+
+The beauty of the current income driven SAVE plan is that any interest that is not covered by your required minimum payment gets forgiven at the end of the month.
+
+For most people, it will be cheaper. To file separately, not everybody, but for most people who are both residents, it will be cheaper.
+
+[00:01:00]
+
+This is super complicated and I will do another pitch for the FAFSA website.
+
+They actually have a really good calculator
+
+Do not do not do not consolidate your loans until after you have graduated.
+
+Podast Intro:
+
+Welcome to Life as a Patient Doctor. I'm your host, Stephanie Moss, navigating life as a patient and a future MD. Walk alongside me as I reflect on the challenges and lessons I've learned undergoing medical school with invisible disabilities. Join me as I interview other doctors, students, and health care workers on their own journeys.
+
+Stephanie Moss, MD:
+
+Listen to their unique stories on how they have balanced their health while caring for others in the health profession.
+
+Questions Answered:
+
+1. I just graduated medical school when do I start having to pay loans?
+
+2. How do I financial afford rent between medical school and residency?
+
+3: What is the difference between reconcilation and refinancing?
+
+4: When or should I do this?
+
+5. Why would you choose between private and public loans?
+
+6: How do you pay little or nothing on student loan repayment during residency?
+
+7: What does it mean for a student loan to balloon?
+
+8: What is the income driven repayment plan?
+
+9: What are my options for loan repayment after residency?
+
+10: Should you file together or seperate as married residents with loans?
+
+11: Can you switch loan programs?
+
+12: What is PSLF?
+
+13: How do you file as married residents if you both have student loans?
+
+Introduction and Guest Welcome
+
+Welcome everyone. This is Dr. Stephanie Moss.
+
+Meet Dr. Jonah Moss
+
+Today, I have a very special guest. I'm interviewing Dr. Jonah Moss, who is, let me think. Oh yeah, he's my husband. I'm so excited that he agreed to be Today with me.
+
+[00:02:00]
+
+He is an intern almost a second year resident in neurology He's actually about to start his second year neurology and I don't know. Do you want to I didn't ask you to write a bio I normally ask people to write a bio for me to read But you can introduce yourself and
+
+introduce myself. I am, as Dr. Moss astutely pointed out a PGY one transitioning to PGY two in this month grew up in Colorado and met this lovely woman there. And. I am sure that most people probably have an idea of what my history is because it tracked along with hers. But now here we are in Chicago living the dream and living that doctor life,
+
+Jonah Moss, MD:
+
+I love it.
+
+Understanding Medical School Debt
+
+So today we're gonna do something that Dr. Moss is an expert on and it's not medicine. I know, shocker. It's on finances. He is the finance guru that just knows everything about finances. He's done a lot of work on his own time to really understand the complexities because obviously both medical students taking out full student loans means a lot.
+
+[00:03:00]
+
+A lot of debt. So I'm going to ask him some questions as a recent graduate from medical school to really understand what are we supposed to do with all this debt? I just graduated. What should be the first thing on my radar that I should do?
+
+Okay, before I get too into the nitty gritty, as we're being recorded, I want to emphasize that I am not a financial advisor.
+
+I've got no financial advising credentials degrees, nor do I claim that I have any knowledge that you can't gain on the internet. So I'm speaking through my own personal experience, and everything is expressed in my own personal opinion, and you should not take what I say as legal financial advice.
+
+That being said, I have read a lot into this, and I have some strong opinions regarding the way that finances work so I'll do my best to answer your questions in a way that I think can be universally applicable, or at least in a way that allows people to access it online.
+
+So what was your question again?
+
+[00:04:00]
+
+Yeah and this is actually a question that even my co medical student graduates have been asking me and I'm like, I don't know, ask Jonah, text Jonah.
+
+Loan Repayment Basics
+
+So the biggest question that I've been asked is, I graduate, do I start having to pay loans? Like right now?
+
+That's a good question. So first thing, everyone's going to have different levels of indebtedness. And, there are some folks who are very fortunate in that they may not have any student loans right now. And then there are some folks, probably most of the people who are interested in this topic are the ones who used student loans.
+
+A lot of loans, if not a majority of loans to pay for their medical education in addition to living expenses, which means that you're probably living in the ballpark of anywhere between 250 to I've heard all the way up to $450, 000 of student loans. And the 1st thing you're going to notice is that when you log on.
+
+[00:05:00]
+
+I will also emphasize that I'm also going to assume that all of your loans are from the government. You got them through the FAFSA and you didn't necessarily go through a private loan vendor like Discover or something like that. So all this advice applies mostly to the people who got Grad Plus loans, those types of things.
+
+But if you log on to the FAFSA website, one of the first things you're going to notice is that you've got Dozens and dozens of loans. You're going to see a loan for 4, 000, a loan for $30,000 or a loan for, $20,000. And the reason why is because essentially every single semester, every summer, anytime that you essentially got a disbursement into your account, they took out a new loan.
+
+And so that's important to know is that you don't have a student loan right now. You have probably dozens of student loans. And as far as, what the next steps are. I guess I'll probably get there, but just to ask your specific question. So when do you have to start paying them? All loans will have a grace period on them.
+
+[00:06:00]
+
+I believe right now it is six months still. And so essentially what will happen is that once. Once you have graduated, your school tells the Federal government they graduated, and then six months down, you will start needing to pay loans. And I don't want to get too much into the weeds because I'm sure we're going to get there, but by default, your student loan payment is going to be very high.
+
+Because the default payment plan is a 10 year repayment plan. And once again, depending on your student loans, that means that your monthly payment will probably end up being in the ballpark of 2,000 to $4,000 a month.
+
+That's a lot of money. That's if we're talking about $4,000 that's more than our rent payment.
+
+Yeah.
+
+Okay, So knowing that right now between medical school and residency I don't have an income. And I know that a lot of people were very confused about that concept. That Our last disbursement was supposed to last us not just for the school, but now we have two to three months between residency that we're not getting paid.
+
+So how does that work?
+
+[00:07:00]
+
+Um...May the odds be ever in your favor. They don't really give you a way to make this work. A lot of people will essentially take out loans, you'll actually see a lot of What is the, I won't say the name, but there's a very proliferative company that makes loans for doctors.
+
+And they'll often give out like transition to residency loans. And so you can do something like that. People will live off credit cards. Some people will get a side job if you have the ability to do that. There's a lot of ways that folks will make it work, but you're right. Essentially, when you graduate, assuming you graduate in, April, May, you will have no income until you start your residency program in around June, July.
+
+And another thing that's important to note is that once you transition into residency, you're also working like Most places work on bi weekly paychecks. In other words, you'll start, let's say you start on July 1st, you're not actually getting your first paycheck until two weeks into July. And that's important for folks to know, don't be expecting that you're going to have that first paycheck on the first of July.
+
+[00:08:00]
+
+That's really helpful. Cause yeah . It reminds me of when we were in medical school, rent is usually due first day of the month, and we would get our loans, not the first day of the month. Usually they would like disperse and then a week later they would be like, okay, it's coming.
+
+And then another week later, it actually ended in our bank account.
+
+yes,
+
+So two weeks late, but okay.
+
+Question 1:
+
+I just graduated medical school, when do I start having to pay loans?
+
+Question 2:
+
+How do I financial afford rent between medical school and residency?
+
+Consolidation vs. Refinancing
+
+Okay, so what is then you said there are a lot of little tiny loans
+
+Yeah,
+
+Stephanie Moss, MD: I heard something put those loans together called Reconciliation? And then there's these banks that are also telling me that I can refinance through them? What is the difference?
+
+That's a good question. So there's a difference between consolidation and refinancing your loan. So let's talk on re first.
+
+consolidation
+
+okay,
+
+As I mentioned, you probably have dozens and dozens of little loans. Consolidation is the process of essentially taking out a new loan that will cover all of those loans and paying all the little ones off.
+
+[00:09:00]
+
+it's like a credit card consolidation loan, but for student loans. And so essentially by doing that, you will pay off. You're 30 something loans and just have one giant. The way that this works first is this goes through the Federal government. So this goes through the FAFSA portal. And the way that it ends up working is that they will pay off all of your small loans.
+
+It takes a little bit of time and then you're going to get a new loan number for the total amount. They will take the average of all of your small loans. So if you have a small loan, that's interest at 5 percent and then at 15 percent they're going to take the average of the two, and then that's going to be the annual percentage rate of your new loan.
+
+And then that is a The reason you will do this, and once again I'm sure we'll get into this, one is for simplicity. Instead of needing to, in theory pay all these small loans because you just send a check to your loan servicer, but it's easier to track. You can see one big number versus 30 small numbers slowly being chipped away.
+
+consolidation.
+
+[00:10:00]
+
+The other benefit is something we'll talk, going into like public student loan forgiveness. There's a few other benefits, but really the key is. It's easier to keep track of one loan versus 30 small loans.
+
+That makes sense.
+
+Refinancing is a little bit different. So you could refinance right now.
+
+Instead of doing consolidation, you could use your student loans.
+
+refinancing to consolidate
+
+Although personally, it's not something that I would advise.
+
+Everyone's gonna have to take it into their own account. Refinancing essentially, instead of right now, And it's a little complicated, but essentially folks the student loan servicers are sanctioned by the US government to handle student loans.
+
+And they're a division of the government, but they're not. And ultimately what ends up happening is.The government has a lot of oversight over the student loan servicers.
+
+[00:11:00]
+
+Now, if you go to a bank like Discover or SoFi, you can look online and there's dozens and dozens of, folks who will refinance student doctor loans.
+
+And what you'll find typically is like,
+
+When you consolidate your all of your loans into one big loan, maybe that interest rate, it's going to vary for everyone, but let's say it's 7%.
+
+And when you go and you ask a refinancer, like one of these big banks, they might offer you, I've, this was several years ago, but some of the people who were looking at refinancing, they were offering rates of 1%, 2%.
+
+And when you look at the lifetime of the loan, that obviously means less interest. And, at least in theory, and I'll talk, I'm sure we're going to get into it. In theory, that means less interest. You have a lower interest rate. And so that's refinancing.
+
+You're actually taking the loan that was given to you by the government, in air quotes, and refinancing it with a private company in an effort to get a smaller interest rate. Now, everyone has to do their own math and figure out if it makes sense.
+
+What is the difference between reconcilation and refinancing?
+
+Question 3:
+
+When or should I do this?
+
+Question 4:
+
+Public vs Private Rates
+
+[00:12:00]
+
+And I think you need to understand all of the, Programs that come with the government: like the government protected loans versus the private loans. Which we'll talk about in a minute. But one of the things that I would tell anyone who's actually considering refinancing is $100 percent make sure that the rate that you're getting with your refinance is substantially less than what you're going to get with a government loan.
+
+You're talking about. Let's say you get a refinance quote, and it says, "Oh, yeah, we're going to refinance your loans at 8%." But your government rates 6%. It doesn't make sense. Generally speaking, you don't hear a lot of that happening, but every now and again you hear a horror story of somebody who refinanced their loans at a higher rate than what they were getting through the government loans essentially.
+
+And that's what I wanted to talk to you about, because why would you choose a private versus a public? What would make you choose to go one route or the other?
+
+[00:13:00]
+
+That's, that gets really complicated really quick. I will talk a little bit about my thought process versus the private, some of those other things. there's a few ways to look at this, so let's take a step back. You're a doctor now you're starting residency. Your salary is. arbitrarily, let's say your salary is $70,000. Okay. And there's a lot of folks who have probably have a starting salary less than that.
+
+And there's a lot of folks that have a starting salary higher than that. That's a whole nother topic. That's being said, let's say you started 70, 000 and, ignoring taxes let's do some quick math here.
+
+You can also use your phone. I guess so.
+
+Jonah Moss, MD: Or I could just use the computer. So you know, if you're starting a salary of $70,000, your monthly take home without any taxes on that is like $5,800.
+
+A month.
+
+okay.
+
+Now, realistically, it's much less than that because of taxes and other things that go into the calculations. That being said. Right now, if you started the standard student loan repayment schedule, more than 50 percent of your salary is likely going to go towards your loans. And that's not sustainable.
+
+[00:14:00]
+
+It's just, unless you want to live with your parents for the next four years or some other, which some people do that. I actually do have a resident, a colleague who's living with his parents and he's making good money because he doesn't have a housing expense that being said
+
+or a partner
+
+that works
+
+exactly, exactly.
+
+So there, there's a lot of, and this is why everything is not going to be cut and clean for everybody. Everyone's going to have their own calculations, but 10 year repayment loan schedule isn't going to work for a resident.
+
+You couldn't make it work and honestly the 5,800 a month isn't very fair because realistically once you cut away taxes, you're probably closer to $3,000 - $4,000 a month And then all of a sudden your student loan payment is closing near getting there maybe 50 to 60 percent of your income.
+
+[00:15:00]
+
+So That's the side trail to say Almost every resident focused student loan payment program, whether it's through a refinancing, through a big bank, Or it's through the income driven repayment plans, which is something I'll talk about on the Federal government side is going to offer you a way to pay less or pay nothing throughout your residency and fellowship.
+
+Why would you choose between private and public loans?
+
+Question 5:
+
+How to pay little or nothing
+
+Pay nothing. Wait, pay nothing. Wait, I'm interested. What should we go into that?
+
+Sure.
+
+Let's talk first, because I think you're the ones who are going to see this the most.
+
+refinancing companies
+
+Like the smaller percentage, or 2%, 3%?
+
+Yeah, so you'll go to refinance your student loan, and they'll throw in these kind of, on top of the fact that maybe you get a 2 percent or 3 percent interest rate, they'll say no payments whatsoever while you're in residency.
+
+Some programs will even knock compound interest. And what compounded interest is essentially if I give you $100 and I charge you an interest rate, and let's say your interest is 10 a year, I take the interest that you don't pay and I put it onto the loan. Now that's a problem when you have a loan that's so large that you can't pay.
+
+[00:16:00]
+
+I'm getting into the weeds here, but essentially they may not compound the interest while you're in residency and that leads to ultimately a smaller balloon payment where your student loans go from 300,000 to 600,000. Instead, maybe they go to 300,000 to like 400 or 500,000 because the interest is still accruing typically.
+
+I've honestly never seen a refinancing place that offers zero interest during residency, you're accruing interest, but it's not adding that interest to your loan and then charging you interest on that interest.
+
+That's what compounding is.
+
+You just said balloon. What does that mean?
+
+You know, ballooning is something you'll see on all the forums. It's you know, this idea that you start with a very large debt bubble and As interest keeps adding to it and then you get charged on the interest that was added to your loan that loan just gets bigger.
+
+[00:17:00]
+
+And you can actually look at some very interesting graphs, which I won't bore you with showing that , this is the whole idea of why you invest early.
+
+As you charge interest on interest. It's this exponential growth curve.
+
+And so you see all of a sudden, yeah, you might only come out with 300,000, but if you're compounding your interest over, let's say you're a neurosurgeon and you've got a seven year residency, and then maybe even a year of fellowship, over the course of almost a decade.
+
+That $300,000 can easily get up into $600,000- 700,000.
+
+But that's where refinancing comes in and lets you get a lower interest rate, or maybe not compound the interest, but still charges interest. And these can essentially lower what that load looks like when you get at the end of your residency.
+
+How do you pay little or nothing on student loan repayment during residency?
+
+Question 6:
+
+What does it mean for a student loan to balloon?
+
+Question 7:
+
+Income-Driven Repayment Plans
+
+The other option is going towards the Federal government route and they have a bunch of different repayment plans.
+
+Essentially there's the standard 10 year repayment plan. Really the big ones are the income driven repayment plans and these change all the time. They changed this year. They'll probably change again.
+
+[00:18:00]
+
+They're always evolving. But essentially what an income driven repayment plan is, it says, Okay, you make this amount of money based off of the calculations and an equation that the government has.
+
+This is how much money is disposable income, and we're going to essentially cap your monthly loan payment to a percentage of disposable income. Right now, the big one that just came out over the last year or two years, is the SAVE income driven repayment plan, or you'll frequently see this referred to as the Biden Harris SAVE plan.
+
+Okay.
+
+And what this did is it actually replaced the REPAY repayment plans. And these are all the acronyms and there's a ton of them and it gets really confusing. They're like are you SAVE? Are you REPAY? Are you REPAY? Whatever. And there's like a bunch of different ones, but really what you need to know is that there's income driven and standard essentially takes your loan puts the interest in there and says you have to make a payment of $2,000 a month for 10 years, and then you're done.
+
+[00:19:00]
+
+No matter how much you make?
+
+Exactly. And after 10 years, you will have paid off your loan.
+
+Even when you're an attending and you're making like over 200,000?
+
+Yeah, and that's a key thing too, because essentially it says,, that is your payment.
+
+: Okay.
+
+### Stephanie Moss, MD
+
+Now, if you're on an income driven repayment every year, when you submit your taxes, they essentially calculate based off of whatever the rule is, how much your maximum payment is. And so right now I can only speak to myself. My current maximum payment is like $$90. So even though I have taken loans out throughout my entire residency, throughout my entire medical school, I only pay $90 a month.
+
+Now here's the catch. That is not enough to cover the interest on my loan. So essentially if I take my loan, which let's just for this theoretical, say I have a 300,000 loan and I am on the income driven SAVE plan,
+
+[00:20:00]
+
+I'm making $90 a month, but my interest on that loan might be a thousand.
+
+Okay. So then this goes into that whole compounding thing.
+
+So essentially, if I make $90
+
+let's say I've got a $300,000 loan, my payment, my
+
+interest on that loan every month is $1,000, but I pay $90.
+
+That means that essentially $910 of interest is forgiven every single month. Now, ultimately, it's not as satisfying as it sounds because you see your student loan balance just stays the same.
+
+But it's not growing.
+
+Exactly. You're not seeing it balloon. You're not seeing it grow, but essentially you're throwing $90 into an infinite well, but it's preventing it from ballooning.
+
+What is the income driven repayment plan?
+
+Question 8:
+
+Options After Residency
+
+And the beauty of that, and this is getting into more details, which I'm sure we're going to go over, is that essentially when I finish residency and I,
+
+[00:21:00]
+
+Get my first job as an attending. I will have the option to choose.
+
+Okay, do I want to now transition to a standard repayment plan? Or do I want to pursue something like student loan forgiveness? Or do I want to stay in my current repayment plan, knowing that essentially my payments are going to get much higher at that point, because it's based off of my income.
+
+And interest is now?
+
+The interest is going to stay the same So the interest is always there But once I become an attending now all of a sudden when they calculate how much spare income I have more than enough to cover both the interest and the loan payment.
+
+Okay
+
+So now all of a sudden I go from a payment of $90 dollars to let's arbitrarily say my payment becomes $2,000 or $3,000.
+
+Now all of a sudden i'm making enough that i'm not just covering the $1,000 of interest But slowly chipping away at the total debt as well.
+
+And so then you just go on and theoretically Pay off your loan that way. Which Ibelieve will typically it's supposed to take 10 to 15 years
+
+[00:22:00]
+
+Will this go away?
+
+And you said it's new. Is this something that it can go away?
+
+It's a good question, and your guess is as good as mine.
+
+And that's what's weird about and , I want to talk about this fear of programs going away, specifically when we talk about, which I'm sure we're going to.
+
+We keep pushing it off.
+
+It's because it's so cyclical, and so much of this, it's like a snake eating its own tail, and it's easy to get into a rabbit hole. That said, ultimately, could these programs change? Yes, 100%. So the repayee plan was the old income driven replacement plan, and it still was the same idea.
+
+It would have made it to where I only pay maybe a little bit more. Maybe it was $100 a month instead of $90 a month. But the catch with that one was that the interest that I didn't paste that $900 of interest got added to my loans every month. So then, by the time I had graduated, or, finished residency and fellowship my [00:23:00] loan has ballooned.
+
+So I've got compounded interest. So all of a sudden my $300,000 loan becomes $500,000 by the end of residency, even though I was paying $100 a month into it.
+
+Versus the current income driven repayment plan, the SAVE plan, which essentially, as long as I'm paying my $100 or $90 a month into it, when I graduate, my student loan will be at $300,000.
+
+What are my options for loan repayment after residency?
+
+Question 9:
+
+Impact of Income
+
+Now something you just said of income,
+
+So talking about how things can change, This is something that changed this last year.
+
+In that, traditionally, the way that it would work is that, yes, if you and I are married, once I go into an income driven repayment plan, and it's only those income driven repayment plans.
+
+So just to simplify it, because already it can probably feel like your head's exploding.
+
+We have refinanced, where a big bank has taken over your loan.
+
+We have a consolidated single Federal loan as an option. And then once you have that Federal loan, you can either go through an income driven repayment or a traditional payment.
+
+[00:24:00]
+
+That makes more sense. Okay.
+
+If you do the big bank, you can only do the traditional payment.
+
+So essentially
+
+A Big bank --> traditional payment.
+
+or Federal government --> traditional payment or
+
+Income driven repayment payment,
+
+but that's only with the Federal option.
+
+If you're on the Traditional payment where it's a set amount every month for 10 years. It's arbitrary. It doesn't matter what you make.
+
+But once you go to the income driven or payment, that's where things start to get convoluted because you start talking about yes It's based off of how much your income is. How does it work?
+
+It used to be that regardless of How you filed your taxes or anything like that, that essentially you had to take both partners as long as you're legally married. You had to take both partners, combine the income, and that was used to calculate how much you had to pay on your loans. So whether you were, if you both have loans, if just one of you had loans, that's what's calculated.
+
+[00:25:00]
+
+And this got sticky when folks, for example, had a high income partner. Because all of a sudden, even though they're on income driven repayment, they're like wait, my payment's the same whether I do the 10 year standard repayment or income driven repayment.
+
+File Together or Seperate?
+
+So you've been talking a lot like if you're one person. What if you have someone else like me? Let's pretend i'm not in medicine, and I work my own job. Does that mean my income then can impact your income?
+
+Really good question. So the new program that was announced the SAVE- the Biden Harris SAVE program.
+
+That one, essentially what it lets you do is if you file your taxes as married filed separately, you can essentially just use your income. So if you're a high earner and let's say you're making $300,000 a year, but I'm a resident only making $70,000 a year. If we file separately, I can just use my income to calculate my income driven repayment plan.
+
+But if we file together, then it does matter.
+
+Then you have to essentially, at least from my understanding, once you're filing together, you do need to essentially report the combined (income).
+
+[00:26:00]
+
+And, when you actually go through the FAFSA website as you're going through and consolidating your many loans into one loan, they'll ask you questions about this and essentially give you hypotheticals of like, how much does your partner make?
+
+How much does this make? And it'll give you an idea of what the different payments look like for you.
+
+But you can follow that and do math on your own. But , as it stands right now, as long as you file separately, you can just use your own income as your income driven repayment option.
+
+When you say file separately, do you mean that we're right now in, what is it? May? Are you talking about the taxes that we just filed a couple months ago?
+
+Or the ones that we filed last year in 2023?
+
+No, so essentially if right now is 2024, it is your 2023 taxes, which were filed in January.
+
+oh.
+
+So essentially they use your most recent tax records to do the calculations. If you call your Federal student loan servicer there's a bunch of 'em. You've got Great Lakes, you've got Mohela. If you call them and ask them the nuances to your specific situation.
+
+[00:27:00]
+
+Hey, I filed my taxes jointly with my partner who makes a bunch of money.
+
+Believe it or not, the Federal student loan service, customer service folks are actually there to help you figure out the best deal.
+
+That's one of the big benefits, in my opinion, about using the Federal student loan services. They're not there to make money off of you. There's no incentive. In fact, There was, without getting into the nitty and gritty, there was, this whole concept of, are we going to forgive any loans?
+
+And, went all the way up to the Supreme Court, Can the president just unilaterally forgive a portion of student debt? And the only thing that's important about this in relation to what we're talking about is Mohela, which is one of the biggest Federal student loan servicers, literally got up and testified and essentially said, " we're not trying to make money off of this."
+
+We're just trying to, get Americans educated and then hopefully have them repay their loans. But the money made is just like a cherry on the top. So in other words, when you call and talk to these [00:28:00] service reps, they're actually there to help you. They're not trying to pull wool over your eyes or anything.
+
+I know i've talked on the podcast about before medical school as a case manager So working for the government I can definitely attest to getting people on medicaid and food stamps. Government workers aren't paid based on how they serve.
+
+They don't have quotas. They don't get graded on how many people they get into certain plans or anything like that. I don't know what they're graded on, but the point is that when they give you advice,
+
+They're not like a company.
+
+Yeah, and so if you like, you have a specific question that you're like, I don't know, this is so nuanced. You can try calling them and Probably nine out of ten times they're going to be able to give you like some very specific advice to your situation.
+
+That's really helpful to know. Okay, so we you alluded it a little bit regarding getting money Forgiven.
+
+Should you file together or seperate as married residents with loans?
+
+Question 10:
+
+Can you Switch Programs?
+
+Have we talked about everything up to this point? I guess one of the things Right now when i'm deciding between public, all the public plans and private, If I ever do one, can I always switch to another?
+
+[00:29:00]
+
+That's a good question, too. I like to look at it this way, that the Federal programs are a one way street.When you have your dozens of little loans, and you consolidate them into one, that's done. You can never go back.
+
+When you go to repayment on that one certain loan, you can change your repayment. You can be on income driven repayment for a year, decide it's not right for you, and then switch to the standard repayment or something like that.
+
+When you switch and you refinance, so let's use the example of somebody who consolidates their loans.
+
+They take their 30 something little loans, make it one big loan. They make payments on it for six months, and then they get a really good deal from a refinancing company of 1 percent interest and no payments while they're in residency, and they decide, wow, this is a good option for me. And then they take that deal.
+
+The way it works is essentially the big bank Pays off your student loan. So that loan is actually paid off and then they just give you a new loan with whatever agreement you've agreed to, you cannot go back.
+
+[00:30:00]
+
+So once you've gotten rid of your Federal loans, you can't decide, Oh, I want to go back to Federal loans. And so that's the big catch there is you need to be, if you're making the decision to refinance,
+
+yeah the one way street.
+
+Yeah. So essentially, you need to make a call based off of: yes, if you're getting that refinance option and you look forward and you say, based off of what I'm pretty sure I'm going to do for fellowship, what I'm going to do as an attending, what I think the job market's going to look like, if that really makes sense and it's that much of a better deal, take it.
+
+But be aware that you give up any of the potential benefits that come with the Federal programs.
+
+So for example, I had a good friend who refinanced their loans when they were a PGY 4, or no, maybe a 3, it's probably not that important. Either way, they refinanced their loans as a PGY 3 or 4, and this was back when, if you were on the Income Driven Repayment Plan, Interest was still accruing.
+
+[00:31:00]
+
+So in other words, their loans were still ballooning at I think their interest rate was probably closer to 8 percent as I think what they said.
+
+Oh wow.
+
+So essentially they were getting 8 percent every year added onto their loans, give or take. They got a really good deal on the refinance option of essentially, I think it was like 1.9 percent or something. And when you look at that math, 8% versus 1.9%, the 1.9 percent was a no brainer.
+
+Now, unfortunately for them, four months after they refinanced COVID happened and all student loan interest and payments were paused they were making payments and accruing interest while essentially everyone else in the country was paying no interest and no payments.
+
+So in the long run, that may have actually hurt them. To add on a second part, and this was part of the conversation, we're going to get into this. Yeah. Let me know if we can do it. No, I think that's a good idea.
+
+Sneak Peak of Part 2: PSLF
+
+The other component was, if you have the Federal Student Loan Payment Program, you can take part of what's called Public Student Loan Forgiveness. And you know the nuances
+
+[00:32:00]
+
+it's not called public student loans. It's public service. They have a public
+
+Yeah, you're right public service loan forgiveness. It's not
+
+we always call it public student PSLF service
+
+PSLF if you google PSLF, you'll see so many topics on the map
+
+And i'll put the links to the Directly to the like that has been helpful at least for me for not knowing finances. It's been helpful
+
+[studentaid. gov PSLF FAQ](https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service/questions)
+
+I'm not a big proponent of saying, use finances to choose what you want to do with your life or your career. I think it's really, negative to do that. You should do what you want to do. If that's academics, if that's private practice, you should do what you want to do. But let's be real.
+
+Finances play a role in our day to day life. And so I think that these are all things that you should be able to have a conversation with your partner. And just because one partner is pursuing student loan forgiveness versus a partner that refinances, that can be a viable option too. And this is where you just have to look at your own specific situation.
+
+[00:33:00]
+
+Everything's going to be unique. Now, what I would say, And once again, I'm not a financial expert, is that I can't think of very many situations where there's two partners who are both residents, where it doesn't make sense to do these Federal loans, consolidate your loans, so get all your like 30 loans into one.
+
+Now each partner will have one loan, so like you have one giga lone, I have one giga lone and do the income driven repayment plan, the SAVE plan, because There's not really another, like you said, it's essentially 0 percent interest. It's not quite, but it is essentially 0 percent interest, at least how it stands right now, and there's no refinancing plan on the planet.
+
+Question 11: Can you switch loan programs?
+
+Question 12: What is PSLF?
+
+StudentAid.gov PSLF FAQ
+
+uestion 13: How do you file as married residents if you both have student loans?
+
+[Q](https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service/questions)
+
+[00:34:00]
+
+That really will make that will look, that will be better than that. And at the minimum, it gives you options. Once you and your partner finish your training, sit down and decide, okay, what's our first attending job. What's our first, what's the next step after this. So it keeps your options open, I think is the biggest thing.
+
+That's good to know. I was wondering if it had to be, if one partner does one option, the other partner has to like, like finance, not financially, but like for the loans. I didn't know if let's say you go, if like I go private, suddenly your loans, they're like, wait I don't know if I didn't know if it affected, if one affected the other.
+
+Not at all. So it's, they're two separate things. At least right now when you file separately, a lot of it is separated. So even though. You do share that responsibility with your partner. At least some people will, depending on how you manage your finances with your partner. The reality is that in the government's eyes, you're two separate individuals and two separate loans, and one person can do whatever they want with their loans and the other person can do the other.
+
+Filing Status and Loan Repayment
+
+[00:35:00]
+
+Jonah Moss, MD: And that's only if you file separately, or even if you file together.
+
+It is if you file separately. Okay as of right now
+
+So if you if we file together then they would look at both our loans or at least both of our incomes Because i'm thinking like we've said it like
+
+a hundred times now. I feel like I know it's
+
+because yeah maybe it's just me that doesn't get it.
+
+That I if I make seventy thousand dollars as a resident and he makes Seventy thousand dollars as a resident put it together. That's a hundred and forty thousand dollars. So we'll One will now on this faith plan. I don't know whether
+
+whether you include this part in your final podcast or not I literally googled it and it came up to the student aid gov website
+
+I will include that link
+
+and so I would say, One of the things is you can trust the student aid gov website, be hesitant when you're reading anything else on there But, literally, the second thing is you can, that yes, ultimately,
+
+if you have the SAVE plan, that it uses your individual income, if you file separately.
+
+But then file jointly, then it is joint income. When
+
+[00:36:00]
+
+you're filing jointly, it is both. So yes. If you and your partner. Are filing jointly or let's say you file a jointly this year next year. If you file separately, then it will use just your income.
+
+Okay. So it'll go let's say if we're filing together, we're both residents. We both make 70, 000. Now, when they look at it, we make 140, 000 for that safe plan. It will go. The amount you pay every single month will look at from 140, 000, not just 70, 000.
+
+If you file jointly.
+
+Yes.
+
+But if you file this married, but separately, it's, it just looks at your loan and says you make 70, 000 and it calculates your payment based off of that.And for most people, it will be cheaper. To file separately, not everybody, but for most people who are both residents, it will be cheaper. Like you will have a lower monthly payment on both of your loans. If you file separately. Now here's the good news. This is super complicated and I will do another
+
+[pitch for the FAFSA website.](https://studentaid.gov/aid-estimator/)
+
+[00:37:00]
+
+They actually have a really good calculator and you can put your filing status, you can put how much your partner makes, you can put how much loans your partner has, and it can, it gives you. all of their loan options broken down and says this is how much you pay on this plan if you file a joint. This is how much you'll pay on this plan if you file separately.
+
+So you can look at it and actually literally just by putting some numbers in a government provided calculator, essentially see this is the best government payment plan for me. Now, obviously that doesn't look at any of the private options. It looks just at the government funded options, but that's a good way to do it.
+
+FASFA: Federal Student Financial Aid Calculator:
+
+[https://studentaid.gov/aid-estimator/](https://studentaid.gov/aid-estimator/)
+
+IMPORTANT!!!
+
+Do not consolidate your loans until after you have graduated.
+
+Final Thoughts and Resources
+
+Thank you, Dr. Moss for sharing all that amazing information. There was obviously a lot, but I really hope it was helpful. It was helpful for me, so I know very much how it can be helpful to all of you. If you have any questions that you would like us to do on a further episode, put them down in the comments.
+
+[00:38:00]
+
+That will really help gear what are people wanting to know? Because it is hard to figure these, this stuff out, especially when we have to deal with. moving Going to your new residency Like there's a lot of stuff in this transition and points that we're dealing with the next two years
+
+I hate to interrupt your end point. There's one more thing. I wanted to
+
+Go ahead
+
+because you reminded me because I like what you were saying oh yeah the chaos. At this point It's probably not relevant for anybody who is going to residency this year, But it'll be relevant for anyone who watches this in the future.
+
+IMPORTANT: Consolidation Timing and Forbearance
+
+Do not do not do not consolidate your loans until after you have graduated. And you have walked, your ceremony is over, honestly, give it another month. And the reason why is because. It gets into some nitty gritty complications, but ultimately what's really important is you can't consolidate loans that are in like a protected status. So they will consolidate some of your loans.
+
+So even if you're graduating next week, they'll consolidate like most of your loans, but any of the loans for that most recent semester will not be covered. So wait until after you graduate to consolidate your loans. The other thing that I would say is that when you consolidate your loans, if you do. You will have the option to either add an additional forbearance period or to start repayment immediately.
+
+[00:39:00]
+
+Generally speaking, and once again, everyone has to count, what a forbearance is essentially you have six months before you're required to start paying your loans. And so adding an addition, so if you re, if you consolidate your loans on the first day you graduate, your payments start. that month. If you add, you can essentially add up to a six month forbearance so that you don't start repayment until you were supposed to for all your little loans.
+
+Now, for most residents, I would say don't do a forbearance period because your income driven calculation is going to be near zero, if not zero, because you had no income the year before. And then essentially all six months of your, for, the first six months of your residency will count towards public student loan forgiveness.
+
+[00:40:00]
+
+Even though we're, okay, so letme make sure I understand that. So wait till you graduated. After you graduated consolidate your loans and then start making fake payments because those fake payments could be zero
+
+Yeah, they could they're real payments
+
+wait six months
+
+or when you can when you're consolidating your loans when they ask you would you like to add an additional forbearance period?
+
+Just make it start when you start your residency period because you can't count your you can't count public student, public service loan forgiveness payments until you've actually started working. But let's say your income driven repayment calculation is zero. Even if your income driven repayment is zero, that still counts as one of your payments if you're employed at the time that it's zero.
+
+And I'm not currently employed by the government by residency until July 1st.
+
+You are not.
+
+Yeah, it actually is officially because I remember I had this question actually to my residency because we start training two weeks before July 1st. And we're not paid.
+
+[00:41:00]
+
+So ask your residency if that's the case, because I remember that I was confused. Actually, you had a similar situation that it was like, you were a couple weeks, you had a CPR training and you're like, is it paid because normally trainings paid, but it isn't until July 1st, that they start the official you work, you're paid.
+
+Oh my God, I didn't say
+
+Dr. Moss Squared.
+
+: Dr. Moss Squared.
+
+Jonah Moss, MD
+
+If you want to . So follow us there.
+
+f
+
+[ollow us at Dr. Moss Squared, we are Dr. Moss Squared only on Instagram](https://www.instagram.com/drmoss_squared/)
+
+You can follow just me or you can follow this podcast episode as right now on . But in all other places the podcast is called o you can follow there.
+
+[@MedPsycMoss,](https://www.instagram.com/medpsycmoss/)
+
+[YouTube it's called Patient Doctor Moss](https://www.youtube.com/channel/UC_Ypzlapvju3XZ-8rgjF8Vw)
+
+[Life as a Patient-Doctor s](https://medpsycmoss.com/podcast)
+
+If you have any questions, please put them in the comments. You can also message me @medpsycmoss
+
+You can email me at
+
+[medpsycmoss@gmail.com](mailto:medpsycmoss@gmail.com)
+
+[00:42:00]
+
+please check out my website at because I have all the transcripts of this episode, all the links blog posts on it, resources, and I hope they will help you.
+
+[medpsycmoss.com](https://medpsycmoss.com/)
+
+I just , for every single year in medical school. It's one consolidated workbook, I have one page for finance. Definitely after this talk, I'll be doing a little bit more. Maybe I'll do like a residency workbook. Cause I guess this is more for residency. So maybe I'll do a second one just for residency.
+
+[released a workbook](https://medpsycmoss.com/)
+
+But anyway, Dr. Moss squared signing off. Take care, everyone.
+
+Dr. Moss Squared on Instagram
+
+,
+
+[MedPsycMoss on Instagram](https://www.instagram.com/medpsycmoss/)
+
+Threads, TikTok, & X
+
+More
+
+Welcome
+
+Intro to Guest
+
+Intro to Debt
+
+Questions: 1 & 2
+
+Questions: 3 & 4
+
+Question: 5
+
+#### Stephanie Moss, MD
+
+Psychiatry Resident Physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.
+
+##### Explore
+
+[About](https://medpsycmoss.com/about)
+
+[Workbooks & Courses](https://medpsycmoss.com/store)
+
+[Podcast](https://medpsycmoss.com/podcast)
+
+[Blog](https://medpsycmoss.com/blog)
+
+[Contact](https://medpsycmoss.com/contact)
+
+##### Popular Resources
+
+[Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+
+[Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+
+[Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+
+[USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+
+##### Connect
+
+[Instagram](https://instagram.com/stephmossmd)
+
+[YouTube](https://youtube.com/@doctormoss)
+
+© Stephanie Moss, MD | MedPsycMoss. Educational content only — not medical or legal advice.
+
+2026
+
+## Images (6)
+
+- ![](https://medpsycmoss.com/x/cdn/?https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1450)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/7026c6e1305d400eb1cb1eaf464daa91)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f27c30978f354446a8df4409d49195bc)
+- ![](https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/1fe16d51108047b3a227421313aea10b)
+- ![](https://medpsycmoss.com/x/cdn/?https://i.ytimg.com/vi/qZsh3NLgReg/maxresdefault.jpg)
+- ![background image](https://components.mywebsitebuilder.com/g-202604200904488775/viewer-gator/viewer-sprite.png)
+
+## Link map (32)
+
+- [Home](https://medpsycmoss.com/)
+- [About Me](https://medpsycmoss.com/about-me)
+- [Blog](https://medpsycmoss.com/blog)
+- [Podcast](https://medpsycmoss.com/podcast)
+- [Store](https://medpsycmoss.com/store)
+- [Resources](https://medpsycmoss.com/resources)
+- [My Work](https://medpsycmoss.com/my-work)
+- [Contact](https://medpsycmoss.com/contact)
+- [(no text)](https://medpsycmoss.com/)
+- [studentaid. gov PSLF FAQ](https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service/questions)
+- [StudentAid.gov PSLF FAQ](https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service/questions)
+- [Q](https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service/questions)
+- [pitch for the FAFSA website.](https://studentaid.gov/aid-estimator/)
+- [https://studentaid.gov/aid-estimator/](https://studentaid.gov/aid-estimator/)
+- [ollow us at Dr. Moss Squared, we are Dr. Moss Squared only on Instagram](https://www.instagram.com/drmoss_squared/)
+- [@MedPsycMoss,](https://www.instagram.com/medpsycmoss/)
+- [YouTube it's called Patient Doctor Moss](https://www.youtube.com/channel/UC_Ypzlapvju3XZ-8rgjF8Vw)
+- [Life as a Patient-Doctor s](https://medpsycmoss.com/podcast)
+- [medpsycmoss@gmail.com](mailto:medpsycmoss@gmail.com)
+- [medpsycmoss.com](https://medpsycmoss.com/)
+- [released a workbook](https://medpsycmoss.com/)
+- [Dr. Moss Squared on Instagram](https://www.instagram.com/drmoss_squared/)
+- [MedPsycMoss on Instagram](https://www.instagram.com/medpsycmoss/)
+- [About](https://medpsycmoss.com/about)
+- [Workbooks & Courses](https://medpsycmoss.com/store)
+- [Residency Personal Statement Examples](https://medpsycmoss.com/products/residency-personal-statement)
+- [Mock Interview Prep](https://medpsycmoss.com/products/mock-interviews)
+- [Leave of Absence Guide](https://medpsycmoss.com/products/loa-guide)
+- [USMLE Accommodations Help](https://medpsycmoss.com/products/usmle-accommodations)
+- [Instagram](https://instagram.com/stephmossmd)
+- [YouTube](https://youtube.com/@doctormoss)
+- [Podcast](https://open.spotify.com/)

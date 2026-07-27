@@ -1,0 +1,767 @@
+﻿== seeding ==
+   saved sitemap.xml (18993 bytes)
+   saved robots.txt (68 bytes)
+   sitemap contributed 165 urls
+   queue starts with 170 urls
+
+[  1/170] https://medpsycmoss.com/
+        ok  text=1742 chars, assets+64, new links+6
+[  2/176] https://medpsycmoss.com/about
+        ok  text=64 chars, assets+4, new links+0  [404 PAGE]
+[  3/176] https://medpsycmoss.com/about-me
+        ok  text=3981 chars, assets+47, new links+0
+[  4/176] https://medpsycmoss.com/store
+        ok  text=1152 chars, assets+7, new links+4
+[  5/180] https://medpsycmoss.com/podcast
+        ok  text=1407 chars, assets+9, new links+0
+[  6/180] https://medpsycmoss.com/blog
+        ok  text=3266 chars, assets+8, new links+38
+[  7/218] https://medpsycmoss.com/contact
+        ok  text=2140 chars, assets+7, new links+0
+[  8/218] https://medpsycmoss.com/events
+        ok  text=1465 chars, assets+13, new links+0
+[  9/218] https://medpsycmoss.com/my-work
+   ! [04:31:42] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/98ddc29956254cf495d28c2faaaf3d22 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:31:42] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/dc92458a78f649b7a113efabd0e6cafb :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:31:42] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/c4bfa78b671d4f7bb0377d6edfd75e32 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:31:42] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/8ef24af3bd534d17b4a49a100ef3da01 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:31:42] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/55f14069069548cbbeff0190c0f015a5 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:31:42] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/398af76820b84604aa828f1eec58169b :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=1390 chars, assets+48, new links+0
+[ 10/218] https://medpsycmoss.com/interviews
+        ok  text=5104 chars, assets+15, new links+0
+[ 11/218] https://medpsycmoss.com/vlogs
+        ok  text=6195 chars, assets+15, new links+0
+[ 12/218] https://medpsycmoss.com/trauma-resources
+        ok  text=958 chars, assets+1, new links+0
+[ 13/218] https://medpsycmoss.com/websites-for-trauma
+        ok  text=1900 chars, assets+9, new links+0
+[ 14/218] https://medpsycmoss.com/resources
+        ok  text=3010 chars, assets+13, new links+0
+[ 15/218] https://medpsycmoss.com/pelvic-pain-resources
+        ok  text=958 chars, assets+1, new links+0
+[ 16/218] https://medpsycmoss.com/products/residency-personal-statement
+        ok  text=64 chars, assets+0, new links+0  [404 PAGE]
+[ 17/218] https://medpsycmoss.com/products/mock-interviews
+        ok  text=64 chars, assets+0, new links+0  [404 PAGE]
+[ 18/218] https://medpsycmoss.com/products/loa-guide
+        ok  text=64 chars, assets+0, new links+0  [404 PAGE]
+[ 19/218] https://medpsycmoss.com/products/usmle-accommodations
+        ok  text=64 chars, assets+0, new links+0  [404 PAGE]
+[ 20/218] https://medpsycmoss.com/residency-app
+        ok  text=52191 chars, assets+3, new links+2
+[ 21/220] https://medpsycmoss.com/failure-identity
+        ok  text=21507 chars, assets+3, new links+2
+[ 22/222] https://medpsycmoss.com/clinical-rotations
+        ok  text=29643 chars, assets+2, new links+0
+[ 23/222] https://medpsycmoss.com/mental-health-resources
+        ok  text=961 chars, assets+1, new links+0
+[ 24/222] https://medpsycmoss.com/sexual-health-resources
+        ok  text=951 chars, assets+1, new links+0
+[ 25/222] https://medpsycmoss.com/endometriosis-resources
+        ok  text=1019 chars, assets+1, new links+0
+[ 26/222] https://medpsycmoss.com/infertility-resources
+        ok  text=927 chars, assets+1, new links+0
+[ 27/222] https://medpsycmoss.com/trauma-informed-care
+        ok  text=960 chars, assets+2, new links+0
+[ 28/222] https://medpsycmoss.com/pelvic-pain-patients
+        ok  text=968 chars, assets+1, new links+0
+[ 29/222] https://medpsycmoss.com/older-adult-patients
+        ok  text=972 chars, assets+1, new links+1
+[ 30/223] https://medpsycmoss.com/patients-with-disabilities
+        ok  text=979 chars, assets+1, new links+0
+[ 31/223] https://medpsycmoss.com/black-and-brown-patients
+        ok  text=964 chars, assets+1, new links+0
+[ 32/223] https://medpsycmoss.com/lgbtqia-individuals
+        ok  text=1026 chars, assets+1, new links+0
+[ 33/223] https://medpsycmoss.com/podcasts-trauma
+        ok  text=2648 chars, assets+11, new links+0
+[ 34/223] https://medpsycmoss.com/menopause-resources
+        ok  text=943 chars, assets+1, new links+0
+[ 35/223] https://medpsycmoss.com/posts-mental-health
+        ok  text=1807 chars, assets+15, new links+0
+[ 36/223] https://medpsycmoss.com/posts-trauma
+        ok  text=2296 chars, assets+14, new links+0
+[ 37/223] https://medpsycmoss.com/posts-pelvic-pain
+        ok  text=1216 chars, assets+9, new links+0
+[ 38/223] https://medpsycmoss.com/posts-endometriosis
+        ok  text=1862 chars, assets+11, new links+0
+[ 39/223] https://medpsycmoss.com/posts-infertility
+        ok  text=1442 chars, assets+25, new links+1
+[ 40/224] https://medpsycmoss.com/posts-trauma-informed-care
+        ok  text=1877 chars, assets+2, new links+0
+[ 41/224] https://medpsycmoss.com/posts-pelvic-patients
+        ok  text=1176 chars, assets+1, new links+0
+[ 42/224] https://medpsycmoss.com/posts-black-and-brown-patients
+        ok  text=1161 chars, assets+5, new links+0
+[ 43/224] https://medpsycmoss.com/videos-trauma
+        ok  text=1040 chars, assets+6, new links+0
+[ 44/224] https://medpsycmoss.com/videos-mental-health
+        ok  text=1248 chars, assets+8, new links+0
+[ 45/224] https://medpsycmoss.com/videos-sexual-health
+        ok  text=1129 chars, assets+12, new links+0
+[ 46/224] https://medpsycmoss.com/videos-pelvic-pain
+        ok  text=1981 chars, assets+10, new links+0
+[ 47/224] https://medpsycmoss.com/videos-endometriosis
+        ok  text=1346 chars, assets+13, new links+0
+[ 48/224] https://medpsycmoss.com/videos-infertility
+        ok  text=884 chars, assets+5, new links+0
+[ 49/224] https://medpsycmoss.com/videos-menopause
+        ok  text=880 chars, assets+5, new links+0
+[ 50/224] https://medpsycmoss.com/videos-for-trauma-informed-care
+        ok  text=931 chars, assets+2, new links+0
+[ 51/224] https://medpsycmoss.com/videos-treating-patients-with-pelvic-pain
+        ok  text=937 chars, assets+4, new links+0
+[ 52/224] https://medpsycmoss.com/support-groups-trauma
+        ok  text=2989 chars, assets+3, new links+0
+[ 53/224] https://medpsycmoss.com/support-groups-mental-health
+        ok  text=2892 chars, assets+2, new links+0
+[ 54/224] https://medpsycmoss.com/support-groups-sexual-health
+        ok  text=2135 chars, assets+3, new links+0
+[ 55/224] https://medpsycmoss.com/support-groups-pelvic-pain
+        ok  text=1393 chars, assets+11, new links+0
+[ 56/224] https://medpsycmoss.com/support-groups-endometriosis
+        ok  text=1558 chars, assets+1, new links+0
+[ 57/224] https://medpsycmoss.com/support-groups-infertility
+        ok  text=1921 chars, assets+5, new links+0
+[ 58/224] https://medpsycmoss.com/support-groups-monopause
+        ok  text=1272 chars, assets+1, new links+0
+[ 59/224] https://medpsycmoss.com/providers-trauma
+        ok  text=2459 chars, assets+2, new links+0
+[ 60/224] https://medpsycmoss.com/providers-sexual-health
+        ok  text=3335 chars, assets+51, new links+0
+[ 61/224] https://medpsycmoss.com/providers-pelvic-pain
+        ok  text=6825 chars, assets+1, new links+0
+[ 62/224] https://medpsycmoss.com/products-pelvic-pain
+        ok  text=2854 chars, assets+12, new links+0
+[ 63/224] https://medpsycmoss.com/products-endometriosis
+        ok  text=2497 chars, assets+1, new links+0
+[ 64/224] https://medpsycmoss.com/articles-podcasts-for-disabilities
+        ok  text=1215 chars, assets+52, new links+0
+[ 65/224] https://medpsycmoss.com/videos-for-patients-with-disabilities
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-bottomLeft.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-right.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-top.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-bottomRight.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-topRight.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-topLeft.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-left.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://awas.aweber-static.com/images/wfg/drop-bottom.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:41:53] asset :: https://hostedimages-cdn.aweber-static.com/MzIwNTUy/original/92449c2c0ea140d0a45790efa914c810.png :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=940 chars, assets+9, new links+0
+[ 66/224] https://medpsycmoss.com/providers-lgbtqia
+        ok  text=802 chars, assets+1, new links+0
+[ 67/224] https://medpsycmoss.com/websites-for-sexual-health-edu
+        ok  text=895 chars, assets+44, new links+0
+[ 68/224] https://medpsycmoss.com/products-mental-health
+        ok  text=1523 chars, assets+1, new links+0
+[ 69/224] https://medpsycmoss.com/products-trauma
+        ok  text=1535 chars, assets+1, new links+0
+[ 70/224] https://medpsycmoss.com/disabilities-resources
+        ok  text=935 chars, assets+1, new links+0
+[ 71/224] https://medpsycmoss.com/websites-for-providers
+        ok  text=850 chars, assets+5, new links+0
+[ 72/224] https://medpsycmoss.com/articles-on-trauma
+        ok  text=2013 chars, assets+3, new links+0
+[ 73/224] https://medpsycmoss.com/articles-on-trauma-informed-care
+        ok  text=906 chars, assets+3, new links+0
+[ 74/224] https://medpsycmoss.com/articles-pelvic-pain-patients
+        ok  text=1360 chars, assets+14, new links+0
+[ 75/224] https://medpsycmoss.com/websites-for-pelvic-pain
+        ok  text=3059 chars, assets+10, new links+0
+[ 76/224] https://medpsycmoss.com/websites-for-endometriosis
+        ok  text=1774 chars, assets+5, new links+0
+[ 77/224] https://medpsycmoss.com/podcasts-on-infertility
+        ok  text=886 chars, assets+5, new links+0
+[ 78/224] https://medpsycmoss.com/articles-for-mental-health
+        ok  text=1183 chars, assets+6, new links+0
+[ 79/224] https://medpsycmoss.com/articles-on-infertility
+        ok  text=1117 chars, assets+5, new links+0
+[ 80/224] https://medpsycmoss.com/products-for-sexual-health
+        ok  text=1746 chars, assets+2, new links+0
+[ 81/224] https://medpsycmoss.com/products-for-menopause
+        ok  text=1367 chars, assets+1, new links+0
+[ 82/224] https://medpsycmoss.com/articles-on-endometriosis
+        ok  text=1127 chars, assets+7, new links+0
+[ 83/224] https://medpsycmoss.com/podcasts-on-pelvic-pain
+        ok  text=886 chars, assets+5, new links+0
+[ 84/224] https://medpsycmoss.com/podcasts-on-endometriosis
+        ok  text=890 chars, assets+3, new links+0
+[ 85/224] https://medpsycmoss.com/websites-for-infertility
+        ok  text=1753 chars, assets+8, new links+0
+[ 86/224] https://medpsycmoss.com/providers-infertility
+        ok  text=4090 chars, assets+1, new links+0
+[ 87/224] https://medpsycmoss.com/podcasts-sexual-health
+        ok  text=909 chars, assets+4, new links+0
+[ 88/224] https://medpsycmoss.com/products-for-infertility
+        ok  text=3334 chars, assets+5, new links+0
+[ 89/224] https://medpsycmoss.com/trainings-websites-for-disabilities
+        ok  text=1170 chars, assets+18, new links+0
+[ 90/224] https://medpsycmoss.com/podcasts-lgbtqia-health
+        ok  text=822 chars, assets+3, new links+0
+[ 91/224] https://medpsycmoss.com/lqbtqia-resources
+        ok  text=938 chars, assets+1, new links+0
+[ 92/224] https://medpsycmoss.com/articles-pelvic-pain
+        ok  text=866 chars, assets+5, new links+0
+[ 93/224] https://medpsycmoss.com/training-trauma-informed
+        ok  text=1373 chars, assets+2, new links+0
+[ 94/224] https://medpsycmoss.com/surveys-trauma-informed
+        ok  text=924 chars, assets+1, new links+0
+[ 95/224] https://medpsycmoss.com/trainings-mental-sexual-health
+        ok  text=1409 chars, assets+6, new links+0
+[ 96/224] https://medpsycmoss.com/research-racism
+        ok  text=1247 chars, assets+3, new links+0
+[ 97/224] https://medpsycmoss.com/articles-sexual-health
+        ok  text=891 chars, assets+2, new links+0
+[ 98/224] https://medpsycmoss.com/support-groups-disabilities
+        ok  text=3217 chars, assets+8, new links+0
+[ 99/224] https://medpsycmoss.com/amazon-more
+        ok  text=1213 chars, assets+24, new links+0
+[100/224] https://medpsycmoss.com/podcasts-for-healthcare-providers
+        ok  text=3893 chars, assets+10, new links+0
+[101/224] https://medpsycmoss.com/vickie-ms3
+        ok  text=37355 chars, assets+2, new links+0
+[102/224] https://medpsycmoss.com/dr-marshall-infertility
+        ok  text=35856 chars, assets+3, new links+0
+[103/224] https://medpsycmoss.com/parul-np-low-vision
+        ok  text=31699 chars, assets+2, new links+0
+[104/224] https://medpsycmoss.com/guide-to-accommodations
+        ok  text=41460 chars, assets+2, new links+1
+[105/225] https://medpsycmoss.com/step-failure-to-success
+        ok  text=44461 chars, assets+2, new links+6
+[106/231] https://medpsycmoss.com/kimether-np-endometriosis
+        ok  text=53144 chars, assets+2, new links+0
+[107/231] https://medpsycmoss.com/dr-andrea-done-obgyn-parenthood
+        ok  text=38281 chars, assets+1, new links+0
+[108/231] https://medpsycmoss.com/mami-ms1-phd-autism-adhd
+        ok  text=32645 chars, assets+3, new links+0
+[109/231] https://medpsycmoss.com/dr-elmarie-alexandra-md
+        ok  text=31365 chars, assets+2, new links+0
+[110/231] https://medpsycmoss.com/student-loan-repayments
+        ok  text=49115 chars, assets+2, new links+0
+[111/231] https://medpsycmoss.com/taboos
+        ok  text=41161 chars, assets+2, new links+0
+[112/231] https://medpsycmoss.com/malikiya-m2-one-hand
+        ok  text=41338 chars, assets+2, new links+0
+[113/231] https://medpsycmoss.com/dr-borad-do-burnout
+        ok  text=940 chars, assets+2, new links+0
+[114/231] https://medpsycmoss.com/product-page
+        ok  text=64 chars, assets+0, new links+0  [404 PAGE]
+[115/231] https://medpsycmoss.com/blog/usmle-accommodations
+        ok  text=10978 chars, assets+16, new links+0
+[116/231] https://medpsycmoss.com/blog/ivf-disappointment
+        ok  text=5856 chars, assets+2, new links+0
+[117/231] https://medpsycmoss.com/blog/what-is-my-purpose
+        ok  text=5038 chars, assets+2, new links+0
+[118/231] https://medpsycmoss.com/blog/outline-of-future-book
+        ok  text=3084 chars, assets+2, new links+0
+[119/231] https://medpsycmoss.com/blog/aces-impact-on-mental-health
+        ok  text=16657 chars, assets+2, new links+0
+[120/231] https://medpsycmoss.com/blog/the-call-of-the-void
+        ok  text=6430 chars, assets+6, new links+0
+[121/231] https://medpsycmoss.com/blog/denial-of-financial-aid
+        ok  text=3240 chars, assets+2, new links+0
+[122/231] https://medpsycmoss.com/blog/the-hidden-costs-of-fully-covered-infertility-treatment-in-medical-school
+        ok  text=12045 chars, assets+2, new links+0
+[123/231] https://medpsycmoss.com/blog/loa_extension
+        ok  text=5408 chars, assets+4, new links+0
+[124/231] https://medpsycmoss.com/blog/personal statement2
+        ok  text=3291 chars, assets+2, new links+0
+[125/231] https://medpsycmoss.com/blog/failure_identiy
+        ok  text=9572 chars, assets+3, new links+0
+[126/231] https://medpsycmoss.com/blog/trauma-and-disordered-eating
+   ! [04:54:22] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTEzNTk1fQ.d76yv0ywJxhXMKJboIPJh-usiWUMyojo5Jurhea7Xpw :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:54:22] asset :: https://i.ytimg.com/vi/_yM7_hbpRXc/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AHOBYAC0AWKAgwIABABGDwgZSglMA8=&rs=AOn4CLA74f5CjvTJisLguG2-xsR2eRVtKA :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:54:22] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/a8f65c4652404520b5310e5e14a756af :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:54:22] asset :: https://medpsycmoss.com/x/cdn/?https://images.unsplash.com/photo-1458312631043-b3ee472ec089?ixlib=rb-1.2.1&q=80&cs=tinysrgb&fm=jpg&crop=entropy :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:54:22] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/b8a641f62a7d44d5b25ea00f16f820ab :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:54:22] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/bf1e15747532473ea282eb41b783f846 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:54:22] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/3b9cfca559e54506bcc85ca3ca15bfda :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=9129 chars, assets+3, new links+0
+[127/231] https://medpsycmoss.com/blog/living-with-chronic-medical-conditions-as-a-clinical-medical-student
+   ! [04:55:45] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f69de6b2a8774afc9e386b0917db8af4 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTEzNjY1fQ.IuG2J95MH1_i9fK7FzF5RWjNXRrYcBgns1IkCEhkcGw :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://i.ytimg.com/vi/orwTfLE1bK0/maxresdefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f69de6b2a8774afc9e386b0917db8af4 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/6a07d1ea6cde460581aa7fca2e9a0a3e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/68e4378b88404c048a0fe6dd88265e26 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/4317519cc7fe4ea2a42092fa1e373b86 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/1a9d17d978dd44aa83320bf1a52dd099 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/307a1bd868f740b58c0d0beaab6b797e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:55:45] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/aba9f6a7a39e49caa32eff4b8c074292 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=10583 chars, assets+1, new links+1
+[128/232] https://medpsycmoss.com/blog/infertility-treatment-coverage
+   ! [04:56:52] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTEzNzQ3fQ.L-RktjkmcEFc83QqnGuUgrFZjoMvmWLYpW_SY5lPK8o :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:56:52] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/18125e96d8344641965bbc71159282f0 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:56:52] asset :: https://i.ytimg.com/vi_webp/y3QIY-rxxIA/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:56:52] asset :: https://www.google.com/js/th/kLyw4TSXgabfeBk6i8qABF8WdxcIDcKWB5kdVaJ3gDk.js :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [04:56:52] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/ed13bf75786f4846b44de6e423dc4056 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=11900 chars, assets+2, new links+0
+[129/232] https://medpsycmoss.com/blog/mind-body-connection-in-medicine
+        ok  text=8908 chars, assets+2, new links+0
+[130/232] https://medpsycmoss.com/blog/catatonia_and_ect
+        ok  text=19017 chars, assets+8, new links+0
+[131/232] https://medpsycmoss.com/blog/taboos
+        ok  text=22702 chars, assets+13, new links+3
+[132/235] https://medpsycmoss.com/blog/substance-use-disorder
+        ok  text=11337 chars, assets+5, new links+0
+[133/235] https://medpsycmoss.com/blog/finances
+        ok  text=13948 chars, assets+3, new links+0
+[134/235] https://medpsycmoss.com/blog/financial-trauma
+        ok  text=10809 chars, assets+2, new links+0
+[135/235] https://medpsycmoss.com/blog/trauma-informed-care-in-medicine
+        ok  text=20178 chars, assets+7, new links+0
+[136/235] https://medpsycmoss.com/blog/overcoming-imposter-syndrome
+        ok  text=9153 chars, assets+2, new links+0
+[137/235] https://medpsycmoss.com/blog/for-years-i-pretended-to-be-white-my-reality-with-racism
+        ok  text=18328 chars, assets+3, new links+0
+[138/235] https://medpsycmoss.com/blog/death_and_dying
+        ok  text=20230 chars, assets+4, new links+0
+[139/235] https://medpsycmoss.com/blog/preparation-for-follicle-stimulation-and-embryo-preservation
+        ok  text=12946 chars, assets+16, new links+0
+[140/235] https://medpsycmoss.com/blog/fertility-preservation-during-medical-school
+   ! [05:00:44] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTEzOTU3fQ.W-jR4qZRD3CS6z0g7Cf15u8lp7Jid9VnuFPXl5Ywhlc :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/28944bb448f049afb63a5cce809fc37e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/c75d213ac16d4fb7ada796f14e3f7cbf :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/8278871da4b8428989417a596bcf06bb :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://i.ytimg.com/vi_webp/WIgv2Rpgwvc/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/9a59e6a68709488b91751ed68da8dc01 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/240bf52cae95438cbe3f10dce1c5297a :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/b46565bbc89f41b0a1dffaaa320738cd :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/8d51b23fe32745189650a6e065ca4a1e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/e007e68831254be181f6279ce4803ed1 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/3d7ac669ac904809aa5e9aee30d6159a :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/e140b96536c54a079ee08edde41d20dd :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/4c11b79f0f5844398fdbb31fedc1d936 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/759f749439e34156b21200f3e89ea0c2 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/3b1c321fcd15445fb23f2c4fc9342f2a :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/742fbe5428f5482ba19a7ec21a3abfa0 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/c8e76eac523e4083ad1dff9a8207f88e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/fd34451c899b40afb1aebe020d745dc6 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/84b039c3d8db4f44830931402a4cb9a4 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/0602898a1ab8463d8e5b87cc1e401a79 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/6ab1692b971f4238abe3af067a5cd7df :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/4d3573ab565e40e893172765e31427ce :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/6387ea3cff29484d87514ad456477b00 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/cdd2338bdeb24d739a72b0d1c6ffa529 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:00:44] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/33d9c174ce7b40c788520b37b3459a0b :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=14395 chars, assets+1, new links+0
+[141/235] https://medpsycmoss.com/blog/ms1
+   ! [05:01:53] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTE0MDQ2fQ.zBse103j_V0CSiLTqD5QqQSKhdB8ui-Amsf5RggVo5A :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:01:53] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/1b9627505b124d4681f04f0b0beec260 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:01:53] asset :: https://i.ytimg.com/vi/-s4If2lDgvE/sddefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:01:53] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/2471b13dfb504725b5b0677152d7582f :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:01:53] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/9f3c2f2f37e94d8cafeb04ac37bc6b20 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:01:53] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/ddfae81ed4484f1781e71b248515b202 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:01:53] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/3014d0ae165a4e96b2dad7f9ad1702a0 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:01:53] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/869af7c980d34465b18b190d3154799e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=14506 chars, assets+1, new links+0
+[142/235] https://medpsycmoss.com/blog/sexual-health-and-pain
+        ok  text=4745 chars, assets+20, new links+0
+[143/235] https://medpsycmoss.com/blog/step1
+   ! [05:03:39] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTE0MTM2fQ.zRRR6FlujjoJeAQ8pUqtqoLC0uMRJlOVzxya5HKhggE :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/364be9b620d24589a1d844c0eb5bce87 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://i.ytimg.com/vi_webp/MaOdIZpGmWo/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://i.ytimg.com/vi/eg1AuQsj3gc/maxresdefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://i.ytimg.com/vi_webp/UtWlgnK6vso/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://www.google.com/js/th/cQDswops0BEC-Am5Fi7XsSjrAV8D43yrXFJy2BvTvCA.js :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/5666e5483c134f1db98a08bd82f8085a :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/b4246431f8104e9d91b8fce0204028da :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/642ec42430fe42f69d77d24bcc375b7c :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:03:39] asset :: https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/5599a491a9754b6ba14a0a9187870d98 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=16306 chars, assets+2, new links+1
+[144/236] https://medpsycmoss.com/blog/watching-the-heart-flatline
+        ok  text=5597 chars, assets+2, new links+0
+[145/236] https://medpsycmoss.com/blog/clinical-rotations
+        ok  text=13027 chars, assets+3, new links+0
+[146/236] https://medpsycmoss.com/blog/a-personal-statement-for-medical-school-as-a-caregiver
+        ok  text=6495 chars, assets+2, new links+0
+[147/236] https://medpsycmoss.com/blog/addressing-the-red-flags-in-my-residency-application
+        ok  text=12365 chars, assets+3, new links+0
+[148/236] https://medpsycmoss.com/blog/-affirmative-action
+        ok  text=8996 chars, assets+9, new links+0
+[149/236] https://medpsycmoss.com/blog/transgender-health-and-gender-affirming-care
+        ok  text=8669 chars, assets+4, new links+0
+[150/236] https://medpsycmoss.com/blog/creating-a-functional-limb-from-a-forearm
+        ok  text=7082 chars, assets+2, new links+0
+[151/236] https://medpsycmoss.com/blog/personal-statement
+        ok  text=2825 chars, assets+2, new links+0
+[152/236] https://medpsycmoss.com/blog/pelvic-pain-disorders
+        ok  text=5177 chars, assets+9, new links+0
+[153/236] https://medpsycmoss.com/blog/women-in-medicine-lectures-through-pictures
+        ok  text=1680 chars, assets+2, new links+0
+[154/236] https://medpsycmoss.com/blog/leave-of-absence
+   ! [05:06:58] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTE0MzM0fQ.lZQcOIuKWrp2jxoLGP7G5zxyJy7l3GHjEufWdpPD2Fg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/a4ccd3ff33194ebfb4e2969325a5b95a :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://i.ytimg.com/vi_webp/71nlaR-ji40/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://i.ytimg.com/vi/u4rQd7YWRyc/sddefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://i.ytimg.com/vi/B19kMXsM7-U/sddefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f1cf308c66bd43849ffbf695ddab30ad :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/0c8f5530648e4e019792890f536275ee :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/3256349fb6cd45088be99d7faf74a637 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/805ba22d53b24e4ab35425d811d08d82 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/88608bf346574aa398a226fb14940207 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/32662f5330524261aef86ae269f33504 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/3aaa94bcdbe248a7a2185adfb8588371 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/6afd912bf9ac4e9d889fa98f2ef25401 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/a99905d7df474628a0576bea6a3513d5 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/2b9a6b4497ed4a03a9ddd46209890a44 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/7f396edeb2ef44f1b5a6436cd44ea0ff :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/02ec2f435543451696a5cd387d16c4f2 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/d8173bf30c924e5a9621614d44d0b370 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/939293a918b243a786d8a878fa347101 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:06:58] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/71d58d6bb2714980aa1540f84085ebd4 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=14731 chars, assets+1, new links+0
+[155/236] https://medpsycmoss.com/blog/disability-accommodations
+   ! [05:08:21] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTE0NDIwfQ.mkSKw6diaXOsmQg0ZNhDuSCTSdF4ZNS-NFhyY3ziL1s :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:08:21] asset :: https://medpsycmoss.com/x/cdn/?https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/78bdef9087744687aadddc5a503c996d :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:08:21] asset :: https://i.ytimg.com/vi/U7295BL9mcI/sddefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:08:21] asset :: https://i.ytimg.com/vi_webp/J9b-WeP15iw/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:08:21] asset :: https://www.google.com/js/th/01AiCETFFd6JcPNvLAmNzIcaK3IQuU1nW0oz_tCEHBk.js :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:08:21] asset :: https://i.ytimg.com/vi_webp/8G9DoF2oeqE/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:08:21] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/cef27d1ace5246bbbbce9e429c99ac48 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:08:21] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/a973f17ba2834659824150634a7d23d9 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=11328 chars, assets+1, new links+2
+[156/238] https://medpsycmoss.com/blog/disability_ally
+        ok  text=7720 chars, assets+3, new links+0
+[157/238] https://medpsycmoss.com/blog/opioid_use_disoder
+        ok  text=8204 chars, assets+5, new links+0
+[158/238] https://medpsycmoss.com/blog/disability_disclosure_residency
+   ! [05:09:54] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTE0NTI3fQ.oZfHa_nkMaWHlww420kZLNgWn0-Qk22xTtqxRM2pfZY :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:09:54] asset :: https://medpsycmoss.com/x/cdn/?https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:09:54] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/f9deb28499ec41cc84cdd1ba50d06b7e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:09:54] asset :: https://i.ytimg.com/vi_webp/elsGzpI5mCk/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:09:54] asset :: https://i.ytimg.com/vi_webp/NcU1BnsNoOQ/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:09:54] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/c838fb5bb4004cdfb95289d477879481 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:09:54] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/641806ebb0cd4606ae8218828da5626e :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:09:54] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/379ab4e3e9c34b17a57c716ed42cdc5a :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=17528 chars, assets+1, new links+0
+[159/238] https://medpsycmoss.com/blog/residency-app
+   ! [05:11:04] asset :: https://st-shop.mywebsitebuilder.com/shopping-cart-sdk/sdk.js?instanceJwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YW5jZUlkIjoiZDg0YjYzNjE2MGI4NDE2Nzk1NTRmY2Q3YjczZmEyMjgiLCJicmFuZCI6ImdhdG9yIiwiZXhwIjoxNzg1MTE0NTk3fQ.6pm7BmSzH3ZKTHGOaCyqfLsBlE5-RXzf50820x5zaag :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:11:04] asset :: https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/eff40ee93c4e4d8180428b2f22c37092 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:11:04] asset :: https://i.ytimg.com/vi/7_G4e9oFbM8/maxresdefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:11:04] asset :: https://i.ytimg.com/vi/XXFxN4M_Cw8/sddefault.jpg :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:11:04] asset :: https://i.ytimg.com/vi_webp/78LWwJjDA0g/sddefault.webp :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:11:04] asset :: https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/4ec8f764a07d48c7979f42ca150de89b :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:11:04] asset :: https://storage.googleapis.com/production-gator-v1-0-0/000/1170000/Xlwz0WqW/8d36743e5e5c49c1a57b76646557d2d0 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+   ! [05:11:04] asset :: https://storage.googleapis.com/production-gator-v1-0-4/134/1819134/o4vX20jy/9ae9bc9036a94a328591bde977c09e18 :: Response.body: Protocol error (Network.getResponseBody): No resource with given identifier found
+        ok  text=17503 chars, assets+1, new links+3
+[160/241] https://medpsycmoss.com/blog/residents-as-teachers
+        ok  text=5223 chars, assets+2, new links+0
+[161/241] https://medpsycmoss.com/blog/extracurriculars
+        ok  text=12436 chars, assets+1, new links+0
+[162/241] https://medpsycmoss.com/blog/residency-interview-tips-prep
+        ok  text=20945 chars, assets+12, new links+5
+[163/246] https://medpsycmoss.com/blog/residency-ranking
+        ok  text=13067 chars, assets+5, new links+2
+[164/248] https://medpsycmoss.com/blog/step2
+        ok  text=6826 chars, assets+3, new links+0
+[165/248] https://medpsycmoss.com/blog/step-failure-to-match
+        ok  text=9280 chars, assets+4, new links+1
+[166/249] https://medpsycmoss.com/blog/accommodations-usmle
+        ok  text=9844 chars, assets+4, new links+3
+[167/252] https://medpsycmoss.com/blog/step3
+        ok  text=11863 chars, assets+5, new links+0
+[168/252] https://medpsycmoss.com/blog/code-white
+        ok  text=4975 chars, assets+3, new links+0
+[169/252] https://medpsycmoss.com/blog/mcat
+        ok  text=10118 chars, assets+4, new links+1
+[170/253] https://medpsycmoss.com/blog/medical-school-application
+        ok  text=11529 chars, assets+2, new links+3
+[171/256] https://medpsycmoss.com/blog/tag/residency%20app
+        ok  text=3217 chars, assets+1, new links+1
+[172/257] https://medpsycmoss.com/store/p_3387065/2026-eras-and-ps-for-fellowship
+        ok  text=1556 chars, assets+4, new links+0
+[173/257] https://medpsycmoss.com/blog/tag/pre-med
+        ok  text=3349 chars, assets+1, new links+2
+[174/259] https://medpsycmoss.com/store/p_3377397/medical-school-application-workbook
+        ok  text=2810 chars, assets+8, new links+0
+[175/259] https://medpsycmoss.com/store/p_3380308/testing-accommodations-workbook-mcat-usmle-comlex
+        ok  text=2497 chars, assets+4, new links+0
+[176/259] https://medpsycmoss.com/blog/surviving-the-taboos-of-medical-school
+        ok  text=1674 chars, assets+1, new links+0
+[177/259] https://medpsycmoss.com/store/p_3370950/advising-with-dr-moss-1-hr
+        ok  text=3041 chars, assets+6, new links+0
+[178/259] https://medpsycmoss.com/store/p_3291607/application-or-personal-statement-editing
+        ok  text=1782 chars, assets+3, new links+0
+[179/259] https://medpsycmoss.com/store/p_3291868/residency-application-workbook
+        ok  text=2839 chars, assets+4, new links+0
+[180/259] https://medpsycmoss.com/store/p_3313250/mock-interview-with-dr-moss
+        ok  text=3659 chars, assets+5, new links+0
+[181/259] https://medpsycmoss.com/blog/tag/medical%20school
+        ok  text=3232 chars, assets+1, new links+9
+[182/268] https://medpsycmoss.com/blog/tag/mental%20health
+        ok  text=3329 chars, assets+1, new links+4
+[183/272] https://medpsycmoss.com/blog/tag/ms3
+        ok  text=3385 chars, assets+1, new links+4
+[184/276] https://medpsycmoss.com/blog/tag/medicine
+        ok  text=3405 chars, assets+1, new links+2
+[185/278] https://medpsycmoss.com/blog/tag/failure
+        ok  text=3239 chars, assets+1, new links+2
+[186/280] https://medpsycmoss.com/blog/tag/endometriosis
+        ok  text=3055 chars, assets+1, new links+2
+[187/282] https://medpsycmoss.com/blog/tag/psychiatry
+        ok  text=3068 chars, assets+1, new links+2
+[188/284] https://medpsycmoss.com/blog/tag/step
+        ok  text=3234 chars, assets+1, new links+2
+[189/286] https://medpsycmoss.com/blog/tag/loa
+        ok  text=3154 chars, assets+1, new links+2
+[190/288] https://medpsycmoss.com/blog/tag/disability
+        ok  text=3419 chars, assets+1, new links+1
+[191/289] https://medpsycmoss.com/blog/tag/residency
+        ok  text=2934 chars, assets+1, new links+1
+[192/290] https://medpsycmoss.com/blog/tag/finances
+        ok  text=3226 chars, assets+1, new links+1
+[193/291] https://medpsycmoss.com/blog/tag/imposter%20syndrome
+        ok  text=3240 chars, assets+1, new links+1
+[194/292] https://medpsycmoss.com/blog/tag/infertility
+        ok  text=3102 chars, assets+1, new links+0
+[195/292] https://medpsycmoss.com/blog/tag/medical%20school%20app
+        ok  text=3387 chars, assets+1, new links+1
+[196/293] https://medpsycmoss.com/blog/tag/pre-clinical
+        ok  text=3174 chars, assets+1, new links+1
+[197/294] https://medpsycmoss.com/blog/tag/sexual%20health
+        ok  text=3269 chars, assets+1, new links+1
+[198/295] https://medpsycmoss.com/blog/tag/caregiver
+        ok  text=3184 chars, assets+1, new links+0
+[199/295] https://medpsycmoss.com/blog/tag/racism
+        ok  text=2961 chars, assets+1, new links+0
+[200/295] https://medpsycmoss.com/blog/tag/suicide
+        ok  text=2832 chars, assets+1, new links+0
+[201/295] https://medpsycmoss.com/blog/tag/lgbtqia
+        ok  text=2516 chars, assets+1, new links+0
+[202/295] https://medpsycmoss.com/blog/tag/marriage
+        ok  text=2549 chars, assets+1, new links+0
+[203/295] https://medpsycmoss.com/blog/tag/mcat
+        ok  text=2590 chars, assets+1, new links+0
+[204/295] https://medpsycmoss.com/blog/tag/pelvic%20pain
+        ok  text=2650 chars, assets+1, new links+0
+[205/295] https://medpsycmoss.com/blog/tag/death
+        ok  text=2256 chars, assets+1, new links+0
+[206/295] https://medpsycmoss.com/blog/page/2
+        ok  text=3353 chars, assets+1, new links+0
+[207/295] https://medpsycmoss.com/blog/page/3
+        ok  text=3401 chars, assets+1, new links+0
+[208/295] https://medpsycmoss.com/blog/page/4
+        ok  text=3077 chars, assets+1, new links+0
+[209/295] https://medpsycmoss.com/blog/page/5
+        ok  text=3266 chars, assets+1, new links+0
+[210/295] https://medpsycmoss.com/blog/page/6
+        ok  text=3342 chars, assets+1, new links+0
+[211/295] https://medpsycmoss.com/blog/page/7
+        ok  text=3320 chars, assets+1, new links+0
+[212/295] https://medpsycmoss.com/blog/page/8
+        ok  text=3072 chars, assets+1, new links+0
+[213/295] https://medpsycmoss.com/blog/page/9
+        ok  text=3301 chars, assets+1, new links+0
+[214/295] https://medpsycmoss.com/blog/page/10
+        ok  text=3338 chars, assets+1, new links+0
+[215/295] https://medpsycmoss.com/blog/page/11
+        ok  text=3115 chars, assets+1, new links+0
+[216/295] https://medpsycmoss.com/blog/page/12
+        ok  text=3060 chars, assets+1, new links+0
+[217/295] https://medpsycmoss.com/blog/page/13
+        ok  text=3369 chars, assets+1, new links+0
+[218/295] https://medpsycmoss.com/blog/page/14
+        ok  text=2670 chars, assets+1, new links+0
+[219/295] https://medpsycmoss.com/blog/dual-applying-into-residency-a-strategic-guide-for-medical-students
+        ok  text=1674 chars, assets+1, new links+0
+[220/295] https://medpsycmoss.com/store/p_3288429/dr-moss-full-2023-residency-eras-application
+        ok  text=1543 chars, assets+4, new links+0
+[221/295] https://medpsycmoss.com/blog/identity_and_trauma
+        ok  text=1674 chars, assets+1, new links+0
+[222/295] https://medpsycmoss.com/store/p_3287163/medical-school-hidden-curriculum-workbook
+        ok  text=539 chars, assets+1, new links+0
+[223/295] https://medpsycmoss.com/blog/the-impact-of-caregiving-on-my-journey-to-become-a-physician
+        ok  text=1674 chars, assets+1, new links+0
+[224/295] https://medpsycmoss.com/blog/tag/infertility/page/2
+        ok  text=2614 chars, assets+1, new links+0
+[225/295] https://medpsycmoss.com/store/p_3287196/medical-school-workbook
+        ok  text=539 chars, assets+1, new links+0
+[226/295] https://medpsycmoss.com/blog/how-to-not-fail-step
+        ok  text=1674 chars, assets+1, new links+0
+[227/295] https://medpsycmoss.com/store/p_3291739/advising-session-1-hour
+        ok  text=539 chars, assets+1, new links+0
+[228/295] https://medpsycmoss.com/%E2%81%A0https:/medpsycmoss.com/blog/identity_and_trauma
+        ok  text=64 chars, assets+0, new links+0  [404 PAGE]
+[229/295] https://medpsycmoss.com/blog/disability-accommodations-and-accessibility
+        ok  text=1674 chars, assets+1, new links+0
+[230/295] https://medpsycmoss.com/blog/financial-realities-of-being-a-medical-student-in-a-lower-social-economic-status
+        ok  text=1674 chars, assets+1, new links+0
+[231/295] https://medpsycmoss.com/blog/financial-traumas-during-medical-school
+        ok  text=1674 chars, assets+1, new links+0
+[232/295] https://medpsycmoss.com/blog/disabilities-accommodations-and-accessibility
+        ok  text=1674 chars, assets+1, new links+0
+[233/295] https://medpsycmoss.com/blog/journey-through-medical-school-m1-year
+        ok  text=1674 chars, assets+1, new links+0
+[234/295] https://medpsycmoss.com/blog/approved-letter-for-testing-accommodations
+        ok  text=1674 chars, assets+1, new links+0
+[235/295] https://medpsycmoss.com/blog/the-decision-to-extend-my-leave-of-absence-loa-from-medical-school
+        ok  text=1674 chars, assets+1, new links+0
+[236/295] https://medpsycmoss.com/store/p_3288536/dr-moss-accommodations-request-usmle-
+        ok  text=539 chars, assets+1, new links+0
+[237/295] https://medpsycmoss.com/store/p_3288536/accommodations-request-usmle-
+        ok  text=539 chars, assets+1, new links+0
+[238/295] https://medpsycmoss.com/blog/guide-to-applying-for-accommodations-on-the-usmle
+        ok  text=1674 chars, assets+1, new links+0
+[239/295] https://medpsycmoss.com/store/p_3288428/dr-moss-personal-statements-for-residency
+        ok  text=539 chars, assets+1, new links+0
+[240/295] https://medpsycmoss.com/store/p_3302643/eras-editing-
+        ok  text=539 chars, assets+1, new links+0
+[241/295] https://medpsycmoss.com/store/p_3302656/virtual-mock-interview
+        ok  text=539 chars, assets+1, new links+0
+[242/295] https://medpsycmoss.com/store/p_3313253/residency-mock-interview-course-workbook
+        ok  text=2557 chars, assets+4, new links+0
+[243/295] https://medpsycmoss.com/store/p_3308550/dr-s-moss-interview-and-match-list
+        ok  text=1495 chars, assets+2, new links+0
+[244/295] https://medpsycmoss.com/blog/NEW!!%20Pre-Recorded%20Mock%20Interviews%20with%20Dr.%20Moss%20edited%20to%20allow%20you%20to%20answer%20the%20questions%20in%20a%20set%20time%20period!%20%20Get%20ready%20to%20excel%20in%20your%20residency%20interviews%20with%20expert%20tips%20and%20key%20questions%20to%20expect.%20Learn%20how%20to%20discuss%20your%20background,%20manage%20patients,%20and%20address%20social%20determinants%20of%20health%20effectively.%20Discover%20the%20importance%20of%20being%20personable%20and%20asking%20meaningful%20questions%20during%20your%20interview.%20Additionally,%20enhance%20your%20Zoom%20video%20calls%20with%20professional%20lighting%20and%20background%20setups.%20Overcome%20technical%20challenges%20and%20make%20your%20online%20presence%20visually%20appealing%20with%20practical%20advice%20on%20leveraging%20AI%20features%20and%20selecting%20the%20right%20tools.%20%20Purchased%20Course%20includes%20access%20to%20ALL%20Recordings%20as%20they%20become%20available:%20https:/medpsycmoss.com/store/p_3312933/course-mock-interviews-
+        ok  text=1674 chars, assets+1, new links+0
+[245/295] https://medpsycmoss.com/blog/residency-ranking-tips
+        ok  text=1674 chars, assets+1, new links+0
+[246/295] https://medpsycmoss.com/store/p_3313253/mock-interview-course
+        ok  text=2557 chars, assets+1, new links+0
+[247/295] https://medpsycmoss.com/store/p_3308550/residency-program-and-rank-list-
+        ok  text=1495 chars, assets+1, new links+0
+[248/295] https://medpsycmoss.com/store/p_3309866/rank-list-neurology
+        ok  text=539 chars, assets+1, new links+0
+[249/295] https://medpsycmoss.com/blog/navigating-extra-curriculurs-in-medical-school
+        ok  text=1674 chars, assets+1, new links+0
+[250/295] https://medpsycmoss.com/store/p_3292498/navigating-medical-school-hidden-curriculum
+        ok  text=539 chars, assets+1, new links+0
+[251/295] https://medpsycmoss.com/store/p_3353076/usmle-accommodations-request-workbook-
+        ok  text=539 chars, assets+1, new links+0
+[252/295] https://medpsycmoss.com/store/p_3291607/personal-statement-editing
+        ok  text=1782 chars, assets+1, new links+0
+[253/295] https://medpsycmoss.com/store/p_3313250/residency-mock-interview-with-dr-moss
+        ok  text=3659 chars, assets+1, new links+0
+[254/295] https://medpsycmoss.com/blog/Extracurriculars
+        ok  text=12436 chars, assets+1, new links+0
+[255/295] https://medpsycmoss.com/blog/mcat-failure
+        ok  text=1674 chars, assets+1, new links+0
+[256/295] https://medpsycmoss.com/blog/personal%20statement2
+        ok  text=3291 chars, assets+1, new links+0
+[257/295] https://medpsycmoss.com/blog/tag/residency%20app/page/2
+        ok  text=3263 chars, assets+1, new links+0
+[258/295] https://medpsycmoss.com/blog/tag/pre-med/page/2
+        ok  text=3420 chars, assets+1, new links+0
+[259/295] https://medpsycmoss.com/blog/tag/pre-med/page/3
+        ok  text=2436 chars, assets+1, new links+0
+[260/295] https://medpsycmoss.com/blog/tag/medical%20school/page/2
+        ok  text=3384 chars, assets+1, new links+0
+[261/295] https://medpsycmoss.com/blog/tag/medical%20school/page/3
+        ok  text=3317 chars, assets+1, new links+0
+[262/295] https://medpsycmoss.com/blog/tag/medical%20school/page/4
+        ok  text=3219 chars, assets+1, new links+0
+[263/295] https://medpsycmoss.com/blog/tag/medical%20school/page/5
+        ok  text=3312 chars, assets+1, new links+0
+[264/295] https://medpsycmoss.com/blog/tag/medical%20school/page/6
+        ok  text=3078 chars, assets+1, new links+0
+[265/295] https://medpsycmoss.com/blog/tag/medical%20school/page/7
+        ok  text=3228 chars, assets+1, new links+0
+[266/295] https://medpsycmoss.com/blog/tag/medical%20school/page/8
+        ok  text=3249 chars, assets+1, new links+0
+[267/295] https://medpsycmoss.com/blog/tag/medical%20school/page/9
+        ok  text=3209 chars, assets+1, new links+0
+[268/295] https://medpsycmoss.com/blog/tag/medical%20school/page/10
+        ok  text=2261 chars, assets+1, new links+0
+[269/295] https://medpsycmoss.com/blog/tag/mental%20health/page/2
+        ok  text=3412 chars, assets+1, new links+0
+[270/295] https://medpsycmoss.com/blog/tag/mental%20health/page/3
+        ok  text=3271 chars, assets+1, new links+0
+[271/295] https://medpsycmoss.com/blog/tag/mental%20health/page/4
+        ok  text=3121 chars, assets+1, new links+0
+[272/295] https://medpsycmoss.com/blog/tag/mental%20health/page/5
+        ok  text=3413 chars, assets+1, new links+0
+[273/295] https://medpsycmoss.com/blog/tag/ms3/page/2
+        ok  text=3149 chars, assets+1, new links+0
+[274/295] https://medpsycmoss.com/blog/tag/ms3/page/3
+        ok  text=3191 chars, assets+1, new links+0
+[275/295] https://medpsycmoss.com/blog/tag/ms3/page/4
+        ok  text=3195 chars, assets+1, new links+0
+[276/295] https://medpsycmoss.com/blog/tag/ms3/page/5
+        ok  text=2513 chars, assets+1, new links+0
+[277/295] https://medpsycmoss.com/blog/tag/medicine/page/2
+        ok  text=3184 chars, assets+1, new links+0
+[278/295] https://medpsycmoss.com/blog/tag/medicine/page/3
+        ok  text=3260 chars, assets+1, new links+0
+[279/295] https://medpsycmoss.com/blog/tag/failure/page/2
+        ok  text=3303 chars, assets+1, new links+0
+[280/295] https://medpsycmoss.com/blog/tag/failure/page/3
+        ok  text=2925 chars, assets+1, new links+0
+[281/295] https://medpsycmoss.com/blog/tag/endometriosis/page/2
+        ok  text=3245 chars, assets+1, new links+0
+[282/295] https://medpsycmoss.com/blog/tag/endometriosis/page/3
+        ok  text=2619 chars, assets+1, new links+0
+[283/295] https://medpsycmoss.com/blog/tag/psychiatry/page/2
+        ok  text=3081 chars, assets+1, new links+0
+[284/295] https://medpsycmoss.com/blog/tag/psychiatry/page/3
+        ok  text=2566 chars, assets+1, new links+0
+[285/295] https://medpsycmoss.com/blog/tag/step/page/2
+        ok  text=3361 chars, assets+1, new links+0
+[286/295] https://medpsycmoss.com/blog/tag/step/page/3
+        ok  text=2574 chars, assets+1, new links+0
+[287/295] https://medpsycmoss.com/blog/tag/loa/page/2
+        ok  text=3251 chars, assets+1, new links+0
+[288/295] https://medpsycmoss.com/blog/tag/loa/page/3
+        ok  text=2269 chars, assets+1, new links+0
+[289/295] https://medpsycmoss.com/blog/tag/disability/page/2
+        ok  text=3171 chars, assets+1, new links+0
+[290/295] https://medpsycmoss.com/blog/tag/residency/page/2
+        ok  text=3306 chars, assets+1, new links+0
+[291/295] https://medpsycmoss.com/blog/tag/finances/page/2
+        ok  text=2831 chars, assets+1, new links+0
+[292/295] https://medpsycmoss.com/blog/tag/imposter%20syndrome/page/2
+        ok  text=2664 chars, assets+1, new links+0
+[293/295] https://medpsycmoss.com/blog/tag/medical%20school%20app/page/2
+        ok  text=2416 chars, assets+1, new links+0
+[294/295] https://medpsycmoss.com/blog/tag/pre-clinical/page/2
+        ok  text=2657 chars, assets+1, new links+0
+[295/295] https://medpsycmoss.com/blog/tag/sexual%20health/page/2
+        ok  text=2266 chars, assets+1, new links+0
+
+== fetching 39 linked files (pdf/media) ==
+   + https://storage.googleapis.com/gator-users/user-932079/documents/711a29dc957f41328f01f568acf2af18/STFM%20CHHRGE%20Poster.pdf
+   + https://www.docswithdisabilities.org/_files/ugd/6a7717_b9cf12d671e64475b447467c7374663f.pdf?index=true
+   + https://storage.googleapis.com/gator-users/user-932079/documents/55521ff1456f4ec39e5d79dddf3c945c/GenderOpossum%20Worksheet.pdf
+   + https://www.lgbtqiahealtheducation.org/wp-content/uploads/2018/10/Implicit-Bias-Guide-2018_Final.pdf
+   + https://www.innovating-education.org//wp-content/uploads/2020/12/Sex-and-Gender-Glossary.pdf
+   + https://www.cps.edu/globalassets/cps-pages/services-and-supports/health-and-wellness/healthy-cps/healthy-environment/lgbtq-supportive-environments/supportinggenderdiversitytoolkit2.pdf?fbclid=IwAR1-I0ugAMF0rl4mSqN2D-UzyHLWWZyFI0TwFr9Y601yDIeJG-38llzecQE
+   + https://storage.googleapis.com/gator-users/user-932079/documents/ef0112c8956a4f9294a1dbeac72cf405/Rush%20Article%20%7C%20%E2%80%98Out%E2%80%99%20Health%20Care%20Professionals%20With%20Disabilities%20Create%20One%20Less.pdf
+   + https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5090200/pdf/srep35761.pdf
+   + https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736459/pdf/nihms880470.pdf
+   + https://findyourselfbethat.com/wp-content/uploads/2023/03/Classification_of_the_anatomical_variation_in_female_external_genitalia.pdf
+   + https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/021211s011lbl.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/8d77b39398534f7aabe03f50df67de5d/EatingDisorders_NIH.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/cf0cd4dad6154d02890b37e814c45376/Keppra.pdf
+   + https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3069072/pdf/nihms252973.pdf
+   + https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/fd84da0e-2cb5-4a0d-aeeb-0e4d74038c23/2021_FPL_Chart_Month_and_Annual.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/d73a64778b7b486e95d60a4125683373/words_matter_-_stigma_and_sud_nida_.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/336df12ac30e460ea58c01cf9edf302d/2022-23%20COA%20Increase%20Request%20Form_0.pdf
+   + https://www.rushu.rush.edu/sites/default/files/_Rush%20PDFs%20and%20Files/2021-22%20COA%20Increase%20Request%20Form.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/6cec0714dfb34006b4fd5169a1e9ee0a/IJT20SOC20V71.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/1a333f4ad903470e8de1166b548964bc/CRYOPRESERVATION%20OF%20FEMALE%20FERTILITY.pdf
+   + https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5744252/pdf/nihms920530.pdf
+   + https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6480978/pdf/10.1177_1179562X19843868.pdf
+   + https://www.hopkinsmedicine.org/bariatrics/_documents/nutrition_protein_content_common_foods.pdf
+   + https://www.hopkinsmedicine.org/-/media/bariatrics/nutrition_protein_content_common_foods.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/4f7d50261b924b928bf98b0de2d18060/Musculoskeletal_causes_chronic_pelvic_pain.PDF
+   + https://storage.googleapis.com/gator-users/user-932079/documents/18d149ddc124422bb1ff3c7d3485b27a/Vaginal%2520Dilation.pdf
+   + http://www.phsa.ca/transcarebc/Documents/HealthProf/Tucking-Handout.pdf
+   + http://www.amsa.org/wp-content/uploads/2015/04/CareOfThePatientUndergoingSRS.pdf
+   + https://ctys.org/wp-content/uploads/2022/11/CTYS-FIT-Guide-2020-English-1.pdf
+   + https://www.asam.org/docs/default-source/education-docs/cows_induction_flow_sheet.pdf?sfvrsn=b577fc2_2
+   ! [05:33:37] linked-file :: https://medpsycmoss.com/blog/By%20the%20The%20National%20Alliance%20of%20Advocates%20for%20Buprenorphine%20Treatment%20https://www.naabt.org/documents/cows_induction_flow_sheet.pdf :: [WinError 3] The system cannot find the path specified: 'C:\\Users\\Basim\\Documents\\mtf-worker\\medpsycmoss.com\\backup\\assets\\medpsycmoss.com\\blog\\By the The National Alliance of Advocates for Buprenorphine \\www.naabt.org'
+   + https://storage.googleapis.com/gator-users/user-932079/documents/371e657434c24415bc4d59d3fe167dbe/CA-Bridge-Emergency-Department-Bup-Quick-Start_November-13-2023.pdf
+   + https://www.nrmp.org/wp-content/uploads/2024/03/Impact-Data_2024.pdf
+   + https://storage.googleapis.com/gator-users/user-932079/documents/5cfb00f57ab94438aa16e35df4d6ebe2/Cases%20diagnosis%20%26%20treatment.pdf
+
+== crawl complete ==
+pages=295 assets=1267 failed=0 404s=7 errors=125
+urls serving the 404 page:
+  https://medpsycmoss.com/about
+  https://medpsycmoss.com/products/residency-personal-statement
+  https://medpsycmoss.com/products/mock-interviews
+  https://medpsycmoss.com/products/loa-guide
+  https://medpsycmoss.com/products/usmle-accommodations
+  https://medpsycmoss.com/product-page
+  https://medpsycmoss.com/%E2%81%A0https:/medpsycmoss.com/blog/identity_and_trauma
