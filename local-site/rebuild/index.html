@@ -8,7 +8,7 @@
 <meta name="description" content="Workbooks, advising and honest guidance for premeds, med students and residents, from Stephanie Moss, MD, a psychiatry chief resident who trained as a patient.">
 <link rel="canonical" href="https://medpsycmoss.com/">
 <meta name="author" content="Stephanie Moss, MD">
-<meta name="theme-color" content="#0DA88C">
+<meta name="theme-color" content="#6E1F35">
 <link rel="icon" href="/new/favicon.svg" type="image/svg+xml">
 
 <meta property="og:type" content="website">
@@ -16,481 +16,19 @@
 <meta property="og:url" content="https://medpsycmoss.com/">
 <meta property="og:title" content="MedPsycMoss | Med School, Residency &amp; USMLE Guidance">
 <meta property="og:description" content="Workbooks, advising and honest guidance for premeds, med students and residents, from Stephanie Moss, MD, a psychiatry chief resident who trained as a patient.">
-<meta property="og:image" content="https://medpsycmoss.com/img/portrait.webp">
+<meta property="og:image" content="https://medpsycmoss.com/img/moss-doctor.webp">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="1600">
 <meta property="og:image:alt" content="Stephanie Moss, MD, standing with her arms crossed in scrubs.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MedPsycMoss | Med School, Residency &amp; USMLE Guidance">
 <meta name="twitter:description" content="Workbooks, advising and honest guidance for premeds, med students and residents, from Stephanie Moss, MD.">
-<meta name="twitter:image" content="https://medpsycmoss.com/img/portrait.webp">
+<meta name="twitter:image" content="https://medpsycmoss.com/img/moss-doctor.webp">
 
 <link rel="preload" href="/new/fonts/bricolage-grotesque-300-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/new/fonts/inter-400-600.woff2" as="font" type="font/woff2" crossorigin>
 
-<style>
-  /* self-hosted so there is no third-party round trip before first paint */
-  @font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:300 800;font-stretch:100%;font-display:swap;src:url(/new/fonts/bricolage-grotesque-300-800.woff2) format('woff2')}
-  @font-face{font-family:'Inter';font-style:normal;font-weight:400 600;font-display:swap;src:url(/new/fonts/inter-400-600.woff2) format('woff2')}
-  @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400 600;font-display:swap;src:url(/new/fonts/jetbrains-mono-400-600.woff2) format('woff2')}
-
-  :root{
-    --bg:#FFFFFF;
-    --bg-2:#F3F8FA;
-    --card:#FFFFFF;
-    --ink:#10293A;
-    --muted:#54687A;
-    --pulse:#0DA88C;          /* medical teal, deepened for white bg */
-    --pulse-ink:#087A66;
-    --pulse-dim:rgba(13,168,140,0.09);
-    --blue:#2E6FA3;
-    --blue-ink:#255B87;
-    --coral:#E2604B;
-    --coral-ink:#C2432E;
-    --line:rgba(16,41,58,0.14);
-    --line-soft:rgba(16,41,58,0.08);
-    --display:'Bricolage Grotesque',system-ui,sans-serif;
-    --body:'Inter',system-ui,-apple-system,sans-serif;
-    --mono:'JetBrains Mono',ui-monospace,monospace;
-    /* dock box: 21px icon + 5 gap + 17 label + 8 link padding + 20 dock padding + 2 border */
-    --dock-h:73px;
-    --dock-gap:12px;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{
-    background:var(--bg);color:var(--ink);
-    font-family:var(--body);font-size:16px;line-height:1.65;
-    -webkit-font-smoothing:antialiased;overflow-x:hidden;
-    /* the dock is fixed, so the document has to end above it or the footer
-       sits underneath.  safe-area keeps it clear of the iPhone home bar too. */
-    padding-bottom:calc(var(--dock-h) + var(--dock-gap) + 24px + env(safe-area-inset-bottom, 0px));
-  }
-  h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.02;letter-spacing:-0.02em}
-  a{color:inherit;text-decoration:none}
-  button{font-family:inherit;cursor:pointer}
-  img{max-width:100%;height:auto}
-  .wrap{width:100%;max-width:1140px;margin:0 auto;padding:0 20px}
-
-  .sr-only{
-    position:absolute;width:1px;height:1px;padding:0;margin:-1px;
-    overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
-  }
-  .skip{
-    position:absolute;left:12px;top:-60px;z-index:200;
-    background:var(--pulse-ink);color:#fff;padding:12px 18px;border-radius:0 0 12px 12px;
-    font-size:14px;font-weight:600;transition:top .2s;
-  }
-  .skip:focus{top:0}
-  :focus-visible{outline:3px solid var(--pulse-ink);outline-offset:3px;border-radius:4px}
-
-  /* vitals-style section label */
-  .vital{
-    font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:0.12em;
-    text-transform:uppercase;color:var(--pulse-ink);
-    display:inline-flex;align-items:center;gap:10px;
-  }
-  .vital::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--pulse);animation:beat 1.4s ease-in-out infinite;flex-shrink:0}
-  @keyframes beat{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(0.65);opacity:0.45}}
-
-  .btn{
-    display:inline-flex;align-items:center;justify-content:center;gap:9px;
-    font-size:14.5px;font-weight:600;padding:16px 26px;border-radius:14px;
-    border:1px solid var(--pulse-ink);background:var(--pulse-ink);color:#fff;
-    transition:.25s;min-height:50px;text-align:center;
-  }
-  .btn:hover{background:#066352;transform:translateY(-2px);box-shadow:0 12px 26px -14px rgba(8,122,102,0.6)}
-  .btn.dark{background:transparent;color:var(--ink);border-color:var(--line)}
-  .btn.dark:hover{border-color:var(--pulse-ink);color:var(--pulse-ink);box-shadow:none}
-
-  /* ============ top bar ============ */
-  .top{
-    position:sticky;top:0;z-index:60;
-    background:rgba(255,255,255,0.86);backdrop-filter:blur(14px);
-    border-bottom:1px solid var(--line-soft);
-  }
-  .top-in{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
-  .logo{
-    display:flex;align-items:baseline;gap:2px;font-family:var(--display);
-    font-weight:800;font-size:19px;letter-spacing:-0.02em;
-    padding:10px 0;min-height:44px;align-content:center;flex-wrap:wrap;
-  }
-  .logo .mp{color:var(--ink)}
-  .logo .moss{color:var(--pulse-ink)}
-  .logo .md{font-family:var(--mono);font-size:10px;color:var(--muted);margin-left:8px;letter-spacing:0.1em}
-  .top-links{display:none}
-  .top .btn{display:none}
-
-  /* ============ hero ============ */
-  .hero{position:relative;padding:30px 0 40px;overflow:hidden;background:linear-gradient(180deg,#FFFFFF,#F6FAFB)}
-  .hero .mesh{
-    position:absolute;inset:0;pointer-events:none;
-    background:
-      radial-gradient(55% 40% at 88% 8%,rgba(46,111,163,0.08),transparent 70%),
-      radial-gradient(45% 35% at 8% 90%,rgba(13,168,140,0.08),transparent 70%);
-  }
-  .kicker{
-    font-family:var(--mono);font-size:11.5px;color:var(--muted);
-    display:flex;gap:8px 18px;flex-wrap:wrap;margin-bottom:22px;line-height:1.5;
-  }
-  .kicker b{color:var(--pulse-ink);font-weight:600}
-  .hero h1{
-    font-size:clamp(50px,14.5vw,124px);
-    text-transform:uppercase;letter-spacing:-0.03em;line-height:0.92;
-  }
-  .hero h1 .row{display:flex;align-items:center;gap:4vw}
-  .hero h1 .amp{
-    font-weight:300;font-style:italic;color:var(--pulse);
-    font-size:0.55em;transform:translateY(0.06em);
-  }
-  .hero h1 .ghost{
-    color:transparent;-webkit-text-stroke:1.5px rgba(16,41,58,0.55);
-  }
-  .hero .sub{
-    color:var(--muted);font-size:clamp(15px,4.1vw,16.5px);
-    max-width:44ch;margin-top:24px;text-wrap:pretty;
-  }
-  .hero .sub b{color:var(--ink);font-weight:600}
-  .hero-cta{display:flex;flex-direction:column;gap:12px;margin-top:28px}
-  .hero-cta .btn{width:100%}
-
-  /* live ECG, clean chart-paper strip */
-  .ecg{position:relative;margin-top:40px;height:120px;background:#fff;border:1px solid var(--line-soft);border-radius:16px;overflow:hidden;box-shadow:0 16px 36px -26px rgba(16,41,58,0.35)}
-  .ecg svg{position:absolute;inset:0;width:100%;height:100%}
-  .ecg .grid line{stroke:rgba(13,168,140,0.1);stroke-width:1}
-  .trace-base{fill:none;stroke:rgba(13,168,140,0.18);stroke-width:1.6}
-  .trace{
-    fill:none;stroke:var(--pulse);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;
-  }
-  .ecg .tag{
-    position:absolute;top:10px;right:14px;font-family:var(--mono);
-    font-size:10.5px;color:var(--muted);letter-spacing:0.1em;
-  }
-  .ecg .tag b{color:var(--pulse-ink)}
-
-  /* ============ marquee ============ */
-  .marquee{
-    border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
-    padding:16px 0;overflow:hidden;white-space:nowrap;background:var(--bg-2);
-  }
-  .marq-track{display:inline-flex;gap:0;animation:marq 26s linear infinite}
-  .marq-track span{
-    font-family:var(--display);font-weight:500;font-size:15px;color:var(--muted);
-    padding:0 18px;display:inline-flex;align-items:center;gap:18px;
-  }
-  .marq-track span::after{content:"✚";color:var(--pulse);font-size:11px}
-  @keyframes marq{to{transform:translateX(-50%)}}
-
-  /* ============ sections ============ */
-  section{padding:68px 0}
-  .head{margin-bottom:32px}
-  .head h2{font-size:clamp(32px,8.5vw,54px);margin-top:16px;letter-spacing:-0.025em}
-  .head h2 .hl{color:var(--pulse-ink)}
-  .head p{color:var(--muted);margin-top:14px;max-width:54ch;text-wrap:pretty}
-
-  /* ============ credibility strip ============ */
-  .stats{padding:36px 0}
-  .stats-panel{
-    display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line-soft);
-    border:1px solid var(--line-soft);border-radius:22px;overflow:hidden;
-  }
-  .stat{background:var(--card);padding:22px 18px}
-  .stat .n{
-    font-family:var(--display);font-weight:800;letter-spacing:-0.03em;line-height:1;
-    font-size:clamp(24px,6.6vw,34px);color:var(--pulse-ink);
-  }
-  .stat .l{
-    display:block;font-family:var(--mono);font-size:10px;letter-spacing:0.1em;
-    text-transform:uppercase;color:var(--muted);margin-top:9px;line-height:1.6;
-  }
-
-  /* ============ bento store ============ */
-  .bento{display:grid;grid-template-columns:1fr;gap:16px}
-  .tile{
-    position:relative;background:var(--card);border:1px solid var(--line-soft);
-    border-radius:22px;padding:28px 24px;overflow:hidden;
-    transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease;
-    display:flex;flex-direction:column;
-    box-shadow:0 14px 34px -26px rgba(16,41,58,0.3);
-  }
-  .tile:hover{transform:translateY(-5px);border-color:rgba(13,168,140,0.5);box-shadow:0 24px 44px -26px rgba(16,41,58,0.4)}
-  .tile .num{
-    font-family:var(--mono);font-size:10.5px;color:var(--muted);letter-spacing:0.12em;
-    display:flex;justify-content:space-between;gap:14px;margin-bottom:22px;
-  }
-  .tile .num .cat{text-align:right}
-  /* product cover: 309/400 is the exact ratio of every cover in her store,
-     so object-fit:cover crops nothing and nothing is ever stretched */
-  .tile .cover{
-    width:120px;aspect-ratio:309/400;flex-shrink:0;margin-bottom:20px;
-    border-radius:12px;overflow:hidden;background:var(--bg-2);
-    border:1px solid var(--line-soft);
-  }
-  .tile .cover img{width:100%;height:100%;object-fit:cover;display:block}
-  .tile h3{font-size:24px;font-weight:700;letter-spacing:-0.02em;max-width:16ch}
-  .tile p{color:var(--muted);font-size:14.5px;margin-top:12px;flex-grow:1;max-width:44ch;text-wrap:pretty}
-  .tile .price{
-    font-family:var(--mono);font-size:20px;font-weight:600;color:var(--ink);
-    margin-top:18px;letter-spacing:-0.01em;
-  }
-  .tile .cta{
-    margin-top:14px;display:inline-flex;align-items:center;gap:10px;
-    font-weight:600;font-size:14px;color:var(--pulse-ink);
-  }
-  .tile .cta::after{content:"→";transition:transform .25s}
-  .tile:hover .cta::after{transform:translateX(5px)}
-  .tile.feature{
-    background:linear-gradient(150deg,#0B4F45,#10293A 80%);
-    border-color:transparent;color:#fff;
-  }
-  .tile.feature h3{font-size:30px;color:#fff}
-  .tile.feature p{color:rgba(255,255,255,0.82)}
-  .tile.feature .price{color:#fff}
-  .tile.feature .cta{color:#7FE8D2}
-  .tile.feature .num{color:rgba(255,255,255,0.72)}
-  .tile.feature .cover{background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.18)}
-  .tile.feature .spark{
-    position:absolute;right:-30px;top:-30px;width:170px;height:170px;border-radius:50%;
-    background:radial-gradient(circle,rgba(127,232,210,0.3),transparent 70%);
-    animation:pulseGlow 4s ease-in-out infinite;pointer-events:none;
-  }
-  @keyframes pulseGlow{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.25);opacity:0.55}}
-  .tile.blue{background:linear-gradient(150deg,#EBF3FA,#FFFFFF 75%);border-color:rgba(46,111,163,0.25)}
-  .tile.blue .cta{color:var(--blue-ink)}
-  .tile .chip{
-    position:absolute;top:22px;right:22px;font-family:var(--mono);font-size:10px;
-    letter-spacing:0.1em;color:#04352C;background:#7FE8D2;
-    padding:5px 10px;border-radius:100px;font-weight:600;white-space:nowrap;
-  }
-  .tile.blue .chip{background:var(--blue-ink);color:#fff}
-  /* the chip is pinned to the corner, so the meta row has to yield the space
-     or the two collide at every width */
-  .tile.has-chip .num{padding-right:126px}
-  .store-more{margin-top:26px;display:flex}
-
-  /* ============ free ============ */
-  .free-list{display:flex;flex-direction:column;border-top:1px solid var(--line-soft)}
-  .fr{
-    display:flex;align-items:center;justify-content:space-between;gap:16px;
-    padding:22px 4px;border-bottom:1px solid var(--line-soft);transition:.25s;
-    min-height:44px;
-  }
-  .fr:hover{padding-left:14px;background:linear-gradient(90deg,var(--pulse-dim),transparent 60%)}
-  .fr>span{min-width:0}
-  .fr .cat{
-    display:block;font-family:var(--mono);font-size:10px;letter-spacing:0.12em;
-    text-transform:uppercase;color:var(--blue-ink);margin-bottom:7px;
-  }
-  .fr .t{display:block;font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25}
-  .fr .d{display:block;font-size:13.5px;color:var(--muted);margin-top:4px;text-wrap:pretty}
-  .fr .tagm{
-    font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:0.12em;
-    color:#04352C;background:#7FE8D2;padding:6px 11px;border-radius:100px;flex-shrink:0;
-  }
-
-  /* ============ testimonials ============ */
-  .quotes{display:grid;grid-template-columns:1fr;gap:16px}
-  .qc{
-    background:var(--card);border:1px solid var(--line-soft);border-radius:22px;
-    padding:26px 24px;box-shadow:0 14px 34px -26px rgba(16,41,58,0.3);
-    display:flex;flex-direction:column;
-  }
-  .qc .mark{font-family:var(--display);font-weight:800;font-size:42px;line-height:0.6;color:var(--pulse);height:24px}
-  .qc blockquote{font-size:15px;color:var(--ink);margin-top:16px;flex-grow:1;text-wrap:pretty}
-  .qc .by{
-    font-family:var(--mono);font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;
-    color:var(--muted);margin-top:18px;
-  }
-
-  /* ============ duality (story) ============ */
-  /* Contained to the same 1140px measure as every other section rather than
-     bleeding to the viewport edges, so the page reads as one centred column. */
-  .dual-panel{
-    border:1px solid var(--line-soft);border-radius:26px;overflow:hidden;
-    box-shadow:0 18px 44px -34px rgba(16,41,58,0.45);
-  }
-  .dual-grid{display:grid;grid-template-columns:1fr}
-  .half{padding:44px 24px;position:relative}
-  .half.pt{background:#FCF2EF}
-  .half.dr{background:#EEF8F5}
-  .half .label{
-    font-family:var(--mono);font-size:11px;letter-spacing:0.14em;color:var(--muted);
-    text-transform:uppercase;margin-bottom:18px;display:block;
-  }
-  .half h3{font-size:clamp(30px,8vw,44px);letter-spacing:-0.025em}
-  .half.pt h3{color:var(--coral-ink)}
-  .half.dr h3{color:var(--pulse-ink)}
-  .half p{
-    color:var(--muted);margin-top:16px;font-size:15.5px;max-width:48ch;
-    /* justified, flush to the panel's left edge; hyphenation stops the long
-       clinical words from opening rivers at narrow widths */
-    text-align:justify;text-align-last:start;
-    -webkit-hyphens:auto;hyphens:auto;
-  }
-  .half p b{color:var(--ink);font-weight:600}
-  .half .shot{
-    margin-top:26px;width:100%;max-width:260px;border-radius:18px;overflow:hidden;
-    border:1px solid var(--line-soft);box-shadow:0 18px 40px -28px rgba(16,41,58,0.5);
-  }
-  .half .shot img{display:block;width:100%;height:auto}
-  .half .shot figcaption{
-    font-family:var(--mono);font-size:10px;letter-spacing:0.1em;color:var(--muted);
-    background:#fff;padding:10px 12px;text-transform:uppercase;
-  }
-  .dual-quote{
-    text-align:center;padding:44px 24px;border-top:1px solid var(--line-soft);
-    font-family:var(--display);font-weight:500;font-size:clamp(20px,5.4vw,30px);
-    letter-spacing:-0.015em;line-height:1.25;background:#fff;
-  }
-  .dual-quote .q1{color:var(--coral-ink)}
-  .dual-quote .q2{color:var(--pulse-ink)}
-  .dual-quote .m{
-    display:block;font-family:var(--mono);font-size:11px;color:var(--muted);
-    margin-top:14px;letter-spacing:0.12em;font-weight:400;font-style:normal;
-  }
-
-  /* ============ podcast ============ */
-  /* the tinted band is a contained panel, not a full-bleed stripe */
-  .pod-in{
-    background:var(--bg-2);border:1px solid var(--line-soft);
-    border-radius:26px;padding:44px 24px;
-  }
-  .pod-shelf{
-    display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
-    padding:4px 24px 20px;margin:0 -24px;scrollbar-width:none;
-  }
-  .pod-shelf::-webkit-scrollbar{display:none}
-  .epi{
-    scroll-snap-align:center;flex:0 0 78%;max-width:320px;
-    background:var(--card);border:1px solid var(--line-soft);border-radius:20px;
-    padding:24px;transition:.3s;box-shadow:0 14px 30px -24px rgba(16,41,58,0.3);
-    display:flex;flex-direction:column;
-  }
-  .epi:hover{border-color:rgba(46,111,163,0.45);transform:translateY(-4px)}
-  .epi .top-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
-  .epi .pl{
-    width:46px;height:46px;border-radius:50%;background:var(--pulse-ink);color:#fff;
-    display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0;
-  }
-  .wave{display:flex;align-items:flex-end;gap:3px;height:26px}
-  .wave i{width:3px;background:var(--blue);border-radius:2px;animation:eq 1.1s ease-in-out infinite alternate}
-  @keyframes eq{from{height:20%}to{height:100%}}
-  .epi h3{font-size:18px;font-weight:700;letter-spacing:-0.01em;line-height:1.3;flex-grow:1}
-  .epi .m{display:block;font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-top:12px;letter-spacing:0.08em}
-  .pod .row{display:flex;flex-direction:column;gap:12px;margin-top:24px}
-
-  /* ============ subscribe ============ */
-  .sub-box{
-    position:relative;overflow:hidden;border-radius:26px;
-    background:linear-gradient(140deg,#0B4F45,#123A5C);
-    padding:46px 26px;text-align:center;color:#fff;
-  }
-  .sub-box .vital{color:#7FE8D2}
-  .sub-box .vital::before{background:#7FE8D2}
-  .sub-box h2{font-size:clamp(30px,7.4vw,46px);letter-spacing:-0.025em;color:#fff}
-  .sub-box h2 .hl{color:#7FE8D2}
-  .sub-box p{color:rgba(255,255,255,0.85);margin:16px auto 10px;max-width:46ch;font-size:15px;text-wrap:pretty}
-  .sub-box .gets{
-    font-family:var(--mono);font-size:11px;letter-spacing:0.08em;color:#7FE8D2;
-    margin:0 auto 26px;text-transform:uppercase;line-height:1.7;
-  }
-  .sub-box .btn{width:100%;background:#fff;color:#0B4F45;border-color:#fff}
-  .sub-box .btn:hover{background:#E8F6F2;box-shadow:none}
-  .sub-box .fine{margin-top:16px;font-family:var(--mono);font-size:10.5px;color:rgba(255,255,255,0.8);letter-spacing:0.1em}
-
-  /* ============ footer ============ */
-  footer{padding:48px 0 44px;border-top:1px solid var(--line-soft);background:var(--bg-2)}
-  .foot-logo{font-family:var(--display);font-weight:800;font-size:22px}
-  .foot-logo .moss{color:var(--pulse-ink)}
-  .foot-bio{color:var(--muted);font-size:14.5px;margin-top:12px;max-width:56ch;text-wrap:pretty}
-  .foot-sub{
-    display:inline-flex;align-items:center;min-height:44px;margin-top:14px;
-    font-size:13.5px;font-weight:600;color:var(--pulse-ink);
-    border-bottom:1px solid rgba(8,122,102,0.35);
-  }
-  .foot-cols{display:grid;grid-template-columns:1fr 1fr;gap:26px 20px;margin-top:30px}
-  .foot-cols h2{
-    font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:0.12em;
-    text-transform:uppercase;color:var(--ink);margin-bottom:8px;
-  }
-  .foot-cols ul{list-style:none;display:flex;flex-direction:column;gap:2px}
-  .foot-cols a{display:flex;align-items:center;min-height:44px;font-size:13.5px;color:var(--muted)}
-  .foot-cols a:hover{color:var(--pulse-ink)}
-  .disc{
-    margin-top:30px;padding-top:22px;border-top:1px solid var(--line-soft);
-    font-family:var(--mono);font-size:10.5px;color:var(--muted);
-    line-height:1.9;letter-spacing:0.04em;
-  }
-
-  /* ============ app dock (mobile) ============ */
-  .dock{
-    position:fixed;left:12px;right:12px;z-index:70;
-    bottom:calc(var(--dock-gap) + env(safe-area-inset-bottom, 0px));
-    background:rgba(255,255,255,0.92);backdrop-filter:blur(16px);
-    border:1px solid var(--line);border-radius:22px;
-    display:flex;justify-content:space-around;padding:10px 6px;
-    box-shadow:0 20px 50px -16px rgba(16,41,58,0.35);
-  }
-  .dock a{
-    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;
-    font-size:10px;font-weight:600;color:var(--muted);letter-spacing:0.03em;
-    padding:4px 10px;border-radius:14px;transition:.2s;min-width:56px;min-height:44px;
-  }
-  .dock a.on,.dock a:hover{color:var(--pulse-ink)}
-  .dock svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-
-  /* reveal */
-  .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
-  .reveal.in{opacity:1;transform:none}
-
-  /* ================= desktop scale-up ================= */
-  @media(min-width:780px){
-    body{padding-bottom:0}
-    .wrap{padding:0 40px}
-    .top-in{height:72px}
-    .top-links{display:flex;gap:26px;list-style:none}
-    .top-links a{font-size:13.5px;font-weight:500;color:var(--muted);transition:.2s;font-family:var(--mono);letter-spacing:0.04em}
-    .top-links a:hover{color:var(--pulse-ink)}
-    .top .btn{display:inline-flex;padding:11px 20px;min-height:0;font-size:13px}
-    .hero{padding:88px 0 56px}
-    .hero-cta{flex-direction:row}
-    .hero-cta .btn{width:auto}
-    .ecg{height:150px}
-    .stats{padding:44px 0}
-    .stats-panel{grid-template-columns:repeat(4,1fr)}
-    .stat{padding:30px 26px}
-    .bento{grid-template-columns:repeat(6,1fr)}
-    .tile.feature{grid-column:span 4}
-    .tile.t2{grid-column:span 2}
-    .tile.t3,.tile.t4,.tile.t5,.tile.t6{grid-column:span 3}
-    .tile .cover{width:140px}
-    .quotes{grid-template-columns:1.15fr 1fr;align-items:start}
-    .qc.long{grid-row:1 / span 2}
-    .dual-panel{border-radius:30px}
-    .dual-grid{grid-template-columns:1fr 1fr}
-    .half{padding:64px 44px}
-    .half.dr{border-left:1px solid var(--line-soft)}
-    .half .shot{max-width:280px}
-    .pod-in{padding:64px 48px;border-radius:30px}
-    .pod-shelf{margin:0;padding:4px 0 10px;overflow:visible}
-    .epi{flex:1 1 0;max-width:none}
-    .pod .row{flex-direction:row}
-    .sub-box{padding:70px 60px}
-    .sub-box .btn{width:auto}
-    .dock{display:none}
-    footer{padding:56px 0}
-    .foot-cols{grid-template-columns:repeat(3,1fr);gap:26px 40px;max-width:760px}
-    .foot-cols a{min-height:32px}
-    .foot-cols ul{gap:0}
-    section{padding:96px 0}
-  }
-  @media(prefers-reduced-motion:reduce){
-    *{animation:none!important;transition:none!important}
-    .reveal{opacity:1;transform:none}
-    html{scroll-behavior:auto}
-    .trace{stroke-dasharray:none!important;stroke-dashoffset:0!important}
-  }
-</style>
+<link rel="stylesheet" href="/new/css/site.css">
 </head>
 <body>
 
@@ -502,13 +40,13 @@
     <a href="/" class="logo"><span class="mp">MedPsyc</span><span class="moss">Moss</span><span class="md">STEPHANIE MOSS, MD</span></a>
     <nav aria-label="Primary">
       <ul class="top-links">
-        <li><a href="#store">STORE</a></li>
-        <li><a href="#free">FREE</a></li>
-        <li><a href="#story">PATIENT&amp;DOCTOR</a></li>
-        <li><a href="#pod">PODCAST</a></li>
+        <li><a href="/store">STORE</a></li>
+        <li><a href="/resources">FREE</a></li>
+        <li><a href="/about-me">PATIENT&amp;DOCTOR</a></li>
+        <li><a href="/podcast">PODCAST</a></li>
       </ul>
     </nav>
-    <a href="#store" class="btn">Browse the store</a>
+    <a href="/store" class="btn">Browse the store</a>
   </div>
 </header>
 
@@ -560,11 +98,12 @@
 <section class="stats" aria-labelledby="stats-title">
   <h2 id="stats-title" class="sr-only">Credentials and published work</h2>
   <div class="wrap">
+    <!-- values from rebuild/data/stats.json, supplied by the client. No other numbers anywhere. -->
     <div class="stats-panel reveal">
+      <div class="stat"><span class="n">300+</span><span class="l">Workbook purchasers</span></div>
+      <div class="stat"><span class="n">200+</span><span class="l">Students advised</span></div>
+      <div class="stat"><span class="n">1M+</span><span class="l">Views across YouTube, podcast and blog</span></div>
       <div class="stat"><span class="n">PGY-3</span><span class="l">Psychiatry chief resident for academics</span></div>
-      <div class="stat"><span class="n">MD</span><span class="l">Rush Medical College</span></div>
-      <div class="stat"><span class="n">9</span><span class="l">Published interview episodes</span></div>
-      <div class="stat"><span class="n">10</span><span class="l">Free resource libraries</span></div>
     </div>
   </div>
 </section>
@@ -702,21 +241,37 @@
       <span class="vital">In their words</span>
       <h2 id="say-title">What students and <span class="hl">physicians say</span></h2>
     </div>
+    <!-- verbatim from rebuild/data/testimonials.json (featured). Do not edit the wording. -->
     <div class="quotes reveal">
-      <figure class="qc long">
+      <figure class="qc">
         <span class="mark" aria-hidden="true">&ldquo;</span>
-        <blockquote>It was so uplifting and motivating to talk with Dr. Moss through an hour-long coaching session. I appreciate that she listened empathetically, brainstormed on next steps, shared about her journey to doctorhood, and provided further resources, all with such transparency and warmth. It made my week to talk with her and she is a blessing to students and patients. She is so dynamic and organized and truly helped me, at this time when I have been doubting myself and feeling so behind. Her resources provide a step-by-step and positive path to move forward towards my school-based goals, while also re-igniting thoughts on how I could try to serve my community and help those around me, as she does.</blockquote>
-        <figcaption class="by">K, MS3</figcaption>
+        <blockquote>I matched my NUMBER 1 Family Medicine Program at ****! Thank you for encouraging me through STEP1 failures &amp; LOA</blockquote>
+        <figcaption class="by">MD Student · Match 2026</figcaption>
       </figure>
       <figure class="qc">
         <span class="mark" aria-hidden="true">&ldquo;</span>
-        <blockquote>Dr. Stephanie Moss discusses trauma, the healthcare system, and navigating it all as a medical student with exceptional clarity, courage, and grace. The insight and resources she shares on Medpsycmoss.com are a great starting point for any provider or patient looking to learn more about trauma-informed healthcare!</blockquote>
-        <figcaption class="by">Dr. Jolene Won, MD</figcaption>
+        <blockquote>I honestly didn't think it would be possible to receive accommodations without any prior history, but I was surprised to receive exactly what I needed. I really appreciate your guidance and support throughout the process and thanks for helping me navigate something that felt overwhelming!</blockquote>
+        <figcaption class="by">Student message · USMLE accommodations</figcaption>
       </figure>
       <figure class="qc">
         <span class="mark" aria-hidden="true">&ldquo;</span>
-        <blockquote>Thank you so much for all your transparency and normalizing setbacks in medicine. You made a huge difference for me and so many others.</blockquote>
-        <figcaption class="by">T, MS4</figcaption>
+        <blockquote>Just wanted to let you know, I cleared my step1 exam. This was my second attempt. Your videos really helped me gain confidence and strength to appear again. Thank you so much.</blockquote>
+        <figcaption class="by">Instagram message</figcaption>
+      </figure>
+      <figure class="qc">
+        <span class="mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>I'm a patient physician as well! And one who is a USMD who failed step 1 twice figuring out my accommodations. Your story and your resources gave me so much hope through my journey. Just matched this year in my dream location</blockquote>
+        <figcaption class="by">Physician</figcaption>
+      </figure>
+      <figure class="qc">
+        <span class="mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>I am writing to let you know that I matched today! Thank you so much for all of your support; the mock interviews were incredibly helpful and made a significant difference in my preparation.</blockquote>
+        <figcaption class="by">MD Student · Match 2026</figcaption>
+      </figure>
+      <figure class="qc">
+        <span class="mark" aria-hidden="true">&ldquo;</span>
+        <blockquote>The workbook &amp; sample ERAS application are very informative! Dr. Moss is very approachable &amp; helped me navigate the Match2025 application process. The checklists in the workbook &amp; "why specialty" section were very helpful.</blockquote>
+        <figcaption class="by">MS4</figcaption>
       </figure>
     </div>
   </div>
@@ -734,12 +289,12 @@
       <p>Her second year of medical school began with the reproduction block and ended with a diagnosis of <b>endometriosis and infertility</b>, after months of appointments and a laparoscopic surgery. She failed and retook two block exams, then took a <b>leave of absence</b> to focus on her health.</p>
       <p>During that leave she failed Step 1 by a single point. After therapy, healing and months of study she retook it <b>with accommodations</b>, and fought her insurer for months to cover her egg stimulation and freezing.</p>
       <figure class="shot">
-        <img src="/new/img/portrait-pt.webp"
-             srcset="/new/img/portrait-pt-600.webp 600w, /new/img/portrait-pt.webp 1200w"
+        <img src="/new/img/moss-patient.webp"
+             srcset="/new/img/moss-patient-600.webp 600w, /new/img/moss-patient.webp 1200w"
              sizes="(min-width:780px) 280px, 260px"
              width="1200" height="1600" loading="lazy" decoding="async"
-             alt="Stephanie Moss in a coral blouse, photographed against a dark background.">
-        <figcaption>From her leave of absence &amp; Step 1 posts</figcaption>
+             alt="Stephanie Moss as a patient, wearing a mask in a treatment chair.">
+        <figcaption>Stephanie Moss, MD</figcaption>
       </figure>
     </div>
     <div class="half dr">
@@ -748,8 +303,8 @@
       <p>Today she is a <b>PGY-3 psychiatry chief resident for academics</b> at Rosalind Franklin University, previously chief for medical student education and resident wellness, with a Medical Doctorate from Rush Medical College.</p>
       <p>She co-founded the Chicago Homelessness and Health Response Group for Equity, gave her first talks on trauma-informed medicine with the Illinois Academy of Family Physicians, and turned the path she had to find alone into <b>the map she never had</b>.</p>
       <figure class="shot">
-        <img src="/new/img/portrait.webp"
-             srcset="/new/img/portrait-600.webp 600w, /new/img/portrait.webp 1200w"
+        <img src="/new/img/moss-doctor.webp"
+             srcset="/new/img/moss-doctor-600.webp 600w, /new/img/moss-doctor.webp 1200w"
              sizes="(min-width:780px) 280px, 260px"
              width="1200" height="1600" loading="lazy" decoding="async"
              alt="Stephanie Moss, MD, standing with her arms crossed in scrubs embroidered with her name.">
@@ -758,9 +313,9 @@
     </div>
   </div>
   <blockquote class="dual-quote">
-    <span class="q1">&ldquo;We need to humanize medicine</span>
-    <span class="q2">by humanizing patients and health providers!&rdquo;</span>
-    <cite class="m">GABOR MATÉ, MD, PSYCHIATRIST · THE MYTH OF NORMAL</cite>
+    <span class="q1">&ldquo;Humanizing medicine means seeing the person,</span>
+    <span class="q2">not just the patient.&rdquo;</span>
+    <cite class="m">STEPHANIE MOSS, MD</cite>
   </blockquote>
   </div>
   </div>
@@ -864,19 +419,19 @@
 
 <!-- mobile app dock -->
 <nav class="dock" aria-label="Quick navigation">
-  <a href="#store" class="on">
+  <a href="/store">
     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
     Store
   </a>
-  <a href="#free">
+  <a href="/resources">
     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M7.5 8C6 8 5 6.8 5 5.5S6 3 7.5 3C10 3 12 8 12 8s2-5 4.5-5C18 3 19 4.2 19 5.5S18 8 16.5 8"/></svg>
     Free
   </a>
-  <a href="#pod">
+  <a href="/podcast">
     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
     Podcast
   </a>
-  <a href="#story">
+  <a href="/about-me">
     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
     About
   </a>
@@ -903,7 +458,7 @@
       "jobTitle": "PGY-3 Psychiatry Chief Resident for Academics",
       "description": "Psychiatry resident physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.",
       "url": "https://medpsycmoss.com/about-me",
-      "image": "https://medpsycmoss.com/img/portrait.webp",
+      "image": "https://medpsycmoss.com/img/moss-doctor.webp",
       "alumniOf": { "@type": "CollegeOrUniversity", "name": "Rush Medical College" },
       "affiliation": { "@type": "CollegeOrUniversity", "name": "Rosalind Franklin University" },
       "knowsAbout": ["Residency applications","USMLE testing accommodations","Leave of absence in medical school","Trauma-informed care","Disability in medicine"],
@@ -978,76 +533,6 @@
 }
 </script>
 
-<script>
-  /* Every checkout link is built from this one base.  At launch, change it to
-     'https://store.medpsycmoss.com' and nothing else needs touching.  The hrefs
-     in the HTML already point at the current live store, so the page works with
-     JavaScript disabled and is crawlable as-is. */
-  var STORE_BASE = 'https://medpsycmoss.com/store';
-
-  (function(){
-    var links = document.querySelectorAll('a[data-p]');
-    for (var i = 0; i < links.length; i++) {
-      links[i].href = STORE_BASE + '/' + links[i].getAttribute('data-p');
-    }
-  })();
-
-  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  /* live ECG sweep: a drawing segment travels the trace forever (seamless linear loop) */
-  (function(){
-    var p = document.getElementById('hbLive');
-    if (!p || reduce || !p.animate) return;
-    var L = p.getTotalLength();
-    var seg = L * 0.16;
-    p.style.strokeDasharray = seg + ' ' + (L - seg);
-    p.style.strokeDashoffset = seg;
-    p.animate(
-      [{strokeDashoffset: seg}, {strokeDashoffset: -(L - seg)}],
-      {duration: 5200, iterations: Infinity, easing: 'linear'}
-    );
-  })();
-
-  /* marquee: duplicate content once for a perfect -50% loop */
-  (function(){
-    var t = document.getElementById('marq');
-    if (!t || reduce) return;
-    t.innerHTML += t.innerHTML;
-  })();
-
-  /* scroll reveals */
-  (function(){
-    var els = document.querySelectorAll('.reveal');
-    if (reduce || !('IntersectionObserver' in window)) {
-      for (var i = 0; i < els.length; i++) els[i].classList.add('in');
-      return;
-    }
-    var io = new IntersectionObserver(function(es){
-      es.forEach(function(en){ if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-    }, {threshold: 0.12});
-    els.forEach(function(e){ io.observe(e); });
-  })();
-
-  /* dock highlights current section */
-  (function(){
-    var map = {store:0, free:1, pod:2, story:3};
-    var links = document.querySelectorAll('.dock a');
-    if (!links.length || !('IntersectionObserver' in window)) return;
-    var io = new IntersectionObserver(function(es){
-      es.forEach(function(en){
-        if (en.isIntersecting) {
-          for (var i = 0; i < links.length; i++) links[i].classList.remove('on');
-          var idx = map[en.target.id];
-          if (idx !== undefined) links[idx].classList.add('on');
-        }
-      });
-    }, {rootMargin: '-40% 0px -50% 0px'});
-    ['store','free','pod','story'].forEach(function(id){
-      var el = document.getElementById(id); if (el) io.observe(el);
-    });
-  })();
-
-  document.getElementById('yr').textContent = new Date().getFullYear();
-</script>
+<script src="/new/js/site.js" defer></script>
 </body>
 </html>

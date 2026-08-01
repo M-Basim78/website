@@ -428,6 +428,16 @@ const server = http.createServer(async (req, res) => {
 
     const route = normalizeRoute(pathname);
 
+    // A rebuilt page wins over the archived one, so the real slugs preview the
+    // new site rather than the old scrape.  ?old=1 forces the archive.
+    if (search !== 'old=1') {
+      const slug = route === '/' ? 'index' : route.slice(1).replace(/\//g, '_');
+      const built = path.join(REBUILD, `${slug}.html`);
+      if (built.startsWith(REBUILD) && fs.existsSync(built)) {
+        return send(res, 200, MIME['.html'], fs.readFileSync(built), {}, req);
+      }
+    }
+
     // Page?
     const file = routes.get(route);
     if (file && !notFoundPages.has(route)) return servePage(res, file, req);

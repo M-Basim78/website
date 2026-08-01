@@ -1,4 +1,4 @@
-﻿node_modules/
+node_modules/
 .cache/
 verify-out/
-lh-report/report.json
+*.png
