@@ -34,8 +34,7 @@ console.log(`checking ${unique.length} pages, concurrency ${CONCURRENCY}`);
 
 fs.mkdirSync(OUT, { recursive: true });
 const browser = await chromium.launch({
-  executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe`,
-});
+  });
 
 const results = [];
 let cursor = 0;

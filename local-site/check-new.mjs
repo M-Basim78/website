@@ -12,8 +12,7 @@ const WIDTHS = [360, 390, 768, 1280];
 fs.mkdirSync(OUT, { recursive: true });
 
 const browser = await chromium.launch({
-  executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe`,
-});
+  });
 
 const problems = [];
 for (const w of WIDTHS) {

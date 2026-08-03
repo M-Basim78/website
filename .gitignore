@@ -6,6 +6,16 @@ __pycache__/
 # The packaged backup archive (946 MB) - regenerate with verify.py
 *.zip
 
+# Where serve.js expects the unzipped archive. On this machine it is a junction
+# pointing at backup/, so committing it would duplicate the entire mirror.
+medpsycmoss-backup-20260727/
+
+# Build logs
+*.log
+
+# Lighthouse HTML/JSON runs are large and reproducible with lh.mjs
+local-site/reports/lh-*/
+
 # Heavy backup payloads - kept in the zip archive, not in git.
 # These exceed GitHub's practical repo limits (1.1 GB combined).
 backup/pages/

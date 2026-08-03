@@ -8,7 +8,7 @@ const FILE = path.resolve('share', 'medpsycmoss-homepage.html');
 const OUT = process.argv[2];
 fs.mkdirSync(OUT, { recursive: true });
 
-const b = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const b = await chromium.launch({ });
 
 for (const [label, url] of [['file', pathToFileURL(FILE).href], ['served', 'http://localhost:8123/new']]) {
   const p = await b.newPage({ viewport: { width: 1280, height: 900 } });

@@ -5,7 +5,7 @@ import fs from 'fs';
 
 const OUT = process.argv[2];
 fs.mkdirSync(OUT, { recursive: true });
-const b = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const b = await chromium.launch({ });
 
 for (const w of [390, 768, 1280, 1920]) {
   const p = await b.newPage({ viewport: { width: w, height: 900 }, deviceScaleFactor: 1 });

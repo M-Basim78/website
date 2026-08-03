@@ -1055,3 +1055,29 @@
     .lib-grid .tile{padding:28px 26px}
     .lib-grid+.note{margin-top:32px}
   }
+
+  /* ============ breadcrumbs (resource libraries and their child pages) ============ */
+  /* Tap targets carry the 44px floor on mobile, per the accessibility bar. */
+  .crumbs{
+    display:flex;flex-wrap:wrap;align-items:center;gap:0 8px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:0.1em;
+    text-transform:uppercase;margin-bottom:14px;
+  }
+  .crumbs a,.crumbs span{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-height:44px;min-width:44px;
+    color:var(--muted);text-decoration:none;
+  }
+  .crumbs a:hover{color:var(--primary);text-decoration:underline}
+  .crumbs [aria-current]{color:var(--ink);font-weight:600}
+  .crumbs [aria-hidden]{color:var(--line);min-height:0;min-width:0}
+
+  /* Resource titles and bare URLs come from third parties and can be long
+     single tokens; they must wrap rather than force a horizontal scrollbar. */
+  .fr .t,.fr .d{overflow-wrap:anywhere}
+  .kicker{flex-wrap:wrap}
+
+  @media(min-width:780px){
+    .crumbs{font-size:11px;margin-bottom:20px}
+    .crumbs a,.crumbs span{min-height:0;min-width:0}
+  }

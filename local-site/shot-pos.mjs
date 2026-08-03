@@ -7,7 +7,7 @@ const W = Number(process.argv[2] || 390);
 const OUT = process.argv[3];
 fs.mkdirSync(OUT, { recursive: true });
 
-const b = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const b = await chromium.launch({ });
 const p = await b.newPage({ viewport: { width: W, height: 844 }, deviceScaleFactor: 2 });
 await p.goto('http://localhost:8123/new', { waitUntil: 'networkidle' });
 await p.evaluate(() => {

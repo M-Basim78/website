@@ -17,7 +17,7 @@ const WIDTHS = [360, 390, 430, 768, 1024, 1280];
 fs.mkdirSync(OUT, { recursive: true });
 
 const problems = [];
-const browser = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const browser = await chromium.launch({ });
 
 for (const w of WIDTHS) {
   const mobile = w < 780;

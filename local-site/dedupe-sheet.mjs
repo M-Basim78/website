@@ -26,7 +26,7 @@ const uniq = [...seen.values()];
 console.log(`\n${files.length} files, ${uniq.length} unique`);
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(uniq, null, 2));
 
-const b = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const b = await chromium.launch({ });
 const p = await b.newPage({ viewport: { width: 1500, height: 1000 }, deviceScaleFactor: 1 });
 
 for (let i = 0, n = 0; i < uniq.length; i += PER_SHEET, n++) {

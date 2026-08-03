@@ -7,7 +7,7 @@ import fs from 'fs';
 const target = process.argv[2];
 const url = /^https?:/.test(target) ? target : pathToFileURL(path.resolve(target)).href;
 
-const b = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const b = await chromium.launch({ });
 const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
 await p.goto(url, { waitUntil: 'load' });
 const hits = await p.evaluate(() => {

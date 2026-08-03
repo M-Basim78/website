@@ -20,7 +20,7 @@ const dupes = Object.entries(sels.reduce((a, s) => (a[s] = (a[s] || 0) + 1, a), 
 console.log(`css: ${sels.length} rules, ${dupes.length} selectors declared more than once`);
 dupes.slice(0, 12).forEach(([s, n]) => console.log(`   ${n}x  ${s.slice(0, 70)}`));
 
-const browser = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const browser = await chromium.launch({ });
 const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
 
 let shellRef = null;

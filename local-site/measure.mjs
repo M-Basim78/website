@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 const W = Number(process.argv[2] || 1440);
-const b = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const b = await chromium.launch({ });
 const p = await b.newPage({ viewport: { width: W, height: 900 } });
 await p.goto('http://localhost:8123/new', { waitUntil: 'domcontentloaded' });
 console.log(`viewport ${W}px\n`);

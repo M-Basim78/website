@@ -3,8 +3,7 @@ import { chromium } from 'playwright';
 
 const target = process.argv[2] || '/blog';
 const browser = await chromium.launch({
-  executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe`,
-});
+  });
 const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
 
 page.on('console', m => console.log(`  console[${m.type()}] ${m.text().slice(0, 300)}`));

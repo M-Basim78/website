@@ -19,7 +19,7 @@ ${files.map(f => `<figure><img src="${pathToFileURL(path.join(DIR, f)).href}" lo
 </div>`;
 const h = path.join(DIR, '_sheet.html');
 fs.writeFileSync(h, html);
-const b = await chromium.launch({ executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe` });
+const b = await chromium.launch({ });
 const p = await b.newPage({ viewport: { width: 1500, height: 900 } });
 await p.goto(pathToFileURL(h).href);
 await p.waitForTimeout(2500);

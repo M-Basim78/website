@@ -8,8 +8,16 @@ const URL = process.argv[2] || 'http://localhost:8123/new';
 const OUT = process.argv[3] || 'lh-report';
 fs.mkdirSync(OUT, { recursive: true });
 
+// Use whichever chromium Playwright installed on this machine, falling back to
+// chrome-launcher's own discovery. Pinning an absolute build path meant these
+// tools only ran on the machine they were written on.
+import { chromium } from 'playwright';
+
+let chromePath;
+try { chromePath = chromium.executablePath(); } catch { chromePath = undefined; }
+
 const chrome = await launch({
-  chromePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe`,
+  ...(chromePath ? { chromePath } : {}),
   chromeFlags: ['--headless=new', '--no-sandbox', '--disable-gpu'],
 });
 

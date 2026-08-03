@@ -1,0 +1,4952 @@
+{
+  "pages": {
+    "trauma-resources": {
+      "title": "TraumaInformed Resources for Patients",
+      "docTitle": "Trauma Resources",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "Books",
+          "href": "https://bookshop.org/lists/books-for-healing-through-trauma",
+          "host": "bookshop.org",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "providers-trauma"
+        },
+        {
+          "label": "",
+          "path": "support-groups-trauma"
+        },
+        {
+          "label": "",
+          "path": "videos-trauma"
+        },
+        {
+          "label": "",
+          "path": "posts-mental-health"
+        },
+        {
+          "label": "",
+          "path": "podcasts-trauma"
+        },
+        {
+          "label": "",
+          "path": "products-trauma"
+        },
+        {
+          "label": "",
+          "path": "websites-for-trauma"
+        },
+        {
+          "label": "",
+          "path": "articles-on-trauma"
+        },
+        {
+          "label": "",
+          "path": "trainings-mental-sexual-health"
+        }
+      ]
+    },
+    "websites-for-trauma": {
+      "title": "Websites & Organizations focussing on Trauma Healing",
+      "docTitle": "Websites for Trauma",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://theembodylab.squarespace.com/",
+          "host": "theembodylab.squarespace.com",
+          "source": "none"
+        },
+        {
+          "label": "E",
+          "blurb": "",
+          "href": "https://www.somaticexperiencing.com/",
+          "host": "somaticexperiencing.com",
+          "source": "text"
+        },
+        {
+          "label": "Developer of Somatic Experiencing",
+          "blurb": "",
+          "href": "https://brenebrown.com/",
+          "host": "brenebrown.com",
+          "source": "near"
+        },
+        {
+          "label": "Speakers and Instructors from all over the world with diverse backgrounds",
+          "blurb": "",
+          "href": "https://lumostransforms.com/",
+          "host": "lumostransforms.com",
+          "source": "near"
+        },
+        {
+          "label": "She does it all!!",
+          "blurb": "",
+          "href": "https://www.thetrevorproject.org/",
+          "host": "thetrevorproject.org",
+          "source": "near"
+        },
+        {
+          "label": "This organization provides trauma informed trainings & talks to individuals, groups, and corporations.",
+          "blurb": "",
+          "href": "https://translifeline.org/",
+          "host": "translifeline.org",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://mind-foundation.org/",
+          "host": "mind-foundation.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.wondermind.com/story",
+          "host": "wondermind.com",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "mental-health-resources": {
+      "title": "Traumainformed Mental Health Resources",
+      "docTitle": "Mental Health Resources",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-mental-health-healing",
+          "host": "bookshop.org",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "providers-trauma"
+        },
+        {
+          "label": "",
+          "path": "support-groups-mental-health"
+        },
+        {
+          "label": "",
+          "path": "videos-mental-health"
+        },
+        {
+          "label": "",
+          "path": "posts-mental-health"
+        },
+        {
+          "label": "",
+          "path": "products-mental-health"
+        },
+        {
+          "label": "Books",
+          "path": "articles-for-mental-health"
+        },
+        {
+          "label": "",
+          "path": "websites-for-trauma"
+        },
+        {
+          "label": "",
+          "path": "podcasts-trauma"
+        },
+        {
+          "label": "Books",
+          "path": "trainings-mental-sexual-health"
+        }
+      ]
+    },
+    "sexual-health-resources": {
+      "title": "Sexual Health Educational Resources",
+      "docTitle": "Sexual Health Resources",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-sexual-health-education",
+          "host": "bookshop.org",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "Podcasts",
+          "path": "podcasts-sexual-health"
+        },
+        {
+          "label": "Videos",
+          "path": "videos-sexual-health"
+        },
+        {
+          "label": "Trainings",
+          "path": "trainings-mental-sexual-health"
+        },
+        {
+          "label": "Posts",
+          "path": "blog/tag/sexual health"
+        },
+        {
+          "label": "Support Groups",
+          "path": "support-groups-sexual-health"
+        },
+        {
+          "label": "Websites",
+          "path": "websites-for-sexual-health-edu"
+        },
+        {
+          "label": "Providers",
+          "path": "providers-sexual-health"
+        },
+        {
+          "label": "Products",
+          "path": "products-for-sexual-health"
+        },
+        {
+          "label": "Research Articles",
+          "path": "articles-sexual-health"
+        }
+      ]
+    },
+    "pelvic-pain-resources": {
+      "title": "Pelvic & Sexual Pain",
+      "docTitle": "Pelvic Pain Resources",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-living-with-pelvic-pain?",
+          "host": "bookshop.org",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "Podcasts",
+          "path": "podcasts-on-pelvic-pain"
+        },
+        {
+          "label": "Videos",
+          "path": "videos-pelvic-pain"
+        },
+        {
+          "label": "Trainings",
+          "path": "trainings-mental-sexual-health"
+        },
+        {
+          "label": "Posts",
+          "path": "posts-pelvic-pain"
+        },
+        {
+          "label": "Support Groups",
+          "path": "support-groups-pelvic-pain"
+        },
+        {
+          "label": "Websites",
+          "path": "websites-for-pelvic-pain"
+        },
+        {
+          "label": "Providers",
+          "path": "providers-sexual-health"
+        },
+        {
+          "label": "Products",
+          "path": "products-pelvic-pain"
+        },
+        {
+          "label": "Research Articles",
+          "path": "articles-pelvic-pain"
+        }
+      ]
+    },
+    "endometriosis-resources": {
+      "title": "Endometriosis Resources",
+      "docTitle": "Endometriosis Resources",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-living-with-endometriosis",
+          "host": "bookshop.org",
+          "source": "text"
+        },
+        {
+          "label": "Websites",
+          "blurb": "",
+          "href": "https://endometriosis.org/",
+          "host": "endometriosis.org",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "Support Groups",
+          "path": "support-groups-endometriosis"
+        },
+        {
+          "label": "Videos",
+          "path": "videos-endometriosis"
+        },
+        {
+          "label": "Posts",
+          "path": "posts-endometriosis"
+        },
+        {
+          "label": "Products",
+          "path": "products-endometriosis"
+        },
+        {
+          "label": "Providers",
+          "path": "providers-pelvic-pain"
+        },
+        {
+          "label": "Articles",
+          "path": "articles-on-endometriosis"
+        },
+        {
+          "label": "Podcasts",
+          "path": "podcasts-on-endometriosis"
+        },
+        {
+          "label": "Trainings",
+          "path": "trainings-mental-sexual-health"
+        }
+      ]
+    },
+    "infertility-resources": {
+      "title": "Infertility Resources",
+      "docTitle": "Infertility Resources",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "Books",
+          "href": "https://bookshop.org/lists/books-for-living-with-infertility",
+          "host": "bookshop.org",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "support-groups-infertility"
+        },
+        {
+          "label": "",
+          "path": "videos-infertility"
+        },
+        {
+          "label": "",
+          "path": "posts-infertility"
+        },
+        {
+          "label": "",
+          "path": "podcasts-on-infertility"
+        },
+        {
+          "label": "",
+          "path": "articles-on-infertility"
+        },
+        {
+          "label": "",
+          "path": "websites-for-infertility"
+        },
+        {
+          "label": "",
+          "path": "providers-infertility"
+        },
+        {
+          "label": "",
+          "path": "products-for-infertility"
+        },
+        {
+          "label": "",
+          "path": "trainings-mental-sexual-health"
+        }
+      ]
+    },
+    "menopause-resources": {
+      "title": "Menopause Resources",
+      "docTitle": "Menopause Resources",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-infertility",
+          "host": "bookshop.org",
+          "source": "text"
+        },
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-menopause",
+          "host": "bookshop.org",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "support-groups-monopause"
+        },
+        {
+          "label": "",
+          "path": "videos-menopause"
+        },
+        {
+          "label": "",
+          "path": "products-for-menopause"
+        },
+        {
+          "label": "",
+          "path": "trainings-mental-sexual-health"
+        },
+        {
+          "label": "Books",
+          "path": "podcasts-sexual-health"
+        }
+      ]
+    },
+    "disabilities-resources": {
+      "title": "Resources for Living with Disabilities",
+      "docTitle": "Disabilities Resources",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "Books",
+          "href": "https://bookshop.org/lists/books-for-infertility",
+          "host": "bookshop.org",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "Books",
+          "href": "https://bookshop.org/lists/books-for-living-with-disabilities",
+          "host": "bookshop.org",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "Trainings & Conferences",
+          "href": "https://www.docswithdisabilities.org/webinars",
+          "host": "docswithdisabilities.org",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "videos-for-patients-with-disabilities"
+        },
+        {
+          "label": "",
+          "path": "articles-podcasts-for-disabilities"
+        },
+        {
+          "label": "",
+          "path": "trainings-websites-for-disabilities"
+        },
+        {
+          "label": "",
+          "path": "providers-trauma"
+        },
+        {
+          "label": "",
+          "path": "blog/tag/disability"
+        },
+        {
+          "label": "",
+          "path": "support-groups-disabilities"
+        }
+      ]
+    },
+    "lqbtqia-resources": {
+      "title": "S2LQBTQIA Health Resources",
+      "docTitle": "LQBTQIA Resources",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://storage.googleapis.com/gator-users/user-932079/documents/55521ff1456f4ec39e5d79dddf3c945c/GenderOpossum%20Worksheet.pdf",
+          "host": "storage.googleapis.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "Videos",
+          "href": "https://www.innovating-education.org/curriculum/course/9898/#unit-1-module-2",
+          "host": "innovating-education.org",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "providers-lgbtqia"
+        },
+        {
+          "label": "Books",
+          "path": "podcasts-lgbtqia-health"
+        },
+        {
+          "label": "Books",
+          "path": "blog/transgender-health-and-gender-affirming-care"
+        }
+      ]
+    },
+    "trauma-informed-care": {
+      "title": "Provider Resources: Trauma Informed Care",
+      "docTitle": "Trauma Informed Care",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-trauma-informed-care",
+          "host": "bookshop.org",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "videos-for-trauma-informed-care"
+        },
+        {
+          "label": "",
+          "path": "posts-trauma-informed-care"
+        },
+        {
+          "label": "",
+          "path": "websites-for-providers"
+        },
+        {
+          "label": "",
+          "path": "training-trauma-informed"
+        },
+        {
+          "label": "",
+          "path": "surveys-trauma-informed"
+        }
+      ]
+    },
+    "pelvic-pain-patients": {
+      "title": "Provider Resources: Treating Patients with Pelvic Pain",
+      "docTitle": "Pelvic Pain patients",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "Books",
+          "href": "https://bookshop.org/lists/books-for-treating-patients-with-pelvic-pain",
+          "host": "bookshop.org",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "videos-treating-patients-with-pelvic-pain"
+        },
+        {
+          "label": "",
+          "path": "websites-for-providers"
+        },
+        {
+          "label": "",
+          "path": "websites-for-pelvic-pain"
+        },
+        {
+          "label": "",
+          "path": "events"
+        },
+        {
+          "label": "",
+          "path": "articles-pelvic-pain-patients"
+        }
+      ]
+    },
+    "older-adult-patients": {
+      "title": "Provider Resources: Working with Older Adult Patients",
+      "docTitle": "Older Adult Patients",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "Books",
+          "href": "https://bookshop.org/lists/books-for-working-with-elderly-patients",
+          "host": "bookshop.org",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "Training Videos",
+          "href": "https://youtube.com/playlist?list=PLUfheMZYKjA9va9gQOZ0F7hoj2y7De6Mv&si=RlVGdHzvBwkTEKT1",
+          "host": "youtube.com",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "Podcasts",
+          "href": "https://thebraintrustproject.com/episode-17advancing_dementia_detection-with_community_health_workers/",
+          "host": "thebraintrustproject.com",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "websites-for-providers"
+        },
+        {
+          "label": "",
+          "path": "blog/the-impact-of-caregiving-on-my-journey-to-become-a-physician"
+        }
+      ]
+    },
+    "patients-with-disabilities": {
+      "title": "Provider Resources: Patients with Disabilities",
+      "docTitle": "Patients with Disabilities",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "Books",
+          "href": "https://bookshop.org/lists/books-for-working-with-patients-with-disabilities",
+          "host": "bookshop.org",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "Terminology Guide for Medical School + Disabilities",
+          "href": "https://www.docswithdisabilities.org/_files/ugd/6a7717_b9cf12d671e64475b447467c7374663f.pdf?index=true",
+          "host": "docswithdisabilities.org",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "articles-podcasts-for-disabilities"
+        },
+        {
+          "label": "",
+          "path": "videos-for-patients-with-disabilities"
+        },
+        {
+          "label": "",
+          "path": "trainings-websites-for-disabilities"
+        },
+        {
+          "label": "",
+          "path": "blog/tag/disability"
+        }
+      ]
+    },
+    "black-and-brown-patients": {
+      "title": "Provider resources: Working with",
+      "docTitle": "Black and Brown Patients",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "Videos",
+          "href": "https://youtu.be/2btcnaDa5J8",
+          "host": "youtu.be",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "posts-black-and-brown-patients"
+        },
+        {
+          "label": "",
+          "path": "websites-for-providers"
+        },
+        {
+          "label": "",
+          "path": "research-racism"
+        }
+      ]
+    },
+    "lgbtqia-individuals": {
+      "title": "Provider resources:",
+      "docTitle": "LGBTQIA Individuals",
+      "entries": [
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://bookshop.org/lists/books-for-working-with-lgbtqia-individuals",
+          "host": "bookshop.org",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "Training Videos",
+          "href": "https://www.innovating-education.org/curriculum/course/9898/#unit-1-module-2",
+          "host": "innovating-education.org",
+          "source": "card"
+        },
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://storage.googleapis.com/gator-users/user-932079/documents/55521ff1456f4ec39e5d79dddf3c945c/GenderOpossum%20Worksheet.pdf",
+          "host": "storage.googleapis.com",
+          "source": "text"
+        },
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://www.lgbtqiahealtheducation.org/wp-content/uploads/2018/10/Implicit-Bias-Guide-2018_Final.pdf",
+          "host": "lgbtqiahealtheducation.org",
+          "source": "text"
+        },
+        {
+          "label": "Books",
+          "blurb": "",
+          "href": "https://www.innovating-education.org//wp-content/uploads/2020/12/Sex-and-Gender-Glossary.pdf",
+          "host": "innovating-education.org",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "Academic ToolKits",
+          "href": "https://www.cps.edu/globalassets/cps-pages/services-and-supports/health-and-wellness/healthy-cps/healthy-environment/lgbtq-supportive-environments/supportinggenderdiversitytoolkit2.pdf?fbclid=IwAR1-I0ugAMF0rl4mSqN2D-UzyHLWWZyFI0TwFr9Y601yDIeJG-38llzecQE",
+          "host": "cps.edu",
+          "source": "card"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "providers-lgbtqia"
+        },
+        {
+          "label": "Books",
+          "path": "podcasts-lgbtqia-health"
+        },
+        {
+          "label": "",
+          "path": "blog/transgender-health-and-gender-affirming-care"
+        }
+      ]
+    },
+    "podcasts-for-healthcare-providers": {
+      "title": "Podcasts for Health Care Providers",
+      "docTitle": "Podcasts for Healthcare Providers",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/resetmd/id1584690817",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/post-author/the-podcast-by-kevinmd",
+          "host": "kevinmd.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/adhd-experts-podcast/id668174671",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/docs-with-disabilities/id1474844514",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/mch-bridges-the-official-amchp-podcast/id1585876531",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/issm-uncovered-podcast/id1678753169",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/the-trauma-therapist/id899009517",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "traumatherapistproject.com",
+          "blurb": "",
+          "href": "http://traumatherapistproject.com/",
+          "host": "traumatherapistproject.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.psychiatrypodcast.com/psychiatry-psychotherapy-podcast/",
+          "host": "psychiatrypodcast.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://psychiatryonline.org/psychiatry-unbound",
+          "host": "psychiatryonline.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/counselor-toolbox-podcast/id1120947649",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/the-seattle-psychiatrist-interview-series/id1610172041",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "seattleanxiety.com",
+          "blurb": "",
+          "href": "http://seattleanxiety.com/",
+          "host": "seattleanxiety.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/psychology-unplugged/id1547088092",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "additudemag.com/adhdexpertwebinarsindex",
+          "blurb": "",
+          "href": "http://additudemag.com/adhd-expert-webinars-index",
+          "host": "additudemag.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "articles-for-mental-health": {
+      "title": "Articles on Mental Health",
+      "docTitle": "Articles for Mental Health",
+      "entries": [
+        {
+          "label": "KevinMD.com",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/2022/02/i-risked-my-career-to-save-my-life.html",
+          "host": "kevinmd.com",
+          "source": "near"
+        },
+        {
+          "label": "KevinMD.com",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/",
+          "host": "kevinmd.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/2021/06/a-physicians-story-of-dissociative-identity-disorder.html",
+          "host": "kevinmd.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/2022/09/let-doctors-in-recovery-be-able-to-recover-their-careers.html",
+          "host": "kevinmd.com",
+          "source": "none"
+        },
+        {
+          "label": "Check out on International Society of Sexual Medicine (ISSM)",
+          "blurb": "",
+          "href": "https://www.issm.info/sexual-health-qa/do-mental-health-problems-have-an-effect-on-sexual-function",
+          "host": "issm.info",
+          "source": "near"
+        },
+        {
+          "label": "Inflammation: The Common Pathway of StressRelated Diseases",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476783/",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "near"
+        },
+        {
+          "label": "https://doi.org/10.3389/fnhum.2017.00316",
+          "blurb": "",
+          "href": "https://doi.org/10.3389/fnhum.2017.00316",
+          "host": "doi.org",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "articles-on-endometriosis": {
+      "title": "Research Articles on Endometriosis",
+      "docTitle": "Articles on Endometriosis",
+      "entries": [
+        {
+          "label": "& Associated Pelvic Pain",
+          "blurb": "",
+          "href": "https://www.endonews.com/",
+          "host": "endonews.com",
+          "source": "near"
+        },
+        {
+          "label": "& Associated Pelvic Pain",
+          "blurb": "",
+          "href": "https://www.endonews.com/endometriosis-a-whole-body-disease",
+          "host": "endonews.com",
+          "source": "near"
+        },
+        {
+          "label": "The Systemic Effects of Endometriosis",
+          "blurb": "",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/28658710/",
+          "host": "pubmed.ncbi.nlm.nih.gov",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/2022/01/screening-for-adverse-childhood-experiences-in-pediatric-primary-care-made-my-job-easier.html",
+          "host": "kevinmd.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2784694?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamapsychiatry.2021.2669",
+          "host": "jamanetwork.com",
+          "source": "none"
+        },
+        {
+          "label": "News & Research Portal for The Endometriosis Foundation of America",
+          "blurb": "",
+          "href": "https://www-ncbi-nlm-nih-gov.ezproxy.rush.edu/pmc/articles/PMC6112577/",
+          "host": "www-ncbi-nlm-nih-gov.ezproxy.rush.edu",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.jsm.jsexmed.org/article/S1743-6095(19)30427-8/fulltext",
+          "host": "jsm.jsexmed.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736459/pdf/nihms880470.pdf",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1467-9566.2007.01024.x",
+          "host": "onlinelibrary.wiley.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2716600/",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "articles-on-infertility": {
+      "title": "Articles on Infertility",
+      "docTitle": "Articles on Infertility",
+      "entries": [
+        {
+          "label": "Articles on Infertility",
+          "blurb": "",
+          "href": "https://www.issm.info/sexual-health-headlines/how-infertility-may-impact-couples-sexual-health-and-satisfaction",
+          "host": "issm.info",
+          "source": "near"
+        },
+        {
+          "label": "Inflammation: The Common Pathway of StressRelated Diseases",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476783/",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://publ.resolvenewengland.org/a-beginners-guide-to-ivf/index.html#group-section-Procedures-HMkglxj7JW",
+          "host": "publ.resolvenewengland.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2813409",
+          "host": "jamanetwork.com",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "articles-on-trauma": {
+      "title": "Traumainformed Articles on",
+      "docTitle": "Articles on Trauma",
+      "entries": [
+        {
+          "label": "\"Bodily maps of emotions\"",
+          "blurb": "",
+          "href": "https://www.pnas.org/doi/10.1073/pnas.1321664111#fig02",
+          "host": "pnas.org",
+          "source": "text"
+        },
+        {
+          "label": "Emotions are often felt in the body, and somatosensory feedback has been proposed to trigger conscious emotional experiences. Here we reveal maps of bodily sensations associated with different emotions using a unique topographical selfreport method. In five experiments, participants (n = 701) were shown two silhouettes of bodies alongside emotional words, stories, movies, or facial expressions. They were asked to color the bodily regions whose activity they felt increasing or decreasing while viewing each stimulus. Different emotions were consistently associated with statistically separable bodily sensation maps across experiments. These maps were concordant across West European and East Asian samples. Statistical classifiers distinguished emotionspecific activation maps accurately, confirming independence of topographies across emotions. We propose that emotions are represented in the somatosensory system as culturally universal categorical somatotopic maps. Perception of these emotiontriggered bodily changes may play a key role in generating consciously felt emotions.",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/2022/03/will-smiths-slap-is-a-trauma-response.html",
+          "host": "kevinmd.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "articles-pelvic-pain": {
+      "title": "Research Articles on Pelvic Pain",
+      "docTitle": "Articles Pelvic Pain",
+      "entries": [
+        {
+          "label": "Click on each picture to read the associated article",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9967635/",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.sciencedirect.com/science/article/pii/S1743609522014990",
+          "host": "sciencedirect.com",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "articles-pelvic-pain-patients": {
+      "title": "Articles for Treating Patients with Pelvic Floor Pain & Chronic Pain Conditions",
+      "docTitle": "Articles Pelvic Pain Patients",
+      "entries": [
+        {
+          "label": "Click on each picture to read full article",
+          "blurb": "",
+          "href": "https://www.jsm.jsexmed.org/article/S1743-6095(22)01510-7/fulltext",
+          "host": "jsm.jsexmed.org",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.sciencedirect.com/science/article/pii/S1743609522014990#fig0001",
+          "host": "sciencedirect.com",
+          "source": "none"
+        },
+        {
+          "label": "Dr. Rubin's Blog Review of Article at:",
+          "blurb": "",
+          "href": "https://www.rachelrubinmd.com/post/new-research-on-clitoral-adhesions",
+          "host": "rachelrubinmd.com",
+          "source": "near"
+        },
+        {
+          "label": "NYT's Interview over Article: \"Half the World Has a Clitoris. Why Don't Doctors Study It?\"",
+          "blurb": "",
+          "href": "https://www.nytimes.com/2022/10/17/health/clitoris-sex-doctors-surgery.html",
+          "host": "nytimes.com",
+          "source": "text"
+        },
+        {
+          "label": "NYT's Interview over Article: \"Half the World Has a Clitoris. Why Don't Doctors Study It?\"",
+          "blurb": "",
+          "href": "https://www.sciencedirect.com/science/article/pii/S2050116118300254",
+          "host": "sciencedirect.com",
+          "source": "near"
+        },
+        {
+          "label": "https://doi.org/10.1016/j.esxm.2018.01.003",
+          "blurb": "",
+          "href": "https://www.prosayla.com/",
+          "host": "prosayla.com",
+          "source": "near"
+        },
+        {
+          "label": "Resource who has medical experts breaking down research articles on sexual health and sexual pain medical conditions.",
+          "blurb": "",
+          "href": "https://www.prosayla.com/articles",
+          "host": "prosayla.com",
+          "source": "near"
+        },
+        {
+          "label": "Articles on ScienceDirect related to disfunction of the Anal Wink Reflex:",
+          "blurb": "",
+          "href": "https://www.sciencedirect.com/topics/medicine-and-dentistry/anal-wink",
+          "host": "sciencedirect.com",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2784694?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamapsychiatry.2021.2669",
+          "host": "jamanetwork.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.jsm.jsexmed.org/article/S1743-6095(19)30427-8/fulltext",
+          "host": "jsm.jsexmed.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736459/pdf/nihms880470.pdf",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/34303757/",
+          "host": "pubmed.ncbi.nlm.nih.gov",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/03/chronic-pelvic-pain",
+          "host": "acog.org",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "articles-podcasts-for-disabilities": {
+      "title": "Podcasts & Articles for Patients and Medical Professionals with Disabilities",
+      "docTitle": "Articles & Podcasts for Disabilities",
+      "entries": [
+        {
+          "label": "Podcasts & Articles for Patients and Medical Professionals with Disabilities",
+          "blurb": "",
+          "href": "https://www.docswithdisabilities.org/docswithpodcast",
+          "host": "docswithdisabilities.org",
+          "source": "near"
+        },
+        {
+          "label": "EQUAL ACCESS FOR STUDENTS WITH DISABILITIES:The Guide for Health Science and Professional Education",
+          "blurb": "",
+          "href": "https://www.docswithdisabilities.org/equal-access-guide",
+          "host": "docswithdisabilities.org",
+          "source": "text"
+        },
+        {
+          "label": "Guide to Requesting Accommodations on the USMLE Step Exams",
+          "blurb": "",
+          "href": "https://www.docswithdisabilities.org/usmle-accommodations-guide",
+          "host": "docswithdisabilities.org",
+          "source": "text"
+        },
+        {
+          "label": "Disability Representation and Inclusion within Academic Medicine Webinar Guides",
+          "blurb": "",
+          "href": "https://aamc.elevate.commpartners.com/products/disability-representation-and-inclusion-within-academic-medicine#tab-product_tab_content",
+          "host": "aamc.elevate.commpartners.com",
+          "source": "text"
+        },
+        {
+          "label": "Writings on Personal Journies:",
+          "blurb": "",
+          "href": "https://www.rushu.rush.edu/news/med-student-chooses-live-out-loud-about-having-disability",
+          "host": "rushu.rush.edu",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://soundcloud.com/user-475703944/sore-loser-a-chronic-pain-and-illness-zine-on-queer-disabled-grief",
+          "host": "soundcloud.com",
+          "source": "none"
+        },
+        {
+          "label": "Download",
+          "blurb": "",
+          "href": "https://storage.googleapis.com/gator-users/user-932079/documents/ef0112c8956a4f9294a1dbeac72cf405/Rush%20Article%20%7C%20%E2%80%98Out%E2%80%99%20Health%20Care%20Professionals%20With%20Disabilities%20Create%20One%20Less.pdf",
+          "host": "storage.googleapis.com",
+          "source": "card"
+        }
+      ],
+      "internal": []
+    },
+    "articles-sexual-health": {
+      "title": "Research Articles on Sexual Health",
+      "docTitle": "Articles Sexual Health",
+      "entries": [
+        {
+          "label": ".com",
+          "blurb": "",
+          "href": "https://findyourselfbethat.com/wp-content/uploads/2023/03/Classification_of_the_anatomical_variation_in_female_external_genitalia.pdf",
+          "host": "findyourselfbethat.com",
+          "source": "near"
+        },
+        {
+          "label": "Gynodiversity",
+          "blurb": "",
+          "href": "https://gynodiversity.com/index.html",
+          "host": "gynodiversity.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "blog/tag/disability": {
+      "title": "MedPsycMoss",
+      "docTitle": "Blog | Disability",
+      "entries": [
+        {
+          "label": "This blog uncovers lessons learned during my journey living as a patient and future doctor.",
+          "blurb": "",
+          "href": "https://medium.com/@medpsycmoss",
+          "host": "medium.com",
+          "source": "near"
+        }
+      ],
+      "internal": [
+        {
+          "label": "Home",
+          "path": "view/tag/disability"
+        },
+        {
+          "label": "About Me",
+          "path": "view/tag/disability/about-me"
+        },
+        {
+          "label": "Blog",
+          "path": "view/tag/disability/blog"
+        },
+        {
+          "label": "Podcast",
+          "path": "view/tag/disability/podcast"
+        },
+        {
+          "label": "Store",
+          "path": "view/tag/disability/store"
+        },
+        {
+          "label": "Resources",
+          "path": "view/tag/disability/resources"
+        },
+        {
+          "label": "My Work",
+          "path": "view/tag/disability/my-work"
+        },
+        {
+          "label": "Contact",
+          "path": "view/tag/disability/contact"
+        },
+        {
+          "label": "29Guide on applying for accommodations on the USMLE and COMLEX if you have a mental or physical health condition that impacts your ability to take standardized exams. As a PGY2 Psych Resident who received Accommodations for Step 1, 2, and 3, and have worked with dozens of medical students through this process.Guide to Applying for Accommodations for USMLE, COMLEX, MCATOct",
+          "path": "view/tag/disability/blog/accommodations-usmle"
+        },
+        {
+          "label": "20Discover the empowering journey of a medical student with a disability who shares candid insights into disclosure, navigating academia, and breaking barriers. Explore the pros and cons of disclosure, learn about disability acceptance in residency programs, and gain valuable tips for job applications and interviews. Access...Disability Disclosure in Medicine: Residency ApplicationsSep",
+          "path": "view/tag/disability/blog/disability_disclosure_residency"
+        },
+        {
+          "label": "09Explore the personal journey of a medical student navigating life with disabilities and uncover valuable insights into requesting accommodations, navigating clinical environments, and understanding legal protections. This comprehensive blog post offers practical advice, resources, and firsthand experiences to empower...Guide to Disability Accommodations in Medical School & ResidencyMar",
+          "path": "view/tag/disability/blog/disability-accommodations"
+        },
+        {
+          "label": "27Delve into valuable insights on preparing for USMLE STEP1 from someone who has experienced USMLE Step1 failure twice and success. Explore critical lessons learned, effective study strategies, and personal experiences to navigate the challenges of medical board exams. Whether you're facing setbacks or aiming for success, this...Lessons Learned from Failing USMLE STEP1: A Comprehensive GuideJun",
+          "path": "view/tag/disability/blog/step1"
+        },
+        {
+          "label": "medical school",
+          "path": "view/tag/disability/blog/tag/medical school"
+        },
+        {
+          "label": "mental health",
+          "path": "view/tag/disability/blog/tag/mental health"
+        },
+        {
+          "label": "ms3",
+          "path": "view/tag/disability/blog/tag/ms3"
+        },
+        {
+          "label": "medicine",
+          "path": "view/tag/disability/blog/tag/medicine"
+        },
+        {
+          "label": "failure",
+          "path": "view/tag/disability/blog/tag/failure"
+        },
+        {
+          "label": "endometriosis",
+          "path": "view/tag/disability/blog/tag/endometriosis"
+        },
+        {
+          "label": "premed",
+          "path": "view/tag/disability/blog/tag/pre-med"
+        },
+        {
+          "label": "psychiatry",
+          "path": "view/tag/disability/blog/tag/psychiatry"
+        },
+        {
+          "label": "step",
+          "path": "view/tag/disability/blog/tag/step"
+        },
+        {
+          "label": "loa",
+          "path": "view/tag/disability/blog/tag/loa"
+        },
+        {
+          "label": "disability",
+          "path": "view/tag/disability/blog/tag/disability"
+        },
+        {
+          "label": "residency",
+          "path": "view/tag/disability/blog/tag/residency"
+        },
+        {
+          "label": "residency app",
+          "path": "view/tag/disability/blog/tag/residency app"
+        },
+        {
+          "label": "finances",
+          "path": "view/tag/disability/blog/tag/finances"
+        },
+        {
+          "label": "imposter syndrome",
+          "path": "view/tag/disability/blog/tag/imposter syndrome"
+        },
+        {
+          "label": "infertility",
+          "path": "view/tag/disability/blog/tag/infertility"
+        },
+        {
+          "label": "medical school app",
+          "path": "view/tag/disability/blog/tag/medical school app"
+        },
+        {
+          "label": "preclinical",
+          "path": "view/tag/disability/blog/tag/pre-clinical"
+        },
+        {
+          "label": "sexual health",
+          "path": "view/tag/disability/blog/tag/sexual health"
+        },
+        {
+          "label": "caregiver",
+          "path": "view/tag/disability/blog/tag/caregiver"
+        },
+        {
+          "label": "racism",
+          "path": "view/tag/disability/blog/tag/racism"
+        },
+        {
+          "label": "suicide",
+          "path": "view/tag/disability/blog/tag/suicide"
+        },
+        {
+          "label": "lgbtqia",
+          "path": "view/tag/disability/blog/tag/lgbtqia"
+        },
+        {
+          "label": "marriage",
+          "path": "view/tag/disability/blog/tag/marriage"
+        },
+        {
+          "label": "mcat",
+          "path": "view/tag/disability/blog/tag/mcat"
+        },
+        {
+          "label": "pelvic pain",
+          "path": "view/tag/disability/blog/tag/pelvic pain"
+        },
+        {
+          "label": "death",
+          "path": "view/tag/disability/blog/tag/death"
+        },
+        {
+          "label": "Overcoming USMLE Step One...03/15/2025",
+          "path": "view/tag/disability/blog/step-failure-to-match"
+        },
+        {
+          "label": "Applying into Residency ERAS & PS...07/23/2026",
+          "path": "view/tag/disability/blog/residency-app"
+        },
+        {
+          "label": "Clinical Rotations: The Hidden...12/14/2025",
+          "path": "view/tag/disability/blog/clinical-rotations"
+        },
+        {
+          "label": "2",
+          "path": "view/tag/disability/blog/tag/disability/page/2"
+        }
+      ]
+    },
+    "blog/the-impact-of-caregiving-on-my-journey-to-become-a-physician": {
+      "title": "This is the post title",
+      "docTitle": "Post Page",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.instagram.com/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.linkedin.com/in/stephanie-e-moss/",
+          "host": "linkedin.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://twitter.com/medpsycmoss",
+          "host": "twitter.com",
+          "source": "text"
+        },
+        {
+          "label": "Subscribe",
+          "blurb": "",
+          "href": "https://www.youtube.com/@StephMossMD",
+          "host": "youtube.com",
+          "source": "near"
+        }
+      ],
+      "internal": [
+        {
+          "label": "Home",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined"
+        },
+        {
+          "label": "About Me",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/about-me"
+        },
+        {
+          "label": "Blog",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog"
+        },
+        {
+          "label": "Podcast",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/podcast"
+        },
+        {
+          "label": "Store",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/store"
+        },
+        {
+          "label": "Resources",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/resources"
+        },
+        {
+          "label": "My Work",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/my-work"
+        },
+        {
+          "label": "Contact",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/contact"
+        },
+        {
+          "label": "medical school",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/medical school"
+        },
+        {
+          "label": "mental health",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/mental health"
+        },
+        {
+          "label": "ms3",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/ms3"
+        },
+        {
+          "label": "medicine",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/medicine"
+        },
+        {
+          "label": "failure",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/failure"
+        },
+        {
+          "label": "endometriosis",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/endometriosis"
+        },
+        {
+          "label": "premed",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/pre-med"
+        },
+        {
+          "label": "psychiatry",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/psychiatry"
+        },
+        {
+          "label": "step",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/step"
+        },
+        {
+          "label": "loa",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/loa"
+        },
+        {
+          "label": "disability",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/disability"
+        },
+        {
+          "label": "residency",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/residency"
+        },
+        {
+          "label": "residency app",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/residency app"
+        },
+        {
+          "label": "finances",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/finances"
+        },
+        {
+          "label": "imposter syndrome",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/imposter syndrome"
+        },
+        {
+          "label": "infertility",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/infertility"
+        },
+        {
+          "label": "medical school app",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/medical school app"
+        },
+        {
+          "label": "preclinical",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/pre-clinical"
+        },
+        {
+          "label": "sexual health",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/sexual health"
+        },
+        {
+          "label": "caregiver",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/caregiver"
+        },
+        {
+          "label": "racism",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/racism"
+        },
+        {
+          "label": "suicide",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/suicide"
+        },
+        {
+          "label": "lgbtqia",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/lgbtqia"
+        },
+        {
+          "label": "marriage",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/marriage"
+        },
+        {
+          "label": "mcat",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/mcat"
+        },
+        {
+          "label": "pelvic pain",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/pelvic pain"
+        },
+        {
+          "label": "death",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/death"
+        },
+        {
+          "label": "Guide to Applying for Accommodations for...10/29/2025",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/accommodations-usmle"
+        },
+        {
+          "label": "Overcoming USMLE Step One Failures to...03/15/2025",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/step-failure-to-match"
+        },
+        {
+          "label": "Lessons Learned from Failing USMLE STEP1: A...06/27/2024",
+          "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/step1"
+        }
+      ]
+    },
+    "blog/transgender-health-and-gender-affirming-care": {
+      "title": "Exploring Implicit Bias in Transgender Perception: A Personal Journey",
+      "docTitle": "Exploring Implicit Bias in Transgender Perception: A Personal Journey",
+      "entries": [
+        {
+          "label": "https://implicit.harvard.edu/implicit/selectatest.html",
+          "blurb": "",
+          "href": "https://implicit.harvard.edu/implicit/selectatest.html",
+          "host": "implicit.harvard.edu",
+          "source": "text"
+        },
+        {
+          "label": "Changing Speech",
+          "blurb": "",
+          "href": "http://www.phsa.ca/transcarebc/care-support/transitioning/chng-speech",
+          "host": "phsa.ca",
+          "source": "text"
+        },
+        {
+          "label": "Patient Handout",
+          "blurb": "",
+          "href": "http://www.phsa.ca/transcarebc/Documents/HealthProf/Binding-Handout.pdf",
+          "host": "phsa.ca",
+          "source": "text"
+        },
+        {
+          "label": "Binding Safety Tips",
+          "blurb": "",
+          "href": "https://point5cc.com/tips-to-bind-your-chest-safely/",
+          "host": "point5cc.com",
+          "source": "text"
+        },
+        {
+          "label": "Patient Handout",
+          "blurb": "",
+          "href": "http://www.phsa.ca/transcarebc/Documents/HealthProf/Tucking-Handout.pdf",
+          "host": "phsa.ca",
+          "source": "text"
+        },
+        {
+          "label": "Hair Removal",
+          "blurb": "",
+          "href": "http://www.phsa.ca/transcarebc/care-support/transitioning/hair-remvl",
+          "host": "phsa.ca",
+          "source": "text"
+        },
+        {
+          "label": "NY Times Article on \"Pumpers\"",
+          "blurb": "",
+          "href": "https://www.nytimes.com/2011/08/21/nyregion/some-transgender-women-pay-a-high-price-to-look-more-feminine.html",
+          "host": "nytimes.com",
+          "source": "text"
+        },
+        {
+          "label": "Considerations by TransCareBC",
+          "blurb": "",
+          "href": "http://www.phsa.ca/transcarebc/hormones/hormone-therapy",
+          "host": "phsa.ca",
+          "source": "text"
+        },
+        {
+          "label": "Care of the Patient Undergoing Sex Reassignment Surgery (SRS)",
+          "blurb": "",
+          "href": "http://www.amsa.org/wp-content/uploads/2015/04/CareOfThePatientUndergoingSRS.pdf",
+          "host": "amsa.org",
+          "source": "text"
+        },
+        {
+          "label": "Phalloplasty: techniques and outcomes",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6626313/",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "text"
+        },
+        {
+          "label": "Transgender vaginoplasty: techniques and outcomes",
+          "blurb": "",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6626315/#:~:text=For%20transgender%20women%2C%20vaginoplasty%20offers,with%20a%20gender%2Dcongruent%20appearance.",
+          "host": "ncbi.nlm.nih.gov",
+          "source": "text"
+        },
+        {
+          "label": "www.lgbtmap.org",
+          "blurb": "",
+          "href": "https://www.lgbtmap.org/",
+          "host": "lgbtmap.org",
+          "source": "text"
+        },
+        {
+          "label": "www.aclu.org/legislativeattacksonlgbtqrights",
+          "blurb": "",
+          "href": "http://www.aclu.org/legislative-attacks-on-lgbtq-rights",
+          "host": "aclu.org",
+          "source": "text"
+        },
+        {
+          "label": "Learning to Address Implicit Bias Towards LGBTQ Patients:",
+          "blurb": "",
+          "href": "https://www.lgbtqiahealtheducation.org/wp-content/uploads/2018/10/Implicit-Bias-Guide-2018_Final.pdf",
+          "host": "lgbtqiahealtheducation.org",
+          "source": "text"
+        },
+        {
+          "label": "Standards of Care for the Health of Transgender and Gender Diverse People, Version 8",
+          "blurb": "",
+          "href": "https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2100644",
+          "host": "tandfonline.com",
+          "source": "text"
+        },
+        {
+          "label": "UCSF's Guidelines for the Primary and GenderAffirming Care of Transgender and Nonbinary People",
+          "blurb": "",
+          "href": "https://transcare.ucsf.edu/guidelines",
+          "host": "transcare.ucsf.edu",
+          "source": "text"
+        },
+        {
+          "label": "Transgender ToolKit for HealthCare Clinics",
+          "blurb": "",
+          "href": "https://cedarriverclinics.org/transtoolkit/",
+          "host": "cedarriverclinics.org",
+          "source": "text"
+        },
+        {
+          "label": "www.lgbtqiahealtheducation.org",
+          "blurb": "",
+          "href": "https://www.lgbtqiahealtheducation.org/",
+          "host": "lgbtqiahealtheducation.org",
+          "source": "text"
+        },
+        {
+          "label": "Howard Brown Health Center",
+          "blurb": "",
+          "href": "https://howardbrown.org/",
+          "host": "howardbrown.org",
+          "source": "text"
+        },
+        {
+          "label": "SUPPORTING GENDER DIVERSITY TOOLKIT",
+          "blurb": "",
+          "href": "https://www.cps.edu/globalassets/cps-pages/services-and-supports/health-and-wellness/healthy-cps/healthy-environment/lgbtq-supportive-environments/supportinggenderdiversitytoolkit2.pdf?fbclid=IwAR1-I0ugAMF0rl4mSqN2D-UzyHLWWZyFI0TwFr9Y601yDIeJG-38llzecQE",
+          "host": "cps.edu",
+          "source": "text"
+        },
+        {
+          "label": "Families in TRANSition: A Resource Guide for Parents of Trans Youth",
+          "blurb": "",
+          "href": "https://ctys.org/wp-content/uploads/2022/11/CTYS-FIT-Guide-2020-English-1.pdf",
+          "host": "ctys.org",
+          "source": "text"
+        },
+        {
+          "label": "Gender Spectrum",
+          "blurb": "",
+          "href": "https://www.genderspectrum.org/resources",
+          "host": "genderspectrum.org",
+          "source": "text"
+        },
+        {
+          "label": "Gender Creative Kids.com",
+          "blurb": "",
+          "href": "https://gendercreativekids.com/",
+          "host": "gendercreativekids.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.instagram.com/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.linkedin.com/in/stephanie-e-moss/",
+          "host": "linkedin.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://twitter.com/medpsycmoss",
+          "host": "twitter.com",
+          "source": "text"
+        },
+        {
+          "label": "Subscribe",
+          "blurb": "",
+          "href": "https://www.youtube.com/@StephMossMD",
+          "host": "youtube.com",
+          "source": "near"
+        }
+      ],
+      "internal": [
+        {
+          "label": "Home",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined"
+        },
+        {
+          "label": "About Me",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/about-me"
+        },
+        {
+          "label": "Blog",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog"
+        },
+        {
+          "label": "Podcast",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/podcast"
+        },
+        {
+          "label": "Store",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/store"
+        },
+        {
+          "label": "Resources",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/resources"
+        },
+        {
+          "label": "My Work",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/my-work"
+        },
+        {
+          "label": "Contact",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/contact"
+        },
+        {
+          "label": "Health Care Provider",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/providers-sexual-health"
+        },
+        {
+          "label": "More Resources for LGBTQIA+ Individuals",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/lgbtqia-individuals"
+        },
+        {
+          "label": "More Resources for Health Care Providers",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/providers-lgbtqia"
+        },
+        {
+          "label": "medical school",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/medical school"
+        },
+        {
+          "label": "mental health",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/mental health"
+        },
+        {
+          "label": "ms3",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/ms3"
+        },
+        {
+          "label": "medicine",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/medicine"
+        },
+        {
+          "label": "failure",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/failure"
+        },
+        {
+          "label": "endometriosis",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/endometriosis"
+        },
+        {
+          "label": "premed",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/pre-med"
+        },
+        {
+          "label": "psychiatry",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/psychiatry"
+        },
+        {
+          "label": "step",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/step"
+        },
+        {
+          "label": "loa",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/loa"
+        },
+        {
+          "label": "disability",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/disability"
+        },
+        {
+          "label": "residency",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/residency"
+        },
+        {
+          "label": "residency app",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/residency app"
+        },
+        {
+          "label": "finances",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/finances"
+        },
+        {
+          "label": "imposter syndrome",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/imposter syndrome"
+        },
+        {
+          "label": "infertility",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/infertility"
+        },
+        {
+          "label": "medical school app",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/medical school app"
+        },
+        {
+          "label": "preclinical",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/pre-clinical"
+        },
+        {
+          "label": "sexual health",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/sexual health"
+        },
+        {
+          "label": "caregiver",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/caregiver"
+        },
+        {
+          "label": "racism",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/racism"
+        },
+        {
+          "label": "suicide",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/suicide"
+        },
+        {
+          "label": "lgbtqia",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/lgbtqia"
+        },
+        {
+          "label": "marriage",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/marriage"
+        },
+        {
+          "label": "mcat",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/mcat"
+        },
+        {
+          "label": "pelvic pain",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/pelvic pain"
+        },
+        {
+          "label": "death",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/death"
+        },
+        {
+          "label": "Guide to Applying for Accommodations for...10/29/2025",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/accommodations-usmle"
+        },
+        {
+          "label": "Overcoming USMLE Step One Failures to...03/15/2025",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/step-failure-to-match"
+        },
+        {
+          "label": "Lessons Learned from Failing USMLE STEP1: A...06/27/2024",
+          "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/step1"
+        }
+      ]
+    },
+    "events": {
+      "title": "Upcoming & Recorded Virtual Events,",
+      "docTitle": "Events",
+      "entries": [
+        {
+          "label": "MedPsycMoss Youtube",
+          "blurb": "",
+          "href": "https://www.youtube.com/channel/UC_Ypzlapvju3XZ-8rgjF8Vw",
+          "host": "youtube.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "podcasts-lgbtqia-health": {
+      "title": "Podcasts Supporting LQBTQIA Sexual Health",
+      "docTitle": "Podcasts LGBTQIA Health",
+      "entries": [],
+      "internal": []
+    },
+    "podcasts-on-endometriosis": {
+      "title": "Podcasts on Endometriosis",
+      "docTitle": "Podcasts on Endometriosis",
+      "entries": [],
+      "internal": []
+    },
+    "podcasts-on-infertility": {
+      "title": "Podcasts on Infertility",
+      "docTitle": "Podcasts on Infertility",
+      "entries": [],
+      "internal": []
+    },
+    "podcasts-on-pelvic-pain": {
+      "title": "Podcasts on Pelvic Pain",
+      "docTitle": "Podcasts on Pelvic Pain",
+      "entries": [],
+      "internal": []
+    },
+    "podcasts-sexual-health": {
+      "title": "Podcasts on Sexual Health Education",
+      "docTitle": "Podcasts Sexual Health",
+      "entries": [],
+      "internal": []
+    },
+    "podcasts-trauma": {
+      "title": "Podcasts for Mental Health & Individuals Dealing with Trauma",
+      "docTitle": "Podcasts Trauma",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/transforming-trauma/id1496190024",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "Podcasts for Mental Health & Individuals Dealing with Trauma",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/the-tanner-wallace-podcast/id1515546096",
+          "host": "podcasts.apple.com",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/counselor-toolbox-podcast/id1120947649",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/the-seattle-psychiatrist-interview-series/id1610172041",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "seattleanxiety.com",
+          "blurb": "",
+          "href": "http://seattleanxiety.com/",
+          "host": "seattleanxiety.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/overcoming-child-sexual-abuse-with-kathy-andersen/id1566969310",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "seattleanxiety.com",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/the-trauma-therapist/id899009517",
+          "host": "podcasts.apple.com",
+          "source": "near"
+        },
+        {
+          "label": "traumatherapistproject.com",
+          "blurb": "",
+          "href": "http://traumatherapistproject.com/",
+          "host": "traumatherapistproject.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/psychology-unplugged/id1547088092",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/adhd-experts-podcast/id668174671",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "additudemag.com/adhdexpertwebinarsindex",
+          "blurb": "",
+          "href": "http://additudemag.com/adhd-expert-webinars-index",
+          "host": "additudemag.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/terrible-thanks-for-asking/id1126119288",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://podcasts.apple.com/us/podcast/mch-bridges-the-official-amchp-podcast/id1585876531",
+          "host": "podcasts.apple.com",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "posts-black-and-brown-patients": {
+      "title": "MedPsycMoss' Posts on Black & Brown Patients",
+      "docTitle": "Posts Black and Brown Patients",
+      "entries": [],
+      "internal": []
+    },
+    "posts-endometriosis": {
+      "title": "MedPsycMoss' Posts on Endometriosis",
+      "docTitle": "Posts Endometriosis",
+      "entries": [],
+      "internal": []
+    },
+    "posts-infertility": {
+      "title": "MedPsycMoss' Posts on Living with Infertility",
+      "docTitle": "Posts Infertility",
+      "entries": [
+        {
+          "label": "Articles Published:",
+          "blurb": "",
+          "href": "https://www.endofound.org/an-inside-look-into-infertility-care-navigating-hidden-costs-treatment",
+          "host": "endofound.org",
+          "source": "near"
+        },
+        {
+          "label": "Articles Published:",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/2022/04/the-hidden-costs-of-fully-covered-infertility-treatment.html",
+          "host": "kevinmd.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "posts-mental-health": {
+      "title": "MedPsycMoss' Posts on Mental Health",
+      "docTitle": "Posts Mental Health",
+      "entries": [],
+      "internal": []
+    },
+    "posts-pelvic-pain": {
+      "title": "MedPsycMoss Posts on Pelvic Pain",
+      "docTitle": "Posts Pelvic Pain",
+      "entries": [],
+      "internal": [
+        {
+          "label": "Pelvic Pain Tag On Blog",
+          "path": "blog/tag/pelvic pain"
+        }
+      ]
+    },
+    "posts-trauma-informed-care": {
+      "title": "MedPsycMoss' Posts on TraumaInformed Care",
+      "docTitle": "Posts Trauma Informed Care",
+      "entries": [],
+      "internal": []
+    },
+    "products-endometriosis": {
+      "title": "Products for Endometriosis",
+      "docTitle": "Products Endometriosis",
+      "entries": [
+        {
+          "label": "$5 off Code: medpsycmoss",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/pelvic-wands",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/vaginal-dilators",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+          "host": "intimaterose.com",
+          "source": "none"
+        },
+        {
+          "label": "HelloMilli.com",
+          "blurb": "",
+          "href": "https://thinx.club/stephaniemoss4",
+          "host": "thinx.club",
+          "source": "card"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/kegel-exercises-for-women-vaginal-weights-pelvic-floor",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "$5 off Code: medpsycmoss",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/mastectomy-recovery-aids",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Thinx Website + $10 off",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/supplements",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/anal-dilators",
+          "host": "intimaterose.com",
+          "source": "none"
+        },
+        {
+          "label": "HelloMilli.com",
+          "blurb": "",
+          "href": "https://www.hellomilli.com/milli-vaginal-dilator/",
+          "host": "hellomilli.com",
+          "source": "card"
+        }
+      ],
+      "internal": []
+    },
+    "products-for-infertility": {
+      "title": "Products while Going Through Infertility",
+      "docTitle": "Products for Infertility",
+      "entries": [
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/vaginal-dilators",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Pelvic Wand",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "\"MEDPSYCMOSS\"",
+          "blurb": "",
+          "href": "https://myvitro.com/?ref=9vw-6CsqOPRaBi",
+          "host": "myvitro.com",
+          "source": "text"
+        },
+        {
+          "label": "Kegals",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "$5 off Code: medpsycmoss Regular, Vibrating, or Heating/Cooling Great for being able to get painful trigger points and message them out.",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/pelvic-wands",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "CalmiGO Website",
+          "blurb": "",
+          "href": "https://calmigo.com/?fid=385",
+          "host": "calmigo.com",
+          "source": "card"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/premium-kegel-weight-exercise-system",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "$5 off code: medpsycmoss",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/mastectomy-recovery-aids",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Speax Website + $10 off",
+          "blurb": "",
+          "href": "https://thinx.club/stephaniemoss4",
+          "host": "thinx.club",
+          "source": "card"
+        },
+        {
+          "label": "15% off: MEDPSYCMOSS",
+          "blurb": "",
+          "href": "https://www.etsy.com/shop/FertilityInFocus?coupon=MEDPSYCMOSS",
+          "host": "etsy.com",
+          "source": "card"
+        }
+      ],
+      "internal": []
+    },
+    "products-for-menopause": {
+      "title": "Products for Menopause",
+      "docTitle": "Products for Menopause",
+      "entries": [
+        {
+          "label": "Speax Website + $10 off",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/blogs/videos/wand-videos",
+          "host": "intimaterose.com",
+          "source": "none"
+        },
+        {
+          "label": "Thinx Website + $10 off",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/pelvic-wands",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://thinx.club/stephaniemoss4",
+          "host": "thinx.club",
+          "source": "card"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/freeze-dried-aloe-vera-capsules-600mg",
+          "host": "intimaterose.com",
+          "source": "card"
+        }
+      ],
+      "internal": []
+    },
+    "products-for-sexual-health": {
+      "title": "Products for Sexual Health",
+      "docTitle": "Products for Sexual Health",
+      "entries": [
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/full-anal-dilator-set-8-sizes",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "\"TOY FRIENDLY, CONDOM COMPATIBLE: #LubeLife WaterBased Lubricant provides a safe experience and is compatible with most toy materials and natural rubber latex and polyisoprene condoms but not compatible with polyurethane condoms\"",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/blogs/videos/wand-videos",
+          "host": "intimaterose.com",
+          "source": "near"
+        },
+        {
+          "label": "Thinx Website + $10 off",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/pelvic-wands",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Anal Dilators",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://thinx.club/stephaniemoss4",
+          "host": "thinx.club",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/freeze-dried-aloe-vera-capsules-600mg",
+          "host": "intimaterose.com",
+          "source": "none"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/kegel-exercises-for-women-vaginal-weights-pelvic-floor",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Most Highly Reccomended Product:",
+          "blurb": "",
+          "href": "https://www.amazon.com/LubeLife-Personal-Lubricant-Lube-Parabens/dp/B07DGQ4QR3?crid=RW09MNNMC5PW&dib=eyJ2IjoiMSJ9.7fI8zX6FyyFVxOMppkiu0i51C0NWr_IA-Q6QvzBrMfcmkeciCQMTA2GWH5_1JpE0cK6U-vGT8duzC4Bhfyx0eQ.KUzmfOYwaxbx52-J52HB6drb5l9pdPZDUp1blTHIkxM&dib_tag=se&keywords=lube&qid=1704998869&s=hpc&sprefix=lube,hpc,100&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=sl1&tag=medpsycmoss0b-20&linkId=08b336a0ca78a40c6a32b2955d955fab&language=en_US&ref_=as_li_ss_tl",
+          "host": "amazon.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "products-mental-health": {
+      "title": "Products for Mental Health",
+      "docTitle": "Products Mental Health",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://calmigo.com/?fid=385",
+          "host": "calmigo.com",
+          "source": "none"
+        },
+        {
+          "label": "CalmiGO Website",
+          "blurb": "",
+          "href": "https://urldefense.com/v3/__https://t.dripemail2.com/c/eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZXRvdXIiLCJpc3MiOiJtb25vbGl0aCIsInN1YiI6ImRldG91cl9saW5rIiwiaWF0IjoxNjQyMDY3NzQzLCJuYmYiOjE2NDIwNjc3NDMsImFjY291bnRfaWQiOiIyMjI2MjgzIiwiZGVsaXZlcnlfaWQiOiJtZDR3NWpvbGRzOTBta2JueTdjNiIsInVybCI6Imh0dHBzOi8vd3d3LmludGltYXRlcm9zZS5jb20vU1RFUEhBTklFNDc_dXRtX3NvdXJjZT1JUkNXLVRyYWNraW5nLWZvbGxvd3VwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWRheTAmdXRtX2NvbnRlbnQ9bGluayZfX3M9ZzM1dG5jemk3aGd3dnV6MGcwZW8ifQ.Wx6M2TmDXGGK64p66FQSAqDqvIVxQJT_V1AEnvTAsDQ__;!!OlavHw!ttgI6YZp-NW40BilgJzJ3Gy0b7D8oEpP_3ZTeGTXd_R-R0_hNbokqaMUW5SZq-OVbNTyszE$",
+          "host": "urldefense.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "products-pelvic-pain": {
+      "title": "Products for Pelvic Pain",
+      "docTitle": "Products Pelvic Pain",
+      "entries": [
+        {
+          "label": "Pelvic Wand",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/pelvic-wands",
+          "host": "intimaterose.com",
+          "source": "text"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://thinx.club/stephaniemoss4",
+          "host": "thinx.club",
+          "source": "card"
+        },
+        {
+          "label": "Calmi Go",
+          "blurb": "",
+          "href": "https://calmigo.com/?fid=385",
+          "host": "calmigo.com",
+          "source": "text"
+        },
+        {
+          "label": "$5 off Code: medpsycmoss",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/blogs/videos/wand-videos",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Anal Dilators",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+          "host": "intimaterose.com",
+          "source": "card"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/vaginal-dilators",
+          "host": "intimaterose.com",
+          "source": "text"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/full-anal-dilator-set-8-sizes",
+          "host": "intimaterose.com",
+          "source": "text"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/products/kegel-exercises-for-women-vaginal-weights-pelvic-floor",
+          "host": "intimaterose.com",
+          "source": "text"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/supplements",
+          "host": "intimaterose.com",
+          "source": "text"
+        },
+        {
+          "label": "Intimate Rose Website",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/collections/mastectomy-recovery-aids",
+          "host": "intimaterose.com",
+          "source": "text"
+        },
+        {
+          "label": "Hello Milli Website",
+          "blurb": "",
+          "href": "https://www.hellomilli.com/milli-vaginal-dilator/",
+          "host": "hellomilli.com",
+          "source": "text"
+        },
+        {
+          "label": "EBook by Pelvic Pain Rehab Center:",
+          "blurb": "",
+          "href": "https://pelvicpainrehab.com/for-patients/#ebook",
+          "host": "pelvicpainrehab.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "products-trauma": {
+      "title": "Products for Trauma Recovery & Healing",
+      "docTitle": "Products Trauma",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://calmigo.com/?fid=385",
+          "host": "calmigo.com",
+          "source": "none"
+        },
+        {
+          "label": "CalmiGO Website",
+          "blurb": "",
+          "href": "https://urldefense.com/v3/__https://t.dripemail2.com/c/eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZXRvdXIiLCJpc3MiOiJtb25vbGl0aCIsInN1YiI6ImRldG91cl9saW5rIiwiaWF0IjoxNjQyMDY3NzQzLCJuYmYiOjE2NDIwNjc3NDMsImFjY291bnRfaWQiOiIyMjI2MjgzIiwiZGVsaXZlcnlfaWQiOiJtZDR3NWpvbGRzOTBta2JueTdjNiIsInVybCI6Imh0dHBzOi8vd3d3LmludGltYXRlcm9zZS5jb20vU1RFUEhBTklFNDc_dXRtX3NvdXJjZT1JUkNXLVRyYWNraW5nLWZvbGxvd3VwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWRheTAmdXRtX2NvbnRlbnQ9bGluayZfX3M9ZzM1dG5jemk3aGd3dnV6MGcwZW8ifQ.Wx6M2TmDXGGK64p66FQSAqDqvIVxQJT_V1AEnvTAsDQ__;!!OlavHw!ttgI6YZp-NW40BilgJzJ3Gy0b7D8oEpP_3ZTeGTXd_R-R0_hNbokqaMUW5SZq-OVbNTyszE$",
+          "host": "urldefense.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "providers-infertility": {
+      "title": "Finding The Right Infertility Provider, Clinic, & Agency",
+      "docTitle": "Providers Infertility",
+      "entries": [
+        {
+          "label": "Vaginismus, Vulvodynia Providers by SelfAdvocates",
+          "blurb": "",
+          "href": "https://www.mapotic.com/vulvodynia-providers",
+          "host": "mapotic.com",
+          "source": "text"
+        },
+        {
+          "label": "Find a Sexual Medicine Provider by International Society of Sexual Medicine (ISSM)",
+          "blurb": "",
+          "href": "https://app.v1.statusplus.net/membership/provider/index?society=issm",
+          "host": "app.v1.statusplus.net",
+          "source": "text"
+        },
+        {
+          "label": "Individual, Sexual health, & Couples Therapy Provider Search",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/therapists",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "Pelvic Floor Trained Physicial Therapists (PT)",
+          "blurb": "",
+          "href": "https://pelvicrehab.com/",
+          "host": "pelvicrehab.com",
+          "source": "text"
+        },
+        {
+          "label": "More Info on Types of Therapists",
+          "blurb": "",
+          "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+          "host": "mayoclinic.org",
+          "source": "text"
+        },
+        {
+          "label": "More Info on Types of Therapy",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/types-of-therapy",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "More Info on Types of Sex Therapy",
+          "blurb": "",
+          "href": "https://www.apa.org/monitor/2019/02/cover-ce-corner",
+          "host": "apa.org",
+          "source": "text"
+        },
+        {
+          "label": "GoStork clinics, surrogacy, donars, financing",
+          "blurb": "",
+          "href": "https://gostork.com/",
+          "host": "gostork.com",
+          "source": "text"
+        },
+        {
+          "label": "Resolve's National Database of Infertility Providers",
+          "blurb": "",
+          "href": "https://resolve.org/get-help/find-a-professional/",
+          "host": "resolve.org",
+          "source": "text"
+        },
+        {
+          "label": "How insurance works",
+          "blurb": "",
+          "href": "https://www.mhanational.org/how-insurance-works",
+          "host": "mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "Resolve New England Providers, Attorneys, Pharmacies, Storage, Donors, Finances",
+          "blurb": "",
+          "href": "https://resolvenewengland.org/professional-directory/",
+          "host": "resolvenewengland.org",
+          "source": "text"
+        },
+        {
+          "label": "Insurance Consults",
+          "blurb": "",
+          "href": "https://resolvenewengland.org/resources/insurance-assistance/",
+          "host": "resolvenewengland.org",
+          "source": "text"
+        },
+        {
+          "label": "Legislation by State",
+          "blurb": "",
+          "href": "https://resolve.org/take-action/our-issues/current-legislation/",
+          "host": "resolve.org",
+          "source": "text"
+        },
+        {
+          "label": "More questions to ask",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+          "host": "psychologytoday.com",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "MedPsycMoss Support Groups",
+          "path": "support-groups-infertility"
+        }
+      ]
+    },
+    "providers-lgbtqia": {
+      "title": "Providers for LGBTQIA",
+      "docTitle": "Providers LGBTQIA",
+      "entries": [],
+      "internal": []
+    },
+    "providers-pelvic-pain": {
+      "title": "Finding The Right Pelvic Pain Provider",
+      "docTitle": "Providers Pelvic Pain",
+      "entries": [
+        {
+          "label": "Sex & Couples Therapy Provider Search",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/therapists",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "Mental Health Provider By Disorder or Special Population",
+          "blurb": "",
+          "href": "https://www.mhanational.org/finding-therapy",
+          "host": "mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "How insurance works",
+          "blurb": "",
+          "href": "https://www.mhanational.org/how-insurance-works",
+          "host": "mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "Find a Sexual Health Provider",
+          "blurb": "",
+          "href": "https://app.v1.statusplus.net/membership/provider/index?society=isswsh",
+          "host": "app.v1.statusplus.net",
+          "source": "text"
+        },
+        {
+          "label": "Find a Pelvic Floor Trained PT",
+          "blurb": "",
+          "href": "https://pelvicrehab.com/",
+          "host": "pelvicrehab.com",
+          "source": "text"
+        },
+        {
+          "label": "More questions to ask",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "Vaginismus, Vulvodynia Providers by SelfAdvocates",
+          "blurb": "",
+          "href": "https://www.mapotic.com/vulvodynia-providers",
+          "host": "mapotic.com",
+          "source": "text"
+        },
+        {
+          "label": "Find a Pelvic Pain Physicial Therapist by Intimite Rose",
+          "blurb": "",
+          "href": "https://www.intimaterose.com/pages/find-a-providers?utm_source=drip&utm_medium=email&utm_campaign=Real+solutions%2C+not+resolutions.",
+          "host": "intimaterose.com",
+          "source": "text"
+        },
+        {
+          "label": "List of Organizations and Providers in Various Nations",
+          "blurb": "",
+          "href": "https://endometriosis.org/support/support-groups/",
+          "host": "endometriosis.org",
+          "source": "text"
+        },
+        {
+          "label": "Types of Therapy",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/types-of-therapy",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "Types of Therapists",
+          "blurb": "",
+          "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+          "host": "mayoclinic.org",
+          "source": "text"
+        },
+        {
+          "label": "Types of Sex Therapy",
+          "blurb": "",
+          "href": "https://www.apa.org/monitor/2019/02/cover-ce-corner",
+          "host": "apa.org",
+          "source": "text"
+        },
+        {
+          "label": "www.kevinmd.com/2022/09/endometriosisisoftenmisdiagnosedhowtogettherightdiagnosis.html",
+          "blurb": "",
+          "href": "https://www.kevinmd.com/2022/09/endometriosis-is-often-misdiagnosed-how-to-get-the-right-diagnosis.html",
+          "host": "kevinmd.com",
+          "source": "text"
+        }
+      ],
+      "internal": [
+        {
+          "label": "Support Groups",
+          "path": "support-groups-pelvic-pain"
+        }
+      ]
+    },
+    "providers-sexual-health": {
+      "title": "Finding The Right Sexual Health Provider",
+      "docTitle": "Providers Sexual Health",
+      "entries": [
+        {
+          "label": "Vaginismus, Vulvodynia Providers by SelfAdvocates",
+          "blurb": "",
+          "href": "https://www.mapotic.com/vulvodynia-providers",
+          "host": "mapotic.com",
+          "source": "text"
+        },
+        {
+          "label": "Find a Sexual Medicine Provider by International Society of Sexual Medicine (ISSM)",
+          "blurb": "",
+          "href": "https://app.v1.statusplus.net/membership/provider/index?society=issm",
+          "host": "app.v1.statusplus.net",
+          "source": "text"
+        },
+        {
+          "label": "More Info on Types of Therapists",
+          "blurb": "",
+          "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+          "host": "mayoclinic.org",
+          "source": "text"
+        },
+        {
+          "label": "More Info on Types of Therapy",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/types-of-therapy",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "More Info on Types of Sex Therapy",
+          "blurb": "",
+          "href": "https://www.apa.org/monitor/2019/02/cover-ce-corner",
+          "host": "apa.org",
+          "source": "text"
+        },
+        {
+          "label": "Sex & Couples Therapy Provider Search",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/therapists",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "Mental Health Provider By Disorder or Special Population",
+          "blurb": "",
+          "href": "https://www.mhanational.org/finding-therapy",
+          "host": "mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "How insurance works",
+          "blurb": "",
+          "href": "https://www.mhanational.org/how-insurance-works",
+          "host": "mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "Find a Pelvic Floor Trained PT",
+          "blurb": "",
+          "href": "https://pelvicrehab.com/",
+          "host": "pelvicrehab.com",
+          "source": "text"
+        },
+        {
+          "label": "Pelvic Medicine & Rehabilitation (PM&R)",
+          "blurb": "",
+          "href": "https://members.aapmr.org/AAPMR/AAPMR_FINDER.aspxy",
+          "host": "members.aapmr.org",
+          "source": "text"
+        },
+        {
+          "label": "More questions to ask",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+          "host": "psychologytoday.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "providers-trauma": {
+      "title": "How to find a TraumaInformed Mental Health Care Provider",
+      "docTitle": "Providers Trauma",
+      "entries": [
+        {
+          "label": "More Info on Types of Providers",
+          "blurb": "",
+          "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+          "host": "mayoclinic.org",
+          "source": "text"
+        },
+        {
+          "label": "More Info on Types of Therapy",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/types-of-therapy",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "Psychology Today",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/therapists",
+          "host": "psychologytoday.com",
+          "source": "text"
+        },
+        {
+          "label": "By Disorder or Special Population",
+          "blurb": "",
+          "href": "https://www.mhanational.org/finding-therapy",
+          "host": "mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "How insurance works for Mental Health",
+          "blurb": "",
+          "href": "https://www.mhanational.org/how-insurance-works",
+          "host": "mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "Mental Health America",
+          "blurb": "",
+          "href": "https://arc.mhanational.org/find-an-affiliate",
+          "host": "arc.mhanational.org",
+          "source": "text"
+        },
+        {
+          "label": "More questions to ask",
+          "blurb": "",
+          "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+          "host": "psychologytoday.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "research-racism": {
+      "title": "Working with Black & Brown Patients",
+      "docTitle": "Research Racism",
+      "entries": [
+        {
+          "label": "Click each picture to read article",
+          "blurb": "",
+          "href": "https://www.sciencedirect.com/science/article/pii/S0306453022001135?via%3Dihub",
+          "host": "sciencedirect.com",
+          "source": "near"
+        },
+        {
+          "label": "Jourdyn A. Lawrence, Ichiro Kawachi, Kellee White, Mary T. Bassett, Naomi Priest, Joan Gakii Masunga, Hannah J. Cory, Carol Mita, David R. Williams,A systematic review and metaanalysis of the Everyday Discrimination Scale and biomarker outcomes, Psychoneuroendocrinology, Volume 142, 2022,105772, SSN 03064530,",
+          "blurb": "",
+          "href": "https://www.statnews.com/2022/06/20/black-doctors-forced-out-of-training-programs-at-far-higher-rates-than-white-residents/",
+          "host": "statnews.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-disabilities": {
+      "title": "Support Groups for living with Disabilities",
+      "docTitle": "Support Groups Disabilities",
+      "entries": [
+        {
+          "label": "Email:",
+          "blurb": "",
+          "href": "https://www.disabilitylead.org/about",
+          "host": "disabilitylead.org",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://resolvenewengland.org/",
+          "host": "resolvenewengland.org",
+          "source": "none"
+        },
+        {
+          "label": "Docs with Disabilities",
+          "blurb": "",
+          "href": "https://www.docswithdisabilities.org/",
+          "host": "docswithdisabilities.org",
+          "source": "text"
+        },
+        {
+          "label": "@DocsWith",
+          "blurb": "",
+          "href": "https://twitter.com/DocsWith",
+          "host": "twitter.com",
+          "source": "text"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.sistersong.net/reproductive-justice",
+          "host": "sistersong.net",
+          "source": "none"
+        },
+        {
+          "label": "@dac_med",
+          "blurb": "",
+          "href": "https://twitter.com/dac_med?lang=en",
+          "host": "twitter.com",
+          "source": "text"
+        },
+        {
+          "label": "MSDCI.org",
+          "blurb": "",
+          "href": "https://msdci.org/",
+          "host": "msdci.org",
+          "source": "text"
+        },
+        {
+          "label": "Group Me",
+          "blurb": "",
+          "href": "https://groupme.com/join_group/66663425/DTuMC3WW",
+          "host": "groupme.com",
+          "source": "text"
+        },
+        {
+          "label": "ebsite",
+          "blurb": "",
+          "href": "https://www.physicianswithdisabilities.org/",
+          "host": "physicianswithdisabilities.org",
+          "source": "text"
+        },
+        {
+          "label": "M3P",
+          "blurb": "",
+          "href": "https://disabilitymedmentors.org/",
+          "host": "disabilitymedmentors.org",
+          "source": "text"
+        },
+        {
+          "label": "info@disabilitymedmentors.org",
+          "blurb": "",
+          "href": "http://info@disabilitymedmentors.org/",
+          "host": "disabilitymedmentors.org",
+          "source": "text"
+        },
+        {
+          "label": "www.amphl.org",
+          "blurb": "",
+          "href": "https://www.amphl.org/",
+          "host": "amphl.org",
+          "source": "text"
+        },
+        {
+          "label": "Apply for a 1 year fellowship training!",
+          "blurb": "",
+          "href": "https://www.doctorsforfertility.org/",
+          "host": "doctorsforfertility.org",
+          "source": "near"
+        },
+        {
+          "label": "\"SisterSong Women of Color Reproductive Justice Collective was formed in 1997 by 16 organizations of women of color from four minicommunities (Native American, African American, Latina, and Asian American) who recognized that we have the right and responsibility to represent ourselves and our communities, and the equally compelling need to advance the perspectives and needs of women of color.\"",
+          "blurb": "",
+          "href": "https://nond.org/",
+          "host": "nond.org",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-endometriosis": {
+      "title": "Endometriosis Support Groups",
+      "docTitle": "Support Groups Endometriosis",
+      "entries": [
+        {
+          "label": "Bodies Podcast",
+          "blurb": "",
+          "href": "https://www.facebook.com/groups/BodiesPodcast/",
+          "host": "facebook.com",
+          "source": "text"
+        },
+        {
+          "label": "The Fertility Formula",
+          "blurb": "",
+          "href": "https://www.facebook.com/groups/thefertilityformula/",
+          "host": "facebook.com",
+          "source": "text"
+        },
+        {
+          "label": "Ovira's Inner Circle",
+          "blurb": "",
+          "href": "https://www.facebook.com/groups/ovira/",
+          "host": "facebook.com",
+          "source": "text"
+        },
+        {
+          "label": "My Endometriosis Team",
+          "blurb": "",
+          "href": "https://www.myendometriosisteam.com/",
+          "host": "myendometriosisteam.com",
+          "source": "text"
+        },
+        {
+          "label": "@theperioddoctor",
+          "blurb": "",
+          "href": "https://www.instagram.com/theperioddoctor/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelvichealth",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvichealth/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drjenniferlincoln",
+          "blurb": "",
+          "href": "https://www.instagram.com/drjenniferlincoln/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.vagina.whisperer",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.vagina.whisperer/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@jillkrapfmd",
+          "blurb": "",
+          "href": "https://www.instagram.com/jillkrapfmd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@hormone.health.doc",
+          "blurb": "",
+          "href": "https://www.instagram.com/hormone.health.doc/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@feministsexed",
+          "blurb": "",
+          "href": "https://www.instagram.com/feministsexed/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@lovecrave",
+          "blurb": "",
+          "href": "https://www.instagram.com/lovecrave/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@loradicarlo_hq",
+          "blurb": "",
+          "href": "https://www.instagram.com/loradicarlo_hq/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@clitoris.io",
+          "blurb": "",
+          "href": "https://www.instagram.com/clitoris.io/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drrachelrubin",
+          "blurb": "",
+          "href": "https://www.instagram.com/drrachelrubin/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@in16yearsofendo",
+          "blurb": "",
+          "href": "https://www.instagram.com/in16yearsofendo/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@tightlippedorg",
+          "blurb": "",
+          "href": "https://www.instagram.com/tightlippedorg/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@intimaterose",
+          "blurb": "",
+          "href": "https://www.instagram.com/intimaterose/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelvisibility",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvisibility/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelivpainproject",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvicpainproject/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@beyondbasicpt",
+          "blurb": "",
+          "href": "https://www.instagram.com/beyondbasicspt/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.cvvd",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.cvvd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@ohnutco",
+          "blurb": "",
+          "href": "https://www.instagram.com/ohnutco/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@endofound",
+          "blurb": "",
+          "href": "https://www.instagram.com/endofound/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@ovira",
+          "blurb": "",
+          "href": "https://www.instagram.com/ovira/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@theendomonologues",
+          "blurb": "",
+          "href": "https://www.instagram.com/theendomonologues/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@theendoproject",
+          "blurb": "",
+          "href": "https://www.instagram.com/theendoproject/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the_endo_space",
+          "blurb": "",
+          "href": "https://www.instagram.com/the__endo__space/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@endogirlsblog",
+          "blurb": "",
+          "href": "https://www.instagram.com/endogirlsblog/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@endo_and_adeno",
+          "blurb": "",
+          "href": "https://www.instagram.com/endo_and_adeno/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@mypelvicfloormuscles",
+          "blurb": "",
+          "href": "http://mypelvicfloormuscles/",
+          "host": "mypelvicfloormuscles",
+          "source": "text"
+        },
+        {
+          "label": "@endoqueer",
+          "blurb": "",
+          "href": "https://www.instagram.com/endoQueer/",
+          "host": "instagram.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-infertility": {
+      "title": "Infertility Support Groups, Organizations & Advocates",
+      "docTitle": "Support Groups Infertility",
+      "entries": [
+        {
+          "label": "Fertility Rally",
+          "blurb": "",
+          "href": "https://fertilityrally.com/",
+          "host": "fertilityrally.com",
+          "source": "text"
+        },
+        {
+          "label": "Yearly FREE Virtual Conference",
+          "blurb": "",
+          "href": "https://resolvenewengland.org/support/",
+          "host": "resolvenewengland.org",
+          "source": "near"
+        },
+        {
+          "label": "Primary Infertility, Pregnancy Loss, Donor Conception, Adoption, Surrogacy, Cancer, Family Building, Parenting After, Expecting, for men, for Queer parents...and more!",
+          "blurb": "",
+          "href": "https://www.doctorsforfertility.com/",
+          "host": "doctorsforfertility.com",
+          "source": "near"
+        },
+        {
+          "label": "Great support for Physicians going through Infertility 1 in 4 Female Physicians!",
+          "blurb": "",
+          "href": "https://www.facebook.com/groups/thefertilityformula",
+          "host": "facebook.com",
+          "source": "near"
+        },
+        {
+          "label": "@theperioddoctor",
+          "blurb": "",
+          "href": "https://www.instagram.com/theperioddoctor/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.vagina.whisperer",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.vagina.whisperer/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@jillkrapfmd",
+          "blurb": "",
+          "href": "https://www.instagram.com/jillkrapfmd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@hormone.health.doc",
+          "blurb": "",
+          "href": "https://www.instagram.com/hormone.health.doc/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@feministsexed",
+          "blurb": "",
+          "href": "https://www.instagram.com/feministsexed/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@lovecrave",
+          "blurb": "",
+          "href": "https://www.instagram.com/lovecrave/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@loradicarlo_hq",
+          "blurb": "",
+          "href": "https://www.instagram.com/loradicarlo_hq/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drrachelrubin",
+          "blurb": "",
+          "href": "https://www.instagram.com/drrachelrubin/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@intimaterose",
+          "blurb": "",
+          "href": "https://www.instagram.com/intimaterose/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@ohnutco",
+          "blurb": "",
+          "href": "https://www.instagram.com/ohnutco/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@endofound",
+          "blurb": "",
+          "href": "https://www.instagram.com/endofound/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@theendomonologues",
+          "blurb": "",
+          "href": "https://www.instagram.com/theendomonologues/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@theendoproject",
+          "blurb": "",
+          "href": "https://www.instagram.com/theendoproject/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the_endo_space",
+          "blurb": "",
+          "href": "https://www.instagram.com/the__endo__space/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@endogirlsblog",
+          "blurb": "",
+          "href": "https://www.instagram.com/endogirlsblog/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@endo_and_adeno",
+          "blurb": "",
+          "href": "https://www.instagram.com/endo_and_adeno/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drellenwood",
+          "blurb": "",
+          "href": "https://www.instagram.com/drellenwood/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@infertileafstories",
+          "blurb": "",
+          "href": "https://www.instagram.com/infertileafstories/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@crcfertility",
+          "blurb": "",
+          "href": "https://www.instagram.com/crcfertility/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@one_last_chance_ivf",
+          "blurb": "",
+          "href": "https://www.instagram.com/one_last_chance_ivf/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@elouden.fertilitydoc",
+          "blurb": "",
+          "href": "https://www.instagram.com/elouden.fertilitydoc/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@nataliecrawfordmd",
+          "blurb": "",
+          "href": "https://www.instagram.com/nataliecrawfordmd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@makingbabyboggs",
+          "blurb": "",
+          "href": "https://www.instagram.com/makingbabyboggs/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@tosinodunsimd",
+          "blurb": "",
+          "href": "https://www.instagram.com/tosinodunsimd/",
+          "host": "instagram.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-mental-health": {
+      "title": "Mental Health Support Groups",
+      "docTitle": "Support Groups Mental Health",
+      "entries": [
+        {
+          "label": "Mental Health Support Groups",
+          "blurb": "",
+          "href": "https://www.facebook.com/groups/relationalhealing",
+          "host": "facebook.com",
+          "source": "near"
+        },
+        {
+          "label": "This is the official Facebook group for the Relational Healing Lab. A community space for adult survivors of childhood trauma who want to both recover AND dream big.",
+          "blurb": "",
+          "href": "https://www.thestigma.app/",
+          "host": "thestigma.app",
+          "source": "near"
+        },
+        {
+          "label": "@healing.and.cptsd",
+          "blurb": "",
+          "href": "https://www.instagram.com/healing.and.cptsd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@browngirltrauma",
+          "blurb": "",
+          "href": "https://www.instagram.com/browngirltrauma/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@survivorrevive",
+          "blurb": "",
+          "href": "https://www.instagram.com/survivorrevive/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@psychup_",
+          "blurb": "",
+          "href": "https://www.instagram.com/psychup_/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@mentalhealthbooster",
+          "blurb": "",
+          "href": "https://www.instagram.com/mentalhealthbooster/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@brenebrown",
+          "blurb": "",
+          "href": "https://www.instagram.com/brenebrown/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@dr.marielbuque",
+          "blurb": "",
+          "href": "https://www.instagram.com/dr.marielbuque/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@theembodylab",
+          "blurb": "",
+          "href": "https://www.instagram.com/theembodylab/",
+          "host": "instagram.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-monopause": {
+      "title": "Menopause Support Groups",
+      "docTitle": "Support groups Monopause",
+      "entries": [
+        {
+          "label": "@theperioddoctor",
+          "blurb": "",
+          "href": "https://www.instagram.com/theperioddoctor/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelvichealth",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvichealth/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drjenniferlincoln",
+          "blurb": "",
+          "href": "https://www.instagram.com/drjenniferlincoln/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.vagina.whisperer",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.vagina.whisperer/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@jillkrapfmd",
+          "blurb": "",
+          "href": "https://www.instagram.com/jillkrapfmd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@hormone.health.doc",
+          "blurb": "",
+          "href": "https://www.instagram.com/hormone.health.doc/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@feministsexed",
+          "blurb": "",
+          "href": "https://www.instagram.com/feministsexed/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@lovecrave",
+          "blurb": "",
+          "href": "https://www.instagram.com/lovecrave/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@loradicarlo_hq",
+          "blurb": "",
+          "href": "https://www.instagram.com/loradicarlo_hq/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@clitoris.io",
+          "blurb": "",
+          "href": "https://www.instagram.com/clitoris.io/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drrachelrubin",
+          "blurb": "",
+          "href": "https://www.instagram.com/drrachelrubin/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@bodiespodcast",
+          "blurb": "",
+          "href": "https://www.instagram.com/bodiespodcast/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@tightlippedorg",
+          "blurb": "",
+          "href": "https://www.instagram.com/tightlippedorg/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@beyondbasicpt",
+          "blurb": "",
+          "href": "https://www.instagram.com/beyondbasicspt/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@intimaterose",
+          "blurb": "",
+          "href": "https://www.instagram.com/intimaterose/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelvisibility",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvisibility/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@menopause_society",
+          "blurb": "",
+          "href": "https://www.instagram.com/menopause_society/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.cvvd",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.cvvd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@ohnutco",
+          "blurb": "",
+          "href": "https://www.instagram.com/ohnutco/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@menopause.podcast",
+          "blurb": "",
+          "href": "https://www.instagram.com/menopause.podcast/",
+          "host": "instagram.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-pelvic-pain": {
+      "title": "Pelvic Pain Support Groups",
+      "docTitle": "Support Groups Pelvic Pain",
+      "entries": [
+        {
+          "label": "Interstitial Cystitis:",
+          "blurb": "",
+          "href": "http://www.painful-bladder.org/",
+          "host": "painful-bladder.org",
+          "source": "near"
+        },
+        {
+          "label": "Pelvic Pain Support Groups",
+          "blurb": "",
+          "href": "https://www.ic-network.com/",
+          "host": "ic-network.com",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.ichelp.org/",
+          "host": "ichelp.org",
+          "source": "none"
+        },
+        {
+          "label": "IBS/GI:",
+          "blurb": "",
+          "href": "https://iffgd.org/",
+          "host": "iffgd.org",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.pelvicpain.org.uk/",
+          "host": "pelvicpain.org.uk",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.pelvicpain.org/",
+          "host": "pelvicpain.org",
+          "source": "none"
+        },
+        {
+          "label": "Vulva/Vulvar:",
+          "blurb": "",
+          "href": "https://vulvalpainsociety.org/",
+          "host": "vulvalpainsociety.org",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.pudendalhope.info/",
+          "host": "pudendalhope.info",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.nva.org/",
+          "host": "nva.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.tightlipped.org/",
+          "host": "tightlipped.org",
+          "source": "none"
+        },
+        {
+          "label": "$",
+          "blurb": "",
+          "href": "https://findyourselfbethat.com/bookclub/",
+          "host": "findyourselfbethat.com",
+          "source": "near"
+        },
+        {
+          "label": "Ovira's Inner Circle",
+          "blurb": "",
+          "href": "https://www.facebook.com/groups/ovira/",
+          "host": "facebook.com",
+          "source": "text"
+        },
+        {
+          "label": "Bodies Podcast",
+          "blurb": "",
+          "href": "https://www.instagram.com/bodiespodcast/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@theperioddoctor",
+          "blurb": "",
+          "href": "https://www.instagram.com/theperioddoctor/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelvichealth",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvichealth/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drjenniferlincoln",
+          "blurb": "",
+          "href": "https://www.instagram.com/drjenniferlincoln/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.vagina.whisperer",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.vagina.whisperer/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@jillkrapfmd",
+          "blurb": "",
+          "href": "https://www.instagram.com/jillkrapfmd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@hormone.health.doc",
+          "blurb": "",
+          "href": "https://www.instagram.com/hormone.health.doc/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@feministsexed",
+          "blurb": "",
+          "href": "https://www.instagram.com/feministsexed/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@lovecrave",
+          "blurb": "",
+          "href": "https://www.instagram.com/lovecrave/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@loradicarlo_hq",
+          "blurb": "",
+          "href": "https://www.instagram.com/loradicarlo_hq/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@clitoris.io",
+          "blurb": "",
+          "href": "https://www.instagram.com/clitoris.io/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drrachelrubin",
+          "blurb": "",
+          "href": "https://www.instagram.com/drrachelrubin/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@tightlippedorg",
+          "blurb": "",
+          "href": "https://www.instagram.com/tightlippedorg/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@beyondbasicpt",
+          "blurb": "",
+          "href": "https://www.instagram.com/beyondbasicspt/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@intimaterose",
+          "blurb": "",
+          "href": "https://www.instagram.com/intimaterose/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelvisibility",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvisibility/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@pelivpainproject",
+          "blurb": "",
+          "href": "https://www.instagram.com/pelvicpainproject/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.cvvd",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.cvvd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@ohnutco",
+          "blurb": "",
+          "href": "https://www.instagram.com/ohnutco/",
+          "host": "instagram.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-sexual-health": {
+      "title": "Sexual Health Support Groups",
+      "docTitle": "Support Groups Sexual Health",
+      "entries": [
+        {
+          "label": "@theperioddoctor",
+          "blurb": "",
+          "href": "https://www.instagram.com/theperioddoctor/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@alirodmd",
+          "blurb": "",
+          "href": "https://www.instagram.com/alirodmd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drmilhouse",
+          "blurb": "",
+          "href": "https://www.instagram.com/drmilhouse/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drjenniferlincoln",
+          "blurb": "",
+          "href": "https://www.instagram.com/drjenniferlincoln/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@the.vagina.whisperer",
+          "blurb": "",
+          "href": "https://www.instagram.com/the.vagina.whisperer/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@jillkrapfmd",
+          "blurb": "",
+          "href": "https://www.instagram.com/jillkrapfmd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@hormone.health.doc",
+          "blurb": "",
+          "href": "https://www.instagram.com/hormone.health.doc/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@feministsexed",
+          "blurb": "",
+          "href": "https://www.instagram.com/feministsexed/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@lovecrave",
+          "blurb": "",
+          "href": "https://www.instagram.com/lovecrave/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@loradicarlo_hq",
+          "blurb": "",
+          "href": "https://www.instagram.com/loradicarlo_hq/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@clitoris.io",
+          "blurb": "",
+          "href": "https://www.instagram.com/clitoris.io/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@drrachelrubin",
+          "blurb": "",
+          "href": "https://www.instagram.com/drrachelrubin/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@bodiespodcast",
+          "blurb": "",
+          "href": "https://www.instagram.com/bodiespodcast/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@tightlippedorg",
+          "blurb": "",
+          "href": "https://www.instagram.com/tightlippedorg/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@beyondbasicpt",
+          "blurb": "",
+          "href": "https://www.instagram.com/beyondbasicspt/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@ohnutco",
+          "blurb": "",
+          "href": "https://www.instagram.com/ohnutco/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@lovemomotaro",
+          "blurb": "",
+          "href": "https://www.instagram.com/lovemomotaro/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@psic_michelle",
+          "blurb": "",
+          "href": "https://www.instagram.com/psic_michelle/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@sexwithemily",
+          "blurb": "",
+          "href": "https://www.instagram.com/sexwithemily/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@yourpleasureprincipal",
+          "blurb": "",
+          "href": "https://www.instagram.com/yourpleasureprincipal/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@psic_michelle",
+          "blurb": "",
+          "href": "https://medicalstudentforum.wixsite.com/chicago",
+          "host": "medicalstudentforum.wixsite.com",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.tightlipped.org/",
+          "host": "tightlipped.org",
+          "source": "none"
+        },
+        {
+          "label": "List of support Groups on Intenational Pelvic Pain Society",
+          "blurb": "",
+          "href": "https://www.pelvicpain.org/public/resources/support-groups",
+          "host": "pelvicpain.org",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "support-groups-trauma": {
+      "title": "Trauma Focussed Support Groups, Organizations & Advocates",
+      "docTitle": "Support Groups Trauma",
+      "entries": [
+        {
+          "label": "Trauma Focussed Support Groups, Organizations & Advocates",
+          "blurb": "",
+          "href": "https://www.facebook.com/groups/relationalhealing",
+          "host": "facebook.com",
+          "source": "near"
+        },
+        {
+          "label": "@healing.and.cptsd",
+          "blurb": "",
+          "href": "https://www.instagram.com/healing.and.cptsd/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@browngirltrauma",
+          "blurb": "",
+          "href": "https://www.instagram.com/browngirltrauma/",
+          "host": "instagram.com",
+          "source": "text"
+        },
+        {
+          "label": "@survivorrevive",
+          "blurb": "",
+          "href": "https://www.instagram.com/survivorrevive/",
+          "host": "instagram.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "surveys-trauma-informed": {
+      "title": "Surveys To Use During TraumaInformed Care",
+      "docTitle": "Surveys Trauma Informed",
+      "entries": [
+        {
+          "label": "The BRFSS Adverse Childhood Experience (ACE) Module by the CDC",
+          "blurb": "",
+          "href": "https://www.cdc.gov/violenceprevention/pdf/brfss_adverse_module.pdf",
+          "host": "cdc.gov",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "training-trauma-informed": {
+      "title": "TraumaInformed Trainings",
+      "docTitle": "Training TraumaInformed",
+      "entries": [
+        {
+          "label": "14 Clinical Simulation eModules on:",
+          "blurb": "",
+          "href": "https://www.admsep.org/csi-emodules.php?c=emodules-description&v=y",
+          "host": "admsep.org",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "trainings-mental-sexual-health": {
+      "title": "TraumaInformed Trainings & Workshops on Mental & Sexual Health",
+      "docTitle": "Trainings Mental & Sexual Health",
+      "entries": [
+        {
+          "label": "Website",
+          "blurb": "",
+          "href": "https://lumostransforms.com/individuals-groups/",
+          "host": "lumostransforms.com",
+          "source": "text"
+        },
+        {
+          "label": "Website",
+          "blurb": "",
+          "href": "https://www.issm.info/meetings/issm-webinars/on-demand-webinars?start=6",
+          "host": "issm.info",
+          "source": "text"
+        },
+        {
+          "label": "Website",
+          "blurb": "",
+          "href": "https://clitoris.io/summit2022-videos",
+          "host": "clitoris.io",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "trainings-websites-for-disabilities": {
+      "title": "Websites for People with Disabilities",
+      "docTitle": "Trainings & Websites for Disabilities",
+      "entries": [
+        {
+          "label": "Docs with Disabilities",
+          "blurb": "",
+          "href": "https://medicine.umich.edu/dept/family-medicine/programs/mdisability",
+          "host": "medicine.umich.edu",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.docswithdisabilities.org/webinars",
+          "host": "docswithdisabilities.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.docswithdisabilities.org/book-club",
+          "host": "docswithdisabilities.org",
+          "source": "none"
+        },
+        {
+          "label": "Ohio Disability and Health Partnership (ODHP)",
+          "blurb": "",
+          "href": "https://www.omgyes.com/",
+          "host": "omgyes.com",
+          "source": "near"
+        },
+        {
+          "label": "Ohio Disability and Health Partnership (ODHP)",
+          "blurb": "",
+          "href": "https://brenebrown.com/",
+          "host": "brenebrown.com",
+          "source": "near"
+        },
+        {
+          "label": "Center for Disability Health & Wellness",
+          "blurb": "",
+          "href": "https://disabilityhealth.medicine.umich.edu/",
+          "host": "disabilityhealth.medicine.umich.edu",
+          "source": "text"
+        },
+        {
+          "label": "Ohio Disability and Health Partnership (ODHP)",
+          "blurb": "",
+          "href": "https://grc.osu.edu/Projects/Ohio-Disability-and-Health-Partnership",
+          "host": "grc.osu.edu",
+          "source": "text"
+        },
+        {
+          "label": "Great Lakes ADA Center",
+          "blurb": "",
+          "href": "https://www.adagreatlakes.org/#",
+          "host": "adagreatlakes.org",
+          "source": "near"
+        },
+        {
+          "label": "Job Accomodations",
+          "blurb": "",
+          "href": "https://askjan.org/",
+          "host": "askjan.org",
+          "source": "near"
+        },
+        {
+          "label": "tatPearls Continued Education (CE)",
+          "blurb": "",
+          "href": "https://www.statpearls.com/home/freecme/?utm_source=sendgrid414",
+          "host": "statpearls.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "videos-endometriosis": {
+      "title": "Videos for Endometriosis",
+      "docTitle": "Videos Endometriosis",
+      "entries": [
+        {
+          "label": "www.pelvicgym.co",
+          "blurb": "",
+          "href": "http://www.pelvicgym.co/",
+          "host": "pelvicgym.co",
+          "source": "card"
+        },
+        {
+          "label": "Youtube Page",
+          "blurb": "",
+          "href": "https://www.youtube.com/c/PelvicPainRehab/featured",
+          "host": "youtube.com",
+          "source": "card"
+        },
+        {
+          "label": "&",
+          "blurb": "pelvicpainrehab.com",
+          "href": "https://pelvicpainrehab.com/pelvic-floor-yoga-and-pilates/",
+          "host": "pelvicpainrehab.com",
+          "source": "card"
+        }
+      ],
+      "internal": []
+    },
+    "videos-for-patients-with-disabilities": {
+      "title": "Videos for Working with Patients with Disabilites",
+      "docTitle": "Videos for Patients with Disabilities",
+      "entries": [
+        {
+          "label": "Doctors with Disabilities Inititive Youtube",
+          "blurb": "",
+          "href": "https://www.youtube.com/@docswithdisabilitiesinitiative/featured",
+          "host": "youtube.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "videos-for-trauma-informed-care": {
+      "title": "Videos for Trauma Informed Health Care",
+      "docTitle": "Videos for TraumaInformed Care",
+      "entries": [],
+      "internal": []
+    },
+    "videos-infertility": {
+      "title": "Videos for Living with Infertility",
+      "docTitle": "Videos Infertility",
+      "entries": [
+        {
+          "label": "Infertility Injection Training Videos:",
+          "blurb": "",
+          "href": "https://www.freedommedteach.com/eng/",
+          "host": "freedommedteach.com",
+          "source": "near"
+        },
+        {
+          "label": "MedPsycMoss Youtube Playlist:",
+          "blurb": "",
+          "href": "https://youtube.com/playlist?list=PLUfheMZYKjA8mvCd5ogoA6s8xRDzmxgrd",
+          "host": "youtube.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "videos-menopause": {
+      "title": "Videos for Menopause",
+      "docTitle": "Videos Menopause",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.pelvicgym.co/programs",
+          "host": "pelvicgym.co",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "videos-mental-health": {
+      "title": "Traumainformed Videos for Mental Health",
+      "docTitle": "Videos Mental Health",
+      "entries": [
+        {
+          "label": "A",
+          "blurb": "",
+          "href": "https://youtu.be/2btcnaDa5J8",
+          "host": "youtu.be",
+          "source": "text"
+        },
+        {
+          "label": "MedPsycMoss Youtube Playlist on Mental Health",
+          "blurb": "",
+          "href": "https://youtube.com/playlist?list=PLUfheMZYKjA90sS4qPDOWuE5jilPZg7GK",
+          "host": "youtube.com",
+          "source": "text"
+        },
+        {
+          "label": "YouTube Page",
+          "blurb": "",
+          "href": "https://www.youtube.com/channel/UCg4-6ZLd9W4rE55qMjhVe_A/featured",
+          "host": "youtube.com",
+          "source": "text"
+        },
+        {
+          "label": "Youtube Page",
+          "blurb": "",
+          "href": "https://www.youtube.com/c/childmindinstitute",
+          "host": "youtube.com",
+          "source": "text"
+        },
+        {
+          "label": "Youtube Page",
+          "blurb": "",
+          "href": "https://www.youtube.com/channel/UC5LUxnXbReV7I5cEzvb46sQ",
+          "host": "youtube.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "videos-pelvic-pain": {
+      "title": "Videos for Pelvic Pain",
+      "docTitle": "Videos Pelvic Pain",
+      "entries": [
+        {
+          "label": "Pelvic Gym PT Videos:",
+          "blurb": "www.pelvicgym.co",
+          "href": "http://www.pelvicgym.co/",
+          "host": "pelvicgym.co",
+          "source": "card"
+        },
+        {
+          "label": "Pelvic Gym PT Videos:",
+          "blurb": "",
+          "href": "https://www.pelvicgym.co/programs",
+          "host": "pelvicgym.co",
+          "source": "near"
+        },
+        {
+          "label": "Youtube Page",
+          "blurb": "",
+          "href": "https://www.youtube.com/c/PelvicPainRehab/featured",
+          "host": "youtube.com",
+          "source": "card"
+        },
+        {
+          "label": "&",
+          "blurb": "pelvicpainrehab.com",
+          "href": "https://pelvicpainrehab.com/pelvic-floor-yoga-and-pilates/",
+          "host": "pelvicpainrehab.com",
+          "source": "card"
+        },
+        {
+          "label": "Click the Pictures to be sent to the website to see the movie",
+          "blurb": "",
+          "href": "https://www.belowthebelt.film/",
+          "host": "belowthebelt.film",
+          "source": "near"
+        },
+        {
+          "label": "Dr. Levine's Somatic Pain Trainings:",
+          "blurb": "",
+          "href": "https://product.soundstrue.com/body-as-healer/sign-up/",
+          "host": "product.soundstrue.com",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "videos-sexual-health": {
+      "title": "Videos for Sexual Health Education",
+      "docTitle": "Videos Sexual Health",
+      "entries": [
+        {
+          "label": "International Society for Sexual Medicine (ISSM)",
+          "blurb": "",
+          "href": "https://www.issm.info/meetings/issm-webinars/on-demand-webinars",
+          "host": "issm.info",
+          "source": "near"
+        },
+        {
+          "label": "Pelvic gym",
+          "blurb": "",
+          "href": "https://www.pelvicgym.co/programs",
+          "host": "pelvicgym.co",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.omgyes.com/",
+          "host": "omgyes.com",
+          "source": "none"
+        },
+        {
+          "label": "Video Recordings from the Clitoris Summit 2021 & 2022",
+          "blurb": "",
+          "href": "https://clitoris.io/summit2022-videos",
+          "host": "clitoris.io",
+          "source": "card"
+        },
+        {
+          "label": "Netflix Page",
+          "blurb": "",
+          "href": "https://www.netflix.com/title/80197526",
+          "host": "netflix.com",
+          "source": "text"
+        },
+        {
+          "label": "Netflix Page",
+          "blurb": "",
+          "href": "https://www.netflix.com/title/80117038",
+          "host": "netflix.com",
+          "source": "text"
+        },
+        {
+          "label": "Netflix Page",
+          "blurb": "",
+          "href": "https://www.netflix.com/title/81459349",
+          "host": "netflix.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "videos-trauma": {
+      "title": "Videos on Trauma for Patients with Trauma Histories",
+      "docTitle": "Videos Trauma",
+      "entries": [
+        {
+          "label": "Check out some recorded videos where I have spoken on Trauma",
+          "blurb": "",
+          "href": "https://www.instagram.com/tv/CUyX_AJAksa/?utm_source=ig_web_copy_link",
+          "host": "instagram.com",
+          "source": "near"
+        },
+        {
+          "label": "MedPsycMoss Youtube Playlist: Healing from Trauma",
+          "blurb": "",
+          "href": "https://youtube.com/playlist?list=PLUfheMZYKjA9TkH22bDQrDUD1gFRlLGUe",
+          "host": "youtube.com",
+          "source": "text"
+        }
+      ],
+      "internal": []
+    },
+    "videos-treating-patients-with-pelvic-pain": {
+      "title": "Videos for Treating Patients with Pelvic Pain",
+      "docTitle": "Videos Treating Patients with Pelvic Pain",
+      "entries": [
+        {
+          "label": "www.pelvicgym.co",
+          "blurb": "",
+          "href": "http://www.pelvicgym.co/",
+          "host": "pelvicgym.co",
+          "source": "card"
+        },
+        {
+          "label": "Youtube Page",
+          "blurb": "",
+          "href": "https://www.youtube.com/c/PelvicPainRehab/featured",
+          "host": "youtube.com",
+          "source": "card"
+        },
+        {
+          "label": "&",
+          "blurb": "Pelvicpainrehab.com",
+          "href": "https://pelvicpainrehab.com/pelvic-floor-yoga-and-pilates/",
+          "host": "pelvicpainrehab.com",
+          "source": "card"
+        }
+      ],
+      "internal": []
+    },
+    "websites-for-infertility": {
+      "title": "Websites for Infertility",
+      "docTitle": "Websites for Infertility",
+      "entries": [
+        {
+          "label": "Provides significant advocacy, activism, education, and support to the infertility community",
+          "blurb": "",
+          "href": "https://www.doctorsforfertility.org/",
+          "host": "doctorsforfertility.org",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://resolvenewengland.org/",
+          "host": "resolvenewengland.org",
+          "source": "none"
+        },
+        {
+          "label": "Large database of support groups, Adoption/IVF/Financial/Lawyers list, and advocacy and educational blog.",
+          "blurb": "",
+          "href": "https://www.sistersong.net/reproductive-justice",
+          "host": "sistersong.net",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "websites-for-pelvic-pain": {
+      "title": "Websites for Pelvic Pain",
+      "docTitle": "Websites for Pelvic Pain",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://iffgd.org/",
+          "host": "iffgd.org",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.isswsh.org/",
+          "host": "isswsh.org",
+          "source": "none"
+        },
+        {
+          "label": "Virtual meetings, education, and resources",
+          "blurb": "",
+          "href": "https://vulvalpainsociety.org/",
+          "host": "vulvalpainsociety.org",
+          "source": "near"
+        },
+        {
+          "label": "Webinars, research, conferences, advocacy for patients & providers",
+          "blurb": "",
+          "href": "https://www.nva.org/",
+          "host": "nva.org",
+          "source": "near"
+        },
+        {
+          "label": "Education, Research, Support and Advocacy on Vulvovaginal pain",
+          "blurb": "",
+          "href": "http://www.painful-bladder.org/",
+          "host": "painful-bladder.org",
+          "source": "near"
+        },
+        {
+          "label": "\"Resources, practical advice and information for people living with vulval pain, families, healthcare providers and the wider public\"",
+          "blurb": "",
+          "href": "https://pelvicrehabilitation.com/",
+          "host": "pelvicrehabilitation.com",
+          "source": "near"
+        },
+        {
+          "label": "\"The IPBF is a nonprofit, voluntary, umbrella organization, active worldwide, that promotes knowledge and awareness of interstitial cystitis/bladder pain syndrome, Hunner lesion, hypersensitive bladder, chronic pelvic pain and associated disorders among patients, patient support groups, health professionals and the general public. \"",
+          "blurb": "",
+          "href": "https://pelvicpainrehab.com/",
+          "host": "pelvicpainrehab.com",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://endopain.endometriosis.org/",
+          "host": "endopain.endometriosis.org",
+          "source": "none"
+        },
+        {
+          "label": "Collaborators include; gynaecologists, allied health professionals and patient partners at the Centre for Pelvic Pain and Endometriosis located at BC Women’s Hospital + Health Centre in Vancouver, British Columbia, Canada as well as endometriosis.org and the Endometriosis Network Canada.",
+          "blurb": "",
+          "href": "https://www.pelvicgym.co/programs",
+          "host": "pelvicgym.co",
+          "source": "near"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.theoriginway.com/",
+          "host": "theoriginway.com",
+          "source": "none"
+        },
+        {
+          "label": "Can do a free trial.",
+          "blurb": "",
+          "href": "https://www.clinici.wiki/chronic-pain",
+          "host": "clinici.wiki",
+          "source": "near"
+        },
+        {
+          "label": "Virtual and inperson Pelvic Floor and Whole Body PT visits for pregnancy, postpartum, sexual health, and menopause.",
+          "blurb": "",
+          "href": "https://tightlipped.org/",
+          "host": "tightlipped.org",
+          "source": "near"
+        },
+        {
+          "label": "The Tight Lipped Organization is a group of patients with Pelvic Pain that have come together to advocate for Pelvic pain survivors. Check out their Vinel, Podcast, Webinars, and more!",
+          "blurb": "",
+          "href": "https://ohnut.co/pages/pain-perception-project",
+          "host": "ohnut.co",
+          "source": "near"
+        }
+      ],
+      "internal": []
+    },
+    "websites-for-providers": {
+      "title": "Websites for Health Care Providers",
+      "docTitle": "Websites for Providers",
+      "entries": [
+        {
+          "label": "OMGYES.com/doctors",
+          "blurb": "",
+          "href": "https://www.omgyes.com/doctors",
+          "host": "omgyes.com",
+          "source": "card"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://www.omgyes.com/",
+          "host": "omgyes.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://brenebrown.com/",
+          "host": "brenebrown.com",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://brenebrown.com/resources/",
+          "host": "brenebrown.com",
+          "source": "none"
+        }
+      ],
+      "internal": []
+    },
+    "websites-for-sexual-health-edu": {
+      "title": "Websites for Sexual Health Education",
+      "docTitle": "Websites for Sexual Health Edu",
+      "entries": [
+        {
+          "label": "International Society for Sexual Medicine",
+          "blurb": "",
+          "href": "https://www.issm.info/public",
+          "host": "issm.info",
+          "source": "text"
+        },
+        {
+          "label": "InnovatingEducation.org",
+          "blurb": "",
+          "href": "https://www.innovating-education.org/",
+          "host": "innovating-education.org",
+          "source": "text"
+        },
+        {
+          "label": "OMGYES.com",
+          "blurb": "",
+          "href": "https://www.omgyes.com/",
+          "host": "omgyes.com",
+          "source": "card"
+        }
+      ],
+      "internal": []
+    },
+    "interviews": {
+      "title": "List of Interviews",
+      "docTitle": "Interviews",
+      "entries": [],
+      "internal": [
+        {
+          "label": "",
+          "path": "vickie-ms3"
+        },
+        {
+          "label": "",
+          "path": "parul-np-low-vision"
+        },
+        {
+          "label": "",
+          "path": "kimether-np-endometriosis"
+        },
+        {
+          "label": "",
+          "path": "dr-andrea-done-obgyn-parenthood"
+        }
+      ]
+    },
+    "vlogs": {
+      "title": "List of Dr. Moss' Vlogs",
+      "docTitle": "Vlogs",
+      "entries": [
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://youtu.be/elsGzpI5mCk?si=1k0uCZVMrVwJDO4s",
+          "host": "youtu.be",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://youtu.be/Ge65W1a8gEc",
+          "host": "youtu.be",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://youtu.be/koFNZ7kuvh0?si=nvvtrqtwb8gHLp18",
+          "host": "youtu.be",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://youtu.be/XXFxN4M_Cw8?si=3iG3K92Mjkgc-X-y",
+          "host": "youtu.be",
+          "source": "none"
+        },
+        {
+          "label": "",
+          "blurb": "",
+          "href": "https://youtu.be/HQCDP_QNQJw?si=RF5GLz-KdlG96fHb",
+          "host": "youtu.be",
+          "source": "none"
+        },
+        {
+          "label": "Dr. Moss expresses excitement about integrating various therapies, interacting with child and adolescent specialists, and participating in research. She shares the value of collaboration within interprofessional teams and the unique benefits provided through the military, such as comprehensive health resources. Additionally, the resident underscores the importance of humanizing patients, particularly those with substance use disorders, through personalized care and thoughtful interactions.",
+          "blurb": "",
+          "href": "https://youtu.be/7kmr7-v8mlA?si=REKC-ah33bkZu16m",
+          "host": "youtu.be",
+          "source": "near"
+        },
+        {
+          "label": "Dr. Moss, a PGY1 psychiatry resident, discusses the challenges and unspoken rules of the M3 clinical year for medical students. She emphasizes the importance of managing expectations with attending physicians and residents, focusing on specific patient assignments, and exercising good time management. Dr. Moss shares personal anecdotes from her experience, highlighting common pitfalls such as misunderstanding roles and failing to complete notes on time. The script also touches on the hidden curriculum within medical education and offers practical advice for new M3 students, including gathering history, asking questions rather than giving answers, and understanding the dynamics during group rounds.",
+          "blurb": "",
+          "href": "https://youtu.be/UtWlgnK6vso?si=O5la7o6jQKVYe2OC",
+          "host": "youtu.be",
+          "source": "near"
+        }
+      ],
+      "internal": [
+        {
+          "label": "",
+          "path": "guide-to-accommodations"
+        },
+        {
+          "label": "",
+          "path": "taboos"
+        },
+        {
+          "label": "",
+          "path": "step-failure-to-success"
+        },
+        {
+          "label": "",
+          "path": "student-loan-repayments"
+        },
+        {
+          "label": "",
+          "path": "residency-app"
+        },
+        {
+          "label": "",
+          "path": "clinical-rotations"
+        }
+      ]
+    }
+  },
+  "weak": [
+    {
+      "slug": "podcasts-for-healthcare-providers",
+      "noLabel": 12,
+      "total": 15
+    },
+    {
+      "slug": "podcasts-trauma",
+      "noLabel": 8,
+      "total": 13
+    },
+    {
+      "slug": "articles-on-endometriosis",
+      "noLabel": 6,
+      "total": 10
+    },
+    {
+      "slug": "articles-pelvic-pain-patients",
+      "noLabel": 6,
+      "total": 13
+    },
+    {
+      "slug": "support-groups-pelvic-pain",
+      "noLabel": 6,
+      "total": 31
+    },
+    {
+      "slug": "vlogs",
+      "noLabel": 5,
+      "total": 7
+    },
+    {
+      "slug": "websites-for-pelvic-pain",
+      "noLabel": 4,
+      "total": 13
+    },
+    {
+      "slug": "websites-for-trauma",
+      "noLabel": 3,
+      "total": 8
+    },
+    {
+      "slug": "websites-for-providers",
+      "noLabel": 3,
+      "total": 4
+    },
+    {
+      "slug": "articles-for-mental-health",
+      "noLabel": 2,
+      "total": 7
+    },
+    {
+      "slug": "articles-on-infertility",
+      "noLabel": 2,
+      "total": 4
+    },
+    {
+      "slug": "products-endometriosis",
+      "noLabel": 2,
+      "total": 9
+    },
+    {
+      "slug": "support-groups-disabilities",
+      "noLabel": 2,
+      "total": 14
+    },
+    {
+      "slug": "trainings-websites-for-disabilities",
+      "noLabel": 2,
+      "total": 10
+    },
+    {
+      "slug": "articles-pelvic-pain",
+      "noLabel": 1,
+      "total": 2
+    },
+    {
+      "slug": "articles-podcasts-for-disabilities",
+      "noLabel": 1,
+      "total": 7
+    },
+    {
+      "slug": "products-for-menopause",
+      "noLabel": 1,
+      "total": 5
+    },
+    {
+      "slug": "products-for-sexual-health",
+      "noLabel": 1,
+      "total": 8
+    },
+    {
+      "slug": "products-mental-health",
+      "noLabel": 1,
+      "total": 2
+    },
+    {
+      "slug": "products-trauma",
+      "noLabel": 1,
+      "total": 2
+    },
+    {
+      "slug": "support-groups-sexual-health",
+      "noLabel": 1,
+      "total": 23
+    },
+    {
+      "slug": "videos-menopause",
+      "noLabel": 1,
+      "total": 1
+    },
+    {
+      "slug": "videos-sexual-health",
+      "noLabel": 1,
+      "total": 7
+    },
+    {
+      "slug": "websites-for-infertility",
+      "noLabel": 1,
+      "total": 3
+    }
+  ]
+}

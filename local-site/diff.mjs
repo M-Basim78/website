@@ -12,8 +12,7 @@ const SHOTS = String.raw`c:\Users\Basim\Documents\medpsycmoss\medpsycmoss-backup
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
 const browser = await chromium.launch({
-  executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe`,
-});
+  });
 const page = await browser.newPage({ viewport: { width: 1200, height: 900 } });
 
 for (const name of NAMES) {

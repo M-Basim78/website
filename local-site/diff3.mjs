@@ -8,8 +8,7 @@ const [localPng, livePng, name, out] = process.argv.slice(2);
 const SHOTS = String.raw`c:\Users\Basim\Documents\medpsycmoss\medpsycmoss-backup-20260727\backup\screenshots`;
 
 const browser = await chromium.launch({
-  executablePath: String.raw`C:\Users\Basim\AppData\Local\ms-playwright\chromium-1187\chrome-win\chrome.exe`,
-});
+  });
 const page = await browser.newPage({ viewport: { width: 1500, height: 900 } });
 const u = (p) => pathToFileURL(p).href;
 const html = `<!doctype html><meta charset=utf-8><style>
