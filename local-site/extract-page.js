@@ -8,8 +8,8 @@
  */
 () => {
   const clean = s => (s || '')
-    .replace(/[​-‏﻿⁠]/g, '')
-    .replace(/[-]/g, '')
+    .replace(/[\u200B-\u200F\uFEFF\u2060]/g, '')
+    .replace(/[\uE000-\uF8FF]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 

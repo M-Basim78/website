@@ -38,8 +38,8 @@ const esc = s => String(s || '')
  * Titles come from her site, so normalise rather than drop them.
  */
 const dedash = s => String(s || '')
-  .replace(/\s+[—–]\s+/g, ', ')
-  .replace(/[—–]/g, '-')
+  .replace(/\s+[\u2014\u2013]\s+/g, ', ')
+  .replace(/[\u2014\u2013]/g, '-')
   .replace(/\s*,\s*,/g, ',');
 
 const tidy = s => fixTerms(dedash(clean(s)).replace(/\s*\|\s*$/, '').trim());
