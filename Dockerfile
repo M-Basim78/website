@@ -1,4 +1,4 @@
-﻿# ─────────────────────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
 # MedPsycMoss — Stephanie Moss, MD
 #
 # 180 static pages rebuilt from a crawl of the client's Gator Website Builder

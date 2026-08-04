@@ -1,4 +1,4 @@
-﻿# Keep the build context to exactly what the image needs.
+# Keep the build context to exactly what the image needs.
 *
 !site/
 !nginx.conf

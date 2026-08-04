@@ -1,4 +1,4 @@
-﻿# Coolify reads ONE of these two filenames depending on how the application was
+# Coolify reads ONE of these two filenames depending on how the application was
 # created: the Docker Compose build pack stores a path, and it defaults to
 # docker-compose.yml on some versions and docker-compose.yaml on others. A
 # mismatch makes Coolify hand a null to Yaml::parse and the deploy dies with
