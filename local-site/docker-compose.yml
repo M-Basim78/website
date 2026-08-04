@@ -1,0 +1,35 @@
+# Deploy on the VPS with:  docker compose up -d --build
+#
+# This serves plain HTTP on the host port below. Terminate TLS in front of it,
+# either with a reverse proxy already on the box (Caddy, Traefik, nginx) or by
+# putting Cloudflare in front of the domain. Do not expose 8080 publicly without
+# one of those.
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: medpsycmoss-site:latest
+    container_name: medpsycmoss-site
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:8080"   # bind to loopback; the reverse proxy reaches it
+    read_only: true             # nothing writes to disk at runtime
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+      - /var/run
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8080/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

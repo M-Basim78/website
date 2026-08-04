@@ -2,3 +2,6 @@ node_modules/
 .cache/
 verify-out/
 *.png
+
+# dist/ is the deployable artifact and is committed on purpose
+!dist/

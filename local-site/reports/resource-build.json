@@ -1,12 +1,12 @@
 {
   "pages": {
     "trauma-resources": {
-      "title": "TraumaInformed Resources for Patients",
+      "title": "Trauma-Informed Resources for Patients",
       "docTitle": "Trauma Resources",
       "entries": [
         {
-          "label": "",
-          "blurb": "Books",
+          "label": "Books",
+          "blurb": "",
           "href": "https://bookshop.org/lists/books-for-healing-through-trauma",
           "host": "bookshop.org",
           "source": "card"
@@ -14,39 +14,39 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Providers",
           "path": "providers-trauma"
         },
         {
-          "label": "",
+          "label": "Support Groups",
           "path": "support-groups-trauma"
         },
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-trauma"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "posts-mental-health"
         },
         {
-          "label": "",
+          "label": "Podcasts",
           "path": "podcasts-trauma"
         },
         {
-          "label": "",
+          "label": "Products",
           "path": "products-trauma"
         },
         {
-          "label": "",
+          "label": "Websites",
           "path": "websites-for-trauma"
         },
         {
-          "label": "",
+          "label": "Research Articles",
           "path": "articles-on-trauma"
         },
         {
-          "label": "",
+          "label": "Trainings & Conferences",
           "path": "trainings-mental-sexual-health"
         }
       ]
@@ -115,7 +115,7 @@
       "internal": []
     },
     "mental-health-resources": {
-      "title": "Traumainformed Mental Health Resources",
+      "title": "Trauma-informed Mental Health Resources",
       "docTitle": "Mental Health Resources",
       "entries": [
         {
@@ -128,23 +128,23 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Providers",
           "path": "providers-trauma"
         },
         {
-          "label": "",
+          "label": "Support Groups",
           "path": "support-groups-mental-health"
         },
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-mental-health"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "posts-mental-health"
         },
         {
-          "label": "",
+          "label": "Products",
           "path": "products-mental-health"
         },
         {
@@ -152,11 +152,11 @@
           "path": "articles-for-mental-health"
         },
         {
-          "label": "",
+          "label": "Websites",
           "path": "websites-for-trauma"
         },
         {
-          "label": "",
+          "label": "Podcasts",
           "path": "podcasts-trauma"
         },
         {
@@ -170,7 +170,7 @@
       "docTitle": "Sexual Health Resources",
       "entries": [
         {
-          "label": "Books",
+          "label": "Books",
           "blurb": "",
           "href": "https://bookshop.org/lists/books-for-sexual-health-education",
           "host": "bookshop.org",
@@ -179,39 +179,39 @@
       ],
       "internal": [
         {
-          "label": "Podcasts",
+          "label": "Podcasts",
           "path": "podcasts-sexual-health"
         },
         {
-          "label": "Videos",
+          "label": "Videos",
           "path": "videos-sexual-health"
         },
         {
-          "label": "Trainings",
+          "label": "Trainings",
           "path": "trainings-mental-sexual-health"
         },
         {
-          "label": "Posts",
+          "label": "Posts",
           "path": "blog/tag/sexual health"
         },
         {
-          "label": "Support Groups",
+          "label": "Support Groups",
           "path": "support-groups-sexual-health"
         },
         {
-          "label": "Websites",
+          "label": "Websites",
           "path": "websites-for-sexual-health-edu"
         },
         {
-          "label": "Providers",
+          "label": "Providers",
           "path": "providers-sexual-health"
         },
         {
-          "label": "Products",
+          "label": "Products",
           "path": "products-for-sexual-health"
         },
         {
-          "label": "Research Articles",
+          "label": "Research Articles",
           "path": "articles-sexual-health"
         }
       ]
@@ -221,7 +221,7 @@
       "docTitle": "Pelvic Pain Resources",
       "entries": [
         {
-          "label": "Books",
+          "label": "Books",
           "blurb": "",
           "href": "https://bookshop.org/lists/books-for-living-with-pelvic-pain?",
           "host": "bookshop.org",
@@ -230,39 +230,39 @@
       ],
       "internal": [
         {
-          "label": "Podcasts",
+          "label": "Podcasts",
           "path": "podcasts-on-pelvic-pain"
         },
         {
-          "label": "Videos",
+          "label": "Videos",
           "path": "videos-pelvic-pain"
         },
         {
-          "label": "Trainings",
+          "label": "Trainings",
           "path": "trainings-mental-sexual-health"
         },
         {
-          "label": "Posts",
+          "label": "Posts",
           "path": "posts-pelvic-pain"
         },
         {
-          "label": "Support Groups",
+          "label": "Support Groups",
           "path": "support-groups-pelvic-pain"
         },
         {
-          "label": "Websites",
+          "label": "Websites",
           "path": "websites-for-pelvic-pain"
         },
         {
-          "label": "Providers",
+          "label": "Providers",
           "path": "providers-sexual-health"
         },
         {
-          "label": "Products",
+          "label": "Products",
           "path": "products-pelvic-pain"
         },
         {
-          "label": "Research Articles",
+          "label": "Research Articles",
           "path": "articles-pelvic-pain"
         }
       ]
@@ -326,8 +326,8 @@
       "docTitle": "Infertility Resources",
       "entries": [
         {
-          "label": "",
-          "blurb": "Books",
+          "label": "Books",
+          "blurb": "",
           "href": "https://bookshop.org/lists/books-for-living-with-infertility",
           "host": "bookshop.org",
           "source": "card"
@@ -335,39 +335,39 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Support Groups",
           "path": "support-groups-infertility"
         },
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-infertility"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "posts-infertility"
         },
         {
-          "label": "",
+          "label": "Podcasts",
           "path": "podcasts-on-infertility"
         },
         {
-          "label": "",
+          "label": "Research Articles",
           "path": "articles-on-infertility"
         },
         {
-          "label": "",
+          "label": "Websites",
           "path": "websites-for-infertility"
         },
         {
-          "label": "",
+          "label": "Providers",
           "path": "providers-infertility"
         },
         {
-          "label": "",
+          "label": "Products",
           "path": "products-for-infertility"
         },
         {
-          "label": "",
+          "label": "Trainings & Conferences",
           "path": "trainings-mental-sexual-health"
         }
       ]
@@ -393,19 +393,19 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Support Groups",
           "path": "support-groups-monopause"
         },
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-menopause"
         },
         {
-          "label": "",
+          "label": "Products",
           "path": "products-for-menopause"
         },
         {
-          "label": "",
+          "label": "Trainings & Conferences",
           "path": "trainings-mental-sexual-health"
         },
         {
@@ -419,22 +419,22 @@
       "docTitle": "Disabilities Resources",
       "entries": [
         {
-          "label": "",
-          "blurb": "Books",
+          "label": "Books",
+          "blurb": "",
           "href": "https://bookshop.org/lists/books-for-infertility",
           "host": "bookshop.org",
           "source": "card"
         },
         {
-          "label": "",
-          "blurb": "Books",
+          "label": "Books",
+          "blurb": "",
           "href": "https://bookshop.org/lists/books-for-living-with-disabilities",
           "host": "bookshop.org",
           "source": "card"
         },
         {
-          "label": "",
-          "blurb": "Trainings & Conferences",
+          "label": "Trainings & Conferences",
+          "blurb": "",
           "href": "https://www.docswithdisabilities.org/webinars",
           "host": "docswithdisabilities.org",
           "source": "card"
@@ -442,27 +442,27 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-for-patients-with-disabilities"
         },
         {
-          "label": "",
+          "label": "Podcasts",
           "path": "articles-podcasts-for-disabilities"
         },
         {
-          "label": "",
+          "label": "Websites",
           "path": "trainings-websites-for-disabilities"
         },
         {
-          "label": "",
+          "label": "Providers",
           "path": "providers-trauma"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "blog/tag/disability"
         },
         {
-          "label": "",
+          "label": "Support Groups",
           "path": "support-groups-disabilities"
         }
       ]
@@ -479,8 +479,8 @@
           "source": "text"
         },
         {
-          "label": "",
-          "blurb": "Videos",
+          "label": "Videos",
+          "blurb": "",
           "href": "https://www.innovating-education.org/curriculum/course/9898/#unit-1-module-2",
           "host": "innovating-education.org",
           "source": "card"
@@ -488,7 +488,7 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Provider Websites",
           "path": "providers-lgbtqia"
         },
         {
@@ -515,23 +515,23 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-for-trauma-informed-care"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "posts-trauma-informed-care"
         },
         {
-          "label": "",
+          "label": "Websites for Providers",
           "path": "websites-for-providers"
         },
         {
-          "label": "",
+          "label": "Trainings & Conferences",
           "path": "training-trauma-informed"
         },
         {
-          "label": "",
+          "label": "Surveys & Questionnaires",
           "path": "surveys-trauma-informed"
         }
       ]
@@ -541,8 +541,8 @@
       "docTitle": "Pelvic Pain patients",
       "entries": [
         {
-          "label": "",
-          "blurb": "Books",
+          "label": "Books",
+          "blurb": "",
           "href": "https://bookshop.org/lists/books-for-treating-patients-with-pelvic-pain",
           "host": "bookshop.org",
           "source": "card"
@@ -550,23 +550,23 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-treating-patients-with-pelvic-pain"
         },
         {
-          "label": "",
+          "label": "Websites for Providers",
           "path": "websites-for-providers"
         },
         {
-          "label": "",
+          "label": "Websites for Providers",
           "path": "websites-for-pelvic-pain"
         },
         {
-          "label": "",
+          "label": "Trainings & Conferences",
           "path": "events"
         },
         {
-          "label": "",
+          "label": "Academic Articles",
           "path": "articles-pelvic-pain-patients"
         }
       ]
@@ -576,22 +576,22 @@
       "docTitle": "Older Adult Patients",
       "entries": [
         {
-          "label": "",
-          "blurb": "Books",
+          "label": "Books",
+          "blurb": "",
           "href": "https://bookshop.org/lists/books-for-working-with-elderly-patients",
           "host": "bookshop.org",
           "source": "card"
         },
         {
-          "label": "",
-          "blurb": "Training Videos",
+          "label": "Training Videos",
+          "blurb": "",
           "href": "https://youtube.com/playlist?list=PLUfheMZYKjA9va9gQOZ0F7hoj2y7De6Mv&si=RlVGdHzvBwkTEKT1",
           "host": "youtube.com",
           "source": "card"
         },
         {
-          "label": "",
-          "blurb": "Podcasts",
+          "label": "Podcasts",
+          "blurb": "",
           "href": "https://thebraintrustproject.com/episode-17advancing_dementia_detection-with_community_health_workers/",
           "host": "thebraintrustproject.com",
           "source": "card"
@@ -599,11 +599,11 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Websites for Providers",
           "path": "websites-for-providers"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "blog/the-impact-of-caregiving-on-my-journey-to-become-a-physician"
         }
       ]
@@ -613,15 +613,15 @@
       "docTitle": "Patients with Disabilities",
       "entries": [
         {
-          "label": "",
-          "blurb": "Books",
+          "label": "Books",
+          "blurb": "",
           "href": "https://bookshop.org/lists/books-for-working-with-patients-with-disabilities",
           "host": "bookshop.org",
           "source": "card"
         },
         {
-          "label": "",
-          "blurb": "Terminology Guide for Medical School + Disabilities",
+          "label": "Terminology Guide for Medical School + Disabilities",
+          "blurb": "",
           "href": "https://www.docswithdisabilities.org/_files/ugd/6a7717_b9cf12d671e64475b447467c7374663f.pdf?index=true",
           "host": "docswithdisabilities.org",
           "source": "card"
@@ -629,19 +629,19 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Podcasts & Writings",
           "path": "articles-podcasts-for-disabilities"
         },
         {
-          "label": "",
+          "label": "Videos",
           "path": "videos-for-patients-with-disabilities"
         },
         {
-          "label": "",
+          "label": "Websites",
           "path": "trainings-websites-for-disabilities"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "blog/tag/disability"
         }
       ]
@@ -651,8 +651,8 @@
       "docTitle": "Black and Brown Patients",
       "entries": [
         {
-          "label": "",
-          "blurb": "Videos",
+          "label": "Videos",
+          "blurb": "",
           "href": "https://youtu.be/2btcnaDa5J8",
           "host": "youtu.be",
           "source": "card"
@@ -660,15 +660,15 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "posts-black-and-brown-patients"
         },
         {
-          "label": "",
+          "label": "Provider Websites",
           "path": "websites-for-providers"
         },
         {
-          "label": "",
+          "label": "Academic Articles",
           "path": "research-racism"
         }
       ]
@@ -685,8 +685,8 @@
           "source": "text"
         },
         {
-          "label": "",
-          "blurb": "Training Videos",
+          "label": "Training Videos",
+          "blurb": "",
           "href": "https://www.innovating-education.org/curriculum/course/9898/#unit-1-module-2",
           "host": "innovating-education.org",
           "source": "card"
@@ -713,8 +713,8 @@
           "source": "text"
         },
         {
-          "label": "",
-          "blurb": "Academic ToolKits",
+          "label": "Academic ToolKits",
+          "blurb": "",
           "href": "https://www.cps.edu/globalassets/cps-pages/services-and-supports/health-and-wellness/healthy-cps/healthy-environment/lgbtq-supportive-environments/supportinggenderdiversitytoolkit2.pdf?fbclid=IwAR1-I0ugAMF0rl4mSqN2D-UzyHLWWZyFI0TwFr9Y601yDIeJG-38llzecQE",
           "host": "cps.edu",
           "source": "card"
@@ -722,7 +722,7 @@
       ],
       "internal": [
         {
-          "label": "",
+          "label": "Provider Websites",
           "path": "providers-lgbtqia"
         },
         {
@@ -730,7 +730,7 @@
           "path": "podcasts-lgbtqia-health"
         },
         {
-          "label": "",
+          "label": "MedPsycMoss Posts",
           "path": "blog/transgender-health-and-gender-affirming-care"
         }
       ]
@@ -838,7 +838,7 @@
           "source": "none"
         },
         {
-          "label": "additudemag.com/adhdexpertwebinarsindex",
+          "label": "additudemag.com/adhd-expert-webinars-index",
           "blurb": "",
           "href": "http://additudemag.com/adhd-expert-webinars-index",
           "host": "additudemag.com",
@@ -887,7 +887,7 @@
           "source": "near"
         },
         {
-          "label": "Inflammation: The Common Pathway of StressRelated Diseases",
+          "label": "Inflammation: The Common Pathway of Stress-Related Diseases",
           "blurb": "",
           "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476783/",
           "host": "ncbi.nlm.nih.gov",
@@ -992,7 +992,7 @@
           "source": "near"
         },
         {
-          "label": "Inflammation: The Common Pathway of StressRelated Diseases",
+          "label": "Inflammation: The Common Pathway of Stress-Related Diseases",
           "blurb": "",
           "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476783/",
           "host": "ncbi.nlm.nih.gov",
@@ -1016,7 +1016,7 @@
       "internal": []
     },
     "articles-on-trauma": {
-      "title": "Traumainformed Articles on",
+      "title": "Trauma-informed Articles on",
       "docTitle": "Articles on Trauma",
       "entries": [
         {
@@ -1027,7 +1027,7 @@
           "source": "text"
         },
         {
-          "label": "Emotions are often felt in the body, and somatosensory feedback has been proposed to trigger conscious emotional experiences. Here we reveal maps of bodily sensations associated with different emotions using a unique topographical selfreport method. In five experiments, participants (n = 701) were shown two silhouettes of bodies alongside emotional words, stories, movies, or facial expressions. They were asked to color the bodily regions whose activity they felt increasing or decreasing while viewing each stimulus. Different emotions were consistently associated with statistically separable bodily sensation maps across experiments. These maps were concordant across West European and East Asian samples. Statistical classifiers distinguished emotionspecific activation maps accurately, confirming independence of topographies across emotions. We propose that emotions are represented in the somatosensory system as culturally universal categorical somatotopic maps. Perception of these emotiontriggered bodily changes may play a key role in generating consciously felt emotions.",
+          "label": "Emotions are often felt in the body, and somatosensory feedback has been proposed to trigger conscious emotional experiences. Here we reveal maps of bodily sensations associated with different emotions using a unique topographical self-report method. In five experiments, participants (n = 701) were shown two silhouettes of bodies alongside emotional words, stories, movies, or facial expressions. They were asked to color the bodily regions whose activity they felt increasing or decreasing while viewing each stimulus. Different emotions were consistently associated with statistically separable bodily sensation maps across experiments. These maps were concordant across West European and East Asian samples. Statistical classifiers distinguished emotion-specific activation maps accurately, confirming independence of topographies across emotions. We propose that emotions are represented in the somatosensory system as culturally universal categorical somatotopic maps. Perception of these emotion-triggered bodily changes may play a key role in generating consciously felt emotions.",
           "blurb": "",
           "href": "https://www.kevinmd.com/2022/03/will-smiths-slap-is-a-trauma-response.html",
           "host": "kevinmd.com",
@@ -1203,7 +1203,7 @@
         },
         {
           "label": "Download",
-          "blurb": "",
+          "blurb": "",
           "href": "https://storage.googleapis.com/gator-users/user-932079/documents/ef0112c8956a4f9294a1dbeac72cf405/Rush%20Article%20%7C%20%E2%80%98Out%E2%80%99%20Health%20Care%20Professionals%20With%20Disabilities%20Create%20One%20Less.pdf",
           "host": "storage.googleapis.com",
           "source": "card"
@@ -1318,7 +1318,7 @@
           "path": "view/tag/disability/blog/tag/endometriosis"
         },
         {
-          "label": "premed",
+          "label": "pre-med",
           "path": "view/tag/disability/blog/tag/pre-med"
         },
         {
@@ -1362,7 +1362,7 @@
           "path": "view/tag/disability/blog/tag/medical school app"
         },
         {
-          "label": "preclinical",
+          "label": "pre-clinical",
           "path": "view/tag/disability/blog/tag/pre-clinical"
         },
         {
@@ -1406,7 +1406,7 @@
           "path": "view/tag/disability/blog/step-failure-to-match"
         },
         {
-          "label": "Applying into Residency ERAS & PS...07/23/2026",
+          "label": "Applying into Residency - ERAS & PS...07/23/2026",
           "path": "view/tag/disability/blog/residency-app"
         },
         {
@@ -1424,25 +1424,25 @@
       "docTitle": "Post Page",
       "entries": [
         {
-          "label": "",
+          "label": "Subscribe",
           "blurb": "",
           "href": "https://www.instagram.com/",
           "host": "instagram.com",
-          "source": "text"
+          "source": "near"
         },
         {
-          "label": "",
+          "label": "Subscribe",
           "blurb": "",
           "href": "https://www.linkedin.com/in/stephanie-e-moss/",
           "host": "linkedin.com",
-          "source": "text"
+          "source": "near"
         },
         {
-          "label": "",
+          "label": "Subscribe",
           "blurb": "",
           "href": "https://twitter.com/medpsycmoss",
           "host": "twitter.com",
-          "source": "text"
+          "source": "near"
         },
         {
           "label": "Subscribe",
@@ -1510,7 +1510,7 @@
           "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/endometriosis"
         },
         {
-          "label": "premed",
+          "label": "pre-med",
           "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/pre-med"
         },
         {
@@ -1554,7 +1554,7 @@
           "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/medical school app"
         },
         {
-          "label": "preclinical",
+          "label": "pre-clinical",
           "path": "view/the-impact-of-caregiving-on-my-journey-to-become-a-physician/undefined/blog/tag/pre-clinical"
         },
         {
@@ -1675,7 +1675,7 @@
           "source": "text"
         },
         {
-          "label": "Phalloplasty: techniques and outcomes",
+          "label": "Phalloplasty: techniques and outcomes -",
           "blurb": "",
           "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6626313/",
           "host": "ncbi.nlm.nih.gov",
@@ -1696,7 +1696,7 @@
           "source": "text"
         },
         {
-          "label": "www.aclu.org/legislativeattacksonlgbtqrights",
+          "label": "www.aclu.org/legislative-attacks-on-lgbtq-rights",
           "blurb": "",
           "href": "http://www.aclu.org/legislative-attacks-on-lgbtq-rights",
           "host": "aclu.org",
@@ -1717,7 +1717,7 @@
           "source": "text"
         },
         {
-          "label": "UCSF's Guidelines for the Primary and GenderAffirming Care of Transgender and Nonbinary People",
+          "label": "UCSF's Guidelines for the Primary and Gender-Affirming Care of Transgender and Nonbinary People -",
           "blurb": "",
           "href": "https://transcare.ucsf.edu/guidelines",
           "host": "transcare.ucsf.edu",
@@ -1773,25 +1773,25 @@
           "source": "text"
         },
         {
-          "label": "",
+          "label": "Subscribe",
           "blurb": "",
           "href": "https://www.instagram.com/",
           "host": "instagram.com",
-          "source": "text"
+          "source": "near"
         },
         {
-          "label": "",
+          "label": "Subscribe",
           "blurb": "",
           "href": "https://www.linkedin.com/in/stephanie-e-moss/",
           "host": "linkedin.com",
-          "source": "text"
+          "source": "near"
         },
         {
-          "label": "",
+          "label": "Subscribe",
           "blurb": "",
           "href": "https://twitter.com/medpsycmoss",
           "host": "twitter.com",
-          "source": "text"
+          "source": "near"
         },
         {
           "label": "Subscribe",
@@ -1871,7 +1871,7 @@
           "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/endometriosis"
         },
         {
-          "label": "premed",
+          "label": "pre-med",
           "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/pre-med"
         },
         {
@@ -1915,7 +1915,7 @@
           "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/medical school app"
         },
         {
-          "label": "preclinical",
+          "label": "pre-clinical",
           "path": "view/transgender-health-and-gender-affirming-care/undefined/blog/tag/pre-clinical"
         },
         {
@@ -2014,7 +2014,7 @@
     },
     "podcasts-trauma": {
       "title": "Podcasts for Mental Health & Individuals Dealing with Trauma",
-      "docTitle": "Podcasts Trauma",
+      "docTitle": "Podcasts- Trauma",
       "entries": [
         {
           "label": "",
@@ -2087,7 +2087,7 @@
           "source": "none"
         },
         {
-          "label": "additudemag.com/adhdexpertwebinarsindex",
+          "label": "additudemag.com/adhd-expert-webinars-index",
           "blurb": "",
           "href": "http://additudemag.com/adhd-expert-webinars-index",
           "host": "additudemag.com",
@@ -2161,7 +2161,7 @@
       ]
     },
     "posts-trauma-informed-care": {
-      "title": "MedPsycMoss' Posts on TraumaInformed Care",
+      "title": "MedPsycMoss' Posts on Trauma-Informed Care",
       "docTitle": "Posts Trauma Informed Care",
       "entries": [],
       "internal": []
@@ -2367,7 +2367,7 @@
           "source": "card"
         },
         {
-          "label": "\"TOY FRIENDLY, CONDOM COMPATIBLE: #LubeLife WaterBased Lubricant provides a safe experience and is compatible with most toy materials and natural rubber latex and polyisoprene condoms but not compatible with polyurethane condoms\"",
+          "label": "\"TOY FRIENDLY, CONDOM COMPATIBLE: #LubeLife Water-Based Lubricant provides a safe experience and is compatible with most toy materials and natural rubber latex and polyisoprene condoms but not compatible with polyurethane condoms\"",
           "blurb": "",
           "href": "https://www.intimaterose.com/blogs/videos/wand-videos",
           "host": "intimaterose.com",
@@ -2521,7 +2521,7 @@
           "source": "text"
         },
         {
-          "label": "EBook by Pelvic Pain Rehab Center:",
+          "label": "E-Book by Pelvic Pain Rehab Center:",
           "blurb": "",
           "href": "https://pelvicpainrehab.com/for-patients/#ebook",
           "host": "pelvicpainrehab.com",
@@ -2556,7 +2556,7 @@
       "docTitle": "Providers Infertility",
       "entries": [
         {
-          "label": "Vaginismus, Vulvodynia Providers by SelfAdvocates",
+          "label": "Vaginismus, Vulvodynia Providers by Self-Advocates",
           "blurb": "",
           "href": "https://www.mapotic.com/vulvodynia-providers",
           "host": "mapotic.com",
@@ -2605,7 +2605,7 @@
           "source": "text"
         },
         {
-          "label": "GoStork clinics, surrogacy, donars, financing",
+          "label": "GoStork- clinics, surrogacy, donars, financing",
           "blurb": "",
           "href": "https://gostork.com/",
           "host": "gostork.com",
@@ -2626,7 +2626,7 @@
           "source": "text"
         },
         {
-          "label": "Resolve New England Providers, Attorneys, Pharmacies, Storage, Donors, Finances",
+          "label": "Resolve New England- Providers, Attorneys, Pharmacies, Storage, Donors, Finances",
           "blurb": "",
           "href": "https://resolvenewengland.org/professional-directory/",
           "host": "resolvenewengland.org",
@@ -2663,7 +2663,7 @@
     },
     "providers-lgbtqia": {
       "title": "Providers for LGBTQIA",
-      "docTitle": "Providers LGBTQIA",
+      "docTitle": "Providers- LGBTQIA",
       "entries": [],
       "internal": []
     },
@@ -2714,7 +2714,7 @@
           "source": "text"
         },
         {
-          "label": "Vaginismus, Vulvodynia Providers by SelfAdvocates",
+          "label": "Vaginismus, Vulvodynia Providers by Self-Advocates",
           "blurb": "",
           "href": "https://www.mapotic.com/vulvodynia-providers",
           "host": "mapotic.com",
@@ -2756,7 +2756,7 @@
           "source": "text"
         },
         {
-          "label": "www.kevinmd.com/2022/09/endometriosisisoftenmisdiagnosedhowtogettherightdiagnosis.html",
+          "label": "www.kevinmd.com/2022/09/endometriosis-is-often-misdiagnosed-how-to-get-the-right-diagnosis.html",
           "blurb": "",
           "href": "https://www.kevinmd.com/2022/09/endometriosis-is-often-misdiagnosed-how-to-get-the-right-diagnosis.html",
           "host": "kevinmd.com",
@@ -2775,7 +2775,7 @@
       "docTitle": "Providers Sexual Health",
       "entries": [
         {
-          "label": "Vaginismus, Vulvodynia Providers by SelfAdvocates",
+          "label": "Vaginismus, Vulvodynia Providers by Self-Advocates",
           "blurb": "",
           "href": "https://www.mapotic.com/vulvodynia-providers",
           "host": "mapotic.com",
@@ -2855,7 +2855,7 @@
       "internal": []
     },
     "providers-trauma": {
-      "title": "How to find a TraumaInformed Mental Health Care Provider",
+      "title": "How to find a Trauma-Informed Mental Health Care Provider",
       "docTitle": "Providers Trauma",
       "entries": [
         {
@@ -2911,7 +2911,7 @@
       "internal": []
     },
     "research-racism": {
-      "title": "Working with Black & Brown Patients",
+      "title": "Working with Black & Brown Patients-",
       "docTitle": "Research Racism",
       "entries": [
         {
@@ -2922,7 +2922,7 @@
           "source": "near"
         },
         {
-          "label": "Jourdyn A. Lawrence, Ichiro Kawachi, Kellee White, Mary T. Bassett, Naomi Priest, Joan Gakii Masunga, Hannah J. Cory, Carol Mita, David R. Williams,A systematic review and metaanalysis of the Everyday Discrimination Scale and biomarker outcomes, Psychoneuroendocrinology, Volume 142, 2022,105772, SSN 03064530,",
+          "label": "Jourdyn A. Lawrence, Ichiro Kawachi, Kellee White, Mary T. Bassett, Naomi Priest, Joan Gakii Masunga, Hannah J. Cory, Carol Mita, David R. Williams,A systematic review and meta-analysis of the Everyday Discrimination Scale and biomarker outcomes, Psychoneuroendocrinology, Volume 142, 2022,105772, SSN 0306-4530,",
           "blurb": "",
           "href": "https://www.statnews.com/2022/06/20/black-doctors-forced-out-of-training-programs-at-far-higher-rates-than-white-residents/",
           "host": "statnews.com",
@@ -3027,7 +3027,7 @@
           "source": "near"
         },
         {
-          "label": "\"SisterSong Women of Color Reproductive Justice Collective was formed in 1997 by 16 organizations of women of color from four minicommunities (Native American, African American, Latina, and Asian American) who recognized that we have the right and responsibility to represent ourselves and our communities, and the equally compelling need to advance the perspectives and needs of women of color.\"",
+          "label": "\"SisterSong Women of Color Reproductive Justice Collective was formed in 1997 by 16 organizations of women of color from four mini-communities (Native American, African American, Latina, and Asian American) who recognized that we have the right and responsibility to represent ourselves and our communities, and the equally compelling need to advance the perspectives and needs of women of color.\"",
           "blurb": "",
           "href": "https://nond.org/",
           "host": "nond.org",
@@ -3293,7 +3293,7 @@
           "source": "near"
         },
         {
-          "label": "Great support for Physicians going through Infertility 1 in 4 Female Physicians!",
+          "label": "Great support for Physicians going through Infertility - 1 in 4 Female Physicians!",
           "blurb": "",
           "href": "https://www.facebook.com/groups/thefertilityformula",
           "host": "facebook.com",
@@ -3769,7 +3769,7 @@
           "source": "none"
         },
         {
-          "label": "$",
+          "label": "- $",
           "blurb": "",
           "href": "https://findyourselfbethat.com/bookclub/",
           "host": "findyourselfbethat.com",
@@ -4122,7 +4122,7 @@
       "internal": []
     },
     "surveys-trauma-informed": {
-      "title": "Surveys To Use During TraumaInformed Care",
+      "title": "Surveys To Use During Trauma-Informed Care",
       "docTitle": "Surveys Trauma Informed",
       "entries": [
         {
@@ -4136,8 +4136,8 @@
       "internal": []
     },
     "training-trauma-informed": {
-      "title": "TraumaInformed Trainings",
-      "docTitle": "Training TraumaInformed",
+      "title": "Trauma-Informed Trainings",
+      "docTitle": "Training Trauma-Informed",
       "entries": [
         {
           "label": "14 Clinical Simulation eModules on:",
@@ -4150,8 +4150,8 @@
       "internal": []
     },
     "trainings-mental-sexual-health": {
-      "title": "TraumaInformed Trainings & Workshops on Mental & Sexual Health",
-      "docTitle": "Trainings Mental & Sexual Health",
+      "title": "Trauma-Informed Trainings & Workshops on Mental & Sexual Health",
+      "docTitle": "Trainings- Mental & Sexual Health",
       "entries": [
         {
           "label": "Website",
@@ -4298,7 +4298,7 @@
     },
     "videos-for-trauma-informed-care": {
       "title": "Videos for Trauma Informed Health Care",
-      "docTitle": "Videos for TraumaInformed Care",
+      "docTitle": "Videos for Trauma-Informed Care",
       "entries": [],
       "internal": []
     },
@@ -4338,7 +4338,7 @@
       "internal": []
     },
     "videos-mental-health": {
-      "title": "Traumainformed Videos for Mental Health",
+      "title": "Trauma-informed Videos for Mental Health",
       "docTitle": "Videos Mental Health",
       "entries": [
         {
@@ -4608,7 +4608,7 @@
           "source": "near"
         },
         {
-          "label": "\"The IPBF is a nonprofit, voluntary, umbrella organization, active worldwide, that promotes knowledge and awareness of interstitial cystitis/bladder pain syndrome, Hunner lesion, hypersensitive bladder, chronic pelvic pain and associated disorders among patients, patient support groups, health professionals and the general public. \"",
+          "label": "\"The IPBF is a non-profit, voluntary, umbrella organization, active worldwide, that promotes knowledge and awareness of interstitial cystitis/bladder pain syndrome, Hunner lesion, hypersensitive bladder, chronic pelvic pain and associated disorders among patients, patient support groups, health professionals and the general public. \"",
           "blurb": "",
           "href": "https://pelvicpainrehab.com/",
           "host": "pelvicpainrehab.com",
@@ -4643,7 +4643,7 @@
           "source": "near"
         },
         {
-          "label": "Virtual and inperson Pelvic Floor and Whole Body PT visits for pregnancy, postpartum, sexual health, and menopause.",
+          "label": "Virtual and in-person Pelvic Floor and Whole Body PT visits for pregnancy, postpartum, sexual health, and menopause.",
           "blurb": "",
           "href": "https://tightlipped.org/",
           "host": "tightlipped.org",
@@ -4706,7 +4706,7 @@
           "source": "text"
         },
         {
-          "label": "InnovatingEducation.org",
+          "label": "Innovating-Education.org",
           "blurb": "",
           "href": "https://www.innovating-education.org/",
           "host": "innovating-education.org",
