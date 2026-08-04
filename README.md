@@ -7,13 +7,27 @@ rebuilt from a crawl of her Gator Website Builder site.
 
 ## Deploy
 
-Coolify, **Dockerfile** build pack, this branch. Nothing else to configure.
+Coolify, **Dockerfile** build pack, this branch. Nothing else to configure. That
+is the simplest path: it ignores the compose files entirely.
+
+If you use the **Docker Compose** build pack instead, check the compose file path
+in the application settings. Coolify stores that path per application and its
+default differs between versions, so `docker-compose.yml` and
+`docker-compose.yaml` are both committed here, byte identical, and either will
+resolve. A path pointing at a file that does not exist fails early and unhelpfully:
+
+```
+Deployment failed: Symfony\Component\Yaml\Yaml::parse():
+Argument #1 ($input) must be of type string, null given
+```
+
+That message means the file was not found, not that the YAML is malformed.
 
 Locally:
 
 ```bash
 docker compose up --build
-# uncomment the ports line in docker-compose.yaml, then http://localhost:8080
+# uncomment the ports line in the compose file, then http://localhost:8080
 ```
 
 ## Layout
