@@ -1,0 +1,4 @@
+﻿# Authored on Windows, built on Linux (Coolify clones and runs docker build
+# there). Pin everything to LF so the Dockerfile and nginx.conf never reach the
+# builder with CRLF line endings.
+* text=auto eol=lf

@@ -1,0 +1,42 @@
+{
+  "moss-doctor": {
+    "w": 1200,
+    "h": 1600,
+    "src": "IMG_9023.jpeg"
+  },
+  "moss-patient": {
+    "w": 1200,
+    "h": 1600,
+    "src": "IMG_0273.jpeg"
+  },
+  "moss-about": {
+    "w": 1200,
+    "h": 1600,
+    "src": "IMG_0894.jpeg"
+  },
+  "moss-grad": {
+    "w": 800,
+    "h": 1067,
+    "src": "DSC_2086.jpg"
+  },
+  "pod-patient-doctor": {
+    "w": 600,
+    "h": 750,
+    "src": "20260125000146_70497232.jpeg"
+  },
+  "pod-medical-school": {
+    "w": 600,
+    "h": 600,
+    "src": "Medical School with Dr. Moss.jpg"
+  },
+  "pod-residency-apps": {
+    "w": 600,
+    "h": 600,
+    "src": "Residency Applications with Dr. Moss.jpg"
+  },
+  "pod-psych-residency": {
+    "w": 600,
+    "h": 600,
+    "src": "Psychiatry Residency with Dr. Moss.jpg"
+  }
+}

@@ -1,0 +1,22 @@
+﻿# Optional. Coolify's "Dockerfile" build pack needs nothing but the Dockerfile —
+# use this only if you prefer the "Docker Compose" build pack, or want to run the
+# site locally with `docker compose up --build`.
+services:
+  medpsycmoss:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    # `expose`, not `ports`: Coolify puts the container behind its own proxy and
+    # terminates TLS there. Publishing 80 on the host would fight with it.
+    # For a local run, uncomment the ports line and open http://localhost:8080
+    expose:
+      - "80"
+    # ports:
+    #   - "8080:80"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/healthz"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s

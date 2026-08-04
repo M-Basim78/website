@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<title>Contact Dr. Moss | MedPsycMoss</title>
+<meta name="description" content="Send Stephanie Moss, MD a message about her background, blog or resources, suggest a resource she should add, or invite her to speak. Join the email list for new guides and posts.">
+<link rel="canonical" href="https://medpsycmoss.com/contact">
+<meta name="author" content="Stephanie Moss, MD">
+<meta name="theme-color" content="#6E1F35">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MedPsycMoss | Stephanie Moss, MD">
+<meta property="og:url" content="https://medpsycmoss.com/contact">
+<meta property="og:title" content="Contact Dr. Moss | MedPsycMoss">
+<meta property="og:description" content="Send Stephanie Moss, MD a message about her background, blog or resources, suggest a resource she should add, or invite her to speak. Join the email list for new guides and posts.">
+<meta property="og:image" content="https://medpsycmoss.com/img/moss-about.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1600">
+<meta property="og:image:alt" content="Stephanie Moss, MD, in navy scrubs.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact Dr. Moss | MedPsycMoss">
+<meta name="twitter:description" content="Send Stephanie Moss, MD a message about her background, blog or resources, suggest a resource she should add, or invite her to speak. Join the email list for new guides and posts.">
+<meta name="twitter:image" content="https://medpsycmoss.com/img/moss-about.webp">
+
+<link rel="preload" href="/fonts/bricolage-grotesque-300-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-400-600.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- top bar -->
+<header class="top">
+  <div class="wrap top-in">
+    <a href="/" class="logo"><span class="mp">MedPsyc</span><span class="moss">Moss</span><span class="md">STEPHANIE MOSS, MD</span></a>
+    <nav aria-label="Primary">
+      <ul class="top-links">
+        <li><a href="/store">STORE</a></li>
+        <li><a href="/resources">FREE</a></li>
+        <li><a href="/about-me">PATIENT&amp;DOCTOR</a></li>
+        <li><a href="/podcast">PODCAST</a></li>
+      </ul>
+    </nav>
+    <a href="/store" class="btn">Browse the store</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero page-hero" aria-labelledby="hero-title">
+  <div class="mesh"></div>
+  <div class="wrap">
+    <p class="kicker reveal in">
+      <span>STATUS: <b>PGY-3 PSYCHIATRY CHIEF RESIDENT FOR ACADEMICS</b></span>
+      <span>INQUIRIES: <b>ADVISING, SPEAKING, RESOURCES</b></span>
+    </p>
+    <h1 id="hero-title">Get in touch with <span class="hl">Dr. Moss</span></h1>
+    <p class="sub">Send a message about her background, the blog or the resources, suggest a resource she should add, or invite her to present to your team.</p>
+    <div class="hero-cta">
+      <a href="#message" class="btn">Send a message</a>
+      <a href="#email-list" class="btn dark">Join the email list</a>
+    </div>
+  </div>
+</section>
+
+<!-- MESSAGE FORM -->
+<section id="message" aria-labelledby="message-title">
+  <div class="wrap">
+    <div class="contact-grid reveal">
+
+      <div class="form-card">
+        <span class="vital">Send a message</span>
+        <h2 id="message-title">Write to <span class="hl">Dr. Moss</span></h2>
+        <p>Use this form for any of the reasons listed on this page. The more detail you give, the more useful her answer can be.</p>
+
+        <!-- TODO ENDPOINT: this form has NO backend. action="/api/contact" is a placeholder.
+             Replace with the real endpoint (her ESP, Formspree, Netlify Forms or a serverless
+             handler) and a real destination address before launch. Nothing on this page
+             simulates a successful submission. This is a launch blocker. -->
+        <form class="contact-form" method="post" action="/api/contact"
+              aria-labelledby="message-title" aria-describedby="req-note">
+          <p class="form-note" id="req-note">FIELDS MARKED * ARE REQUIRED</p>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="c-name">Name<span class="req" aria-hidden="true">*</span></label>
+              <input id="c-name" name="name" type="text" autocomplete="name" required>
+            </div>
+
+            <div class="field">
+              <label for="c-email">Email<span class="req" aria-hidden="true">*</span></label>
+              <input id="c-email" name="email" type="email" inputmode="email" autocomplete="email" required aria-describedby="c-email-hint">
+              <p class="hint" id="c-email-hint">So she can reply to you.</p>
+            </div>
+
+            <div class="field wide">
+              <label for="c-subject">Subject<span class="req" aria-hidden="true">*</span></label>
+              <input id="c-subject" name="subject" type="text" required>
+            </div>
+
+            <div class="field wide">
+              <label for="c-message">Message<span class="req" aria-hidden="true">*</span></label>
+              <textarea id="c-message" name="message" rows="7" required aria-describedby="c-message-hint"></textarea>
+              <p class="hint" id="c-message-hint">Tell her where you are in training and what you need help with.</p>
+            </div>
+          </div>
+
+          <div class="hp" aria-hidden="true">
+            <label for="c-website">Website</label>
+            <input id="c-website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-actions">
+            <button class="btn" type="submit">Send the message</button>
+            <p class="form-note" id="c-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-aside">
+        <figure class="shot">
+          <img src="/img/moss-about.webp"
+               srcset="/img/moss-about-600.webp 600w, /img/moss-about.webp 1200w"
+               sizes="(min-width:780px) 280px, 260px"
+               width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Stephanie Moss, MD, smiling in navy scrubs embroidered Stephanie Moss, MD, Psychiatry.">
+          <figcaption>Stephanie Moss, MD &middot; Psychiatry chief resident for academics</figcaption>
+        </figure>
+
+        <div class="aside-card">
+          <h3>What to write about</h3>
+          <ul class="reasons">
+            <li>About her background, the blog or the resources</li>
+            <li>A suggestion, or a resource she should add</li>
+            <li>An invitation to present to your team, or on your blog, podcast or at your conference</li>
+          </ul>
+        </div>
+
+        <div class="aside-card">
+          <h3>Or reach her on</h3>
+          <ul class="social-list">
+            <li>
+              <a class="social" href="https://instagram.com/stephmossmd" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1"/></svg>
+                <span class="tx"><span class="n">Instagram</span><span class="h">@stephmossmd</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="social" href="https://youtube.com/@doctormoss" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5l5.5 3-5.5 3z"/></svg>
+                <span class="tx"><span class="n">YouTube</span><span class="h">@doctormoss</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="social" href="https://open.spotify.com/show/685WDhQHXulbCmh2siIOp3?si=41c455d462674926" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.2"/><path d="M7.4 9.4c3-.9 6.4-.6 9 .9M8 12.6c2.4-.7 5.1-.4 7.2.8M8.7 15.6c1.9-.5 3.9-.3 5.6.6"/></svg>
+                <span class="tx"><span class="n">Spotify</span><span class="h">Life as a Patient-Doctor</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="social" href="https://podcasts.apple.com/us/podcast/life-as-a-patient-doctor/id1719637283" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+                <span class="tx"><span class="n">Apple Podcasts</span><span class="h">Life as a Patient-Doctor</span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EMAIL LIST -->
+<section id="email-list" aria-labelledby="list-title">
+  <div class="wrap">
+    <div class="sub-box reveal">
+      <span class="vital">The email list</span>
+      <h2 id="list-title">Join the <span class="hl">email list</span></h2>
+      <p>Be notified when new resources and writings are posted.</p>
+      <p class="gets">NEW FREE GUIDES &middot; NEW BLOG POSTS &middot; NEW PODCAST EPISODES</p>
+
+      <!-- TODO ENDPOINT: this sign-up form has NO backend. action="/api/subscribe" is a
+           placeholder. Wire it to her actual email provider (list name and provider unknown,
+           see content gaps) before launch. Launch blocker. -->
+      <form class="sub-form" method="post" action="/api/subscribe"
+            aria-labelledby="list-title" aria-describedby="s-req-note">
+        <div class="field">
+          <label for="s-name">Name</label>
+          <input id="s-name" name="name" type="text" autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="s-email">Email<span class="req" aria-hidden="true">*</span></label>
+          <input id="s-email" name="email" type="email" inputmode="email" autocomplete="email" required>
+        </div>
+
+        <div class="hp" aria-hidden="true">
+          <label for="s-website">Website</label>
+          <input id="s-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="form-actions">
+          <button class="btn" type="submit">Join the email list</button>
+          <p class="form-note" id="s-req-note">EMAIL IS REQUIRED</p>
+        </div>
+      </form>
+
+      <p class="fine">NO COST TO JOIN</p>
+    </div>
+  </div>
+</section>
+
+<!-- ADVISING -->
+<section id="advising" aria-labelledby="advising-title">
+  <div class="wrap">
+    <div class="panel reveal">
+      <div class="head">
+        <span class="vital">Advising</span>
+        <h2 id="advising-title">Sign up for <span class="hl">personalized advising</span></h2>
+        <p>Are you navigating the challenging journey of college or medical school? Dr. Moss is a first-generation medical student who persevered through obstacles, including a stumble with Step 1 and a leave of absence, so she understands the challenges you may face.</p>
+      </div>
+
+      <div class="duo">
+        <div>
+          <h3>Specialized support</h3>
+          <p>Strategize your medical school or residency applications, navigate medical education as a low-income, first-generation student, and build study strategies that hold up. She brings insight into mental health and wellness to all of it.</p>
+        </div>
+        <div>
+          <h3>Compassionate guidance</h3>
+          <p>Living with invisible disabilities herself, Dr. Moss keeps her advising inclusive, so your own challenges are understood and supported.</p>
+        </div>
+      </div>
+
+      <div class="quotes">
+        <figure class="qc">
+          <span class="mark" aria-hidden="true">&ldquo;</span>
+          <blockquote>Thank you for the opportunity and for your time. You are amazing and have inspired me in so many ways. I am very grateful for you sharing your journey with the world and for being so compassionate and kind. Please know you have truly made such an impact in my life and have helped me feel less alone in medicine and as a human.</blockquote>
+          <figcaption class="by">Student message &middot; After an advising session</figcaption>
+        </figure>
+      </div>
+
+      <div class="btn-row">
+        <a class="btn" data-p="p_3370950/advising-with-dr-moss-1-hr" href="https://medpsycmoss.com/store/p_3370950/advising-with-dr-moss-1-hr">Book a session</a>
+        <a class="btn dark" href="/store">Browse the store</a>
+      </div>
+      <p class="form-note">ADVISING WITH DR. MOSS, 1 HR &middot; $70.00</p>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE YOU WRITE -->
+<section aria-labelledby="note-title">
+  <div class="wrap">
+    <div class="note reveal">
+      <h2 id="note-title">Before you write</h2>
+      <p><b>From Dr. Moss:</b> All thoughts are my own, not representative of any organization (including my employer), and are not medical, psychiatric, nor financial advice.</p>
+      <p>Messages sent through this page are educational correspondence, not medical or psychiatric care, and they do not create a doctor-patient relationship. Please do not send confidential health information. If you are in crisis or need urgent help, contact your local emergency number or a crisis line rather than this form.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-logo">MedPsyc<span class="moss">Moss</span></div>
+    <p class="foot-bio">Stephanie Moss, MD. Psychiatry resident physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.</p>
+    <a class="foot-sub" href="/contact">Join the email list</a>
+
+    <div class="foot-cols">
+      <nav aria-labelledby="foot-explore">
+        <h2 id="foot-explore">Explore</h2>
+        <ul>
+          <li><a href="/about-me">About</a></li>
+          <li><a href="/store">Workbooks &amp; Courses</a></li>
+          <li><a href="/podcast">Podcast</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/my-work">My Work</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="foot-popular">
+        <h2 id="foot-popular">Popular resources</h2>
+        <ul>
+          <li><a data-p="p_3387065/2026-eras-and-ps-for-fellowship" href="https://medpsycmoss.com/store/p_3387065/2026-eras-and-ps-for-fellowship">Personal Statement Examples</a></li>
+          <li><a data-p="p_3313250/mock-interview-with-dr-moss" href="https://medpsycmoss.com/store/p_3313250/mock-interview-with-dr-moss">Mock Interview Prep</a></li>
+          <li><a href="/blog/leave-of-absence">Leave of Absence Guide</a></li>
+          <li><a href="/blog/accommodations-usmle">USMLE Accommodations Help</a></li>
+          <li><a href="/resources">All Resources</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="foot-connect">
+        <h2 id="foot-connect">Connect</h2>
+        <ul>
+          <li><a href="https://instagram.com/stephmossmd" rel="noopener">Instagram</a></li>
+          <li><a href="https://youtube.com/@doctormoss" rel="noopener">YouTube</a></li>
+          <li><a href="https://open.spotify.com/show/685WDhQHXulbCmh2siIOp3?si=41c455d462674926" rel="noopener">Spotify</a></li>
+          <li><a href="https://podcasts.apple.com/us/podcast/life-as-a-patient-doctor/id1719637283" rel="noopener">Apple Podcasts</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <p class="disc">
+      ***ALL THOUGHTS ARE MY OWN, NOT REPRESENTATIVE OF ANY ORGANIZATION (INCLUDING MY EMPLOYER), AND ARE NOT MEDICAL, PSYCHIATRIC, NOR FINANCIAL ADVICE***<br>
+      &copy; <span id="yr">2026</span> STEPHANIE MOSS, MD | MEDPSYCMOSS. EDUCATIONAL CONTENT ONLY. NOT MEDICAL OR LEGAL ADVICE.
+    </p>
+  </div>
+</footer>
+
+<!-- mobile app dock -->
+<nav class="dock" aria-label="Quick navigation">
+  <a href="/store">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+    Store
+  </a>
+  <a href="/resources">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M7.5 8C6 8 5 6.8 5 5.5S6 3 7.5 3C10 3 12 8 12 8s2-5 4.5-5C18 3 19 4.2 19 5.5S18 8 16.5 8"/></svg>
+    Free
+  </a>
+  <a href="/podcast">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+    Podcast
+  </a>
+  <a href="/about-me">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+    About
+  </a>
+</nav>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://medpsycmoss.com/contact#webpage",
+      "url": "https://medpsycmoss.com/contact",
+      "name": "Contact Dr. Moss",
+      "description": "Send Stephanie Moss, MD a message about her background, blog or resources, suggest a resource she should add, or invite her to speak.",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://medpsycmoss.com/#website" },
+      "about": { "@id": "https://medpsycmoss.com/#person" },
+      "primaryImageOfPage": "https://medpsycmoss.com/img/moss-about.webp",
+      "breadcrumb": { "@id": "https://medpsycmoss.com/contact#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://medpsycmoss.com/contact#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://medpsycmoss.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Contact" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://medpsycmoss.com/#person",
+      "name": "Stephanie Moss",
+      "honorificSuffix": "MD",
+      "jobTitle": "PGY-3 Psychiatry Chief Resident for Academics",
+      "description": "Psychiatry resident physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.",
+      "url": "https://medpsycmoss.com/about-me",
+      "image": "https://medpsycmoss.com/img/portrait.webp",
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Rush Medical College" },
+      "affiliation": { "@type": "CollegeOrUniversity", "name": "Rosalind Franklin University" },
+      "knowsAbout": ["Residency applications","USMLE testing accommodations","Leave of absence in medical school","Trauma-informed care","Disability in medicine"],
+      "sameAs": [
+        "https://instagram.com/stephmossmd",
+        "https://youtube.com/@doctormoss",
+        "https://open.spotify.com/show/685WDhQHXulbCmh2siIOp3",
+        "https://podcasts.apple.com/us/podcast/life-as-a-patient-doctor/id1719637283"
+      ]
+    }
+  ]
+}
+</script>
+
+<script src="/js/site.js" defer></script>
+</body>
+</html>

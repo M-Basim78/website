@@ -1,0 +1,4119 @@
+{
+  "trauma-resources": {
+    "slug": "trauma-resources",
+    "title": "Trauma-Informed Resources for Patients",
+    "entries": [
+      {
+        "label": "bookshop.org",
+        "href": "https://bookshop.org/lists/books-for-healing-through-trauma",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "providers-trauma",
+      "support-groups-trauma",
+      "videos-trauma",
+      "posts-mental-health",
+      "podcasts-trauma",
+      "products-trauma",
+      "websites-for-trauma",
+      "articles-on-trauma",
+      "trainings-mental-sexual-health",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "websites-for-trauma": {
+    "slug": "websites-for-trauma",
+    "title": "Websites & Organizations focussing on Trauma Healing",
+    "entries": [
+      {
+        "label": "theembodylab.squarespace.com",
+        "href": "https://theembodylab.squarespace.com",
+        "host": "theembodylab.squarespace.com"
+      },
+      {
+        "label": "E",
+        "href": "https://www.somaticexperiencing.com",
+        "host": "somaticexperiencing.com"
+      },
+      {
+        "label": "brenebrown.com",
+        "href": "https://brenebrown.com",
+        "host": "brenebrown.com"
+      },
+      {
+        "label": "lumostransforms.com",
+        "href": "https://lumostransforms.com",
+        "host": "lumostransforms.com"
+      },
+      {
+        "label": "thetrevorproject.org",
+        "href": "https://www.thetrevorproject.org",
+        "host": "thetrevorproject.org"
+      },
+      {
+        "label": "translifeline.org",
+        "href": "https://translifeline.org",
+        "host": "translifeline.org"
+      },
+      {
+        "label": "mind-foundation.org",
+        "href": "https://mind-foundation.org",
+        "host": "mind-foundation.org"
+      },
+      {
+        "label": "wondermind.com",
+        "href": "https://www.wondermind.com/story",
+        "host": "wondermind.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "pelvic-pain-resources": {
+    "slug": "pelvic-pain-resources",
+    "title": "Books",
+    "entries": [
+      {
+        "label": "Books",
+        "href": "https://bookshop.org/lists/books-for-living-with-pelvic-pain?",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "podcasts-on-pelvic-pain",
+      "videos-pelvic-pain",
+      "trainings-mental-sexual-health",
+      "posts-pelvic-pain",
+      "support-groups-pelvic-pain",
+      "websites-for-pelvic-pain",
+      "providers-sexual-health",
+      "products-pelvic-pain",
+      "articles-pelvic-pain",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "mental-health-resources": {
+    "slug": "mental-health-resources",
+    "title": "Trauma-informed Mental Health Resources",
+    "entries": [
+      {
+        "label": "Books",
+        "href": "https://bookshop.org/lists/books-for-mental-health-healing",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "providers-trauma",
+      "support-groups-mental-health",
+      "videos-mental-health",
+      "posts-mental-health",
+      "products-mental-health",
+      "articles-for-mental-health",
+      "websites-for-trauma",
+      "podcasts-trauma",
+      "trainings-mental-sexual-health",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "sexual-health-resources": {
+    "slug": "sexual-health-resources",
+    "title": "Books",
+    "entries": [
+      {
+        "label": "Books",
+        "href": "https://bookshop.org/lists/books-for-sexual-health-education",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "podcasts-sexual-health",
+      "videos-sexual-health",
+      "trainings-mental-sexual-health",
+      "blog/tag/sexual%20health",
+      "support-groups-sexual-health",
+      "websites-for-sexual-health-edu",
+      "providers-sexual-health",
+      "products-for-sexual-health",
+      "articles-sexual-health",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "endometriosis-resources": {
+    "slug": "endometriosis-resources",
+    "title": "Support Groups",
+    "entries": [
+      {
+        "label": "Books",
+        "href": "https://bookshop.org/lists/books-for-living-with-endometriosis",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Websites",
+        "href": "https://endometriosis.org",
+        "host": "endometriosis.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "support-groups-endometriosis",
+      "videos-endometriosis",
+      "posts-endometriosis",
+      "products-endometriosis",
+      "providers-pelvic-pain",
+      "articles-on-endometriosis",
+      "podcasts-on-endometriosis",
+      "trainings-mental-sexual-health",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "infertility-resources": {
+    "slug": "infertility-resources",
+    "title": "Infertility Resources",
+    "entries": [
+      {
+        "label": "bookshop.org",
+        "href": "https://bookshop.org/lists/books-for-living-with-infertility",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "support-groups-infertility",
+      "videos-infertility",
+      "posts-infertility",
+      "podcasts-on-infertility",
+      "articles-on-infertility",
+      "websites-for-infertility",
+      "providers-infertility",
+      "products-for-infertility",
+      "trainings-mental-sexual-health",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "menopause-resources": {
+    "slug": "menopause-resources",
+    "title": "Menopause Resources",
+    "entries": [
+      {
+        "label": "Books",
+        "href": "https://bookshop.org/lists/books-for-infertility",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Books",
+        "href": "https://bookshop.org/lists/books-for-menopause",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "support-groups-monopause",
+      "videos-menopause",
+      "products-for-menopause",
+      "trainings-mental-sexual-health",
+      "podcasts-sexual-health",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "disabilities-resources": {
+    "slug": "disabilities-resources",
+    "title": "Resources for Living with Disabilities",
+    "entries": [
+      {
+        "label": "bookshop.org",
+        "href": "https://bookshop.org/lists/books-for-infertility",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "bookshop.org",
+        "href": "https://bookshop.org/lists/books-for-living-with-disabilities",
+        "host": "bookshop.org"
+      },
+      {
+        "label": "docswithdisabilities.org",
+        "href": "https://www.docswithdisabilities.org/webinars",
+        "host": "docswithdisabilities.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "videos-for-patients-with-disabilities",
+      "articles-podcasts-for-disabilities",
+      "trainings-websites-for-disabilities",
+      "providers-trauma",
+      "blog/tag/disability",
+      "support-groups-disabilities",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "lqbtqia-resources": {
+    "slug": "lqbtqia-resources",
+    "title": "S2LQBTQIA Health Resources",
+    "entries": [
+      {
+        "label": "Books",
+        "href": "https://storage.googleapis.com/gator-users/user-932079/documents/55521ff1456f4ec39e5d79dddf3c945c/GenderOpossum%20Worksheet.pdf",
+        "host": "storage.googleapis.com"
+      },
+      {
+        "label": "S2LQBTQIA Health Resources",
+        "href": "https://www.innovating-education.org/curriculum/course/9898/#unit-1-module-2",
+        "host": "innovating-education.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "providers-lgbtqia",
+      "podcasts-lgbtqia-health",
+      "blog/transgender-health-and-gender-affirming-care",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "events": {
+    "slug": "events",
+    "title": "Stephanie Moss, MD",
+    "entries": [
+      {
+        "label": "MedPsycMoss Youtube",
+        "href": "https://www.youtube.com/channel/UC_Ypzlapvju3XZ-8rgjF8Vw",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "interviews": {
+    "slug": "interviews",
+    "title": "List of Interviews",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "vickie-ms3",
+      "parul-np-low-vision",
+      "kimether-np-endometriosis",
+      "dr-andrea-done-obgyn-parenthood",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "vlogs": {
+    "slug": "vlogs",
+    "title": "List of Dr. Moss' Vlogs",
+    "entries": [
+      {
+        "label": "youtu.be",
+        "href": "https://youtu.be/elsGzpI5mCk?si=1k0uCZVMrVwJDO4s",
+        "host": "youtu.be"
+      },
+      {
+        "label": "youtu.be",
+        "href": "https://youtu.be/Ge65W1a8gEc",
+        "host": "youtu.be"
+      },
+      {
+        "label": "youtu.be",
+        "href": "https://youtu.be/koFNZ7kuvh0?si=nvvtrqtwb8gHLp18",
+        "host": "youtu.be"
+      },
+      {
+        "label": "youtu.be",
+        "href": "https://youtu.be/XXFxN4M_Cw8?si=3iG3K92Mjkgc-X-y",
+        "host": "youtu.be"
+      },
+      {
+        "label": "youtu.be",
+        "href": "https://youtu.be/HQCDP_QNQJw?si=RF5GLz-KdlG96fHb",
+        "host": "youtu.be"
+      },
+      {
+        "label": "youtu.be",
+        "href": "https://youtu.be/7kmr7-v8mlA?si=REKC-ah33bkZu16m",
+        "host": "youtu.be"
+      },
+      {
+        "label": "youtu.be",
+        "href": "https://youtu.be/UtWlgnK6vso?si=O5la7o6jQKVYe2OC",
+        "host": "youtu.be"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "guide-to-accommodations",
+      "taboos",
+      "step-failure-to-success",
+      "student-loan-repayments",
+      "residency-app",
+      "clinical-rotations",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "providers-trauma": {
+    "slug": "providers-trauma",
+    "title": "How to find a Trauma-Informed Mental Health Care Provider",
+    "entries": [
+      {
+        "label": "More Info on Types of Providers",
+        "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+        "host": "mayoclinic.org"
+      },
+      {
+        "label": "More Info on Types of Therapy",
+        "href": "https://www.psychologytoday.com/us/types-of-therapy",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Psychology Today",
+        "href": "https://www.psychologytoday.com/us/therapists",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "By Disorder or Special Population",
+        "href": "https://www.mhanational.org/finding-therapy",
+        "host": "mhanational.org"
+      },
+      {
+        "label": "How insurance works for Mental Health",
+        "href": "https://www.mhanational.org/how-insurance-works",
+        "host": "mhanational.org"
+      },
+      {
+        "label": "Mental Health America",
+        "href": "https://arc.mhanational.org/find-an-affiliate",
+        "host": "arc.mhanational.org"
+      },
+      {
+        "label": "More questions to ask",
+        "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-trauma": {
+    "slug": "support-groups-trauma",
+    "title": "Trauma Focussed Support Groups, Organizations & Advocates",
+    "entries": [
+      {
+        "label": "Relational Healing Lab (Free)Instagram: @drtannerwallaceThis is the official Facebook group for the Relational Healing Lab. A community space for adult survivors of childhood trauma who want to both recover AND dream big.",
+        "href": "https://www.facebook.com/groups/relationalhealing",
+        "host": "facebook.com"
+      },
+      {
+        "label": "@healing.and.cptsd",
+        "href": "https://www.instagram.com/healing.and.cptsd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@browngirltrauma",
+        "href": "https://www.instagram.com/browngirltrauma/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@survivorrevive",
+        "href": "https://www.instagram.com/survivorrevive/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-trauma": {
+    "slug": "videos-trauma",
+    "title": "Videos on Trauma for Patients with Trauma Histories",
+    "entries": [
+      {
+        "label": "Videos on Trauma for Patients with Trauma Histories",
+        "href": "https://www.instagram.com/tv/CUyX_AJAksa/?utm_source=ig_web_copy_link",
+        "host": "instagram.com"
+      },
+      {
+        "label": "MedPsycMoss Youtube Playlist: Healing from Trauma",
+        "href": "https://youtube.com/playlist?list=PLUfheMZYKjA9TkH22bDQrDUD1gFRlLGUe",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "posts-mental-health": {
+    "slug": "posts-mental-health",
+    "title": "MedPsycMoss' Posts on Mental Health",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "podcasts-trauma": {
+    "slug": "podcasts-trauma",
+    "title": "Podcasts for Mental Health & Individuals Dealing with Trauma",
+    "entries": [
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/transforming-trauma/id1496190024",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/the-tanner-wallace-podcast/id1515546096",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/counselor-toolbox-podcast/id1120947649",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/the-seattle-psychiatrist-interview-series/id1610172041",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "seattleanxiety.com",
+        "href": "http://seattleanxiety.com ",
+        "host": "seattleanxiety.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/overcoming-child-sexual-abuse-with-kathy-andersen/id1566969310",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/the-trauma-therapist/id899009517",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "traumatherapistproject.com",
+        "href": "http://traumatherapistproject.com",
+        "host": "traumatherapistproject.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/psychology-unplugged/id1547088092",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/adhd-experts-podcast/id668174671",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "additudemag.com/adhd-expert-webinars-index",
+        "href": "http://additudemag.com/adhd-expert-webinars-index",
+        "host": "additudemag.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/terrible-thanks-for-asking/id1126119288",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "podcasts.apple.com",
+        "href": "https://podcasts.apple.com/us/podcast/mch-bridges-the-official-amchp-podcast/id1585876531",
+        "host": "podcasts.apple.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products-trauma": {
+    "slug": "products-trauma",
+    "title": "Products for Trauma Recovery & HealingAlways ask your doctor and/or therapist before starting something new.",
+    "entries": [
+      {
+        "label": "calmigo.com",
+        "href": "https://calmigo.com?fid=385",
+        "host": "calmigo.com"
+      },
+      {
+        "label": "calmigo.com",
+        "href": "https://calmigo.com/?fid=385&utm_source=affiliatly&utm_medium=influencer&utm_campaign=Stephanie_Moss-385&utm_content=facebook-ig&utm_term=MOSS&source=affiliatly&placement=facebook-ig&medium=influencer&aff_id=385&aff_name=Stephanie_Moss&coupon_code=MOSS",
+        "host": "calmigo.com"
+      },
+      {
+        "label": "urldefense.com",
+        "href": "https://urldefense.com/v3/__https://t.dripemail2.com/c/eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZXRvdXIiLCJpc3MiOiJtb25vbGl0aCIsInN1YiI6ImRldG91cl9saW5rIiwiaWF0IjoxNjQyMDY3NzQzLCJuYmYiOjE2NDIwNjc3NDMsImFjY291bnRfaWQiOiIyMjI2MjgzIiwiZGVsaXZlcnlfaWQiOiJtZDR3NWpvbGRzOTBta2JueTdjNiIsInVybCI6Imh0dHBzOi8vd3d3LmludGltYXRlcm9zZS5jb20vU1RFUEhBTklFNDc_dXRtX3NvdXJjZT1JUkNXLVRyYWNraW5nLWZvbGxvd3VwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWRheTAmdXRtX2NvbnRlbnQ9bGluayZfX3M9ZzM1dG5jemk3aGd3dnV6MGcwZW8ifQ.Wx6M2TmDXGGK64p66FQSAqDqvIVxQJT_V1AEnvTAsDQ__;!!OlavHw!ttgI6YZp-NW40BilgJzJ3Gy0b7D8oEpP_3ZTeGTXd_R-R0_hNbokqaMUW5SZq-OVbNTyszE$",
+        "host": "urldefense.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "articles-on-trauma": {
+    "slug": "articles-on-trauma",
+    "title": "Trauma-informed Articles on Trauma Healing",
+    "entries": [
+      {
+        "label": "\"Bodily maps of emotions\"",
+        "href": "https://www.pnas.org/doi/10.1073/pnas.1321664111#fig02",
+        "host": "pnas.org"
+      },
+      {
+        "label": "Check out on KevinMD.com",
+        "href": "https://www.kevinmd.com/2022/03/will-smiths-slap-is-a-trauma-response.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "trainings-mental-sexual-health": {
+    "slug": "trainings-mental-sexual-health",
+    "title": "Trauma-Informed Trainings & Workshops on Mental & Sexual Health",
+    "entries": [
+      {
+        "label": "Website",
+        "href": "https://lumostransforms.com/individuals-groups/",
+        "host": "lumostransforms.com"
+      },
+      {
+        "label": "Website",
+        "href": "https://www.issm.info/meetings/issm-webinars/on-demand-webinars?start=6",
+        "host": "issm.info"
+      },
+      {
+        "label": "Website",
+        "href": "https://clitoris.io/summit2022-videos",
+        "host": "clitoris.io"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products/residency-personal-statement": {
+    "slug": "products/residency-personal-statement",
+    "title": "Page Not Found",
+    "entries": [],
+    "children": []
+  },
+  "products/mock-interviews": {
+    "slug": "products/mock-interviews",
+    "title": "Page Not Found",
+    "entries": [],
+    "children": []
+  },
+  "products/loa-guide": {
+    "slug": "products/loa-guide",
+    "title": "Page Not Found",
+    "entries": [],
+    "children": []
+  },
+  "products/usmle-accommodations": {
+    "slug": "products/usmle-accommodations",
+    "title": "Page Not Found",
+    "entries": [],
+    "children": []
+  },
+  "podcasts-on-pelvic-pain": {
+    "slug": "podcasts-on-pelvic-pain",
+    "title": "Stephanie Moss, MD",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-pelvic-pain": {
+    "slug": "videos-pelvic-pain",
+    "title": "Videos for Pelvic Pain",
+    "entries": [
+      {
+        "label": "Pelvic Gym PT Videos: www.pelvicgym.co",
+        "href": "http://www.pelvicgym.co",
+        "host": "pelvicgym.co"
+      },
+      {
+        "label": "Pelvic Gym PT Videos: www.pelvicgym.co",
+        "href": "https://www.pelvicgym.co/programs",
+        "host": "pelvicgym.co"
+      },
+      {
+        "label": "Videos on pelvicpainrehab.com & Youtube Page",
+        "href": "https://www.youtube.com/c/PelvicPainRehab/featured",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Videos on pelvicpainrehab.com & Youtube Page",
+        "href": "https://pelvicpainrehab.com/pelvic-floor-yoga-and-pilates/",
+        "host": "pelvicpainrehab.com"
+      },
+      {
+        "label": "belowthebelt.film",
+        "href": "https://www.belowthebelt.film",
+        "host": "belowthebelt.film"
+      },
+      {
+        "label": "Dr. Levine's Somatic Pain Trainings:",
+        "href": "https://product.soundstrue.com/body-as-healer/sign-up/",
+        "host": "product.soundstrue.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "posts-pelvic-pain": {
+    "slug": "posts-pelvic-pain",
+    "title": "MedPsycMoss Posts on Pelvic Pain",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "blog/tag/pelvic%20pain",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-pelvic-pain": {
+    "slug": "support-groups-pelvic-pain",
+    "title": "Pelvic Pain Support Groups",
+    "entries": [
+      {
+        "label": "Interstitial Cystitis:",
+        "href": "http://www.painful-bladder.org",
+        "host": "painful-bladder.org"
+      },
+      {
+        "label": "Interstitial Cystitis:",
+        "href": "https://www.ic-network.com",
+        "host": "ic-network.com"
+      },
+      {
+        "label": "Interstitial Cystitis:",
+        "href": "https://www.ichelp.org",
+        "host": "ichelp.org"
+      },
+      {
+        "label": "IBS/GI:",
+        "href": "https://iffgd.org",
+        "host": "iffgd.org"
+      },
+      {
+        "label": "IBS/GI:",
+        "href": "https://www.pelvicpain.org.uk",
+        "host": "pelvicpain.org.uk"
+      },
+      {
+        "label": "IBS/GI:",
+        "href": "https://www.pelvicpain.org",
+        "host": "pelvicpain.org"
+      },
+      {
+        "label": "Vulva/Vulvar:",
+        "href": "https://vulvalpainsociety.org",
+        "host": "vulvalpainsociety.org"
+      },
+      {
+        "label": "Vulva/Vulvar:",
+        "href": "https://www.pudendalhope.info",
+        "host": "pudendalhope.info"
+      },
+      {
+        "label": "Vulva/Vulvar:",
+        "href": "https://www.nva.org",
+        "host": "nva.org"
+      },
+      {
+        "label": "tightlipped.org",
+        "href": "https://www.tightlipped.org",
+        "host": "tightlipped.org"
+      },
+      {
+        "label": "Book Club - $",
+        "href": "https://findyourselfbethat.com/bookclub/",
+        "host": "findyourselfbethat.com"
+      },
+      {
+        "label": "Ovira's Inner Circle",
+        "href": "https://www.facebook.com/groups/ovira/",
+        "host": "facebook.com"
+      },
+      {
+        "label": "Bodies Podcast",
+        "href": "https://www.instagram.com/bodiespodcast/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@theperioddoctor",
+        "href": "https://www.instagram.com/theperioddoctor/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelvichealth",
+        "href": "https://www.instagram.com/pelvichealth/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drjenniferlincoln",
+        "href": "https://www.instagram.com/drjenniferlincoln/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.vagina.whisperer",
+        "href": "https://www.instagram.com/the.vagina.whisperer/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@jillkrapfmd",
+        "href": "https://www.instagram.com/jillkrapfmd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@hormone.health.doc",
+        "href": "https://www.instagram.com/hormone.health.doc/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@feministsexed",
+        "href": "https://www.instagram.com/feministsexed/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@lovecrave",
+        "href": "https://www.instagram.com/lovecrave/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@loradicarlo_hq",
+        "href": "https://www.instagram.com/loradicarlo_hq/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@clitoris.io",
+        "href": "https://www.instagram.com/clitoris.io/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drrachelrubin",
+        "href": "https://www.instagram.com/drrachelrubin/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@tightlippedorg",
+        "href": "https://www.instagram.com/tightlippedorg/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@beyondbasicpt",
+        "href": "https://www.instagram.com/beyondbasicspt/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@intimaterose",
+        "href": "https://www.instagram.com/intimaterose/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelvisibility",
+        "href": "https://www.instagram.com/pelvisibility/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelivpainproject",
+        "href": "https://www.instagram.com/pelvicpainproject/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.cvvd",
+        "href": "https://www.instagram.com/the.cvvd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@ohnutco",
+        "href": "https://www.instagram.com/ohnutco/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "websites-for-pelvic-pain": {
+    "slug": "websites-for-pelvic-pain",
+    "title": "Websites for Pelvic Pain",
+    "entries": [
+      {
+        "label": "iffgd.org",
+        "href": "https://iffgd.org",
+        "host": "iffgd.org"
+      },
+      {
+        "label": "isswsh.org",
+        "href": "https://www.isswsh.org",
+        "host": "isswsh.org"
+      },
+      {
+        "label": "vulvalpainsociety.org",
+        "href": "https://vulvalpainsociety.org",
+        "host": "vulvalpainsociety.org"
+      },
+      {
+        "label": "nva.org",
+        "href": "https://www.nva.org",
+        "host": "nva.org"
+      },
+      {
+        "label": "painful-bladder.org",
+        "href": "http://www.painful-bladder.org",
+        "host": "painful-bladder.org"
+      },
+      {
+        "label": "pelvicrehabilitation.com",
+        "href": "https://pelvicrehabilitation.com",
+        "host": "pelvicrehabilitation.com"
+      },
+      {
+        "label": "pelvicpainrehab.com",
+        "href": "https://pelvicpainrehab.com",
+        "host": "pelvicpainrehab.com"
+      },
+      {
+        "label": "endopain.endometriosis.org",
+        "href": "https://endopain.endometriosis.org",
+        "host": "endopain.endometriosis.org"
+      },
+      {
+        "label": "pelvicgym.co",
+        "href": "https://www.pelvicgym.co/programs",
+        "host": "pelvicgym.co"
+      },
+      {
+        "label": "theoriginway.com",
+        "href": "https://www.theoriginway.com",
+        "host": "theoriginway.com"
+      },
+      {
+        "label": "clinici.wiki",
+        "href": "https://www.clinici.wiki/chronic-pain",
+        "host": "clinici.wiki"
+      },
+      {
+        "label": "tightlipped.org",
+        "href": "https://tightlipped.org",
+        "host": "tightlipped.org"
+      },
+      {
+        "label": "ohnut.co",
+        "href": "https://ohnut.co/pages/pain-perception-project",
+        "host": "ohnut.co"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "providers-sexual-health": {
+    "slug": "providers-sexual-health",
+    "title": "Finding The Right Sexual Health Provider",
+    "entries": [
+      {
+        "label": "Vaginismus, Vulvodynia Providers by Self-Advocates",
+        "href": "https://www.mapotic.com/vulvodynia-providers",
+        "host": "mapotic.com"
+      },
+      {
+        "label": "Find a Sexual Medicine Provider by International Society of Sexual Medicine (ISSM)",
+        "href": "https://app.v1.statusplus.net/membership/provider/index?society=issm",
+        "host": "app.v1.statusplus.net"
+      },
+      {
+        "label": "More Info on Types of Therapists",
+        "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+        "host": "mayoclinic.org"
+      },
+      {
+        "label": "More Info on Types of Therapy",
+        "href": "https://www.psychologytoday.com/us/types-of-therapy",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "More Info on Types of Sex Therapy",
+        "href": "https://www.apa.org/monitor/2019/02/cover-ce-corner",
+        "host": "apa.org"
+      },
+      {
+        "label": "Sex & Couples Therapy Provider Search",
+        "href": "https://www.psychologytoday.com/us/therapists",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Mental Health Provider By Disorder or Special Population",
+        "href": "https://www.mhanational.org/finding-therapy",
+        "host": "mhanational.org"
+      },
+      {
+        "label": "How insurance works",
+        "href": "https://www.mhanational.org/how-insurance-works",
+        "host": "mhanational.org"
+      },
+      {
+        "label": "Find a Pelvic Floor Trained PT",
+        "href": "https://pelvicrehab.com",
+        "host": "pelvicrehab.com"
+      },
+      {
+        "label": "Pelvic Medicine & Rehabilitation (PM&R)",
+        "href": "https://members.aapmr.org/AAPMR/AAPMR_FINDER.aspxy",
+        "host": "members.aapmr.org"
+      },
+      {
+        "label": "More questions to ask",
+        "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products-pelvic-pain": {
+    "slug": "products-pelvic-pain",
+    "title": "Products for Pelvic PainAlways ask your doctor and/or pelvic floor physical therapist what is right for you before starting something new.",
+    "entries": [
+      {
+        "label": "Pelvic Wand",
+        "href": "https://www.intimaterose.com/collections/pelvic-wands",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Pelvic Wand",
+        "href": "https://thinx.club/stephaniemoss4",
+        "host": "thinx.club"
+      },
+      {
+        "label": "Calmi Go",
+        "href": "https://calmigo.com?fid=385",
+        "host": "calmigo.com"
+      },
+      {
+        "label": "Pelvic Wand",
+        "href": "https://www.intimaterose.com/blogs/videos/wand-videos",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Pelvic Wand",
+        "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Intimate Rose Website",
+        "href": "https://www.intimaterose.com/collections/vaginal-dilators",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Intimate Rose Website",
+        "href": "https://www.intimaterose.com/products/full-anal-dilator-set-8-sizes",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Intimate Rose Website",
+        "href": "https://www.intimaterose.com/products/kegel-exercises-for-women-vaginal-weights-pelvic-floor",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Intimate Rose Website",
+        "href": "https://www.intimaterose.com/collections/supplements",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Intimate Rose Website",
+        "href": "https://www.intimaterose.com/collections/mastectomy-recovery-aids",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Hello Milli Website",
+        "href": "https://www.hellomilli.com/milli-vaginal-dilator/",
+        "host": "hellomilli.com"
+      },
+      {
+        "label": "E-Book by Pelvic Pain Rehab Center:",
+        "href": "https://pelvicpainrehab.com/for-patients/#ebook",
+        "host": "pelvicpainrehab.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "articles-pelvic-pain": {
+    "slug": "articles-pelvic-pain",
+    "title": "Research Articles on Pelvic PainClick on each picture to read the associated article",
+    "entries": [
+      {
+        "label": "ncbi.nlm.nih.gov",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9967635/",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "sciencedirect.com",
+        "href": "https://www.sciencedirect.com/science/article/pii/S1743609522014990",
+        "host": "sciencedirect.com"
+      },
+      {
+        "label": "pelvicpainrehab.com",
+        "href": "https://pelvicpainrehab.com/female-pelvic-pain/18839/a-qa-about-clitoral-pain/",
+        "host": "pelvicpainrehab.com"
+      },
+      {
+        "label": "soundcloud.com",
+        "href": "https://soundcloud.com/user-475703944/sore-loser-a-chronic-pain-and-illness-zine-on-queer-disabled-grief",
+        "host": "soundcloud.com"
+      },
+      {
+        "label": "kevinmd.com",
+        "href": "https://www.kevinmd.com/2022/01/screening-for-adverse-childhood-experiences-in-pediatric-primary-care-made-my-job-easier.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "jamanetwork.com",
+        "href": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2784694?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamapsychiatry.2021.2669",
+        "host": "jamanetwork.com"
+      },
+      {
+        "label": "jsm.jsexmed.org",
+        "href": "https://www.jsm.jsexmed.org/article/S1743-6095(19)30427-8/fulltext",
+        "host": "jsm.jsexmed.org"
+      },
+      {
+        "label": "ncbi.nlm.nih.gov",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736459/pdf/nihms880470.pdf",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "theanarchistlibrary.org",
+        "href": "https://theanarchistlibrary.org/library/johanna-hedva-sick-woman-theory",
+        "host": "theanarchistlibrary.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-mental-health": {
+    "slug": "support-groups-mental-health",
+    "title": "Mental Health Support Groups",
+    "entries": [
+      {
+        "label": "Relational Healing Lab (Free)Instagram: @drtannerwallaceThis is the official Facebook group for the Relational Healing Lab. A community space for adult survivors of childhood trauma who want to both recover AND dream big.",
+        "href": "https://www.facebook.com/groups/relationalhealing",
+        "host": "facebook.com"
+      },
+      {
+        "label": "thestigma.app",
+        "href": "https://www.thestigma.app",
+        "host": "thestigma.app"
+      },
+      {
+        "label": "@healing.and.cptsd",
+        "href": "https://www.instagram.com/healing.and.cptsd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@browngirltrauma",
+        "href": "https://www.instagram.com/browngirltrauma/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@survivorrevive",
+        "href": "https://www.instagram.com/survivorrevive/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@psychup_",
+        "href": "https://www.instagram.com/psychup_/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@mentalhealthbooster",
+        "href": "https://www.instagram.com/mentalhealthbooster/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@brenebrown",
+        "href": "https://www.instagram.com/brenebrown/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@dr.marielbuque",
+        "href": "https://www.instagram.com/dr.marielbuque/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@theembodylab",
+        "href": "https://www.instagram.com/theembodylab/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-mental-health": {
+    "slug": "videos-mental-health",
+    "title": "Trauma-informed Videos for Mental Health",
+    "entries": [
+      {
+        "label": "A",
+        "href": "https://youtu.be/2btcnaDa5J8",
+        "host": "youtu.be"
+      },
+      {
+        "label": "MedPsycMoss Youtube Playlist on Mental Health",
+        "href": "https://youtube.com/playlist?list=PLUfheMZYKjA90sS4qPDOWuE5jilPZg7GK",
+        "host": "youtube.com"
+      },
+      {
+        "label": "YouTube Page",
+        "href": "https://www.youtube.com/channel/UCg4-6ZLd9W4rE55qMjhVe_A/featured",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Youtube Page",
+        "href": "https://www.youtube.com/c/childmindinstitute",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Youtube Page",
+        "href": "https://www.youtube.com/channel/UC5LUxnXbReV7I5cEzvb46sQ",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products-mental-health": {
+    "slug": "products-mental-health",
+    "title": "Products for Mental HealthAlways ask your doctor and/or therapist before starting something new.",
+    "entries": [
+      {
+        "label": "calmigo.com",
+        "href": "https://calmigo.com?fid=385",
+        "host": "calmigo.com"
+      },
+      {
+        "label": "calmigo.com",
+        "href": "https://calmigo.com/?fid=385&utm_source=affiliatly&utm_medium=influencer&utm_campaign=Stephanie_Moss-385&utm_content=facebook-ig&utm_term=MOSS&source=affiliatly&placement=facebook-ig&medium=influencer&aff_id=385&aff_name=Stephanie_Moss&coupon_code=MOSS",
+        "host": "calmigo.com"
+      },
+      {
+        "label": "urldefense.com",
+        "href": "https://urldefense.com/v3/__https://t.dripemail2.com/c/eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZXRvdXIiLCJpc3MiOiJtb25vbGl0aCIsInN1YiI6ImRldG91cl9saW5rIiwiaWF0IjoxNjQyMDY3NzQzLCJuYmYiOjE2NDIwNjc3NDMsImFjY291bnRfaWQiOiIyMjI2MjgzIiwiZGVsaXZlcnlfaWQiOiJtZDR3NWpvbGRzOTBta2JueTdjNiIsInVybCI6Imh0dHBzOi8vd3d3LmludGltYXRlcm9zZS5jb20vU1RFUEhBTklFNDc_dXRtX3NvdXJjZT1JUkNXLVRyYWNraW5nLWZvbGxvd3VwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWRheTAmdXRtX2NvbnRlbnQ9bGluayZfX3M9ZzM1dG5jemk3aGd3dnV6MGcwZW8ifQ.Wx6M2TmDXGGK64p66FQSAqDqvIVxQJT_V1AEnvTAsDQ__;!!OlavHw!ttgI6YZp-NW40BilgJzJ3Gy0b7D8oEpP_3ZTeGTXd_R-R0_hNbokqaMUW5SZq-OVbNTyszE$",
+        "host": "urldefense.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "articles-for-mental-health": {
+    "slug": "articles-for-mental-health",
+    "title": "Articles on Mental HealthClick each picture to read the article",
+    "entries": [
+      {
+        "label": "Articles on Mental HealthClick each picture to read the article",
+        "href": "https://www.kevinmd.com/2022/02/i-risked-my-career-to-save-my-life.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "KevinMD.com",
+        "href": "https://www.kevinmd.com",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "Articles on Mental HealthClick each picture to read the article",
+        "href": "https://www.kevinmd.com/2021/06/a-physicians-story-of-dissociative-identity-disorder.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "Articles on Mental HealthClick each picture to read the article",
+        "href": "https://www.kevinmd.com/2022/09/let-doctors-in-recovery-be-able-to-recover-their-careers.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "Check out on International Society of Sexual Medicine (ISSM)",
+        "href": "https://www.issm.info/sexual-health-qa/do-mental-health-problems-have-an-effect-on-sexual-function",
+        "host": "issm.info"
+      },
+      {
+        "label": "ncbi.nlm.nih.gov",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476783/",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "https://doi.org/10.3389/fnhum.2017.00316",
+        "href": "https://doi.org/10.3389/fnhum.2017.00316",
+        "host": "doi.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "podcasts-sexual-health": {
+    "slug": "podcasts-sexual-health",
+    "title": "Stephanie Moss, MD",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-sexual-health": {
+    "slug": "videos-sexual-health",
+    "title": "Videos for Sexual Health Education",
+    "entries": [
+      {
+        "label": "International Society for Sexual Medicine (ISSM)",
+        "href": "https://www.issm.info/meetings/issm-webinars/on-demand-webinars",
+        "host": "issm.info"
+      },
+      {
+        "label": "Video Programs with the Pelvic gym",
+        "href": "https://www.pelvicgym.co/programs",
+        "host": "pelvicgym.co"
+      },
+      {
+        "label": "Video Programs with the OMGYes.com",
+        "href": "https://www.omgyes.com",
+        "host": "omgyes.com"
+      },
+      {
+        "label": "Video Recordings from the Clitoris Summit 2021 & 2022",
+        "href": "https://clitoris.io/summit2022-videos",
+        "host": "clitoris.io"
+      },
+      {
+        "label": "Netflix Page",
+        "href": "https://www.netflix.com/title/80197526",
+        "host": "netflix.com"
+      },
+      {
+        "label": "Netflix Page",
+        "href": "https://www.netflix.com/title/80117038",
+        "host": "netflix.com"
+      },
+      {
+        "label": "Netflix Page",
+        "href": "https://www.netflix.com/title/81459349",
+        "host": "netflix.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-sexual-health": {
+    "slug": "support-groups-sexual-health",
+    "title": "Sexual Health Support Groups",
+    "entries": [
+      {
+        "label": "@theperioddoctor",
+        "href": "https://www.instagram.com/theperioddoctor/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@alirodmd",
+        "href": "https://www.instagram.com/alirodmd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drmilhouse",
+        "href": "https://www.instagram.com/drmilhouse/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drjenniferlincoln",
+        "href": "https://www.instagram.com/drjenniferlincoln/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.vagina.whisperer",
+        "href": "https://www.instagram.com/the.vagina.whisperer/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@jillkrapfmd",
+        "href": "https://www.instagram.com/jillkrapfmd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@hormone.health.doc",
+        "href": "https://www.instagram.com/hormone.health.doc/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@feministsexed",
+        "href": "https://www.instagram.com/feministsexed/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@lovecrave",
+        "href": "https://www.instagram.com/lovecrave/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@loradicarlo_hq",
+        "href": "https://www.instagram.com/loradicarlo_hq/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@clitoris.io",
+        "href": "https://www.instagram.com/clitoris.io/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drrachelrubin",
+        "href": "https://www.instagram.com/drrachelrubin/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@bodiespodcast",
+        "href": "https://www.instagram.com/bodiespodcast/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@tightlippedorg",
+        "href": "https://www.instagram.com/tightlippedorg/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@beyondbasicpt",
+        "href": "https://www.instagram.com/beyondbasicspt/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@ohnutco",
+        "href": "https://www.instagram.com/ohnutco/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@lovemomotaro",
+        "href": "https://www.instagram.com/lovemomotaro/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@psic_michelle",
+        "href": "https://www.instagram.com/psic_michelle/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@sexwithemily",
+        "href": "https://www.instagram.com/sexwithemily/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@yourpleasureprincipal",
+        "href": "https://www.instagram.com/yourpleasureprincipal/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "medicalstudentforum.wixsite.com",
+        "href": "https://medicalstudentforum.wixsite.com/chicago",
+        "host": "medicalstudentforum.wixsite.com"
+      },
+      {
+        "label": "tightlipped.org",
+        "href": "https://www.tightlipped.org",
+        "host": "tightlipped.org"
+      },
+      {
+        "label": "List of support Groups on Intenational Pelvic Pain Society",
+        "href": "https://www.pelvicpain.org/public/resources/support-groups",
+        "host": "pelvicpain.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "websites-for-sexual-health-edu": {
+    "slug": "websites-for-sexual-health-edu",
+    "title": "Websites for Sexual Health Education",
+    "entries": [
+      {
+        "label": "International Society for Sexual Medicine",
+        "href": "https://www.issm.info/public",
+        "host": "issm.info"
+      },
+      {
+        "label": "Innovating-Education.org",
+        "href": "https://www.innovating-education.org",
+        "host": "innovating-education.org"
+      },
+      {
+        "label": "OMGYES.com",
+        "href": "https://www.omgyes.com",
+        "host": "omgyes.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products-for-sexual-health": {
+    "slug": "products-for-sexual-health",
+    "title": "Products for Sexual Health.",
+    "entries": [
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/full-anal-dilator-set-8-sizes",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/blogs/videos/wand-videos",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/pelvic-wands",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "thinx.club",
+        "href": "https://thinx.club/stephaniemoss4",
+        "host": "thinx.club"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/freeze-dried-aloe-vera-capsules-600mg",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/kegel-exercises-for-women-vaginal-weights-pelvic-floor",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "amazon.com",
+        "href": "https://www.amazon.com/LubeLife-Personal-Lubricant-Lube-Parabens/dp/B07DGQ4QR3?crid=RW09MNNMC5PW&dib=eyJ2IjoiMSJ9.7fI8zX6FyyFVxOMppkiu0i51C0NWr_IA-Q6QvzBrMfcmkeciCQMTA2GWH5_1JpE0cK6U-vGT8duzC4Bhfyx0eQ.KUzmfOYwaxbx52-J52HB6drb5l9pdPZDUp1blTHIkxM&dib_tag=se&keywords=lube&qid=1704998869&s=hpc&sprefix=lube,hpc,100&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=sl1&tag=medpsycmoss0b-20&linkId=08b336a0ca78a40c6a32b2955d955fab&language=en_US&ref_=as_li_ss_tl",
+        "host": "amazon.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "articles-sexual-health": {
+    "slug": "articles-sexual-health",
+    "title": "Research Articles on Sexual HealthClick on each picture to read the associated article",
+    "entries": [
+      {
+        "label": "From Gynodiversity.com",
+        "href": "https://findyourselfbethat.com/wp-content/uploads/2023/03/Classification_of_the_anatomical_variation_in_female_external_genitalia.pdf",
+        "host": "findyourselfbethat.com"
+      },
+      {
+        "label": "Gynodiversity",
+        "href": "https://gynodiversity.com/index.html",
+        "host": "gynodiversity.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-endometriosis": {
+    "slug": "support-groups-endometriosis",
+    "title": "Endometriosis Support Groups",
+    "entries": [
+      {
+        "label": "Bodies Podcast",
+        "href": "https://www.facebook.com/groups/BodiesPodcast/",
+        "host": "facebook.com"
+      },
+      {
+        "label": "The Fertility Formula",
+        "href": "https://www.facebook.com/groups/thefertilityformula/",
+        "host": "facebook.com"
+      },
+      {
+        "label": "Ovira's Inner Circle",
+        "href": "https://www.facebook.com/groups/ovira/",
+        "host": "facebook.com"
+      },
+      {
+        "label": "My Endometriosis Team",
+        "href": "https://www.myendometriosisteam.com",
+        "host": "myendometriosisteam.com"
+      },
+      {
+        "label": "@theperioddoctor",
+        "href": "https://www.instagram.com/theperioddoctor/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelvichealth",
+        "href": "https://www.instagram.com/pelvichealth/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drjenniferlincoln",
+        "href": "https://www.instagram.com/drjenniferlincoln/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.vagina.whisperer",
+        "href": "https://www.instagram.com/the.vagina.whisperer/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@jillkrapfmd",
+        "href": "https://www.instagram.com/jillkrapfmd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@hormone.health.doc",
+        "href": "https://www.instagram.com/hormone.health.doc/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@feministsexed",
+        "href": "https://www.instagram.com/feministsexed/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@lovecrave",
+        "href": "https://www.instagram.com/lovecrave/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@loradicarlo_hq",
+        "href": "https://www.instagram.com/loradicarlo_hq/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@clitoris.io",
+        "href": "https://www.instagram.com/clitoris.io/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drrachelrubin",
+        "href": "https://www.instagram.com/drrachelrubin/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@in16yearsofendo",
+        "href": "https://www.instagram.com/in16yearsofendo/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@tightlippedorg",
+        "href": "https://www.instagram.com/tightlippedorg/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@intimaterose",
+        "href": "https://www.instagram.com/intimaterose/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelvisibility",
+        "href": "https://www.instagram.com/pelvisibility/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelivpainproject",
+        "href": "https://www.instagram.com/pelvicpainproject/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@beyondbasicpt",
+        "href": "https://www.instagram.com/beyondbasicspt/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.cvvd",
+        "href": "https://www.instagram.com/the.cvvd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@ohnutco",
+        "href": "https://www.instagram.com/ohnutco/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@endofound",
+        "href": "https://www.instagram.com/endofound/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@ovira",
+        "href": "https://www.instagram.com/ovira/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@theendomonologues",
+        "href": "https://www.instagram.com/theendomonologues/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@theendoproject",
+        "href": "https://www.instagram.com/theendoproject/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the_endo_space",
+        "href": "https://www.instagram.com/the__endo__space/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@endogirlsblog",
+        "href": "https://www.instagram.com/endogirlsblog/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@endo_and_adeno",
+        "href": "https://www.instagram.com/endo_and_adeno/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@mypelvicfloormuscles",
+        "href": "http://mypelvicfloormuscles",
+        "host": "mypelvicfloormuscles"
+      },
+      {
+        "label": "@endoqueer",
+        "href": "https://www.instagram.com/endoQueer/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-endometriosis": {
+    "slug": "videos-endometriosis",
+    "title": "Videos for Endometriosis",
+    "entries": [
+      {
+        "label": "Pelvic Gym PT Videos: www.pelvicgym.co",
+        "href": "http://www.pelvicgym.co",
+        "host": "pelvicgym.co"
+      },
+      {
+        "label": "Yoga & PT for Endometriosis onpelvicpainrehab.com & Youtube Page",
+        "href": "https://www.youtube.com/c/PelvicPainRehab/featured",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Yoga & PT for Endometriosis onpelvicpainrehab.com & Youtube Page",
+        "href": "https://pelvicpainrehab.com/pelvic-floor-yoga-and-pilates/",
+        "host": "pelvicpainrehab.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "posts-endometriosis": {
+    "slug": "posts-endometriosis",
+    "title": "MedPsycMoss' Posts on Endometriosis",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products-endometriosis": {
+    "slug": "products-endometriosis",
+    "title": "Products for Endometriosis",
+    "entries": [
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/pelvic-wands",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/vaginal-dilators",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "thinx.club",
+        "href": "https://thinx.club/stephaniemoss4",
+        "host": "thinx.club"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/kegel-exercises-for-women-vaginal-weights-pelvic-floor",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/mastectomy-recovery-aids",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/supplements",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/anal-dilators",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "hellomilli.com",
+        "href": "https://www.hellomilli.com/milli-vaginal-dilator/",
+        "host": "hellomilli.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "providers-pelvic-pain": {
+    "slug": "providers-pelvic-pain",
+    "title": "Finding The Right Pelvic Pain Provider",
+    "entries": [
+      {
+        "label": "Sex & Couples Therapy Provider Search",
+        "href": "https://www.psychologytoday.com/us/therapists",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Mental Health Provider By Disorder or Special Population",
+        "href": "https://www.mhanational.org/finding-therapy",
+        "host": "mhanational.org"
+      },
+      {
+        "label": "How insurance works",
+        "href": "https://www.mhanational.org/how-insurance-works",
+        "host": "mhanational.org"
+      },
+      {
+        "label": "Find a Sexual Health Provider",
+        "href": "https://app.v1.statusplus.net/membership/provider/index?society=isswsh",
+        "host": "app.v1.statusplus.net"
+      },
+      {
+        "label": "Find a Pelvic Floor Trained PT",
+        "href": "https://pelvicrehab.com",
+        "host": "pelvicrehab.com"
+      },
+      {
+        "label": "More questions to ask",
+        "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Vaginismus, Vulvodynia Providers by Self-Advocates",
+        "href": "https://www.mapotic.com/vulvodynia-providers",
+        "host": "mapotic.com"
+      },
+      {
+        "label": "Find a Pelvic Pain Physicial Therapist by Intimite Rose",
+        "href": "https://www.intimaterose.com/pages/find-a-providers?utm_source=drip&utm_medium=email&utm_campaign=Real+solutions%2C+not+resolutions.",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "List of Organizations and Providers in Various Nations",
+        "href": "https://endometriosis.org/support/support-groups/",
+        "host": "endometriosis.org"
+      },
+      {
+        "label": "Types of Therapy",
+        "href": "https://www.psychologytoday.com/us/types-of-therapy",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Types of Therapists",
+        "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+        "host": "mayoclinic.org"
+      },
+      {
+        "label": "Types of Sex Therapy",
+        "href": "https://www.apa.org/monitor/2019/02/cover-ce-corner",
+        "host": "apa.org"
+      },
+      {
+        "label": "www.kevinmd.com/2022/09/endometriosis-is-often-misdiagnosed-how-to-get-the-right-diagnosis.html",
+        "href": "https://www.kevinmd.com/2022/09/endometriosis-is-often-misdiagnosed-how-to-get-the-right-diagnosis.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "support-groups-pelvic-pain",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "articles-on-endometriosis": {
+    "slug": "articles-on-endometriosis",
+    "title": "Research Articles on Endometriosis & Associated Pelvic Pain",
+    "entries": [
+      {
+        "label": "News & Research Portal for The Endometriosis Foundation of America",
+        "href": "https://www.endonews.com",
+        "host": "endonews.com"
+      },
+      {
+        "label": "News & Research Portal for The Endometriosis Foundation of America",
+        "href": "https://www.endonews.com/endometriosis-a-whole-body-disease",
+        "host": "endonews.com"
+      },
+      {
+        "label": "The Systemic Effects of Endometriosis",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/28658710/",
+        "host": "pubmed.ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "kevinmd.com",
+        "href": "https://www.kevinmd.com/2022/01/screening-for-adverse-childhood-experiences-in-pediatric-primary-care-made-my-job-easier.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "jamanetwork.com",
+        "href": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2784694?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamapsychiatry.2021.2669",
+        "host": "jamanetwork.com"
+      },
+      {
+        "label": "www-ncbi-nlm-nih-gov.ezproxy.rush.edu",
+        "href": "https://www-ncbi-nlm-nih-gov.ezproxy.rush.edu/pmc/articles/PMC6112577/",
+        "host": "www-ncbi-nlm-nih-gov.ezproxy.rush.edu"
+      },
+      {
+        "label": "jsm.jsexmed.org",
+        "href": "https://www.jsm.jsexmed.org/article/S1743-6095(19)30427-8/fulltext",
+        "host": "jsm.jsexmed.org"
+      },
+      {
+        "label": "ncbi.nlm.nih.gov",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736459/pdf/nihms880470.pdf",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "onlinelibrary.wiley.com",
+        "href": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1467-9566.2007.01024.x",
+        "host": "onlinelibrary.wiley.com"
+      },
+      {
+        "label": "ncbi.nlm.nih.gov",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2716600/",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "podcasts-on-endometriosis": {
+    "slug": "podcasts-on-endometriosis",
+    "title": "Stephanie Moss, MD",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-infertility": {
+    "slug": "support-groups-infertility",
+    "title": "Infertility Support Groups, Organizations & Advocates",
+    "entries": [
+      {
+        "label": "Fertility Rally",
+        "href": "https://fertilityrally.com",
+        "host": "fertilityrally.com"
+      },
+      {
+        "label": "resolvenewengland.org",
+        "href": "https://resolvenewengland.org/support/",
+        "host": "resolvenewengland.org"
+      },
+      {
+        "label": "\"Creating a world in which every person who wants a family has access to fertility and reproductive care.\"Great support for Physicians going through Infertility - 1 in 4 Female Physicians!",
+        "href": "https://www.doctorsforfertility.com",
+        "host": "doctorsforfertility.com"
+      },
+      {
+        "label": "Facebook Grop",
+        "href": "https://www.facebook.com/groups/thefertilityformula",
+        "host": "facebook.com"
+      },
+      {
+        "label": "@theperioddoctor",
+        "href": "https://www.instagram.com/theperioddoctor/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.vagina.whisperer",
+        "href": "https://www.instagram.com/the.vagina.whisperer/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@jillkrapfmd",
+        "href": "https://www.instagram.com/jillkrapfmd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@hormone.health.doc",
+        "href": "https://www.instagram.com/hormone.health.doc/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@feministsexed",
+        "href": "https://www.instagram.com/feministsexed/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@lovecrave",
+        "href": "https://www.instagram.com/lovecrave/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@loradicarlo_hq",
+        "href": "https://www.instagram.com/loradicarlo_hq/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drrachelrubin",
+        "href": "https://www.instagram.com/drrachelrubin/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@intimaterose",
+        "href": "https://www.instagram.com/intimaterose/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@ohnutco",
+        "href": "https://www.instagram.com/ohnutco/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@endofound",
+        "href": "https://www.instagram.com/endofound/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@theendomonologues",
+        "href": "https://www.instagram.com/theendomonologues/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@theendoproject",
+        "href": "https://www.instagram.com/theendoproject/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the_endo_space",
+        "href": "https://www.instagram.com/the__endo__space/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@endogirlsblog",
+        "href": "https://www.instagram.com/endogirlsblog/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@endo_and_adeno",
+        "href": "https://www.instagram.com/endo_and_adeno/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drellenwood",
+        "href": "https://www.instagram.com/drellenwood/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@infertileafstories",
+        "href": "https://www.instagram.com/infertileafstories/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@crcfertility",
+        "href": "https://www.instagram.com/crcfertility/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@one_last_chance_ivf",
+        "href": "https://www.instagram.com/one_last_chance_ivf/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@elouden.fertilitydoc",
+        "href": "https://www.instagram.com/elouden.fertilitydoc/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@nataliecrawfordmd",
+        "href": "https://www.instagram.com/nataliecrawfordmd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@makingbabyboggs",
+        "href": "https://www.instagram.com/makingbabyboggs/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@tosinodunsimd",
+        "href": "https://www.instagram.com/tosinodunsimd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-infertility": {
+    "slug": "videos-infertility",
+    "title": "Videos for Living with Infertility",
+    "entries": [
+      {
+        "label": "Infertility Injection Training Videos:",
+        "href": "https://www.freedommedteach.com/eng/",
+        "host": "freedommedteach.com"
+      },
+      {
+        "label": "MedPsycMoss Youtube Playlist:",
+        "href": "https://youtube.com/playlist?list=PLUfheMZYKjA8mvCd5ogoA6s8xRDzmxgrd",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "posts-infertility": {
+    "slug": "posts-infertility",
+    "title": "MedPsycMoss' Posts on Living with Infertility",
+    "entries": [
+      {
+        "label": "Articles Published:",
+        "href": "https://www.endofound.org/an-inside-look-into-infertility-care-navigating-hidden-costs-treatment",
+        "host": "endofound.org"
+      },
+      {
+        "label": "Articles Published:",
+        "href": "https://www.kevinmd.com/2022/04/the-hidden-costs-of-fully-covered-infertility-treatment.html",
+        "host": "kevinmd.com"
+      },
+      {
+        "label": "@medpsycmoss",
+        "href": "https://www.instagram.com/medpsycmoss/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "blog/fertility-preservation-during-medical-school",
+      "blog/preparation-for-follicle-stimulation-and-embryo-preservation",
+      "blog/tag/infertility",
+      "blog/tag/infertility/page/2",
+      "blog/infertility-treatment-coverage",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "podcasts-on-infertility": {
+    "slug": "podcasts-on-infertility",
+    "title": "Stephanie Moss, MD",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "articles-on-infertility": {
+    "slug": "articles-on-infertility",
+    "title": "Articles on Infertility",
+    "entries": [
+      {
+        "label": "Articles on Infertility",
+        "href": "https://www.issm.info/sexual-health-headlines/how-infertility-may-impact-couples-sexual-health-and-satisfaction",
+        "host": "issm.info"
+      },
+      {
+        "label": "ncbi.nlm.nih.gov",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5476783/",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "publ.resolvenewengland.org",
+        "href": "https://publ.resolvenewengland.org/a-beginners-guide-to-ivf/index.html#group-section-Procedures-HMkglxj7JW",
+        "host": "publ.resolvenewengland.org"
+      },
+      {
+        "label": "jamanetwork.com",
+        "href": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2813409",
+        "host": "jamanetwork.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "websites-for-infertility": {
+    "slug": "websites-for-infertility",
+    "title": "Websites for Infertility",
+    "entries": [
+      {
+        "label": "doctorsforfertility.org",
+        "href": "https://www.doctorsforfertility.org",
+        "host": "doctorsforfertility.org"
+      },
+      {
+        "label": "resolvenewengland.org",
+        "href": "https://resolvenewengland.org",
+        "host": "resolvenewengland.org"
+      },
+      {
+        "label": "sistersong.net",
+        "href": "https://www.sistersong.net/reproductive-justice",
+        "host": "sistersong.net"
+      },
+      {
+        "label": "cdc.gov",
+        "href": "https://www.cdc.gov/reproductivehealth/infertility/index.htm",
+        "host": "cdc.gov"
+      },
+      {
+        "label": "theluckyegg.com",
+        "href": "https://theluckyegg.com",
+        "host": "theluckyegg.com"
+      },
+      {
+        "label": "fertilityrally.com",
+        "href": "https://fertilityrally.com/blog/",
+        "host": "fertilityrally.com"
+      },
+      {
+        "label": "meet-juliet.com",
+        "href": "https://www.meet-juliet.com/blogs/support",
+        "host": "meet-juliet.com"
+      },
+      {
+        "label": "ohnut.co",
+        "href": "https://ohnut.co",
+        "host": "ohnut.co"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "providers-infertility": {
+    "slug": "providers-infertility",
+    "title": "Finding The Right Infertility Provider, Clinic, & Agency",
+    "entries": [
+      {
+        "label": "Vaginismus, Vulvodynia Providers by Self-Advocates",
+        "href": "https://www.mapotic.com/vulvodynia-providers",
+        "host": "mapotic.com"
+      },
+      {
+        "label": "Find a Sexual Medicine Provider by International Society of Sexual Medicine (ISSM)",
+        "href": "https://app.v1.statusplus.net/membership/provider/index?society=issm",
+        "host": "app.v1.statusplus.net"
+      },
+      {
+        "label": "Individual, Sexual health, & Couples Therapy Provider Search",
+        "href": "https://www.psychologytoday.com/us/therapists",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Pelvic Floor Trained Physicial Therapists (PT)",
+        "href": "https://pelvicrehab.com",
+        "host": "pelvicrehab.com"
+      },
+      {
+        "label": "More Info on Types of Therapists",
+        "href": "https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health-providers/art-20045530",
+        "host": "mayoclinic.org"
+      },
+      {
+        "label": "More Info on Types of Therapy",
+        "href": "https://www.psychologytoday.com/us/types-of-therapy",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "More Info on Types of Sex Therapy",
+        "href": "https://www.apa.org/monitor/2019/02/cover-ce-corner",
+        "host": "apa.org"
+      },
+      {
+        "label": "GoStork- clinics, surrogacy, donars, financing",
+        "href": "https://gostork.com",
+        "host": "gostork.com"
+      },
+      {
+        "label": "Resolve's National Database of Infertility Providers",
+        "href": "https://resolve.org/get-help/find-a-professional/",
+        "host": "resolve.org"
+      },
+      {
+        "label": "How insurance works",
+        "href": "https://www.mhanational.org/how-insurance-works",
+        "host": "mhanational.org"
+      },
+      {
+        "label": "Resolve New England- Providers, Attorneys, Pharmacies, Storage, Donors, Finances",
+        "href": "https://resolvenewengland.org/professional-directory/",
+        "host": "resolvenewengland.org"
+      },
+      {
+        "label": "Insurance Consults",
+        "href": "https://resolvenewengland.org/resources/insurance-assistance/",
+        "host": "resolvenewengland.org"
+      },
+      {
+        "label": "Legislation by State",
+        "href": "https://resolve.org/take-action/our-issues/current-legislation/",
+        "host": "resolve.org"
+      },
+      {
+        "label": "More questions to ask",
+        "href": "https://www.psychologytoday.com/us/blog/the-recovery-coach/202109/20-questions-ask-your-new-therapist",
+        "host": "psychologytoday.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "support-groups-infertility",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products-for-infertility": {
+    "slug": "products-for-infertility",
+    "title": "Products while Going Through InfertilityAlways ask your doctor and/or pelvic floor physical therapist what is right for you before starting something new.",
+    "entries": [
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/vaginal-dilators",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "\"MEDPSYCMOSS\"",
+        "href": "https://myvitro.com/?ref=9vw-6CsqOPRaBi",
+        "host": "myvitro.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/pelvic-wands",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "calmigo.com",
+        "href": "https://calmigo.com?fid=385",
+        "host": "calmigo.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/premium-kegel-weight-exercise-system",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/mastectomy-recovery-aids",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "thinx.club",
+        "href": "https://thinx.club/stephaniemoss4",
+        "host": "thinx.club"
+      },
+      {
+        "label": "etsy.com",
+        "href": "https://www.etsy.com/shop/FertilityInFocus?coupon=MEDPSYCMOSS",
+        "host": "etsy.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-monopause": {
+    "slug": "support-groups-monopause",
+    "title": "Menopause Support Groups",
+    "entries": [
+      {
+        "label": "@theperioddoctor",
+        "href": "https://www.instagram.com/theperioddoctor/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelvichealth",
+        "href": "https://www.instagram.com/pelvichealth/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drjenniferlincoln",
+        "href": "https://www.instagram.com/drjenniferlincoln/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.vagina.whisperer",
+        "href": "https://www.instagram.com/the.vagina.whisperer/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@jillkrapfmd",
+        "href": "https://www.instagram.com/jillkrapfmd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@hormone.health.doc",
+        "href": "https://www.instagram.com/hormone.health.doc/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@feministsexed",
+        "href": "https://www.instagram.com/feministsexed/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@lovecrave",
+        "href": "https://www.instagram.com/lovecrave/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@loradicarlo_hq",
+        "href": "https://www.instagram.com/loradicarlo_hq/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@clitoris.io",
+        "href": "https://www.instagram.com/clitoris.io/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@drrachelrubin",
+        "href": "https://www.instagram.com/drrachelrubin/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@bodiespodcast",
+        "href": "https://www.instagram.com/bodiespodcast/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@tightlippedorg",
+        "href": "https://www.instagram.com/tightlippedorg/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@beyondbasicpt",
+        "href": "https://www.instagram.com/beyondbasicspt/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@intimaterose",
+        "href": "https://www.instagram.com/intimaterose/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@pelvisibility",
+        "href": "https://www.instagram.com/pelvisibility/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@menopause_society",
+        "href": "https://www.instagram.com/menopause_society/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@the.cvvd",
+        "href": "https://www.instagram.com/the.cvvd/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@ohnutco",
+        "href": "https://www.instagram.com/ohnutco/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "@menopause.podcast",
+        "href": "https://www.instagram.com/menopause.podcast/",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-menopause": {
+    "slug": "videos-menopause",
+    "title": "Videos for Menopause",
+    "entries": [
+      {
+        "label": "Pelvic Gym Videos at www.pelvicgym.co",
+        "href": "https://www.pelvicgym.co/programs",
+        "host": "pelvicgym.co"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "products-for-menopause": {
+    "slug": "products-for-menopause",
+    "title": "Products for Menopause.",
+    "entries": [
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/mastectomy-seat-belt-pillow",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/blogs/videos/wand-videos",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/collections/pelvic-wands",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "thinx.club",
+        "href": "https://thinx.club/stephaniemoss4",
+        "host": "thinx.club"
+      },
+      {
+        "label": "intimaterose.com",
+        "href": "https://www.intimaterose.com/products/freeze-dried-aloe-vera-capsules-600mg",
+        "host": "intimaterose.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "videos-for-patients-with-disabilities": {
+    "slug": "videos-for-patients-with-disabilities",
+    "title": "Videos for Working with Patients with Disabilites",
+    "entries": [
+      {
+        "label": "Doctors with Disabilities Inititive Youtube",
+        "href": "https://www.youtube.com/@docswithdisabilitiesinitiative/featured",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "articles-podcasts-for-disabilities": {
+    "slug": "articles-podcasts-for-disabilities",
+    "title": "Podcasts & Articles for Patients and Medical Professionals with Disabilities",
+    "entries": [
+      {
+        "label": "Podcasts:",
+        "href": "https://www.docswithdisabilities.org/docswithpodcast",
+        "host": "docswithdisabilities.org"
+      },
+      {
+        "label": "EQUAL ACCESS FOR STUDENTS WITH DISABILITIES:The Guide for Health Science and Professional Education",
+        "href": "https://www.docswithdisabilities.org/equal-access-guide",
+        "host": "docswithdisabilities.org"
+      },
+      {
+        "label": "Guide to Requesting Accommodations on the USMLE Step Exams",
+        "href": "https://www.docswithdisabilities.org/usmle-accommodations-guide",
+        "host": "docswithdisabilities.org"
+      },
+      {
+        "label": "Disability Representation and Inclusion within Academic Medicine Webinar Guides",
+        "href": "https://aamc.elevate.commpartners.com/products/disability-representation-and-inclusion-within-academic-medicine#tab-product_tab_content",
+        "host": "aamc.elevate.commpartners.com"
+      },
+      {
+        "label": "Writings on Personal Journies:",
+        "href": "https://www.rushu.rush.edu/news/med-student-chooses-live-out-loud-about-having-disability",
+        "host": "rushu.rush.edu"
+      },
+      {
+        "label": "Writings on Personal Journies:",
+        "href": "https://soundcloud.com/user-475703944/sore-loser-a-chronic-pain-and-illness-zine-on-queer-disabled-grief",
+        "host": "soundcloud.com"
+      },
+      {
+        "label": "Download",
+        "href": "https://storage.googleapis.com/gator-users/user-932079/documents/ef0112c8956a4f9294a1dbeac72cf405/Rush%20Article%20%7C%20%E2%80%98Out%E2%80%99%20Health%20Care%20Professionals%20With%20Disabilities%20Create%20One%20Less.pdf",
+        "host": "storage.googleapis.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "trainings-websites-for-disabilities": {
+    "slug": "trainings-websites-for-disabilities",
+    "title": "Websites for People with Disabilities",
+    "entries": [
+      {
+        "label": "MDisability",
+        "href": "https://medicine.umich.edu/dept/family-medicine/programs/mdisability",
+        "host": "medicine.umich.edu"
+      },
+      {
+        "label": "MDisability",
+        "href": "https://medicine.umich.edu/dept/family-medicine/programs/mdisability/about-us/mdisability-mission-vision",
+        "host": "medicine.umich.edu"
+      },
+      {
+        "label": "docswithdisabilities.org",
+        "href": "https://www.docswithdisabilities.org/webinars",
+        "host": "docswithdisabilities.org"
+      },
+      {
+        "label": "docswithdisabilities.org",
+        "href": "https://www.docswithdisabilities.org/book-club",
+        "host": "docswithdisabilities.org"
+      },
+      {
+        "label": "Center for Disability Health & Wellness",
+        "href": "https://www.omgyes.com",
+        "host": "omgyes.com"
+      },
+      {
+        "label": "Center for Disability Health & Wellness",
+        "href": "https://brenebrown.com",
+        "host": "brenebrown.com"
+      },
+      {
+        "label": "Center for Disability Health & Wellness",
+        "href": "https://disabilityhealth.medicine.umich.edu",
+        "host": "disabilityhealth.medicine.umich.edu"
+      },
+      {
+        "label": "Ohio Disability and Health Partnership (ODHP)",
+        "href": "https://grc.osu.edu/Projects/Ohio-Disability-and-Health-Partnership",
+        "host": "grc.osu.edu"
+      },
+      {
+        "label": "Great Lakes ADA Center",
+        "href": "https://www.adagreatlakes.org/#",
+        "host": "adagreatlakes.org"
+      },
+      {
+        "label": "JAN Job Accomodations",
+        "href": "https://askjan.org",
+        "host": "askjan.org"
+      },
+      {
+        "label": "StatPearls Continued Education (CE)",
+        "href": "https://www.statpearls.com/home/freecme/?utm_source=sendgrid414",
+        "host": "statpearls.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "blog/tag/disability": {
+    "slug": "blog/tag/disability",
+    "title": "MedPsycMoss Blog",
+    "entries": [
+      {
+        "label": "This blog uncovers lessons learned during my journey living as a patient and future doctor.",
+        "href": "https://medium.com/@medpsycmoss",
+        "host": "medium.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "blog/accommodations-usmle",
+      "blog/disability_disclosure_residency",
+      "blog/disability-accommodations",
+      "blog/step1",
+      "blog/tag/medical%20school",
+      "blog/tag/mental%20health",
+      "blog/tag/ms3",
+      "blog/tag/medicine",
+      "blog/tag/failure",
+      "blog/tag/endometriosis",
+      "blog/tag/pre-med",
+      "blog/tag/psychiatry",
+      "blog/tag/step",
+      "blog/tag/loa",
+      "blog/tag/disability",
+      "blog/tag/residency",
+      "blog/tag/residency%20app",
+      "blog/tag/finances",
+      "blog/tag/imposter%20syndrome",
+      "blog/tag/infertility",
+      "blog/tag/medical%20school%20app",
+      "blog/tag/pre-clinical",
+      "blog/tag/sexual%20health",
+      "blog/tag/caregiver",
+      "blog/tag/racism",
+      "blog/tag/suicide",
+      "blog/tag/lgbtqia",
+      "blog/tag/marriage",
+      "blog/tag/mcat",
+      "blog/tag/pelvic%20pain",
+      "blog/tag/death",
+      "blog/step-failure-to-match",
+      "blog/residency-app",
+      "blog/clinical-rotations",
+      "blog/tag/disability/page/2",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "support-groups-disabilities": {
+    "slug": "support-groups-disabilities",
+    "title": "Support Groups for living with Disabilities",
+    "entries": [
+      {
+        "label": "disabilitylead.org",
+        "href": "https://www.disabilitylead.org/about",
+        "host": "disabilitylead.org"
+      },
+      {
+        "label": "resolvenewengland.org",
+        "href": "https://resolvenewengland.org",
+        "host": "resolvenewengland.org"
+      },
+      {
+        "label": "Docs with Disabilities",
+        "href": "https://www.docswithdisabilities.org",
+        "host": "docswithdisabilities.org"
+      },
+      {
+        "label": "@DocsWith",
+        "href": "https://twitter.com/DocsWith",
+        "host": "twitter.com"
+      },
+      {
+        "label": "sistersong.net",
+        "href": "https://www.sistersong.net/reproductive-justice",
+        "host": "sistersong.net"
+      },
+      {
+        "label": "@dac_med",
+        "href": "https://twitter.com/dac_med?lang=en",
+        "host": "twitter.com"
+      },
+      {
+        "label": "MSDCI.org",
+        "href": "https://msdci.org",
+        "host": "msdci.org"
+      },
+      {
+        "label": "Group Me",
+        "href": "https://groupme.com/join_group/66663425/DTuMC3WW",
+        "host": "groupme.com"
+      },
+      {
+        "label": "Website",
+        "href": "https://www.physicianswithdisabilities.org",
+        "host": "physicianswithdisabilities.org"
+      },
+      {
+        "label": "DM3P",
+        "href": "https://disabilitymedmentors.org",
+        "host": "disabilitymedmentors.org"
+      },
+      {
+        "label": "info@disabilitymedmentors.org",
+        "href": "http://info@disabilitymedmentors.org",
+        "host": "disabilitymedmentors.org"
+      },
+      {
+        "label": "www.amphl.org",
+        "href": "https://www.amphl.org",
+        "host": "amphl.org"
+      },
+      {
+        "label": "doctorsforfertility.org",
+        "href": "https://www.doctorsforfertility.org",
+        "host": "doctorsforfertility.org"
+      },
+      {
+        "label": "nond.org",
+        "href": "https://nond.org",
+        "host": "nond.org"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "providers-lgbtqia": {
+    "slug": "providers-lgbtqia",
+    "title": "Providers for LGBTQIA",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "podcasts-lgbtqia-health": {
+    "slug": "podcasts-lgbtqia-health",
+    "title": "Stephanie Moss, MD",
+    "entries": [
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  },
+  "blog/transgender-health-and-gender-affirming-care": {
+    "slug": "blog/transgender-health-and-gender-affirming-care",
+    "title": "Exploring Implicit Bias in Transgender Perception: A Personal Journey",
+    "entries": [
+      {
+        "label": "https://implicit.harvard.edu/implicit/selectatest.html",
+        "href": "https://implicit.harvard.edu/implicit/selectatest.html",
+        "host": "implicit.harvard.edu"
+      },
+      {
+        "label": "Changing Speech",
+        "href": "http://www.phsa.ca/transcarebc/care-support/transitioning/chng-speech",
+        "host": "phsa.ca"
+      },
+      {
+        "label": "Patient Handout",
+        "href": "http://www.phsa.ca/transcarebc/Documents/HealthProf/Binding-Handout.pdf",
+        "host": "phsa.ca"
+      },
+      {
+        "label": "Binding Safety Tips",
+        "href": "https://point5cc.com/tips-to-bind-your-chest-safely/",
+        "host": "point5cc.com"
+      },
+      {
+        "label": "Patient Handout",
+        "href": "http://www.phsa.ca/transcarebc/Documents/HealthProf/Tucking-Handout.pdf",
+        "host": "phsa.ca"
+      },
+      {
+        "label": "Hair Removal",
+        "href": "http://www.phsa.ca/transcarebc/care-support/transitioning/hair-remvl",
+        "host": "phsa.ca"
+      },
+      {
+        "label": "NY Times Article on \"Pumpers\"",
+        "href": "https://www.nytimes.com/2011/08/21/nyregion/some-transgender-women-pay-a-high-price-to-look-more-feminine.html",
+        "host": "nytimes.com"
+      },
+      {
+        "label": "Considerations by TransCareBC",
+        "href": "http://www.phsa.ca/transcarebc/hormones/hormone-therapy",
+        "host": "phsa.ca"
+      },
+      {
+        "label": "Care of the Patient Undergoing Sex Reassignment Surgery (SRS)",
+        "href": "http://www.amsa.org/wp-content/uploads/2015/04/CareOfThePatientUndergoingSRS.pdf",
+        "host": "amsa.org"
+      },
+      {
+        "label": "Phalloplasty: techniques and outcomes -",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6626313/",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "Transgender vaginoplasty: techniques and outcomes",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6626315/#:~:text=For%20transgender%20women%2C%20vaginoplasty%20offers,with%20a%20gender%2Dcongruent%20appearance.",
+        "host": "ncbi.nlm.nih.gov"
+      },
+      {
+        "label": "www.lgbtmap.org",
+        "href": "https://www.lgbtmap.org/",
+        "host": "lgbtmap.org"
+      },
+      {
+        "label": "www.aclu.org/legislative-attacks-on-lgbtq-rights",
+        "href": "http://www.aclu.org/legislative-attacks-on-lgbtq-rights",
+        "host": "aclu.org"
+      },
+      {
+        "label": "Learning to Address Implicit Bias Towards LGBTQ Patients:",
+        "href": "https://www.lgbtqiahealtheducation.org/wp-content/uploads/2018/10/Implicit-Bias-Guide-2018_Final.pdf",
+        "host": "lgbtqiahealtheducation.org"
+      },
+      {
+        "label": "Standards of Care for the Health of Transgender and Gender Diverse People, Version 8",
+        "href": "https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2100644",
+        "host": "tandfonline.com"
+      },
+      {
+        "label": "UCSF's Guidelines for the Primary and Gender-Affirming Care of Transgender and Nonbinary People -",
+        "href": "https://transcare.ucsf.edu/guidelines",
+        "host": "transcare.ucsf.edu"
+      },
+      {
+        "label": "Transgender ToolKit for HealthCare Clinics",
+        "href": "https://cedarriverclinics.org/transtoolkit/",
+        "host": "cedarriverclinics.org"
+      },
+      {
+        "label": "www.lgbtqiahealtheducation.org",
+        "href": "https://www.lgbtqiahealtheducation.org",
+        "host": "lgbtqiahealtheducation.org"
+      },
+      {
+        "label": "Howard Brown Health Center",
+        "href": "https://howardbrown.org",
+        "host": "howardbrown.org"
+      },
+      {
+        "label": "SUPPORTING GENDER DIVERSITY TOOLKIT",
+        "href": "https://www.cps.edu/globalassets/cps-pages/services-and-supports/health-and-wellness/healthy-cps/healthy-environment/lgbtq-supportive-environments/supportinggenderdiversitytoolkit2.pdf?fbclid=IwAR1-I0ugAMF0rl4mSqN2D-UzyHLWWZyFI0TwFr9Y601yDIeJG-38llzecQE",
+        "host": "cps.edu"
+      },
+      {
+        "label": "Families in TRANSition: A Resource Guide for Parents of Trans Youth",
+        "href": "https://ctys.org/wp-content/uploads/2022/11/CTYS-FIT-Guide-2020-English-1.pdf",
+        "host": "ctys.org"
+      },
+      {
+        "label": "Gender Spectrum",
+        "href": "https://www.genderspectrum.org/resources",
+        "host": "genderspectrum.org"
+      },
+      {
+        "label": "Gender Creative Kids.com",
+        "href": "https://gendercreativekids.com",
+        "host": "gendercreativekids.com"
+      },
+      {
+        "label": "instagram.com",
+        "href": "https://www.instagram.com",
+        "host": "instagram.com"
+      },
+      {
+        "label": "linkedin.com",
+        "href": "https://www.linkedin.com/in/stephanie-e-moss/",
+        "host": "linkedin.com"
+      },
+      {
+        "label": "twitter.com",
+        "href": "https://twitter.com/medpsycmoss",
+        "host": "twitter.com"
+      },
+      {
+        "label": "youtube.com",
+        "href": "https://www.youtube.com/@StephMossMD",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://instagram.com/stephmossmd",
+        "host": "instagram.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://youtube.com/@doctormoss",
+        "host": "youtube.com"
+      },
+      {
+        "label": "Instagram YouTube Podcast",
+        "href": "https://open.spotify.com",
+        "host": "open.spotify.com"
+      }
+    ],
+    "children": [
+      "providers-sexual-health",
+      "lgbtqia-individuals",
+      "providers-lgbtqia",
+      "blog/tag/medical%20school",
+      "blog/tag/mental%20health",
+      "blog/tag/ms3",
+      "blog/tag/medicine",
+      "blog/tag/failure",
+      "blog/tag/endometriosis",
+      "blog/tag/pre-med",
+      "blog/tag/psychiatry",
+      "blog/tag/step",
+      "blog/tag/loa",
+      "blog/tag/disability",
+      "blog/tag/residency",
+      "blog/tag/residency%20app",
+      "blog/tag/finances",
+      "blog/tag/imposter%20syndrome",
+      "blog/tag/infertility",
+      "blog/tag/medical%20school%20app",
+      "blog/tag/pre-clinical",
+      "blog/tag/sexual%20health",
+      "blog/tag/caregiver",
+      "blog/tag/racism",
+      "blog/tag/suicide",
+      "blog/tag/lgbtqia",
+      "blog/tag/marriage",
+      "blog/tag/mcat",
+      "blog/tag/pelvic%20pain",
+      "blog/tag/death",
+      "blog/accommodations-usmle",
+      "blog/step-failure-to-match",
+      "blog/step1",
+      "products/residency-personal-statement",
+      "products/mock-interviews",
+      "products/loa-guide",
+      "products/usmle-accommodations"
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "_note": "Transcribed verbatim from client-assets/testimonials/ (42 unique screenshots after de-duplication). Attribution is reproduced exactly as it appeared in each screenshot. Asterisks are the client's own redaction of program names. Nothing here is paraphrased or invented. See _excluded at the bottom for material that was deliberately NOT published and why.",
+  "featured": [
+    {
+      "id": "matched-mock-interviews",
+      "quote": "Hi Dr. Moss, I am writing to let you know that I matched today! Thank you so much for all of your support; the mock interviews were incredibly helpful and made a significant difference in my preparation. Thank you again for everything",
+      "attribution": "MD Student",
+      "context": "Match 2026",
+      "topics": ["mock-interviews", "matched"],
+      "source": "IMG_6825.jpeg, also in the Match2026 carousel 1.jpg"
+    },
+    {
+      "id": "matched-number-one-after-step1-loa",
+      "quote": "I matched my NUMBER 1 Family Medicine Program at ****! Thank you for encouraging me through STEP1 failures & LOA",
+      "attribution": "MD Student",
+      "context": "Match 2026",
+      "topics": ["matched", "step-failure", "leave-of-absence"],
+      "source": "3.jpg"
+    },
+    {
+      "id": "accommodations-approved-no-history",
+      "quote": "I honestly didn't think it would be possible to receive accommodations without any prior history, but I was surprised to receive exactly what I needed. I really appreciate your guidance and support throughout the process and thanks for helping me navigate something that felt overwhelming!",
+      "attribution": "Student message",
+      "context": "USMLE accommodations",
+      "topics": ["accommodations", "approved"],
+      "source": "IMG_8725.jpeg"
+    },
+    {
+      "id": "passed-step1-second-attempt",
+      "quote": "Hello Dr. Moss Just wanted to let you know, I cleared my step1 exam. This was my second attempt. Your videos really helped me gain confidence and strength to appear again. Thank you so much.",
+      "attribution": "Instagram message",
+      "context": "Shared by Dr. Moss on Instagram",
+      "topics": ["step-failure", "passed"],
+      "source": "IMG_7126.jpeg"
+    },
+    {
+      "id": "failed-twice-matched-dream-location",
+      "quote": "I'm a patient physician as well! And one who is a USMD who failed step 1 twice figuring out my accommodations. Your story and your resources gave me so much hope through my journey. Just matched this year in my dream location",
+      "attribution": "Physician",
+      "context": "Direct message",
+      "topics": ["accommodations", "step-failure", "matched"],
+      "source": "IMG_8734.jpeg"
+    },
+    {
+      "id": "workbook-match-2025",
+      "quote": "The workbook & sample ERAS application are very informative! Dr. Moss is very approachable & helped me navigate the Match2025 application process. The checklists in the workbook & \"why specialty\" section were very helpful.",
+      "attribution": "MS4",
+      "context": "Residency Application Workbook",
+      "topics": ["workbook", "applications", "matched"],
+      "source": "IMG_1549.JPG"
+    }
+  ],
+  "pool": [
+    {
+      "id": "ps-editing-matched-em",
+      "quote": "Hi Dr. Moss, Thank you for helping with editing my personal statement and selected experiences. I was able to successfully match into emergency medicine!",
+      "attribution": "MD Student",
+      "context": "Match 2026",
+      "topics": ["personal-statement", "editing", "matched"],
+      "source": "1.jpg"
+    },
+    {
+      "id": "ps-reshape-pds",
+      "quote": "Dr. Moss helped me reshape my application to answer the questions that PDs want answered",
+      "attribution": "Sam, MS4 applying to residency",
+      "context": "Instagram review",
+      "topics": ["personal-statement", "applications"],
+      "source": "Insta Review - 1.png"
+    },
+    {
+      "id": "ps-draft-comments",
+      "quote": "Thank you so much Dr. Moss for the insightful and extremely valuable comments on my residency personal statement draft!",
+      "attribution": "Kat, MS4 applying to residency",
+      "context": "Instagram review",
+      "topics": ["personal-statement", "editing"],
+      "source": "Insta Review - 2.png"
+    },
+    {
+      "id": "matched-psych-ps-help",
+      "quote": "I matched Psychiatry at ***! Thanks for helping me with my personal statement",
+      "attribution": "US-IMG",
+      "context": "Match 2026",
+      "topics": ["personal-statement", "matched"],
+      "source": "3.jpg"
+    },
+    {
+      "id": "accommodations-everything-and-more",
+      "quote": "Just updating you that I got EVERYTHING I asked for and even MORE for the step 2. Didn't think it would be possible for someone with zero history of it. I wanted to thank you so much for your help, I couldn't have done it without your guidance",
+      "attribution": "Student message",
+      "context": "USMLE Step 2 accommodations",
+      "topics": ["accommodations", "approved"],
+      "source": "IMG_8723.jpeg"
+    },
+    {
+      "id": "matched-top-im-mock",
+      "quote": "Hey Dr Stephanie, Just wanted to share with you that I got matched at my top IM Program. Thank you so much for your guidance with the mock interviews, those really helped a lot.",
+      "attribution": "Student message",
+      "context": "Match season",
+      "topics": ["mock-interviews", "matched"],
+      "source": "Screenshot 2026-01-04 at 8.09.25 AM.png"
+    },
+    {
+      "id": "mock-session-feedback",
+      "quote": "Thank you so much for your time yesterday and for all the feedback you've given me. It was a very helpful mock session and I truly appreciate all your insight and guidance.",
+      "attribution": "Student message",
+      "context": "Mock interview",
+      "topics": ["mock-interviews"],
+      "source": "IMG_6077.jpeg"
+    },
+    {
+      "id": "mock-recordings-helpful",
+      "quote": "Love how you record our sessions, it's super helpful for review and so are the practice youtube videos you made. Appreciate the great practice, and let you know how the season goes!",
+      "attribution": "Student message",
+      "context": "Mock interview",
+      "topics": ["mock-interviews"],
+      "source": "Screenshot 2026-01-04 at 8.12.51 AM.png"
+    },
+    {
+      "id": "matched-psych-number-one",
+      "quote": "Hi Dr. Moss, I matched into psychiatry at my #1 program! Thank you so much for your help preparing for interviews. I wish I had done more mock interviews with you looking back but even the one session we had gave me the confidence I needed going into the season.",
+      "attribution": "MD Student",
+      "context": "Match 2026",
+      "topics": ["mock-interviews", "matched"],
+      "source": "5.jpg"
+    },
+    {
+      "id": "matched-im-ny-confidence",
+      "quote": "I matched into **** in Internal Medicine in NY. Thank you so much for all your help and for being so kind during my interview with you. You gave me some much needed confidence throughout the rest of my interview season. I would love to meet you one day in person. Thank you for doing the work that you do!",
+      "attribution": "MD Student",
+      "context": "Match 2026",
+      "topics": ["mock-interviews", "matched"],
+      "source": "2.jpg"
+    },
+    {
+      "id": "loa-op-ed-less-alone",
+      "quote": "I read an op-ed by you about professionalism in medicine. I'm a rising fourth year student considering a leave of absence due to many of the experiences you named in the op-ed and I just wanted to thank you for using your voice, as it led to someone like me feeling less alone.",
+      "attribution": "Rising fourth year student",
+      "context": "Instagram message",
+      "topics": ["leave-of-absence", "less-alone"],
+      "source": "IMG_7086.jpeg"
+    },
+    {
+      "id": "less-alone-in-medicine",
+      "quote": "Thank you for the opportunity and for your time. You are amazing and have inspired me in so many ways. I am very grateful for you sharing your journey with the world and for being so compassionate and kind. Please know you have truly made such an impact in my life and have helped me feel less alone in medicine and as a human.",
+      "attribution": "Student message",
+      "context": "After an advising session",
+      "topics": ["advising", "less-alone"],
+      "source": "Screenshot 2026-01-29 at 4.54.27 PM.png"
+    },
+    {
+      "id": "dual-applying-transparency",
+      "quote": "I am currently dual applying for OB/GYN and FM. For someone who also failed step one, it's nice to know that you are so transparent about your failures. Thank you for providing this!",
+      "attribution": "Customer note",
+      "context": "Store purchase note",
+      "topics": ["step-failure", "applications", "workbook"],
+      "source": "Screenshot 2026-01-04 at 8.15.34 AM.png"
+    },
+    {
+      "id": "red-flags-game-plan",
+      "quote": "Tysm Dr. Moss! Your story is an inspiration and is helping me as I put together my game plan to grow and overcome this moment.",
+      "attribution": "Reader comment",
+      "context": "On her resources for applying with red flags",
+      "topics": ["applications", "less-alone"],
+      "source": "IMG_4530.JPG"
+    },
+    {
+      "id": "youtube-first-gen-hope",
+      "quote": "I recently came across your story on YouTube, and I just wanted to say how truly inspiring it was!! As someone who has faced the pain of failing Step 1 twice, your journey gave me hope. Watching you share your experience, especially how you went on to secure psychiatry interviews and match into such a competitive specialty, meant so much to me. It reminded me that success is still possible, even when the road is not traditional.",
+      "attribution": "Medical student",
+      "context": "Email",
+      "topics": ["step-failure", "less-alone", "matched"],
+      "source": "Screenshot 2026-01-04 at 8.05.19 AM.png"
+    },
+    {
+      "id": "videos-inspirational",
+      "quote": "Your videos have always been amazing! I've been following your videos for almost a year now and I believe you and your videos are truly inspirational for people like me struggling with their own issues along the way!",
+      "attribution": "Instagram message",
+      "context": "Direct message",
+      "topics": ["less-alone"],
+      "source": "IMG_7386.jpeg"
+    },
+    {
+      "id": "matched-fm-mock",
+      "quote": "Dr Moss! I MATCHEDDDDD FM. We did a mock interview together. Thanks for being so amazing!",
+      "attribution": "MD Student",
+      "context": "Match 2026",
+      "topics": ["mock-interviews", "matched"],
+      "source": "5.jpg"
+    },
+    {
+      "id": "matched-psych-emotional",
+      "quote": "I matched psychiatry!!!!! I am incredibly thankful and emotional. I also am so thankful for your encouragement. You knew I would!",
+      "attribution": "US MD",
+      "context": "Match 2026",
+      "topics": ["matched"],
+      "source": "5.jpg"
+    },
+    {
+      "id": "matched-im-part-of-success",
+      "quote": "Dear Dr. Moss, Thank you so much for being part of my success. I have matched Internal Medicine!",
+      "attribution": "IMG",
+      "context": "Match 2026",
+      "topics": ["matched"],
+      "source": "3.jpg"
+    },
+    {
+      "id": "matched-psych-third-choice",
+      "quote": "Hi Dr. Moss, I matched at the **** Psychiatry program, which was my third choice. Thank you once again for all your help and support throughout this process.",
+      "attribution": "IMG",
+      "context": "Match 2026",
+      "topics": ["matched"],
+      "source": "2.jpg"
+    },
+    {
+      "id": "matched-urology",
+      "quote": "I matched Urology at ****!",
+      "attribution": "MD Student",
+      "context": "Match 2026",
+      "topics": ["matched"],
+      "source": "2.jpg"
+    },
+    {
+      "id": "advice-before-interviews",
+      "quote": "Your advice was really helpful and made a big difference as I get ready for the next interviews. I'll let you know how things go.",
+      "attribution": "Student message",
+      "context": "Mock interview",
+      "topics": ["mock-interviews"],
+      "source": "Screenshot 2026-01-04 at 7.56.44 AM.png"
+    },
+    {
+      "id": "mock-above-and-beyond",
+      "quote": "Thank you so much for the nice mock interview today. I truly appreciate your insightful questions, constructive feedback, and the helpful documents and advice. Your kindness means a lot. Thank you again for going above and beyond.",
+      "attribution": "Student message",
+      "context": "Mock interview",
+      "topics": ["mock-interviews"],
+      "source": "Screenshot 2026-01-04 at 7.57.40 AM.png"
+    }
+  ],
+  "_excluded": [
+    {
+      "source": "IMG_6395.jpeg",
+      "reason": "A long, deeply personal disclosure covering trauma, near-death experiences, despair and invisible disability. Publishing it, even anonymised, needs the author's explicit consent. Ask the client before any use."
+    },
+    {
+      "source": "IMG_7102.jpeg",
+      "reason": "Shows a sender's full real name and concerns a patient's daughter's clinical care rather than education. Privacy and scope."
+    },
+    {
+      "source": "IMG_5173.jpeg, IMG_5174.jpeg",
+      "reason": "Handwritten thank-you cards from a rotating student. Partly illegible, so a transcription would be guesswork. Also about clinical supervision, not her products."
+    },
+    {
+      "source": "IMG_8388.jpeg",
+      "reason": "A letter of nomination about Dr. Moss. Biography material for the About page, not a testimonial."
+    },
+    {
+      "source": "699CA6DD-8907-4915-AA7E-85E96E36B15F.jpg, IMG_3268.jpeg",
+      "reason": "Press coverage (Op-Med, a newsletter feature). Belongs in a Featured On strip, not in testimonials."
+    },
+    {
+      "source": "IMG_0009, IMG_0074, IMG_0843, IMG_0844, IMG_0845, IMG_1507",
+      "reason": "Anonymous classmate peer-praise from medical school. About her as a classmate, not about her teaching, products or advising."
+    },
+    {
+      "source": "IMG_8902.jpeg",
+      "reason": "Podcast guest thanks, shows the guest's Instagram handle. Usable on the podcast page only if the client confirms the guest is happy to be named."
+    }
+  ]
+}
