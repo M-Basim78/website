@@ -1095,3 +1095,13 @@
   @media(min-width:780px){
     .prose p{font-size:17px}
   }
+
+  /* ============ "See all N" link on Free Guides group pages ============ */
+  /* An inline link in body copy still has to clear the 44px tap floor. */
+  .see-all{
+    display:inline-flex;align-items:center;justify-content:center;
+    min-height:44px;min-width:44px;padding:0 6px;
+    font-weight:600;color:var(--primary);text-decoration:underline;
+    text-underline-offset:3px;
+  }
+  .see-all:hover{color:var(--primary-hi)}
