@@ -230,9 +230,14 @@ ${ld}
 function grab(file, startRe, endRe) {
   const html = readFileSync(path.join(REBUILD, file), 'utf8');
   const s = html.search(startRe);
-  const e = html.search(endRe);
-  if (s < 0 || e < 0) throw new Error('could not lift block from ' + file);
-  return html.slice(s, e + html.match(endRe)[0].length);
+  if (s < 0) throw new Error('could not lift block from ' + file);
+  // Search for the closing tag *after* the opening one. Searching the whole
+  // document matched the header's </nav> before the dock's, which silently
+  // produced an empty dock on every generated page.
+  const rest = html.slice(s);
+  const m = rest.match(endRe);
+  if (!m) throw new Error('no closing match for block in ' + file);
+  return rest.slice(0, m.index + m[0].length);
 }
 const FOOTER = grab('resources.html', /<footer/, /<\/footer>/);
 const DOCK = grab('resources.html', /<nav class="dock"/, /<\/nav>/);
