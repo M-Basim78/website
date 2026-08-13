@@ -1,0 +1,344 @@
+---
+title: "Gender Equity & Infertility Awareness: Interview with Dr. Marshall, MD"
+slug: "/dr-marshall-infertility"
+kind: interview
+description: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+---
+
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+Dr. Marshall: But that was still not the right time. I definitely wanted to get into my career, be an established kind of early career, attending. And so it wasn't even until late 30s that we started to try. But still, I guess I had this very naive thought that, hey, my mom had me when I was 40, so that should be no big deal for me either.
+
+And so it was surprising to me, but shouldn't be surprising from the medical standpoint that it was difficult for us to have a child
+
+and that we had to ultimately go through IVF. But that really opened my eyes to this kind of lack of awareness from women in the medical field who think that they might want to have children at some point that it's a real risk that if you wait until training is complete that you will have issues with infertility.
+
+And so I really use my personal experience to try and raise awareness, but I just think it's so important that we start having those conversations earlier on
+
+[00:01:00] like in medical school because there are things that people can do about it.
+
+Navigating the complexities of infertility while pursuing a career in medicine is a journey that Dr. Marshall has courageously shared in a recent interview. The conversation delves into her personal experiences, challenges, and advocacy efforts in raising awareness about gender equity, fertility, and infertility issues within the medical field.
+
+Introduction to Dr. Marshall: A Trailblazer in Medicine
+
+Stephanie: Welcome, everyone. Today I am interviewing Dr Marshall, who is a Harvard trained physician and internationally renowned advocate, career development advisor, and mentor. Dr. Marshall specializes in bleeding and clotting disorders, especially as they relate to women's health. She has worked at the Mayo Clinic and at the University of Pennsylvania and currently practices part time as a consultative hematologist at the University of Minnesota.
+
+In addition to her clinical work, Dr. Marshall is a highly respected leader, mentor and speaker. She's the chief innovation officer at Women in Medicine and the curriculum chair at Ignite Med, which are both 501C3 nonprofit organizations dedicated to promoting career development for women in medicine.
+
+[00:02:00] She also participates in multiple national advocacy initiatives, including the American Medical Women's Association, AMWA. and speaks regularly on a national and international scope to discuss her efforts to advance career development and mentorship for physicians, and speaks on gender equity, fertility and infertility awareness, parental health and being, reproductive health and rights, and work life integration.
+
+Dr. Marshall loves to speak to audiences both large and small who are interested in women's health, gender equity, career development for women, especially as related to reproductive health and work life integration. She also enjoys working one on one with students, trainees, and early career women and has helped many women, including myself, achieve both success and meaningful balance in their lives.
+
+Welcome, Dr. Marshall. Thank you so much for being here. I would love to hear beyond your amazing bio.
+
+[00:03:00] Just tell me a little bit about you and what brought you into the medical field and to where you are today.
+
+As a Harvard-trained physician specializing in bleeding and clotting disorders related to women's health, Dr. Marshall's expertise extends beyond clinical work. She has taken on leadership roles in organizations dedicated to promoting career development for women in medicine, advocating for gender equity, and raising awareness on reproductive health rights.
+
+Redefining goal in Hematology with Women's Health focus
+
+Dr. Marshall: But I also had a lifelong interest in women's rights and women's health, and so I thought going to fellowship that I was probably going to do breast cancer.
+
+[00:05:00] and so when I got to fellowship, I said, Oh, I don't actually like the field as much as I thought I would. It's not a good fit for me clinically,
+
+but I was on a hematology rotation in the inpatient setting. And I said, Wow, I really like the kind of fast paced, role of this field. I like the decisions that we're making. I like these kind of life and death, quick decisions and the counseling that comes with it for patients. so I decided to go into benign hematology
+
+and focus on bleeding and clotting, but I continued with that interest in tie overs and women's health. And so my specific area of interest is women's health in hematology,
+
+Clotting and bleeding disorders. So whether that be clotting risk in pregnancy
+
+or managing iron deficiency from menstrual period or how to balance risks and benefit of different contraceptive options.
+
+[00:06:00] I think , there's a lot of, interesting things in that field. And it's really allowed me to pair together my interests in the clinical side of things and also the women's health side of things.
+
+Stephanie: Wow, yeah, I always wanted to know that because when
+
+people normally say oncology, it is more of, the bigger cancers that are well known and then when you're reading hematology, I was trying to think
+
+what is that connection, but , that's such a good point, menstruation, something that occurs and there's so much needed advocacy around it, so I love that.
+
+Dr. Marshall: Absolutely. I think it's something that we don't talk about a lot. It's something like 40 percent of women will have anemia from their heavy menstrual period, no one ever really talks about it. It's not screened for a lot. So I think it's something that there's a really nice tie over and a lot we can do in terms of clinical medicine and advocacy and increasing awareness. So it was a great fit, at least for me.
+
+[00:07:00] Stephanie: Yeah, it sounds like it. Now, how did you then jump into the field of fertility and infertility? I know , that's [00:07:00] similar in the women's health issue.
+
+Dr. Marshall's unique journey led her to specialize in benign hematology with a focus on women's health, particularly clotting and bleeding disorders. Her passion for advocating for women's health issues such as clotting risks in pregnancy, managing iron deficiency, and exploring contraceptive options underscores the importance of integrating gender-specific considerations in medical practice.
+
+Personal Experiences with Infertility and IVF
+
+Dr. Marshall: Yeah, so that was almost entirely based on my individual experience with infertility. , my mom actually had me when she was 40, and so I went along with my career just thinking, maybe I'll have a kid, I'm not sure, but if I want to wait till I'm 40, that'll be fine.
+
+And so I just didn't have that awareness you're not really taught in medical school about risk to fertility decline over time, and that's such an important thing because our training goes so long and I definitely have colleagues who had children during training
+
+But that was not something that was going to work for mein fact, I didn't even meet my husband until I was almost at the end of my residency and I'd never been a person who said, I want to have a kid in absolute terms.It was, I want to have a child if I meet the right partner, and I think the two of us will make good parents together. It wasn't like an absolute wish to have a child.
+
+[00:08:00] It was a child with somebody I think will be a good partner as a parent. And I didn't even know that I wanted to have children until I was in fellowship, basically.
+
+And so it was surprising to me, but shouldn't be surprising from the medical standpoint that it was difficult for us to have a child and that we had to ultimately go through IVF. But that really opened my eyes to this kind of lack of awareness from women in the medical field who think that they might want to have children at some point that it's a real risk that if you wait until training is complete that you will have issues with infertility.And so I really
+
+[00:09:00] use my personal experience to try and raise awareness, whether that be through writing or speaking or anything else But I just think it's so important that we start having those conversations earlier on like in medical school because there are things that people can do about it.
+
+You can freeze eggs. You can freeze embryos you can you know think about do I want to have a family even though i'm still in training? And I never put pressure on people one way or the other whether they want to have kids or not, whether they want to have kids now or later or anything, but I just think that it's something people need to be aware of and think about.
+
+Stephanie: part of your medical journey did you go through the IVF?
+
+Dr. Marshall: Yeah, so not until I was an attending. So a couple years into being an attending.
+
+Stephanie: Yeah, I'm so glad you were definitely one of the trailblazing women and leaders to start the infertility movementStart that conversation, and I remember that's how I met you through the AMWA Infertility Group, and then we later co-authored "An inside look into infertility care navigating costs and treatments" on Endo Foundation. and I've received so much feedback on that because IVF is already such a stigmatized topic and then we don't learn about it in the community in medicine.
+
+Through candid storytelling, Dr. Marshall shares the emotional and practical challenges she faced while undergoing IVF treatments. Her firsthand experience highlights the need for open conversations around fertility, reproductive choices, and the reality of balancing medical careers with family planning.
+
+"But that really opened my eyes to this kind of lack of awareness from women in the medical field who think that they might want to have children at some point that it's a real risk that if you wait until training is complete that you will have issues with infertility." Dr. Marshall
+
+Navigating the Patient Role: From IVF to Postpartum Challenges
+
+Stephanie: So how did that experience going through IVF now shifting into more of the patient role? How did that experience go for you while also being in medicine?
+
+Dr. Marshall: Yeah, I think that was really tough for me because, transitioning into that patient role, my first priority, to be honest, was always, I don't want to be an annoying patient. I don't want to be the doctor that comes in as a patient and says, I know best.
+
+So I was, honestly, a very compliant patient, I went to all of the visits. When told I did everything right on time, exactly as I was told. I never put up a fuss or argued or anything, except, I will say, because I was working full time at the point when I was going through, so I always had to be the one
+
+[00:11:00] requesting the first ultrasound of the morning, or go to the lab when it first opened in the morning, so I could, make my own schedule to see patients, as there's really zero flexibility in that.
+
+So I think for any professional woman, it's really challenging for that reason, , just of scheduling. But other than that, I think, It is really challenging to be a doctor and a patient because you start to see what it's like from the patient standpoint
+
+and that was not something I had experienced very much before
+
+and I think you know going through the IVF process is already incredibly tough,
+
+There's days that are great and things that are going well and there's days that go horrible, you lose embryos or transfer doesn't work or any other complications.
+
+But I would say I went through the process and, it was okay, so to speak, but I had a lot of postpartum complications, like really serious. I got postpartum preeclampsia and had to be hospitalized. And I think that's when it really crystallized for me
+
+[00:12:00] what it's like to be a patient in a very serious situation
+
+because I had really bad hypertension. I was bleeding. I had significant lab abnormalities, like kidney failure. And , I think it was almost scarier to be a doctor in that standpoint because I saw my labs rolling in every morning and I knew what that meant and I was like, hey, kidney function is getting worse. It's not getting better. What are we going to do? and I also started to see like that interplay between doctor and patient. Is not always set up for success in the hospital. Like just for example, when the nurses take vitals versus when medications are scheduled versus when the teams are rounding are not at all tied in.
+
+So for example, they would come in and take vitals at 6 AM. Medications are maybe administered at 7am, but that doesn't give the team that's rounding at 8am time to make adjustments, so I took it on myself to be like,
+
+[00:13:00] hey, blood pressure diastolic blood pressure is still 110,
+
+probably medications need to be increased. But I'm due for my next dose in an hour. And then I had to be that annoying patient that was like,
+
+can you please page the team and ask them to like, see if they want to increase the dose of this medication. And it just really crystallized for me that the experience for patients is not optimized and it's not through anyone's fault
+
+It's just that the system is not set up to deliver ideal care because no one's thinking about how to put all these pieces together. And then when you advocate for yourself, I can see how, just getting a page that's Patient wants to know, can you increase the blood pressure medication? That can be really annoying as a doctor. But on the other side of things, it's if the person is just doing it to make sure that happens before the next medication is scheduled, There's a real reason for that. And I could start to see both sides. And
+
+[00:14:00] just, how our system is, All the pieces are there, but the way it's integrated, It's just not really set up for success right now.
+
+Stephanie: What an interesting experience. I'm really glad that you shared that because that is something that as a becoming provider I've noticed catching myself of patients says something and It depends on, you see it in two different ways. You can see it as, oh, they're being annoying, or, oh, I don't have time for this, or,
+
+oh, someone else should deal with it, but then at the same time, if you deal with it yourself, it's easier to switch into that, oh to their perspective, and I really liked what you said of, the self advocate.
+
+Transitioning into the patient role while being a physician presented its own set of challenges for Dr. Marshall. She reflects on the importance of self-advocacy, the nuances of navigating the healthcare system, and the need for enhanced patient-centered care that addresses the holistic needs of individuals.
+
+"It's just that the system is not set up to deliver ideal care because no one's thinking about how to put all these pieces together...just, how our system is, All the pieces are there, but the way it's integrated, It's just not really set up for success right now." Dr. Marshall
+
+Advocacy and Self-Advocacy in Healthcare
+
+Stephanie: Do you feel that you grew in your self advocacy journey through being a patient yourself?
+
+Dr. Marshall: Yeah, I think so. And I think that the biggest thing is,
+
+[00:15:00] advocate for yourself, but we don't give them the tools necessarily on how to do it Like advocating for oneself is not sending your doctor like six messages in the Epic in basket because then you are just going to unfortunately be labeled as the annoying patient.
+
+But advocating for yourself is maybe sending one message, with your thoughts and saying, thanks so much for getting back to me, I'd love to hear your thoughts.
+
+So it's like a discussion rather than each person is telling the other person what to do. And sometimes just The teaching that comes with it. Here's why I'm concerned. Here's why I'm asking to do this at this time and providing a little background.
+
+So I think, we as a system are just telling people advocate for yourself, but that's like telling somebody, "Hey, you should swim. It's really good for your health", but not giving them swimming lessons.
+
+It's you actually have to, if we want people to be good advocates and effective advocates, we actually have to teach them. How are ways that you can advocate for yourself
+
+[00:16:00] that works. with the medical system and with your doctors.
+
+Personal Story of Self Advocacy related to Women's Health
+
+Dr. Marshall: And also there's just the other small story I wanted to share. It just, it makes me laugh sometimes, but it's just like how much we focus on our little areas of specialty. And maybe like the lack of awareness about women's health too. So I was, as I mentioned, I had some significant kidney injury,and so they, did some urine testing, and it's one of these things where you collect your urine for 24 hours, and they send it to the lab, but I had also just given birth, and so there's blood, obviously, so whenever you urinate, there's blood.
+
+And so one day the kidney team comes in and the fellow is a male. So we were really concerned about all this blood in your urine. Like we might have to do a kidney biopsy. And I was like, I get your concern that the kidney function is not good, but it's like the blood, I'm pretty sure that's not from the kidney.
+
+I'm pretty sure that's because I just gave birth. And that's what happens when you pee after giving birth,
+
+[00:17:00] the blood like mixes in there and he was Oh, so it's just. You know what seemed very obvious to me and I think would be obvious to most women regardless of whether or not they're doctors just we're also focused on a kidney doctors focus on kidney issues and if the urine has blood it must be from the kidney and it's just like I think we need a little bit more broader focus on things
+
+especially related to pregnancy and women's health.
+
+Stephanie: Oh my goodness, yes, I completely agree. That's hilarious and horrible at the same time. I wonder how it would have been different if it was a female, like you said, or if the OB GYN had done it. It really does show once you get into a specialty, how kind of narrow minded not on purpose. It just happens because that's where you spend all your time.
+
+So blood and urine you're start thinking infection like something's going on with the kidney. So how interesting but definitely since it's a good part of the
+
+[00:18:00] population that they treat. It should be something they should be more aware of, or at least start thinking about it.
+
+" You know what seemed very obvious to me and I think would be obvious to most women regardless of whether or not they're doctors just we're also focused on a kidney doctors focus on kidney issues and if the urine has blood it must be from the kidney and it's just like I think we need a little bit more broader focus on things especially related to pregnancy and women's health" Dr. Marshall
+
+The Importance of Diversity and Inclusivity in Medicine
+
+Stephanie: What about the importance of bringing diversity into the medical community? I know you do a lot of work into the diversity of women
+
+and helping women become leaders in the medical community.
+
+Do you want to talk a little bit about that?
+
+Dr. Marshall: Yeah, absolutely. So it's just so important to me because,
+
+until the past 20 years or so, the medical field was primarily men,
+
+which means that the training we get was shaped by men in terms of what you learn in textbooks and how clinical trials are designed.
+
+And so where are we getting our data? Women weren't even allowed in clinical trials until less than 50 years ago, like probably about 30. And then, the system is set up, through no fault, but just because it was all men, it is set up for men. So the way training is done, the hours, like
+
+[00:19:00] all of this are set up for men. The reason that we don't talk about pregnancy or family planning, reproductive life planning. It's just because it wasn't an issue, 30 years ago. But now, there is parity in medical school. So it's at least 50%, if not slightly more women. But the system hasn't really changed in terms of the expectations and the setup.
+
+So yes there is, discussion of breastfeeding and now there have to be, spaces and hospitals for breastfeeding, but it's really not a system that is welcoming to that. It's not a system that is welcoming for people to have families during training,
+
+which is why I never even considered it. There is no a on site child care that's open 24/7 that works for surgeons and their hours,
+
+And the other thing is that we don't account for the fact that a lot of physicians are in couples with other physicians whereas again like 50 years ago most physicians were male
+
+[00:20:00] and most of them had spouses who were not physicians and often were home taking care of the children. So we're also not accounting for the fact that for our male physicians, now many of them are partnered with female physicians and don't have that person taking care of things at home. And also many male physicians want to be more active as a part of their family. They want paternity leave. They want flexible hours.
+
+Some male physicians may want to go part time, but it's not like an accepted part of our discussion as a medical culture. And so that's why I think that raising awareness for women in medicine, it's not just about saying, make our numbers equal, put more women in positions of power. I think that's very important. It's essential, but it's also about making the system workin a way that is gender inclusive and not just saying
+
+[00:21:00] let's treat women like we treat men. No, it's saying let's change the system so it's welcome for everybody. And we don't have to tell women to act like men to be successful.
+
+Stephanie: I'm so glad you mentioned that. You mentioned really good examples of things that need to, that people can ask for or things that are needed. Like you said the onsite childcare, having flexible hours, maternity, paternity leave.
+
+Dr. Marshall emphasizes the significance of diversity in the medical community and the impact it has on shaping healthcare practices. By advocating for gender-inclusive policies, parental leave, and fostering a supportive environment for all healthcare professionals, she aims to drive systemic change and create a more inclusive culture in the medical field.
+
+Advocacy for Parental Leave and Systemic Change in Medicine
+
+Stephanie: How did you go through when you were trying to ask your supervisor or your work for some of these things?
+
+Cause I know that is a challenge, he asking for help for those additional supports that maybe the system is not used to individuals asking for.
+
+Dr. Marshall: And that is the problem.
+
+It's a system. It's like you can't really even ask for it. You just do, what you can with the system that you're working in, or you have to think about, do I need to change and do a different system?
+
+[00:22:00] So for example, we got six weeks of leave, which is fairly standard, I would say. , and there's a lot of misconception about the idea of FMLA,
+
+Family Medical Leave Act. So FMLA is not actually paid leave and it's not actually, a pay for your leave. It just says that all that access is that you cannot be fired
+
+if you take parental leave, but it doesn't actually provide coverage.
+
+So where does coverage come from? So in the system that I was in, it comes from short term disability, which, I think is almost, insulting to basically say that a normal physiologic process of being pregnant and giving birth is a disability because, a large portion of our population, is going to go through that.
+
+So why are we making people use it? there are a lot of disability leave for something that is actually expected like short term disability
+
+is supposed to be for something
+
+[00:23:00] unexpected that comes up. So I think we need separate. I think it's great that, institutions are offering more leave now than they did in the past.
+
+So getting six weeks of paid leave was, you know, for me, reasonable,
+
+Honestly, I think it should be at least 12. That's the minimum that even that the AAP, the American Academy of Pediatrics, would advocate for, even though most major medical centers don't offer that.
+
+But 12 weeks of paid leave, know, would be great.And even, compared to other countries, it's nothing, but 12 weeks of paid leave would be ideal for the US. The fact that many institutions do six is acceptable compared to prior if it's paid, but I don't think it should be paid for through short term disability, because that means you can't use that for other things. so that's one issue.
+
+And the other is that, when our son was born, my husband actually got zero paternity leave, like zero paid paternity leave. So he
+
+[00:24:00] had to take, when I was hospitalized and couldn't be taking care of an infant, he had to take vacation time for a week. And then he was working with my son,like newborn, Less than two week old on all of his meetings with him. I think the system is just very unforgiving because you cannot ask like a system for an exception for most of the time. so I think it's very important that employers start to discuss these things as new employees are, or even before somebody's hired to help them make, Informed decisions about, is this a place that I want to work?
+
+And I think companies that do it well, many of them not in the healthcare sector,
+
+the more in the tech and innovation sector, but companies that do this will actually use that as part of their recruiting to try to say, hey, we have really good benefits. We give people parental leave. A lot of places that give parental leave, but allow people to split it up however they want.
+
+[00:25:00] parents who have a new child. They will allow them to split it,
+
+however they want, it doesn't matter, gender, who gave birth, however you want, you get 12 weeks, , you do with that what you want. So I think that's great. and I also think it's really important to do paternity leave.
+
+Because by not doing paternity leave, not only are you not letting, A male bond with their new child, but you're also setting up the standard that if the other partner is female, that she is going to be the one that takes the time away from work and is naturally going to be the one that does the feedings and the diaper changes and all of this because she's at home.
+
+So it's not doing any favors to the guy and it's not doing any favors to the woman either. So I think we need parental leave, not maternity or paternity.
+
+Stephanie: I love that parental leave. , that is huge. I also liked that you started talking about how employees can go in. I know like myself, when I was applying to residencies, that was a conversation about
+
+[00:26:00] maternity, paternity leave. But how do you recommend going to employers, to start having that conversation? What have you recommended to others?
+
+Dr. Marshall: Yeah, so it's tough. So especially in medicine, when you're doing interviews, good programs are now starting to include that as part of their recruitment presentations. And there's actually a study that was done that showed that, most people who are interviewing for residencies want that information. And so I think good programs will start to realize that's a recruiting techniquethat if you offer it, so it's not something that people have to ask.
+
+Because in medicine nowadays, it's still taboo to ask questions about having children because, the perception is, oh, this person is going to be out of work, we're going to have to find somebody to cover for them, there won't be enough people.
+
+It's going to put a strain on the system, we can't do that. So still, it's really not allowed, so to speak, to ask these questions. In other fields in medicine, I would still sayhaving that discussion with somebody who is, directly responsible for hiring you
+
+[00:27:00] is probably not a smart thing to do, even though I wish we had a culture where it was reasonable to do that.
+
+So these are questions for human resources. These are often policies that are set by the institution. So the person that's hiring from a given department
+
+may not even know what those policies are, and certainly won't have any control over them. So it's really a better question for human resources, rather than anyone else.
+
+They're the people that, look over these policies with a fine tooth comb and set the policies. And absolutely, I advocate for people once you're in a system to advocate for change in those policies. But before you get there,
+
+when you're looking for a job, when you're looking to be hired. It's a better discussion with human resources.
+
+Stephanie: That's really helpful. Thank you so much for giving that.
+
+Acknowledging the limitations and stigmas surrounding parental leave in medicine, Dr. Marshall encourages proactive discussions with human resources departments to address policies that support work-life balance for physicians. By advocating for parental leave, flexible hours, and inclusive benefits, she seeks to create a more supportive and equitable environment for healthcare professionals at all stages of their careers.
+
+Concluding Thoughts and Advice
+
+Stephanie: As we finish up and wrap up, is there any additional tidbits or advice you would provide? You've provided so much already. Is there any other last words?
+
+Dr. Marshall: Yeah thanks again for having me. And I just want to thank you for having this podcast because I think there's so many things that we don't discuss in medicine that really impact our wellness, really shape our careers.
+
+I'll mention briefly that not directly because of the fertility and the complications,
+
+but I have gone part time recently and, that was, that's been a huge benefit to my personal wellness.
+
+So in having these taboo conversations and putting them out
+
+for people really de stigmatizes, these feelings. People feel like they're alone. When I was going through IVF, it turns out that half of the women in my department had their kids through IVF. No idea no one talked about and can be really isolating and really stigmatizing.
+
+So I think having these conversations really makes it more a part of normal discussion and really helps people feel better about themselves
+
+And so I just want to thank you for having this podcast And inviting me on it
+
+because I really I think it's so important to have just these type of discussions.
+
+Stephanie: Thank you, Dr Marshall. , that is so kind words. Thank you. You know what, that's the reason you named it exactly. The main reason I made this podcast is for people to not feel alone. And it is no matter what type of challenge,
+
+whether that's health challenge,failing an exam, getting fired whatever experience, there's other individuals out there, but because of the culture,
+
+because of stigma, it is not talked about, and especially when someone's trying to find resources or find an experience, this social media, the podcasts seem to be a helpful resource.
+
+Right now in the 2024 time frame, to get that information out there. So I really hope that this can be a start of starting those conversations and sharing experiences of successful individuals like yourself. If people would like to get in contact with you
+
+[00:30:00] or, follow along with your journey, how can people do that?
+
+Dr. Marshall: Yeah, actually, so I have a website: https://www.arielamarshallmd.com/ I'm happy to send that along to you and there's a link on the website where it can send an email directly to me and I will get it and respond.
+
+Stephanie: I will definitely include that website. Thank you. I'm so excited to look at it. I'm sure it has all the talks that you've done.
+
+And then I'll also put in the article that we wrote: An Inside Look into Infertility Care: Navigating Hidden Costs & Treatment
+
+Because I thought it was a cute little edition of just our own individual journeys of fertility while being in medicine. And like you said, 50%, so many people were going through it alone. And I'm sure. It would have been so much less isolating and people would be so much more understanding if you had to leave to go get one of those hundreds of ultrasounds or blood tests or follicle counts or injections.
+
+Yeah. I very much remember that process and I will probably be doing that also as an attending. So I appreciate you talking about that and sharing the words.
+
+Dr. Marshall emphasizes the importance of sharing personal experiences, advocating for systemic change, and fostering open dialogues within the medical community. By breaking the silence surrounding fertility challenges, advocating for gender equity, and promoting self-advocacy, she hopes to inspire a culture of inclusivity, support, and understanding within the healthcare field.
+
+Stephanie: To finish off, I just want to thank everyone for joining in today. for Life of a Patient Doctor. today we talked with Dr Marshall. She shared some amazing information about her journey going into medicine,
+
+going through infertility, going through IVF, then having challenges in the hospital, but having a really interesting experience seeing what it looks like to be the patient, to be the annoying patient, but learning how to be an advocate and then how to teach other patients how they can advocate themselves
+
+to start a conversation and actually help both the provider understand,
+
+your feelings and get your needs met.
+
+You also talked about the culture of medicine and specifically why the system was made in the male dominated lens and how in order to be inclusive, we not just have to have more women, but we have to actually rebuild what
+
+[00:32:00] benefits look like, rebuild what type of resources we have available
+
+for providers at all levels, not just women either. You mentioned paternal leave as just a change in phrase. And then also,getting it to any individual
+
+That has a child so they can both care for and support the needs of that young individual but then also take care of their own health so they can get paid so they don't have to worry about how they're gonna take care of themselves.
+
+And so thank you again, Dr Marshall, so much for joining I will include your informationif you'd like to learn more about my journey as a patient and future health provider.
+
+My website is MedPsycMoss.com and you can find me on all social media at @MedPsycMoss
+
+Thank you so much. And I hope to see you on the next episode for another patient provider.
+
+[00:33:00] So thank you, Dr. Marshall again.
+
+Dr. Marshall's insightful journey serves as a beacon of empowerment for individuals navigating similar challenges in their personal and professional lives. By sharing her story, advocating for change, and fostering a culture of inclusivity, she embodies the resilience and determination needed to drive positive transformation within the realm of medicine and beyond.

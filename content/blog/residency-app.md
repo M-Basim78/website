@@ -1,0 +1,378 @@
+---
+title: "Navigating Residency Applications: Tips for Success with Dr. Moss"
+slug: "/residency-app"
+kind: interview
+description: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+---
+
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+Stephanie Moss, MD: [00:00:00]
+
+These are all different strengths, you want to connect them. We don't want to just say in our personal statement, I have integrity. You want to show, not tell. Show through a story. As humans, we enjoy stories. And that's through an activity, through a patient experience, through a life experience.
+
+I want to come away from this personal statement and write a summary sentence like elevator pitch of who you are. So think about what is my elevator pitch that one two sentance of who I am and why I'll be a good resident at this specialty or at your program.
+
+Welcome to Life as a Patient Doctor. I'm your host, Stephanie Moss, navigating life as a patient and a future MD. Walk alongside me as I reflect on the challenges and lessons I've learned undergoing medical school with invisible disabilities.
+
+Stephanie Moss, MD: [00:01:00] Hello everyone, this is Dr.Moss, I am literally a couple days from starting my psychiatry residency. Oh my God. It's been a journey, and I thank everyone who sent me all the positive messages and it's been so inspiring to hear how I've inspired you through my journey, whether that is through going through challenges of being a Latina in medicine, of having disabilities or health conditions, failing STEP, overcoming STEP, applying with my husband I'm so glad that my journey has been meaningful to you and has encouraged you to keep going.
+
+That is literally my goal of being able to support and inspire others because I definitely didn't have that and there are a lot of things when you're a first generationdoctor, medical student, college student, like there's a lot of information out there that you can feel so alone that. You just don't know what to do.
+
+And so I really hope this can provide information to you.
+
+Now, I am doing this right before residency because all this information I will forget eventually. And right now is application time, whether that's med school application, residency, if you're a med student. So I really hope this helps you over the past couple of weeks, I've been reading a lot of
+
+People's personal statements and helping them edit. And I won't be able to do that as often anymore. So I hope I can provide some tools through this video, through the workbook. I know it says residency application workbook, but honestly, a lot of information in there can help you just create a strong medical school application too, but I'll be going over that workbook that's on my website and the blog post.
+
+That's what I'm going to be focusing on today. I created this workbook after editing a lot of people's personal statements, getting a lot of questions through DM, asking about how to make a personal statement, what to say in the personal statement, what to put in the activity section. So I created this workbook that I really hope will help you answer all those questions in obviously this video.
+
+Okay, let's get into it right away.
+
+Stephanie Moss, MD: So I will be going over the following things. First, I'll be talking about application overview, the timelines, then I'll talk about how to incorporate your strengths and your values into your application, how to incorporate patient encounters, Bring that all together into a personal statement.
+
+Then I'll talk about that big important question. Why X specialty or why medicine? Then I'll talk about dual applying for specialties. or honestly, if you're a premed student and you're trying to decide, should I do M.D. and D.O. This can help you. I'll talk about how you can talk about your challenges or red flags.
+
+Usually that means failures on exams, failures on the STEP, on the MCAT, on the complex, whatever that means. It can be disabilities, it can be taking an extensive gap year or a leave of absence. Then I'll talk about interview prep, how to Make sure you are fully prepared for an interview. I definitely feel like I was very successful at interviews because I have done a lot of interviews, not just for school and academics, but I worked a lot throughout college, I've been working since high school.
+
+And so that's over 10 years of learning how to present myself, how to present my experience. And then also I've been on the other side of seeing applicants that come in and see what are we looking for? Then I'll talk about wellness, how to maintain your own mental health and wellness while going through this very stressful time where you feel like you're really just putting your life on the line and not knowing what comes next.
+
+I will finish off by talking about disability disclosure. If you have a disability or if you have extra needs, how to navigate if you disclose during the interview or after you receive the job. I will quickly mention that.
+
+Okay, going forward I have in that workbook, I have a little letter to you, a little good luck and motivational. So starting with application. I like this quote by Benjamin Franklin. "By failing to prepare, you prepare to fail." And if you see my other episodes, you know I don't like that word failure, because failure is subjective.
+
+You would think it's objective, but it really isn't. Someone decides whether or not it is a failure, and even you. You can decide whether you're going to take whatever result and see it as a negative, seeing it as a personal failure, or just seeing it as another bump in the road and something that you need to overcome or try again.
+
+Stephanie Moss, MD: Before September, this is what you should do, because applications are due in September. Make sure you update your CV. I have my own CV that you can see on my website, medpsychmos. com, that you can see how to separate it.
+
+Make sure you hyperlink all your publications. Oh, actually I just talked with someone, a medical student today, and make sure that publication really means anything you've put up online, whether that's an op ed, whether if that's an e book, whether if that is a workbook like this, all of those are published things.
+
+And especially in the residency application, at least it was as last year, it was unlimited amount of publications that you could, there's only 10 activities, but you can put as many publications.
+
+So if you don't want to write One of your publications as an activity that might be a really great place to put in your actual eras interview Where it can be talked about in an interview I remember that when I was interviewing one of my interviewers actually told me he had Looked up one of my first articles I think it was on endometriosis
+
+and even though he's, not allowed to talk about disabilities, but that's how I put it in my publications. He said it was very meaningful. We talked about that. that experience in the way that's going to help me as a doctor and be able to connect with patients. So really cool way to add in your publications, but we're talking about CV.
+
+Make sure that once that CV is done, you're giving it to your mentors, especially the ones who are drafting your letter of rec, make sure you provide that CV. And then this also helps you organize before you even prepare the ERAS application, your activities. So that could be maybe you want to separate it by jobs, separate it by advocacy work.
+
+I'm trying to think back to how I prepared my CV. I've definitely done multiple iterations of CVs depending on what I was doing. since we're talking about residency. I didn't really include any of the activities I'd done like in high school and college
+
+Stephanie Moss, MD: So next something you want to do is sign up for all those conferences There are so many that go on over the summer. See if your school can provide you money apply to Scholarships. I just emailed the organizer and I was just like, Hey, do you need any help with setup?
+
+And I would go in early the day before something and I would organize. I would get to meet the speakers early, and that's how I would start networking. this is a very big thing is that you want to network at these conferences at these presentations because Yeah. You never know who could be sitting on the other side of reading the application or knowing someone.
+
+Medicine is huge with not what you know and what you did, but also WHO you know. For example, I worked hard to get in connection with different program directors that were at the conference. I met chairs. of universities. All these different people that I could later reach out to when I hadn't received an application (interview) and just let them know that I was still interested in that program and they would text person in charge, the program director.
+
+It is meaningful. That's how I was so successful in being able to receive so many interviews that I actually even denied some interviews. I know it felt weird, but. It can happen. You only want to go to interviews that you actually want to go. And the ones I denied were in places far away from where I wanted to live.
+
+I wanted to stay with my husband in Chicago, so that was very important to me. But I applied broadly as a just in case. That's something we can talk about later. There are Residency fairs where you can go around and meet the actual program directors residents that are there and you can see do I vibe with them?
+
+Do they? Do they have similar values? That's actually really a great place where you can find out like what they are proud of in their residency. What is special about them? Why did those residents go to that place? Usually if the residents are at the residency fair, That means they are happy. They want to let other medical students know to come to their residency.
+
+I'm trying to think all the different residency places that I went to. They were so excited to bring me in. Go to those dinners where they separate. And you can go to meet. all the schools in your specific big city you're interested in, or I'm just thinking of like when I applied family medicine I went to the AAFP the family medicine one.
+
+They separate and they did all the ones in the midwest and so I went to their dinner To meet all those schools and meet all those residents.
+
+Stephanie Moss, MD: Letters of recommendation. I have a page in my workbook on letter of rec writers their email, just keeping track of if they've submitted This is hard. I received this question a couple days ago actually asking like, what is important to look for in someone to write your letter?
+
+That's hard. There's not one right answer. Maybe the right answer is someone in the specialty you're applying. That is super important because you want to find someone that they can vouch for you to say I would want this person as a colleague to work with me as a future doctor. So I think for me, when I was looking for who to write, I looked for someone who gave me a good vibe that They cared about me as a person.
+
+They cared about me as an individual. I liked them. I had a similar vibe as them. We could have a conversation, not just about medicine, maybe about life. That I did have an awkward feeling. We'll talk about gut later, but definitely using your gut, using your intuition is so important, especially when applying to residency.
+
+You'll be doing that a lot , even when you go to these residency fairs, you get a weird gut reaction all the way before you even apply. Don't even waste your money. Don't waste your time. You can, but. Your gut, your intuitions, that is, saying something.Okay. Sorry. I get all excited. Okay. So finding mentors.
+
+I hope that was helpful. What else would be important? Someone in your specialty, someone, oh, this one, This is something that I was recommended over and over that they've seen you in a clinical way, so they've seen you with patients. It can be in the hospital, in their clinic. It can be out in the community. If you like, did clinics.
+
+With the homeless, for example, I did that during my leave of absence and also during COVID, I worked with different homeless shelters, with different homeless shelter leaders. So I had one of the organizers who is a doctor in one of the specialties in family medicine.
+
+But I also had another one that was internal medicine, so not even one that was specifically my specialty, but could show my work, my values, my strengths. Not just in clinic, but showing, especially for me, it's really important that I'm a leader and an advocate. And so that letter writer was able to really speak on those key traits.
+
+And I think another reason why that individual was able to speak on is because they are a well known leader themselves. when I was doing interviews I received comments of saying this letter writer, he knew you so well, or he said you were one of the best leaders he's ever worked with.
+
+That was so meaningful and I was glad to receive that comment. It definitely helped a lot with my imposter syndrome, even while it was sitting there in an interview. Let me think. Oh, okay. So we're talking about letters of rec. So provide them the CV. Any personal statement drafts, it's okay if it's a draft.
+
+They get it. But it helps them know. Also let them know any key traits you want to emphasize. Maybe you want this doctor to emphasize work ethics. I'm just thinking psychiatry. One of my letter writers works a lot with kids with disabilities So I really wanted them to emphasize my work as a case manager with disabilities and how I use that experience while I was in my fourth year elective with them.
+
+. And make sure you give them a date to submit, which is weeks before the actual deadline because they are busy. Of course, they are gonna forget or push it ahead. So make sure you give them a date, send them a couple email reminders. It's okay, they get it. And I think that was actually really helpful to hear from upperclassmen or people who had just graduated.
+
+They know that they have the responsibility, if they are in academic medicine, to write letters of recs. It's not a burden. And I felt a lot like I was adding an additional burden to them because they're already doctors, they are already leaders, they already are doing all this other stuff.
+
+But it really helped me to know that they expected to write letters of rec. It's something they do every year. it's part of even their responsibility in academic medicine. Like they're paid, expected as a teacher, not just to have medical students in, but also give them feedback and write letters of rec.
+
+So when I heard that was really meaningful. So I hope that helps you. I'm going to pause so I can eat. And I'll be right back.
+
+Okay, sorry, I had to do a little mini I'm hungry break. Because my husband and I, oh, he had a 70 plus. We probably hit 80 a week. So we made pizza last night. But anyway, going back to do we talked about letters of Recs. Okay, draft applications.
+
+Stephanie Moss, MD: Okay, so start doing your application now.
+
+We are today, June. You have the rest of June, July, August. Okay, so you have two and a half months. But still, there's a lot that needs to be done. To prepare this huge ERAS application, not just the personal statement, there's the activities, filling out that thing so start it now. I have a couple mini videos that I've created, little short reels on how to make a personal statement and then also I include it in the workbook, so we'll do that in a little bit, but it's important to just start.
+
+Just write down free write. that was actually a recommendation that I had at one of the conferences that I went to is just sit down, play some music that you like, just free write. Whatever comes to your mind. It doesn't matter if it's going to be included at the end or not.
+
+Just write out why you want to be a doctor. We'll say the specific things that you can write out in the worksheet in a bit, because I actually have some questions that you can just free write. Give it to multiple individuals to edit. it's hard to decide who should read it.
+
+I'm actually thinking, I'm don't even to think my husband read it, because He gives me different type of feedback that I personally do not agree with and that's okay. We're very different people. So I was very picky who I chose to read my application But it still had a lot of people I had residents in the Specialty I had previous program directors read it chairs I had in our school, we had an advisor that just worked on editing that was, like, really good at editing and talking through things.
+
+That was really helpful. But I'm gonna say that, one, it's important to be picky who you choose. And then second, also be picky with their feedback. It's okay if they don't like that story. But if it's very meaningful to you, then include it. Now, if everyone's saying don't include it, don't include it, like not cool enough, maybe you should take their advice a little bit more seriously and think, okay what about this other addition, but it's hard, there's a lot of opinions, but at the end of the day, it is your application, your personal statement.
+
+And going back to that intuition, but we'll talk about that in a bit. We're just going over the timeline. I'm already sending you all these cool little additional things. But trust your gut is the big thing. Okay. I do want to say the AAMC has a practice ERAS. That's literally the exact same thing.
+
+It's like a worksheet. Download that PDF. I'll make sure to include it below. It is the exact same thing that they're going to publish and it's really helpful to make sure you have all that information so it's easier to just like copy and paste when you actually include it.
+
+And you'll be able to see if there's any additional little boxes that you'll need to fill out that maybe you didn't think about before. Okay.
+
+ERAS Timeline and Submission Tips
+
+Stephanie Moss, MD: ERAS is due September 25th at 9am. Do not wait to that day. That is just the day that programs start seeing the application. That being said, ERAS opens on September 4th.
+
+You do not need to submit it on September 4th. All residencies get it and open it on their computer on September 25th. I remember there was always that confusion. When I was applying last year, that was like will it be at the top of the list? Will it be at the bottom of the list?
+
+If you apply at different times. I talked to actual program directors and they said that when they open their computer is just a list and then they select how they're going to view it. They can select it by school, they can select it by number of years it took you to graduate.
+
+They have their own secret method that every single program director has, but it's not like you'll be at the very front of the list if you submit on September 4th. That being said, if you wait till September 24th, and ERAS goes down, Internet goes down, you erase everything on your computer, .
+
+Try to have it a couple days before. So give yourself whatever date you need before September 25th to just increase the chances that nothing happens. None of those acts of God, negative things happen, but you don't have to do it on September 4th. I remember that was confusing and it'll be okay.
+
+And that also allows it if you don't have your letter writers before, it's okay. You can still submit it without your STEP two. Probably not the best idea though. I had a friend who submitted their application completely and then failed STEP two and then had to retract their application and wait till the next cycle.
+
+So think about that. make sure you do STEP two before you apply to residency. And I think, I don't know if that's controversy, but the thing is. residencies want to see that STEP one and STEP two, especially since STEP one is pass fail.
+
+And we'll talk about that later about how to deal with failures because I had a failure . it's just part of the requirement.
+
+That was just talking about timeline and dates. Hopefully That helps. Okay. ERAS is due September 25th.They start receiving it. I mentioned how program directors have their own secret way that they rank and order.
+
+Stephanie Moss, MD: This is where it's really helpful to send letters of interest. Now you don't need to email all 100 programs or whatever how many you applied to but these are the ones that you really want to get interview from.
+
+For example, they're the ones that you signaled. Just another thing to remind them to look at your application. Because if you think about there are thousands of people who are applying. it might help. Another reason they might look at your application and offer you an interview because remember there's only certain amount of spots for the interviews and even less number of matches, but that's later.
+
+Between when ERAS is due You can still go to conferences. You can still meet program directors, remind them like, Hey, I submit my application, make sure they write down your name or scan your QR code I remember that was a common thing, actually, that they would say Oh, I saw you at the conference. Or in my email, I would include:
+
+thank you For meeting me at blank conference. We talked about this. I am interested in this, some little thing that makes you unique and want them to just look at it and reminds them of your name, that's going to be a constant thing, really, when we're talking about networking
+
+Networking and Securing Interviews
+
+Just these applications, if they've seen your name before, if they recognize your name, just helps them be able to, when they see that name on their huge long list, it might just Increase the chance that they will read it and offer you an interview, you know All these things we try to do just to increase the chances. Same thing if you were in med school sending those lot of
+
+I got an interview for one of the programs I was really interested only by seeing them at a smaller conference This was just like It was a all women's psychiatric conf like little get together, and I met the program director randomly, sat next to her, and then sending her that email just allowed me to get that interview, so it's, it works, tried and true.
+
+Same thing, I'm thinking back to medical school, or pre meds, going into med school. I got an interview at a location and my husband had also applied and did not get an interview.
+
+Thankfully he got an interview and we did that multiple times.
+
+Interview Strategies and Timeline
+
+We'll talk about all my strategies for interviews, but for right now, interviews happen between October and probably beginning of February, middle of February, rank lists are due, there's very few programs that wait all the way to them, but it's possible. Especially like new ones that just got accepted. I remember that was a thing with Family Medicine that they just received approval. So they opened applications in January because they didn't have that option before to be on ERAS.
+
+So a lot of people who got in had later interviews for that reason.
+
+Some other little tips I put on the worksheet of the timeline.
+
+I said, send emails after your interview. There's controversy on that. Sometimes they say don't do that. So you don't have to. You also don't have to send email thank yous to every single person.
+
+If you do send emails, don't say the same thing, because usually they put them together into one file. Maybe if you want, you can send emails to the people who have like very meaningful conversations with you. Or places you really want to go to. I have a list on this worksheet of all different things you can look through for interviews, but the biggest thing is your gut feeling.
+
+Because when you're going and writing your rank list, it's. Hard to remember wait, did I say that about this program A, or was it program B? I don't remember. Sure, you write it down however you want, whether that is using my workbook or Google Spreadsheets, whatever you want, but write it down in the moment, because you will forget all these programs blend together.
+
+Okay, and then, okay, February hits.
+
+Ranking Programs and Letters of Intent
+
+That's when you submit your rank list. It's really important to rank it based on places that you actually want to go to. Think about where you want to actually spend your life, work, live, in that location.
+
+And again, trust your gut. Make sure you send a letter of intent relatively early in February because residencies also put in their rank list sometime in February. So you definitely need to send your letter of intent. Before they submit their rank list. Also please don't send it to more than one or three.
+
+Three is what I was told. was max. Say they're the top or they're number one. Don't say, you're my second place, third place, that's rude and they don't like that, so be honest.
+
+it's important to say, my top, to three at max.
+
+Okay, March happens, I like to say this.
+
+Match Day and Alternative Paths
+
+No matter what the outcome, you did it. You got through this very stressful time. You got through med school, no matter your journey, no matter how many ups and downs you went through, you did it.
+
+If you match, that's amazing. If you don't match, it's not the end of the world. I know a lot of people who soaped and still got into residency. I know people who didn't even get in after soap and still, when they applied the second year, they got it. It's okay. And I know people who decided to go a different path and just use their MD in public health or in the government.
+
+There are so many other paths. I wanted to say that. Match happens. If you want to see my match video, you can see my match video. That was stressful, but I did it. I was very happy and proud. Okay, we got through the timeline. Wow. And a lot of extra little stuff in there.
+
+Pre-Interview Preparation
+
+Okay, so next thing in my workbook, I have some checklists on making sure that when you're registering before, like right now is the time to do it, that you registered for an AAMC account, you registered your ERAS token, there are two different systems, MATCH and ERAS.
+
+So make sure you register for each of those. Make sure you go through USMLE and Complex and release the scores when they come out. Documents to prepare, we talked about personal statements, letter of recs, MSPE or dean's letter make sure you do med school transcript, make sure you figure out whatever your school does, if they release, if they send to you.
+
+If you're an IMG status report. Sorry, I'm not an IMG. I just looked it up. I don't know much, but make sure you have that. And then CV. Cool. And other checklist items I have before, before the interviews, make sure you have the, oh my goodness, yes.
+
+Make sure you have the correct email on ERAS because they, that's how you get interview invites. how stressful it would be that you put in the wrong email and you don't get your email, you don't get the invitations. It's so confusing. Sometimes they send you an email, sometimes it's through ERAS, sometimes it's through their own other program, sometimes they email you and say just email me back if you're available for this interview.
+
+Every single place is different. And you can correct me if I'm wrong, but I don't think they fix that. Every place is different, but make sure you have the correct email. Make sure they don't go to junk. I recommended put phone alerts on your emails. I didn't do this, but some of my friends did, is have a second person access that specific email so they can help watch especially during this time.
+
+Maybe you're studying for STEP or you're in clinicals. Maybe you're in a hospital that doesn't have good internet service. This is helpful to make sure you sign up and know what? I didn't have, thankfully the experience. where they sent me an email and by the time I got on there, there wasn't.
+
+I think actually I had one that I had to put on the wait list, okay, so yeah, I did have one that I had to put myself on the wait list, but it did become available. But that's why everyone makes it such a stressful thing that the second you get one, you run to your computer and you sign up.
+
+Clinicals get it. , residents get it that you're going to be stressed and looking at your email all the time or running away for five minutes to sign up. Just let them know. That's a big thing. Communicate. They get it. I'll talk about interviews later, but I have a little check mark that says look up interviewers. They send you usually a list of who you're interviewing with beforehand, so make sure you look them up.
+
+Before Rank Lists are Due
+
+And then I have a pre match checklist. The only actually, the only one I did two things I didn't mention before, follow up with residents to make sure after you interview with them, sometimes they provide their phone number, their email, ask them how, what they really believe about the residency, what what they recommend, what they enjoy, what does their life look like, they're there to help you.
+
+You're going to be their future colleagues, so they want to make sure that they get a resident that actually wants to work with them. I remember I did a reel about this. Save and certify after each time you change the rank list. I remember, oh my God, that was so stressful. I remember literally the day before they were due, I had an epiphany, huge conversation with my therapist, with Jonah, my husband, like we determined that one of my second places should be my third place.
+
+So I moved it around. And then I also moved a couple other ones but then I wasn't sure the next morning if I actually recertified and clicked save. Thankfully I did, but that was so stressful. So make sure every single time you do a change, click save and then click certify. It's two different STEPs. But that's next year, that's in March, so you can wait with that later.
+
+Choosing Activities & Experiences
+
+I have a place where you can talk about your experiences. So how it's structured out for this year is you have one, two, three, four, five, six, seven different types of experiences and activities that you can choose.
+
+from the 10 activities. So you can designate them as either work, volunteer, and the volunteer also includes service and advocacy, teaching and mentoring, research, continuing education type thing, hobby, and military.
+
+So I did this worksheet to kinda use your CV and try to figure out where you have them. You don't have to do all of them. Obviously, if you didn't do the military, there's no reason for you to put military. But try to include one of every single one. This shows the, all the different qualities and competencies of a physician, of a resident. They want you to have some sort of work.
+
+Some sort of advocacy volunteering. You're a lot of times a teacher, not just to your patients, to your co interns. If you're in an academic center, to other medical students, to medical students. Some sort of research, it doesn't have to be a PubMed type research. It can be a poster. That's research. It can be doing oh my goodness, what's it called?
+
+Like writing an abstract, submitting an abstract. There's a location that you can put that it's in the works. It's not officially published yet, but you're working on it. Let me think. And there, there is another section where you put in all your research, like actual publications, and you can put in the publications that you're, that it's either pending or haven't submitted yet.
+
+So there are different levels that you can click. Continuing education can mean I got my certificate in somatic trauma therapy. During COVID I went To a lot of virtual trainings, virtual conferences would be a great one for this. So that kind of helps with the continuing education.
+
+I didn't write down how many continuing education hours. I wish I did cuz I did so many. Especially during COVID, especially during my leave of absence. I definitely had a lot of them. I wish I would have kept track, but you don't need to, but it'd be something cool if you have it. Hobby. Make sure you have a hobby.
+
+Why? They want to know you're human. Human means not just books. Not just medical books. That can be doing some sort of exercise, that can be cooking. That can be going on walks with your dogs, hiking. I heard crocheting. I had a friend who went swing dancing. There are so many different hobbies . Also the should be without saying, but I'm going to say it anyway.
+
+Do not lie, do not exaggerate, those are not professional qualities, they will see through it, I promise you, we can see through it, especially when we get to the interview, and let's say you have someone with the same hobby and they can tell that you have no idea, that's a problem.This is a funny one, so like the records, I had the records in the back of my interview, and I had a purpose, and I guess we'll talk about backgrounds later, but I don't do records.
+
+That's not my thing, but I had that as a way to talk about my husband and his connection, and how I love dancing, and dancing is mine, . He is a music person. He loves that. And so that's how we share our connection. So it was a way, every single thing I had a plan and a story to talk about.
+
+So like we, in addition, we loved going to estate sales. And so pretty much all our records are from estate sales or from garage sales or going to bookstores. A lot of our books are like used books. So I have a story for every single thing on my application.
+
+Everything behind me, everything was pre planned. Anyway, so think about which activities, Which ones were meaningful?
+
+Most Meaningful Activities
+
+Remember, you can only choose three for most meaningful. If I really wanted to explain more about what I did, cause you get such a little bit that you write.
+
+To explain the activity. I'm trying to think, I remember asking and they said it was okay that you can do bullet points.
+
+You don't have to do full sentences for the activities, not the most meaningful, they want you to do more sentences because it's hard to include everything, but bullet points are okay, it's a way to get that like small amount of space or all the words in that small amount of space.
+
+I put in this worksheet, the key characteristics that you will select for the ERAS. So there are, looks like 10 key characteristics. You don't need to have every activity directed to every single one.
+
+Obviously that would be best, but not always have to. So the different key characteristics are communication, critical thinking and problem solving, cultural humility and awareness, empathy, and compassion. ethical responsibility, ingenuity and innovation, reliability and dependability, resilience and adaptability, self reflection and improvement, teamwork and leadership.
+
+So 10. And so on this worksheet I connected, so activities are in the middle and you can select which activities show which strength and which activities show which key characteristic. That's one way, obviously you don't have to do it that way, just coming up with ideas that this can be helpful deciding which activities to include in ERAS or which activities or strengths or characteristics to include in your personal statement.
+
+Similarly, values. This was another thing I was talking to another medical student about recently. how can I share a value without. straight up saying this is my value. And again, it's the showing, not just saying and telling. And that's through an activity, through a patient experience, through a life experience.
+
+So here are a list on my worksheet, a list of values.
+
+For example, authenticity, authority, achievement, autonomy, boldness, compassion, creativity, Fairness. Honesty. Leadership. Perseverance. Respect. Responsibility. Yes, , some of them can be similar to strengths. A value can be a strength. Can a strength be a value? Can be, yeah.
+
+Personal statements. And I'll do two videos and do one later on, on like actually interviewing I think that's what I'll do because this is just so much information. Right now the time is personal statement time.
+
+I had a specific reflections page. Right now I want to talk about starting with the sitting down and just free writing. Some of the questions that I posed in my workbook that might help you, that you can free write in a journal, on typing, or I love.
+
+One of the reasons I have so many blog posts and really articles is because I just, I get these moments where I have this idea I have this notes app, it's called Day One Journal, and there's a little audio thing thatI start talking and it just records everything I say, both the audio and the written, you can choose one or the other, and that helps me look back and be, remove everything I don't want, so there's an idea, but anyway, I get excited.
+
+Questions to Ask Yourself
+
+Questions you can ask yourself. What type of life do I hope to have as a doctor? Where do I hope to be in 10 years? What am I most proud of? What did I learn about myself throughout medical school? What is my purpose for becoming a doctor? What activities or people or patients bring me joy?
+
+Writing those, it's not that you're going to include them, but it helps get those ideas, that motivation of why. I do want to say this personal statement is not explaining your activities, or explaining your CV. There's another section for that. This is for people who are interviewing you to get to know you.
+
+What makes you? And how are you going to be a meaningful colleague, a meaningful doctor? What experiences have led you to be the person you are today? That being said, they do not want your whole life story because you only have a certain amount of time. You also want to maintain medicine professional, like that little bit.I'll talk about my personal statement outline in a bit. Let's go back to strengths. Okay.
+
+Highlighting Strengths and Values
+
+Another way you can go through and write your personal statement is by thinking about what are your strengths and what are your values.
+
+So I have a list of some that you can think of.
+
+There's also an online strengths test that might help you if you're struggling to come up with these words. some that I put include authenticity. Autonomy, Compassion, Faith, Justice, Integrity, Perseverance, Respect, Social Intelligence, Teamwork.
+
+These are all different strengths. Now, you want to connect them with certain, we don't want to just say in our personal statement, I have integrity. You want to show, not tell. Show through a story. As humans, we enjoy stories. So you can see my actual personal statement on my website,
+
+Speaking to a patient a young girl in a clinic during my third year rotations I was told to go in and talk to her about healthy eating habits because she was overweight. apparently the doctors had that conversation before but it hadn't stuck.
+
+So I sat down to talk to her trying to get to know her as an individual what her day to day looked like And as i'm having this conversation, she disclosed that she had a traumatic experience through that experience I developed a lot of compassion, my personal statement was all about me personally learning how to cry.
+
+With patients, and why my crying was for them and not just for me and my own lived experience and trauma. So that was me showing without just saying I have this strength. I talked through that story, how I was able to critically think , I was able to communicate with her.
+
+I was able to communicate with my attending how we were able to help them Through that experience, but then also I talked about how that experience really transformed me to be able to be more aware of emotions and how emotions show up. How emotions also show up in my own body and how I can make sure that I am aware of my own body, my own emotions, while also being as authentic and present and empathetic with others.
+
+Hope that made sense. You can read my personal statement online on medpsycmoss.com hope that helped. Anyway. Okay. Hello, everyone. I'm back. Now I have nice sun. Yesterday when I was recording this, I, you know what this is, life has a patient doctor. So you know that I have health conditions and there was a fire nearby. No one was hurt, but there was smoke coming through the windows and I had a window open.
+
+So like it was not good. Start getting a headache. And yeah, so had to stop recording. So I'm back today. So we were talking about personal statements. We were talking through my workbook.
+
+Meaningful Patient Encounters
+
+So the next part that you want to talk about in your personal statement is meaningful patient encounters. What does that mean? So these are the patient encounters that you have had that really made a difference in who you are, the type of doctor you want to be, or the type of person you are.
+
+So I have a worksheet to help you write down, remember, we always write down stuff and you can always cut back later. So how to work through a patient encounter for a personal statement, start with just a one liner just to remind yourself.
+
+It's really just reminding you to get back in that situation. What were the challenges , and not just the patient's health problem. Yeah, of course, you're a doctor. There's always going to be problem that's the main reason why they come to you. But maybe were there other social problems that were going on?
+
+Did any social determinants of health come up? Did the patient have an unexpected turn that night? Things like that. Then the next box is, what did you do? Now, remember, you, at this point, are still a medical student. No one wants to see that You came in, you saved this person's life, you cured cancer.
+
+Okay, maybe if you did and you did CPR, okay, cool, do that. But this is more about you and , what types of physician qualities or Strengths.
+
+Did you demonstrate throughout this encounter? So I provided another list of different physician qualities, which really combined kind of the strengths, the values, but ones that we specifically look for in a physician. For example, empathy, problem solver, advocate, integrity. Scholar, educator, facilitator, communicator, diversity, team player, ethical, trust, cultural sensitivity, patient safety, time management, critical thinking, relationship building.
+
+There are so many different things. Circle or think about how did this patient encounter demonstrate these qualities. And then how will you then incorporate this specific patient encounter into your future practice, whether if that is a resident or in your future career.
+
+That's how you really want to bring in a patient encounter. You don't just want to say, It's weird because in clinicals, we're used to going through an HPI, going through and saying this is the patient, this is the physical exam, this is the lab values, this is what I think it is, this is what I want to do.
+
+None of that. This is a personal statement. So it's a different way to look at a patient. This is really narrative medicine. You tell the story of what happened. Put us in your shoes or like a fly in the wall. What happened? What was the impact of that experience on you? And how are you going to grow [00:48:00] or how did you grow from that experience?
+
+I love this quote from Aristotle. "We are what we repeatedly do."
+
+I thought this was important because these traits show up over and over throughout your different activities, throughout different patient encounters. You really want to demonstrate That this wasn't just a one time situation.
+
+It wasn't one time I showed empathy or one time I was an advocate. We want to see that these traits are mentioned throughout the activities, the personal statement, the letter of Recs. We want to see that this is who you are. It's not just a trait that you grabbed off this list of traits.
+
+Personal Statement Outline
+
+Let's go through a quick personal statement outline. Now it doesn't have to be like this. This is just a general outline to get your ideas flowing. So just like basic high school, college- hook. This can be a patient example, a lived experience, a meaningful event.
+
+Think about who your reader is. Usually, it is a program director, an assistant program director, and different attendings. They're all people that have been in the medical field. Now, very rarely you do get a lay person, like a patient. I did have that one time in one of my interviews they had, A patient interview me and read my personal statement, but don't plan for that.
+
+Just think about your audience is someone who knows about medicine, who has read these before. I guess in that sense, don't do the typical things Think about in pre med, everyone put in the personal example of I've always wanted to be a doctor since I was a kid, or this person died and I want to be a doctor after this, or I had this surgery and that's what made me want to be a surgeon.
+
+Yes, if that is true, okay, but make it more unique. Come on, you've had now four years in medical school or even more in clinical care if you did other things before. Bring in those real life experiences and more recent ones. the next couple of paragraphs, what are my strengths and what have done to demonstrate one.
+
+Next is why me, this can include what values do I possess that I will bring to your residency or to that specialty, to just to medicine.
+
+Why this specialty? How do our values align? Because I just talked in the previous paragraph maybe about my own values.
+
+I want to next talk about the values that I found in that type of specialty. So that is part of it. I have another worksheet about how to figure out what are the different values or traits that this specific specialty possesses. If you look at Dr. Glaucomflecken's videos. They're pretty accurate, aren't they?
+
+Every single specialty has their own personality, has their own things that they value that are important to them. Grab on to those values. Next, how will you, or I guess how will I, contribute to this residency or specialty? That's the next paragraph. Last paragraph, you want to summarize what you said.
+
+We started off by talking about patient example, maybe bring back that patient example, bring back maybe you talked about the values and strength, circle it all together, put a bow on it of This is who I am and this is why you should remember me and offer me an interview so I can tell you more.
+
+I loved what one of the doctors told me once when I was doing my application. They said, I want to come away from this personal statement and write a summary sentence like elevator pitch of who you are. So think about what is my elevator pitch that one two sentance of who I am and why I'll be a good resident at this specialty or at your program.
+
+There's a question I've had. Do you write a different personal statement for every single program? You can. I almost did that. It gets really stressful because you have to make sure you put in the right name for every single specialty, right city. Since I was dual applying, I already had to make sure I did family medicine and a psychiatry one.
+
+Granted, that's just two, but I had to make sure every single program, because you select every single personal statement and every single letter of rec for every single program, but there are people who do that. I have some worksheets on why blank specialty.
+
+Selecting a Specialty or Specialties
+
+On my blog post where I talk about dual applying to residency, how I determined I wanted to dual apply. The blog post also has similar questions to help you figure out what type of specialty you should apply for. What types of patients do I like seeing, what environment, what do I like doing, what extracurriculars? What type of people are my role models? Do I have a personal connection? All those things you can bring into your personal statement.
+
+Then I have a section on dual applying kind of pros and cons. Making sure that you separate, what are the clinical environments, the goals, the patient demographics, activities of one, and then do the same thing on the other specialty and find out the similarities. I'll talk about that more when we're talking about interviews because that will be really where it's most important that you really understand what the differences , Between the two programs and what are the similarities? So I'll do that in the video on interviews.
+
+The challenges and red flags I did another video on impactful experiences. So if you haven't seen that I talk about the red flags how to talk about failure and step. How talk about leave of absence?
+
+How to talk about impactful experiences, whether that's first generation, financial, family, emergencies, whatever happened. I also have a worksheet on it. I might talk about it a little bit later in the interview video, but that's all I'm gonna touch on for now. But that is a whole other section that I highly recommend you fill out.
+
+I provide a lot of things on what to look for in a program . So yeah, i'll put all that for the next video So I hope I helped, tell me in the comments if I missed anything that you're looking for. Like I said, i'm about to start residency.
+
+So I won't have as much time to put up videos. I do have a significant amount of pre recordings of all the Life as a patient doctor interviews, so they'll be coming out Hopefully every other week, we'll see. If you are a medical student, I would love to have you on as our team to help edit them and help publish them to spread advocacy and humanity.
+
+You can find my workbook for residency application that I went over today, . It's on amazon Kindle, and on my website medpsycmoss.com/store. I talked multiple times about my ERAS application, my personal statements. You can check them out there. I only have two people left that I can review their applications and help them.
+
+So if that's something that you're interested, sign up before those fill up. And thank you so much for being here. I hope this was helpful for you.
+
+I like to end remember that whatever your challenge is You will get through it. It's okay if you have red flags. You will get through this because I've gone through it and so many others have too. So I believe in you. If there's one person that believes in you, I'll be the one that believes in you. You can do it.
+
+Of course, subscribe. to this podcast on Spotify, on YouTube, wherever you're listening. And if you haven't already, my social media is at @medpsycmoss everywhere. Instagram, Twitter, X, TikTok. Hope to see you all in the next video. Take care.

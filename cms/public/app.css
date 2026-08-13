@@ -1,0 +1,117 @@
+/* Editor styling. Deliberately her brand palette so the tool feels like part of
+   her site rather than a developer console. */
+:root{
+  --base:#FFFFFF; --tint:#FBF1F4; --tint-deep:#F7E8EC;
+  --ink:#1B2A4A; --muted:#55607D;
+  --primary:#6E1F35; --primary-hi:#8C2A45; --accent:#A63A57;
+  --line:rgba(27,42,74,0.14); --line-soft:rgba(27,42,74,0.08);
+  --ok:#1F7A5C; --bad:#B3261E;
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--tint);color:var(--ink);font:15px/1.6 Inter,system-ui,-apple-system,sans-serif}
+button,input,textarea,select{font:inherit;color:inherit}
+h1,h2,h3{letter-spacing:-0.02em;line-height:1.15}
+
+.btn{
+  background:var(--primary);color:#fff;border:1px solid var(--primary);
+  padding:10px 18px;border-radius:11px;font-weight:600;font-size:14px;cursor:pointer;
+  transition:.18s;min-height:42px;
+}
+.btn:hover{background:var(--primary-hi);border-color:var(--primary-hi)}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.ghost:hover{background:#fff;border-color:var(--primary);color:var(--primary)}
+.btn.pub{background:var(--ok);border-color:var(--ok)}
+.btn.pub:hover{background:#186047;border-color:#186047}
+.btn.danger{background:transparent;color:var(--bad);border-color:rgba(179,38,30,.35)}
+.btn.small{padding:6px 12px;min-height:34px;font-size:13px}
+
+/* ------------------------------------------------------------------ login */
+.login{min-height:100vh;display:grid;place-items:center;padding:24px}
+.login .card{
+  background:#fff;border:1px solid var(--line-soft);border-radius:20px;
+  padding:34px 30px;width:100%;max-width:380px;
+  box-shadow:0 24px 60px -40px rgba(27,42,74,.5);
+}
+.login h1{font-size:26px;font-weight:800}
+.login h1 span{color:var(--primary)}
+.login .sub{color:var(--muted);font-size:14px;margin:6px 0 22px}
+.login label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+.login input{
+  width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:11px;
+  background:var(--tint);margin-bottom:16px;
+}
+.login input:focus{outline:2px solid var(--primary);outline-offset:1px}
+.login .btn{width:100%}
+.err{color:var(--bad);font-size:13.5px;margin:-8px 0 14px}
+
+/* -------------------------------------------------------------------- bar */
+.bar{
+  position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--line-soft);
+  display:flex;align-items:center;gap:18px;padding:12px 20px;flex-wrap:wrap;
+}
+.brand{font-weight:800;font-size:17px}
+.brand span{color:var(--primary)}
+.brand em{font-style:normal;font-weight:500;color:var(--muted);font-size:13px;margin-left:6px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;flex:1}
+.tabs button{
+  background:transparent;border:1px solid transparent;border-radius:9px;
+  padding:8px 13px;font-size:13.5px;font-weight:600;color:var(--muted);cursor:pointer;
+}
+.tabs button:hover{background:var(--tint-deep);color:var(--ink)}
+.tabs button.on{background:var(--primary);color:#fff}
+.right{display:flex;align-items:center;gap:10px}
+.status{font-size:12.5px;color:var(--muted);min-width:0}
+
+main{max-width:1180px;margin:0 auto;padding:24px 20px 80px}
+.head{margin-bottom:18px;display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.head h2{font-size:22px;flex:1}
+.note{color:var(--muted);font-size:13.5px;max-width:62ch;flex-basis:100%}
+
+/* ------------------------------------------------------------------ posts */
+.split{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:900px){.split{grid-template-columns:300px 1fr;align-items:start}}
+.list{
+  background:#fff;border:1px solid var(--line-soft);border-radius:16px;
+  overflow:hidden;max-height:70vh;overflow-y:auto;
+}
+.list button{
+  display:block;width:100%;text-align:left;background:none;border:0;
+  border-bottom:1px solid var(--line-soft);padding:12px 14px;cursor:pointer;
+}
+.list button:hover{background:var(--tint)}
+.list button.on{background:var(--tint-deep)}
+.list .t{font-weight:600;font-size:14px;display:block}
+.list .s{color:var(--muted);font-size:12px;display:block;margin-top:2px}
+.kind{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--primary);font-weight:700}
+
+.edit,.panel{background:#fff;border:1px solid var(--line-soft);border-radius:16px;padding:22px}
+.empty{color:var(--muted);text-align:center;padding:40px 0}
+label.f{display:block;font-size:13px;font-weight:600;margin:14px 0 6px}
+label.f .hint{display:block;font-weight:400;color:var(--muted);font-size:12.5px;margin-top:2px}
+input.f,textarea.f,select.f{
+  width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:10px;background:var(--tint);
+}
+input.f:focus,textarea.f:focus{outline:2px solid var(--primary);outline-offset:1px;background:#fff}
+textarea.f{min-height:340px;resize:vertical;font:14px/1.7 ui-monospace,'JetBrains Mono',monospace}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+
+/* -------------------------------------------------------------- list cards */
+.item{
+  background:#fff;border:1px solid var(--line-soft);border-radius:14px;
+  padding:16px 18px;margin-bottom:12px;
+}
+.item .grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:760px){.item .grid{grid-template-columns:1fr 1fr}}
+.item h3{font-size:15px;margin-bottom:4px}
+.full{grid-column:1/-1}
+
+.toast{
+  position:fixed;left:50%;bottom:22px;transform:translateX(-50%);
+  background:var(--ink);color:#fff;padding:12px 20px;border-radius:12px;
+  font-size:14px;z-index:60;box-shadow:0 18px 40px -20px rgba(0,0,0,.6);max-width:90vw;
+}
+.toast.bad{background:var(--bad)}
+.toast.good{background:var(--ok)}

@@ -1,4 +1,8 @@
-# Keep the build context to exactly what the image needs.
+# Keep the build context to what the image needs.
 *
-!site/
-!nginx.conf
+!cms/
+!content/
+!rebuild/
+!dist/
+!build-from-content.mjs
+!build-static.mjs

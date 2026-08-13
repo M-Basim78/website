@@ -1,0 +1,130 @@
+---
+title: "Navigating Death and Dying: A Reflection on Loss and Healing"
+slug: "/blog/death_and_dying"
+kind: blog
+description: "Sunday, February 25, 2024"
+---
+
+Sunday, February 25, 2024
+
+***Trigger Warning: Death, 3 grandparents death, patients dying***
+
+Death is a painful and taboo topic in our Western society. Death is a lurking shadow that we quickly turn on the lights to try to make it go away. Four years of working as a caregiver for older adults, then a year of loosing all three of my grandparents, I have sat with death more times than anyone ever should. However, through every experience, though hurtful, has challenged me to have a new perspective of life. Every person and living thing goes through the cycle of life and death. In turn, healthcare provider’s goal is not to prevent death, but to prolong a life with as little suffering as possible. If this can be accomplished then the person can transition peacefully to this final step in their life. In some aspects it is beautiful to watch and honoring be with people and their families during their final moments. The ability to be supportive during this vulnerable period has been a powerful lesson which I have been blessed to experience.
+
+Death and developing grief is complicated. If you or someone is grieving here are various Survival Tips on Grief and here is a list of articles for dealing with the different emotions that naturally arise when dealing with death and dying.
+
+No one wants to die, at least not initially. No one wants their loved one to die, nor do they want them to suffer when they’re dying. In the initial days, weeks, and months where you learn that death is coming, it is very easy to become angry, resistant, and frustrated.
+
+All emotions related to death and dying are natural responses to pain.
+
+It is ok for you to feel a strong emotion.
+
+It is ok if you feel no emotion. If you feel numb, or feel your self dissociating.
+
+Here is my favorite emotion's wheel to help describe our complex emotional experience in relation to death and dying.
+
+This Emotion's Wheel is by Calm a wonderful FREE app to help with breathing and meditation.
+
+In response to all the pain, death, and suffering currently happening in the world and inside my hospital walls, I have written this post to reflect upon my own first experiences with death and dying.
+
+I remember when my own grandmother (Abuelita) was rushed to the Emergency Department unconscious. A couple hours after we heard the news, my parent and me hopped on a plane and flew to Mexico City. Once we landed we grabbed a taxi and drove straight to a hospital surrounded by 12 foot tall gates. The security guard refused to let us in unless we were needed medical care. I don't remember what we said but we were eventually able to convince him to let us in (I think we said we had an appointment).
+
+Once inside we found the emergency room and was again prevented to go in because it was not "visiting hours." Apparently visiting hours were only a couple hours every day and would have to wait until tomorrow. We didn't fly half way across the continent to again wait until tomorrow for visiting hours. I watched the locked Emergency Room door for a patient or provider to go through. Then, when no one was looking I snuck in behind a nurse. The halls were packed with patients on medical beds. I poked my head in every room trying to find my grandmother. When I turned a corner I came across a large room with patient beds circling a large nursing center each laying 2-3 feet away from each other.
+
+Eventually I found my Abuelita laying motionless in the far corner with a tube down her throat and her dark chocolate skin pale and flat without make up. She must have been getting ready for the morning when she collapsed. Unfortunately, it was multiple hours until a family member found her and called an ambulance to take her to the community hospital. I had my iPad so I quickly started to jot down notes and vital signs -anything that would give me a hint of what was going on. A nurse came up to me and I pretended to be a medical student, when at this time I was still just a premed. The moment they realized that I was a family member, I was kicked out sent back into the crowded waiting room where we anxiously waited until morning. I remember feeling terrified and furious at the doctors for not telling us what was going on. I despised them for not doing enough for my grandmother as she laid there without moving. Instead of a medical update, we were told to run to a local pharmacy to pick up diapers and nail clippers. NAIL CLIPPERS?! Welcome to public hospitals in Mexico, but that is a whole other discussion...
+
+I thought back to the machine breathing for her. Was this temporary until she awoke? We were told that she was "too old" for an MRI so younger "healthier people" were given priority for the only available MRI machine.
+
+I refused to think of the words DEATH or DYING without understanding the full picture of her condition.
+
+Eventually she was admitted to a room in the hospital where the visiting hours were longer than the emergency room. Days later, we were finally told by the doctors that she had a stroke in her Bain. The blood, "hemorrhage," had originated in her brainstem and was located in the part of the brain that allowed her to breath on her own.
+
+That is when it clicked. She was dying, and it was time for me to let go. However, it was not my decision "legally" nor the doctors. My grandfather had died long ago so the next of kin to make medical decisions was all her kids, my three uncles and mom. The rest of my uncles and cousins were not present during this conversation with the rounding physician and team. Even if they were present, they would not understand the medical complexities of stroke and of death and dying.
+
+I brought my uncles together at my grandmother‘s home, we all sat around the living room coffee table on my Abuelita's furniture. The puffy pillows smelled of her perfume. My family started at me waiting to drop the wisdom and news. I explained the situation the best way I could as a 24 year old pre-medical student with limited medical knowledge gained from my EMT classes. I was the closest one to anything to do with medicine. One of my uncles was a biologist, but specialized in algae, so human biology was a mystery to him. I explained about the possibility of putting her on DNR (do not resuscitate) if her heart stops beating. The high risk of breaking ribs and causing serious harm to her was not worth the small chance she could recover. She was gone, and she would most likely never be able to come back to the dancing, charming, high energy grandmother and mother we all knew.
+
+I’m very well understand and appreciate hope. I held onto Hope for a long time when my grandmother was in that coma. However, there cames a time where I had to come to terms of with her medical condition. She was in a coma, unconscious and unable to express to us if she was in pain.
+
+I thought about my Abuelita's death many times while I cared for a patient who was similarly on the brink of death. This patient was unable to swallow or eat so we kept on NPO (nothing per mouth). The only thing they were receiving was an IV of liquid and sugar until the family could decide how to proceed.
+
+Unfortunately, the physician did not explain to the family that the patient was dying. In the patient family's eyes, the patient was "starving to death." In all reality they were, but the body starving itself is part of the dying process. It was too dangerous to put a feeding tube in this particular patient's body. Additionally, many studies have been done that showed that at the last period of life, supplemental nutrition, through the nose, or through the vein or through the stomach do not extend life, and in fact, can cause greater harm leading to infections.As the article by Hanson et al (2008) stated: "tube feeding has limited medical benefits in terms of survival, functional status, or risk of aspiration pneumonia." following, "For patients with advanced dementia, observational studies have shown no survival benefit when comparing those who do or do not receive a feeding tube."
+
+For more information on Artificial Feeding at End of Life
+
+Article & Information on the Clinical Course of Advanced Dementia
+
+This was the benefit of bringing in palliative medicine who were able to better explain the process and stages of death.
+
+Signs of Approaching Death by the Hospice Foundation of America
+
+Decreased activity and movement
+
+Decreased need, want, and ability to eat
+
+Decreased rate of breathing, heart rate, and blood pressure
+
+Periods of Noisy breathing or breaks in breath
+
+Periods of Agitation and Restlessness
+
+Unfortunately, this family was still struggling with the denial and anger stages of death.
+
+Read more on the 5 Stages of Grief after Facing a Loss
+
+Therefore we just have to sadly watch this patient every day get worse and worse until the day they stop breathing. It is was a very painful thing to watch as a family member and as a medical provider. This is because there is nothing medically we can do to completely prevent death when death is already in the room and it’s just waiting for that last breath or heart beat.
+
+I wasn’t present for the last breath of my own grandmother, and was, in fact, walking through TSA at my layover when I received the text message that a heart attack had finally taken my grandmother to heaven.
+
+1st Death: Maternal Grandmother/Abuelita - Community Hospital in Mexico
+
+Held her hand for the last time and told her she can let go
+
+2nd Death: Paternal Grandpa - in the USA
+
+Saw him thin and frail in my Uncle's basement, he only wanted to eat ice cream and refused to go to the hospital
+
+3rd Death: Paternal Grandma - Private Hospital in Mexico
+
+I was present for her last breath
+
+My Journal Writing on my 3rd Grandparent Death:
+
+3pm God, I feel so guilty about not feeling anything towards Grandma. She doesn’t look sick like Abuelita and I don’t know whether to be positive or negative about that. How can I comfort my dad? Do I give him hope or do I just let things go on. I pray that her kidneys filter out the medication so they can do the next step of diagnosis. I pray for the doctors, give them compassion to want to solve the mystery of why she became and continues to be unconscious. I pray for peace and love for my dad and uncle who only talk about burying her when she is still alive and looking ok just asleep in a coma in the ICU. Please may thy will be done. Help us trust you in this difficult time. I am starting to feel anxious and help me relax and breathe. I don’t know if I should focus on studdying or worrying. I guess I should just trust you because you know best. I love you lord and please give us a sign to know what direction to take. Amen
+
+7:30pm: I am struggling because I am in this awesome hospital because my uncle and dad can afford it. My grandma is the only patient in the ICU, she has two doctors and two nurses watching over her. Who knows if they actually care but they litterally have no excuses or anything else to do. I am a bit upset because my Abuelita who is an angel of the lord got the worst conditions and hospital. She deserved this hospital and situation....Also when Abuelita was in the hospital she had thousands of people praying and asking about her. While for my grandmother only has her only two sons who seem to really care but just waiting for her to die. I am actually kinda glad I’m leaving early because this situation disgusts me.
+
+Other people in this waiting room are happy and joking in comphy chairs with iPhones. In the other hospital (community one) everyone was crying, they couldn’t have family there, they were hiding from police, they had scary policeman...UGH this is just so annoying and I wish my Abuelita had this service when she was in a coma. This is how it should be but i understand why people can't afford it. It’s ridiculous how much they charge. $7,600 already from just two days in the ICU.
+
+Oh ya lets talk about that she is in the icu and not the ER like abuelita....where the ER doctors had refused to put her in the ICU or do an MRI on her...granted she had a really bad hemmhorgaic stroke but still...ugh I never want to be a dr that just walks out on her patients.
+
+10am: We arrived at the hospital. I said hello to grandma and sat down on the couch to study. I was not feeling well, I took two acetaminophens and texted Jonah and his parents. I then noticed that grandma was really having trouble breathing. She wasn’t snoring from her tounge being in the way, but a more deep and shallow sound. I talked to papa and Jonah about what the sounds were, and I confirmed online that it meant there were secretions in her bronchioles. Papa and Uncle left to go find the doctor, because the neurologist had still not arrived. I stood up and moved Grandmas bed so she could breathe better. She opened her eyes a little bit as she struggled to breathe. I noticed she was very sweaty and she was not opening her mouth to breathe. I knew she must have a lot of mucus so I began to clean her mouth with paper towels. I started to shake and time seemed like it was passing by to quickly. I told her that as a caregiver of the elderlythe one thing I can’t stand is watching people suffocate and have difficulty breathing. I told her that I would rather her die by a heart attack than drown in her own mucous. Grandmas eyes opened wider as she struggled to breathe. Then all of a sudden she stopped breathing for 15 seconds. I quickly tapped her on the shoulder and she began to breathe again.
+
+At this time I heard Papa and Uncle H outside the door drinking coffee and talking. I yelled at them that they needed to come in here now because she is struggling to breathe. My dad came to my side and I had my uncle hold the oxygen mask, my dad a cup, and I used a syringe to pull out mucous from her mouth. All of a sudden the room was filled with nurses, they brought a vitals machine and connected her finger. Her O2 was 62 and her pulse was around 150. I pressed the O2 mask on her face trying to not let any oxygen escape. Through my tears I couched her to breathe with her mouth open. Her heart began to race to 190s and her O2 was not improving. I imitated how she should be breathing and kept pressing the O2 to her face. Then the dr showed up and I told him she had been having trouble breathing with odd sounds (agonizing breath) since we arrived an hour ago. We bounced around each other as he listened to her lungs and I pressed O2 to her face. He said that she probably has an infection for laying down so much. He told a nurse to suck out the mucous, and I mentioned we had been begging someone to do that for days and have just had to use a syringe. The nurse vacuumed her as I changed the music to Debussy. Slowly her O2 went up to 70 and her pulse relaxed to 113. I held the mask once again on her face and through my balling tears told her the lord’s prayer, began to humm along to the music and couched her to breath and told her the people she loved were around her. I told her God is with her and she stopped breathing again. Thankfully she started back up. Nurses ran around looking for a nebulizer, an equipment to give her medicine. I told my uncle it was to help with secretions like for people with asmthma. Vitals kept dropping, her heart was around 100 and her O2 back in the 50s. She closed her eyes.
+
+At this time the X-ray person came in and told us to leave. I ran out of the room struggling to breath. I heard my uncle or dad (I can’t remember) say to grandma that we will return soon that we were just outside. My uncle came out and I hugged him and pulled my dad in too. I sobbed and tried to compose myself. I felt bad when my dad tried to wipe my tears and I didn’t let him. That allowed me to get a hold of myself in reality. I pushed them away and walked to the door. I watched the X-ray tech do the X-rays from the door. I could only see her feet. At that moment the neurologist showed up, and joked at me to not get xrayed.
+
+The second the X-ray tech was done I rushed passed him to my grandma’s side. She was now wearing a different oxygen mask with the nebulizer attached. She was very still, but I didn’t process that right away. The oxygen was making sounds so I thought it was her breath. The doctor listened to her lung on the opposite side of the bed. I felt her and she was still warm. However, instinctively I reached for her arm and checked for her radial pulse-nothing. I quickly checked her neck- nothing. I started to panick. “I can’t feel a pulse I whispered” I pressed harder on her neck. “DOCTOOOR! Check-a la” (check her) I then put my hand on her chest-nothing...I ran to the side hallway. I put my hands on my head trying not to have a panic attack. “I can’t feel a pulse” “I can’t feel a pulse” I repeated as a gulped down air. My dad walked toward me to comfort me. I heard the doctor doctor walk around to check her heart with his stethoscope - nothing. “Ya fayesio” = “She passed”
+
+I took a deep breath and walked back to the bed. I took off her mask and began to sing amazing grace. My voice cracked many times and I struggled to to sing. My uncle joined with me. I think all the doctors, nurses, and caregivers left us. My eyes didn’t leave her face nor my phone with the lyrics. I adjusted her jaw because it was opened. I covered her with her bed sheet. She had soiled herself as she passed. I grabbed my uncle and dads hands and I said a prayer about how she was with her family. My dad added that she was with William, his older brother who had died as a teen. My uncle then said a prayer. It was beautiful because we were in a triangle holding hands on top of her. My dad mentioned how she was a good grandma.
+
+I covered her again this time over her face. My uncle dad and I held each other. I mentioned how I knew there was a reason I needed to stay a couple more days. We held each other in a hug. I looked up and saw tears in both of their eyes.
+
+If you or someone you know is considering self-harm, YOU ARE NOT ALONE.
+
+Help is available right now!
+
+Or National Suicide Prevention Lifeline at 800-273-8255.Text HOME to the Crisis Text Line at 741741.
+
+***This Blog Post is for educational purposes only and is not intended nor implied to be a substitute for professional medical advice, diagnosis or treatment. This does not imply a doctor-patient relationship. All opinions are the opinions of the writer and not reflective of any institution or employer. Please follow up with your health provider and therapist for any additional questions or support.***
+
+I blog about living as a patient and a medical doctor.
+
+Check out my Workbook, Residency App, & advising Here
+
+Sign up for monthly email newsletter to find out when new posts & resources are added!
+
+## Guide to Applying for Accommodations for...
+
+## Overcoming USMLE Step One Failures to...
+
+## Lessons Learned from Failing USMLE STEP1: A...

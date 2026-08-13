@@ -1,30 +1,42 @@
-# ─────────────────────────────────────────────────────────────────────────────
-# MedPsycMoss — Stephanie Moss, MD
+# MedPsycMoss: the public site and the editor, in one container.
 #
-# 180 static pages rebuilt from a crawl of the client's Gator Website Builder
-# site. Nothing to compile and no runtime: this image is nginx plus site/.
+# Node serves dist/ and hosts the editor at /admin. Saving writes to content/,
+# and Publish runs the same build scripts a developer would, so she can change
+# the site without anyone's help and without a GitHub account.
 #
-# site/ is committed rather than built here on purpose. Regenerating it needs the
-# 2 GB crawl archive, a dev server and a headless browser, none of which belong
-# in a production image. Source and build scripts live in the repo this branch
-# was cut from; see README.md.
-# ─────────────────────────────────────────────────────────────────────────────
-FROM nginx:1.27-alpine
+# No nginx: the editor has to write content and re-run the build, so one process
+# that can do both beats two containers sharing a volume.
+
+FROM node:22-alpine
 
 LABEL org.opencontainers.image.title="MedPsycMoss" \
-      org.opencontainers.image.description="Static site for Stephanie Moss, MD (medpsycmoss.com)"
+      org.opencontainers.image.description="Static site for Stephanie Moss, MD, with a built-in editor"
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY site/      /usr/share/nginx/html/
+WORKDIR /app
 
-# Gzip once, here, rather than on every request. gzip_static then serves the .gz
-# straight off disk. Text only; the WebP and woff2 are already compressed.
-RUN find /usr/share/nginx/html \( -name '*.html' -o -name '*.css' -o -name '*.js' \
-      -o -name '*.xml' -o -name '*.svg' -o -name '*.json' -o -name '*.txt' \) \
-      -exec sh -c 'gzip -9 -c "$1" > "$1.gz"' _ {} \; \
- && echo "pages: $(find /usr/share/nginx/html -name index.html | wc -l)"
+# No npm install: the CMS has no dependencies and the build scripts are plain Node.
+COPY cms/                   ./cms/
+COPY rebuild/               ./rebuild/
+COPY dist/                  ./dist/
+COPY build-from-content.mjs build-static.mjs ./
 
-EXPOSE 80
+# content/ ships as a seed, not as the live directory. At boot the entrypoint
+# copies it in only if the volume is empty, so a redeploy never overwrites her
+# writing, while rebuild/ and dist/ still come fresh from the image and pick up
+# template and code changes.
+COPY content/               ./content-seed/
+RUN mkdir -p /app/content
+
+RUN addgroup -S app && adduser -S app -G app \
+ && chmod +x /app/cms/entrypoint.sh \
+ && chown -R app:app /app/content /app/rebuild /app/dist
+USER app
+
+ENV PORT=8080 NODE_ENV=production
+EXPOSE 8080
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget -q -O /dev/null http://127.0.0.1/healthz || exit 1
+  CMD wget -q -O /dev/null http://127.0.0.1:8080/healthz || exit 1
+
+ENTRYPOINT ["/app/cms/entrypoint.sh"]
+CMD ["node", "cms/server.js"]

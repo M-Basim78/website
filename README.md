@@ -1,83 +1,89 @@
 # MedPsycMoss
 
-Static site for **Stephanie Moss, MD** ([medpsycmoss.com](https://medpsycmoss.com)),
+Site for **Stephanie Moss, MD** ([medpsycmoss.com](https://medpsycmoss.com)),
 rebuilt from a crawl of her Gator Website Builder site.
 
-180 pages, 4.4 MB. No database, no runtime, no build step at deploy time.
+203 pages, plus a built-in editor so she can change it herself.
 
 ## Deploy
 
-Coolify, **Dockerfile** build pack, this branch. Nothing else to configure. That
-is the simplest path: it ignores the compose files entirely.
+Coolify, **Dockerfile** build pack, this branch.
 
-If you use the **Docker Compose** build pack instead, check the compose file path
-in the application settings. Coolify stores that path per application and its
-default differs between versions, so `docker-compose.yml` and
-`docker-compose.yaml` are both committed here, byte identical, and either will
-resolve. A path pointing at a file that does not exist fails early and unhelpfully:
+Set three environment variables on the application:
 
 ```
-Deployment failed: Symfony\Component\Yaml\Yaml::parse():
-Argument #1 ($input) must be of type string, null given
+CMS_USER=stephanie
+CMS_PASSWORD_HASH=<node cms/hash-password.js "her password">
+SESSION_SECRET=<any long random string>
 ```
 
-That message means the file was not found, not that the YAML is malformed.
+Mount a volume at **`/app/content`**. That is where her writing lives and it is
+the only thing that must survive a redeploy.
 
 Locally:
 
 ```bash
-docker compose up --build
-# uncomment the ports line in the compose file, then http://localhost:8080
+docker compose up --build      # http://localhost:8080
 ```
+
+## The editor
+
+She signs in at **`/admin`** with a username and password. No GitHub account, no
+OAuth, no third party, nothing to install.
+
+She can write and edit blog posts and interviews, change product names, prices
+and descriptions, edit the homepage numbers, manage testimonials, and change the
+homepage wording and footer. **Publish** runs the real build and puts it live.
+
+Full detail, including what still needs a developer, is in `docs/cms.md`.
 
 ## Layout
 
 | path | what |
 |---|---|
-| `site/` | the built site, exactly as nginx serves it |
-| `nginx.conf` | clean URLs, caching, gzip_static, security headers, `/healthz` |
-| `Dockerfile` | nginx:1.27-alpine plus `site/`, pre-gzipped at build time |
-| `docs/` | handoff notes, deployment detail, design system, open questions |
+| `dist/` | the built site, what visitors get |
+| `content/` | her words: markdown posts and JSON. The editor writes here |
+| `rebuild/` | page templates the build patches |
+| `cms/` | the editor: server, UI, password tool |
+| `build-from-content.mjs` | content, then templates, then pages |
+| `build-static.mjs` | pages, then `dist/` with real nested slugs |
+| `docs/` | handoff notes, deployment, design system, open questions |
 
-`site/` is committed on purpose. Regenerating it needs the 2 GB crawl archive, a
-dev server and a headless browser, none of which belong in a production image.
-The build scripts and page sources live in the repo this branch was cut from.
+## The volume rule
 
-## The nginx detail that matters
+**`content/` is a volume. `rebuild/` and `dist/` deliberately are not.**
 
-`try_files $uri $uri/index.html $uri/ =404;` puts the index file **before** the
-directory. Matching the directory first makes nginx emit a 301 to the trailing
-slash form, and it builds that `Location` from its own listen port, so behind a
-proxy every visitor is sent somewhere unreachable. Every page 404ed the first
-time this was containerised. `absolute_redirect off` is a second guard.
+Her words live in the volume and survive redeploys. Templates and code come fresh
+from the image, so your changes land. The entrypoint rebuilds from both at every
+start.
+
+Making `rebuild/` or `dist/` volumes too looks sensible and quietly breaks the
+project: the volume shadows the image forever and no template or code change you
+deploy ever appears again.
 
 ## Verified against the running container
 
 | check | result |
 |---|---|
-| pages served | **180 / 180** return 200 |
-| internal links | **161, zero broken** |
-| teal literals, unrewritten dev paths | 0, 0 |
-| one `h1` per page, canonical matches served URL | all 180 |
-| images without alt text | 0 |
-| Lighthouse mobile: `/`, `/store`, `/trauma-resources`, `/blog/mcat` | **99 / 100 / 100 / 100** |
-| Lighthouse mobile: `/products/*` | 88 performance, see below |
+| pages served | **203 / 203** return 200 |
+| internal links | **194, zero broken** |
+| editor | login, edit, publish, revert, sign out all pass |
+| her edit survives a redeploy | yes, tested with a template change in between |
+| developer changes still land | yes, same deploy |
+| image | 266 MB, healthy |
 
 ## Open items
 
-Read `docs/handoff.md` and `docs/deploy.md` before pointing a domain at this.
+Read `docs/handoff.md` before pointing a domain here.
 
 1. **The contact form has no backend.** It renders and validates but submits
    nowhere. The original was a Gator widget, cookie bound to her origin, so it
-   cannot be proxied and has to be replaced. **Do not move DNS until this is
-   done**, or student enquiries vanish silently.
+   cannot be proxied and must be replaced. **Do not move DNS until this is done**,
+   or student enquiries vanish silently.
 2. **The store stays on Gator.** `store.medpsycmoss.com` keeps checkout, Stripe
-   and product delivery. Repointing is one line, `STORE_BASE` in
-   `site/js/site.js`.
-3. **CLS on the four `/products/*` pages** is 0.23 where every other page is 0,
-   costing about 11 performance points. They are the only pages with no image
-   above the fold, which points at the font swap reflowing the display heading.
-   That is a diagnosis, not a verified conclusion.
-4. Four `/products/*` slugs **404 on her live site today** and are linked from
-   her current footer. They are built here; whether she wants them is still an
-   open question for her.
+   and delivery. Repointing is one constant, `STORE_BASE` in `dist/js/site.js`.
+   Prices in the editor must match Gator, because Gator takes the payment.
+3. **Back up the content volume.** It is the only copy of her writing, and the
+   editor has no undo.
+4. **`/products/*` scores 88** on Lighthouse against 99 elsewhere, from a 0.23
+   layout shift. Diagnosed as the font swap, not verified.

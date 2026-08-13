@@ -1,0 +1,60 @@
+{
+  "brand": {
+    "name": "MedPsycMoss",
+    "person": "Stephanie Moss, MD"
+  },
+  "home": {
+    "title": "MedPsycMoss | Med School, Residency & USMLE Guidance",
+    "description": "Workbooks, advising and honest guidance for premeds, med students and residents, from Stephanie Moss, MD, a psychiatry chief resident who trained as a patient.",
+    "kicker": [
+      {
+        "label": "STATUS",
+        "value": "PGY-3 PSYCHIATRY CHIEF RESIDENT FOR ACADEMICS"
+      },
+      {
+        "label": "ROLE",
+        "value": "EDUCATOR"
+      },
+      {
+        "label": "SERIES",
+        "value": "LIFE AS A PATIENT-DOCTOR"
+      }
+    ],
+    "hero_sub": "Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications, guided by someone living both sides.",
+    "hero_cta": [
+      {
+        "href": "#free",
+        "label": "Start here free"
+      },
+      {
+        "href": "#store",
+        "label": "Browse the store"
+      }
+    ],
+    "ecg_tag": "TEACHING FROM LIVED EXPERIENCE",
+    "marquee": [
+      "USMLE Accommodations",
+      "Leave of Absence",
+      "The Hidden Curriculum",
+      "Residency Applications",
+      "Disability in Medicine",
+      "Trauma-Informed Care",
+      "Endometriosis & Pelvic Pain",
+      "Infertility"
+    ],
+    "free": {
+      "label": "Free guides",
+      "heading": "Start here. No cost, no catch.",
+      "intro": "55 free guides on getting into medical school, getting through it, the USMLE exams, accommodations and the residency match. No email required."
+    },
+    "store": {
+      "label": "Workbooks & Courses",
+      "heading": "Guides for what med ed won't teach you",
+      "intro": "Built from lived experience by a resident who has sat on both sides of the table. Priced for a student budget, readable on a phone between rotations."
+    }
+  },
+  "footer": {
+    "bio": "Stephanie Moss, MD. Psychiatry resident physician, educator, and creator of Life as a Patient-Doctor. Helping premeds, medical students, and residents navigate the hidden curriculum, disability, exams, and residency applications.",
+    "disclaimer": "***ALL THOUGHTS ARE MY OWN, NOT REPRESENTATIVE OF ANY ORGANIZATION (INCLUDING MY EMPLOYER), AND ARE NOT MEDICAL, PSYCHIATRIC, NOR FINANCIAL ADVICE*** © 2026 STEPHANIE MOSS, MD | MEDPSYCMOSS. EDUCATIONAL CONTENT ONLY. NOT MEDICAL OR LEGAL ADVICE."
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Edit your site | MedPsycMoss</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/admin/app.css">
+</head>
+<body>
+
+<!-- ---------------------------------------------------------------- login -->
+<div id="login" class="login">
+  <form class="card" id="login-form">
+    <h1>MedPsyc<span>Moss</span></h1>
+    <p class="sub">Sign in to edit your website.</p>
+    <label for="pw">Password</label>
+    <input id="pw" type="password" autocomplete="current-password" required autofocus>
+    <p class="err" id="login-err" hidden></p>
+    <button class="btn" type="submit">Sign in</button>
+  </form>
+</div>
+
+<!-- ----------------------------------------------------------------- app -->
+<div id="app" hidden>
+  <header class="bar">
+    <div class="brand">MedPsyc<span>Moss</span> <em>editor</em></div>
+    <nav class="tabs">
+      <button data-tab="posts" class="on">Blog posts</button>
+      <button data-tab="products">Products</button>
+      <button data-tab="stats">Numbers</button>
+      <button data-tab="testimonials">Testimonials</button>
+      <button data-tab="site">Homepage wording</button>
+    </nav>
+    <div class="right">
+      <span class="status" id="status"></span>
+      <button class="btn pub" id="publish">Publish changes</button>
+      <button class="btn ghost" id="logout">Sign out</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- posts -->
+    <section data-panel="posts">
+      <div class="head">
+        <h2>Blog posts and interviews</h2>
+        <button class="btn" id="new-post">Write a new post</button>
+      </div>
+      <div class="split">
+        <div class="list" id="post-list"></div>
+        <div class="edit" id="post-edit">
+          <p class="empty">Choose a post on the left, or write a new one.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- products -->
+    <section data-panel="products" hidden>
+      <div class="head">
+        <h2>Products</h2>
+        <p class="note">The price here is what the website advertises. Gator takes the
+          payment, so change it in both places or they will disagree.</p>
+      </div>
+      <div id="products"></div>
+    </section>
+
+    <!-- stats -->
+    <section data-panel="stats" hidden>
+      <div class="head">
+        <h2>The numbers on your homepage</h2>
+        <p class="note">These are the only figures shown anywhere on the site.</p>
+      </div>
+      <div id="stats"></div>
+    </section>
+
+    <!-- testimonials -->
+    <section data-panel="testimonials" hidden>
+      <div class="head">
+        <h2>Testimonials</h2>
+        <p class="note">The six here appear on your homepage. Keep the wording exactly
+          as the person wrote it.</p>
+      </div>
+      <div id="testimonials"></div>
+    </section>
+
+    <!-- site copy -->
+    <section data-panel="site" hidden>
+      <div class="head"><h2>Homepage wording</h2></div>
+      <div id="site"></div>
+    </section>
+  </main>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+<script src="/admin/app.js"></script>
+</body>
+</html>

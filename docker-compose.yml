@@ -1,29 +1,55 @@
-# Coolify reads ONE of these two filenames depending on how the application was
-# created: the Docker Compose build pack stores a path, and it defaults to
-# docker-compose.yml on some versions and docker-compose.yaml on others. A
-# mismatch makes Coolify hand a null to Yaml::parse and the deploy dies with
-#   Yaml::parse(): Argument #1 ($input) must be of type string, null given
-# before it ever reaches the build. Both filenames are committed, byte identical,
-# so the deploy works whichever one the app is pointed at. Edit them together.
+# Deploy:  docker compose up -d --build
 #
-# The Dockerfile build pack does not read this file at all and is the simpler
-# choice: point Coolify at the Dockerfile and nothing here matters.
+# One service: it serves the public site and hosts the editor at /admin.
+#
+# Set CMS_PASSWORD_HASH and SESSION_SECRET before deploying. Generate the hash
+# with:  node cms/hash-password.js "her password"
+# Never put the plain password in this file.
+
 services:
   medpsycmoss:
     build:
       context: .
       dockerfile: Dockerfile
+    image: medpsycmoss-site:latest
+    container_name: medpsycmoss-site
     restart: unless-stopped
-    # `expose`, not `ports`: Coolify puts the container behind its own proxy and
-    # terminates TLS there. Publishing 80 on the host would fight with it.
-    # For a local run, uncomment the ports line and open http://localhost:8080
-    expose:
-      - "80"
-    # ports:
-    #   - "8080:80"
+
+    environment:
+      CMS_USER: "${CMS_USER:-stephanie}"
+      # required: node cms/hash-password.js "<password>"
+      CMS_PASSWORD_HASH: "${CMS_PASSWORD_HASH:?set CMS_PASSWORD_HASH, see cms/hash-password.js}"
+      # required: any long random string. Changing it signs everyone out.
+      SESSION_SECRET: "${SESSION_SECRET:?set SESSION_SECRET to a long random string}"
+
+    ports:
+      - "127.0.0.1:8080:8080"   # loopback only; put a reverse proxy in front for TLS
+
+    # Only content/ is a volume, and that distinction matters.
+    #
+    # content/ holds her words, so it must survive a redeploy.
+    # rebuild/ and dist/ are derived, so they must NOT be volumes: a named volume
+    # there would shadow the image forever and silently ignore every template,
+    # layout and code change you deploy. The entrypoint rebuilds them from the
+    # image plus her content at every start, so both sides land.
+    volumes:
+      - content:/app/content
+
+    security_opt:
+      - no-new-privileges:true
+
     healthcheck:
-      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/healthz"]
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/healthz"]
       interval: 30s
       timeout: 3s
       retries: 3
-      start_period: 5s
+      start_period: 10s
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  content:
