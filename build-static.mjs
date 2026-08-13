@@ -58,6 +58,8 @@ for (const f of ['favicon.svg']) {
 // Copy them so dist/ is a complete site on its own.
 const uploads = copyDir(path.resolve('content', 'uploads'), path.join(OUT, 'uploads'));
 assets += uploads;
+// sizes.json is build input, not something the site needs to serve.
+fs.rmSync(path.join(OUT, 'uploads', 'sizes.json'), { force: true });
 
 // ---- pages ------------------------------------------------------------------
 const urls = [];
