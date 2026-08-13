@@ -5,3 +5,10 @@ verify-out/
 
 # dist/ is the deployable artifact and is committed on purpose
 !dist/
+
+# Runtime state, created by the CMS and living in the content volume.
+# The bin and the version history are per-deployment, not source.
+content/.trash/
+content/.history/
+content/uploads/*
+!content/uploads/.gitkeep

@@ -19,6 +19,9 @@ the 2 GB crawl archive, so she could not change anything without a developer.
 | Add, edit, reorder **testimonials** | Testimonials | homepage, product pages |
 | Change **homepage headings, intros, the opening paragraph** | Homepage wording | homepage |
 | Change the **footer bio and disclaimer** | Homepage wording | every page |
+| **Upload and place pictures** | Pictures | any post |
+| **Restore anything she deleted** | Bin | that page |
+| **Download a copy of everything** | Bin | nothing, it is a backup |
 
 She writes in plain text boxes. Blank line between paragraphs, `##` at the start
 of a line for a subheading. She never sees HTML, YAML or git.
@@ -134,14 +137,57 @@ loud. It is also the strongest argument for eventually moving the store off Gato
 **The disclaimer is a professional requirement.** It is editable because she may
 need to update it, and the field carries a warning.
 
-## 7. Known limits, stated plainly
+## 7. Pictures
+
+**Pictures** tab. She picks a file, it uploads, and she presses **Copy**, which
+puts this on her clipboard:
+
+```
+![Describe this picture](/uploads/her-file.jpg)
+```
+
+Pasted into a post on its own line, that becomes a captioned, lazy-loaded,
+rounded figure. The alt text is whatever she writes in the square brackets, so
+it stays accessible.
+
+- JPG, PNG, WEBP and GIF, up to 8 MB
+- **SVG is refused.** It can carry script, and nothing here needs it
+- filenames are lowercased and stripped to letters, numbers and hyphens, and a
+  clash appends `-2` rather than overwriting
+- they live in `content/uploads`, inside the volume, so they survive redeploys
+- served straight from the volume, so a new picture is live immediately; the
+  build also copies them into `dist/` so the folder is a complete site on its own
+
+## 8. Nothing is lost by accident
+
+**Deleting is not deletion.** A deleted post or picture moves to `content/.trash`
+and appears under the **Bin** tab with the date, where **Restore** puts it back.
+
+**Every edit keeps the previous version.** Saving a post first copies the old one
+into `content/.history/<post>/`, keeping the last 10. Reverting is itself
+undoable, because the revert keeps a version too.
+
+**Download a copy of everything** in the Bin tab produces a single `.tar` of
+`content/`: every post, product, number, testimonial and picture. Written with a
+small ustar writer so it needs no dependency, and it opens with `tar xf` or any
+desktop archiver.
+
+That is the answer to "the volume is the only copy". It no longer is, as long as
+she or you press that button now and then. A scheduled job on the host is still
+worth having:
+
+```bash
+docker run --rm -v <vol>:/c -v $PWD:/b alpine tar czf /b/content.tgz /c
+```
+
+## 9. Known limits, stated plainly
 
 - **One user.** There is no multi-user support and no audit trail of who changed
   what. For a solo author this is right; if that changes it needs revisiting.
-- **No undo in the UI.** A deleted post is gone from `content/`. The volume is
-  the only copy, so **back it up**: `docker run --rm -v <vol>:/c -v $PWD:/b alpine tar czf /b/content.tgz /c`.
-  Worth a scheduled job.
-- **No image upload yet.** She can change words, not pictures. Adding an upload
-  screen is a contained piece of work if she wants it.
 - **No preview.** She publishes and looks at the site. A draft mode would need a
   second build target.
+- **The bin is never emptied automatically.** It grows. Not a problem at this
+  scale, but somebody should clear it out once a year.
+- **Pictures are not resized.** An 8 MB photo is served at 8 MB. The existing
+  site images were optimised by `build-images.mjs`; hers are not put through it.
+  Worth adding if she starts uploading straight off a phone.

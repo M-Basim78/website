@@ -30,6 +30,21 @@ const CONTENT = path.join(ROOT, 'content');
 const BLOG = path.join(CONTENT, 'blog');
 const UI = path.join(__dirname, 'public');
 
+// All inside content/, which is the Docker volume, so uploads, deleted posts and
+// previous versions survive a redeploy exactly like her words do.
+const UPLOADS = path.join(CONTENT, 'uploads');
+const TRASH = path.join(CONTENT, '.trash');
+const HISTORY = path.join(CONTENT, '.history');
+for (const d of [UPLOADS, TRASH, HISTORY]) fs.mkdirSync(d, { recursive: true });
+
+// Pictures she can upload. No SVG: it can carry script, and nothing here needs it.
+const IMAGE_TYPES = {
+  '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png',
+  '.webp': 'image/webp', '.gif': 'image/gif',
+};
+const MAX_UPLOAD = 8 * 1024 * 1024;   // 8 MB
+const KEEP_VERSIONS = 10;             // previous versions kept per post
+
 const PORT = Number(process.env.PORT || 8080);
 const USER = process.env.CMS_USER || 'stephanie';
 const SECRET = process.env.SESSION_SECRET || crypto.randomBytes(32).toString('hex');
@@ -104,6 +119,70 @@ const readBody = (req, limit = 2 * 1024 * 1024) => new Promise((ok, bad) => {
 function safeJoin(base, rel) {
   const p = path.resolve(base, '.' + path.posix.normalize('/' + rel));
   return p.startsWith(base) ? p : null;
+}
+
+// Raw binary body, for uploads. readBody() decodes to utf8 and would corrupt them.
+const readBuffer = (req, limit) => new Promise((ok, bad) => {
+  let n = 0; const chunks = [];
+  req.on('data', c => {
+    n += c.length;
+    if (n > limit) { bad(new Error('too large')); req.destroy(); return; }
+    chunks.push(c);
+  });
+  req.on('end', () => ok(Buffer.concat(chunks)));
+  req.on('error', bad);
+});
+
+const stamp = () => new Date().toISOString().replace(/[:.]/g, '-');
+
+/**
+ * Minimal ustar writer, so the backup needs no dependency.
+ *
+ * A tar is 512-byte header blocks, each followed by the file padded to a 512
+ * boundary, then two zero blocks. `tar xf` and every desktop archiver read it.
+ */
+function buildTar(files) {
+  const blocks = [];
+  for (const f of files) {
+    const name = Buffer.from(f.path, 'utf8');
+    if (name.length > 100) continue;                    // long paths do not occur here
+    const h = Buffer.alloc(512);
+    const put = (s, off, len) => h.write(String(s).slice(0, len - 1), off, len - 1, 'utf8');
+    const oct = (n, off, len) => h.write(n.toString(8).padStart(len - 1, '0') + '\0', off, len, 'utf8');
+
+    put(f.path, 0, 100);
+    oct(0o644, 100, 8);
+    oct(0, 108, 8);
+    oct(0, 116, 8);
+    oct(f.data.length, 124, 12);
+    oct(Math.floor(Date.now() / 1000), 136, 12);
+    h.write('        ', 148, 8, 'utf8');                // checksum placeholder: spaces
+    h.write('0', 156, 1, 'utf8');                       // regular file
+    h.write('ustar\0', 257, 6, 'utf8');
+    h.write('00', 263, 2, 'utf8');
+
+    let sum = 0;
+    for (const b of h) sum += b;
+    h.write(sum.toString(8).padStart(6, '0') + '\0 ', 148, 8, 'utf8');
+
+    blocks.push(h, f.data);
+    const pad = (512 - (f.data.length % 512)) % 512;
+    if (pad) blocks.push(Buffer.alloc(pad));
+  }
+  blocks.push(Buffer.alloc(1024));                      // end of archive
+  return Buffer.concat(blocks);
+}
+
+/** Keep the previous version of a post before overwriting or deleting it. */
+async function keepVersion(file, name) {
+  if (!fs.existsSync(file)) return;
+  const dir = path.join(HISTORY, name);
+  await fsp.mkdir(dir, { recursive: true });
+  await fsp.copyFile(file, path.join(dir, `${stamp()}.md`));
+  const kept = (await fsp.readdir(dir)).sort().reverse();
+  for (const old of kept.slice(KEEP_VERSIONS)) {
+    await fsp.unlink(path.join(dir, old)).catch(() => {});
+  }
 }
 
 /* -------------------------------------------------- frontmatter for posts -- */
@@ -203,11 +282,16 @@ async function api(req, res, url, authed) {
       if (body === BAD_JSON) return json(res, 400, { error: 'That change could not be read. Please try again.' });
       if (!body.title || !/^\/[a-z0-9/_-]+$/i.test(body.slug || ''))
         return json(res, 400, { error: 'A title and a valid web address are required.' });
+      await keepVersion(file, post[1]);       // so an edit can be undone
       await fsp.writeFile(file, serializePost(body));
       return json(res, 200, { ok: true });
     }
     if (req.method === 'DELETE') {
-      if (fs.existsSync(file)) await fsp.unlink(file);
+      // Move to the bin rather than unlink, so a mis-click is recoverable.
+      if (fs.existsSync(file)) {
+        await keepVersion(file, post[1]);
+        await fsp.rename(file, path.join(TRASH, `${stamp()}__${post[1]}`));
+      }
       return json(res, 200, { ok: true });
     }
   }
@@ -234,6 +318,116 @@ async function api(req, res, url, authed) {
       await fsp.writeFile(file, JSON.stringify(JSON.parse(body), null, 2) + '\n');
       return json(res, 200, { ok: true });
     }
+  }
+
+  // ---- pictures
+  if (p === '/uploads' && req.method === 'GET') {
+    const files = (await fsp.readdir(UPLOADS)).filter(f => IMAGE_TYPES[path.extname(f).toLowerCase()]);
+    const list = await Promise.all(files.map(async f => {
+      const st = await fsp.stat(path.join(UPLOADS, f));
+      return { name: f, url: '/uploads/' + f, bytes: st.size, at: st.mtime.toISOString() };
+    }));
+    list.sort((a, b) => b.at.localeCompare(a.at));
+    return json(res, 200, list);
+  }
+  if (p === '/uploads' && req.method === 'POST') {
+    // The browser sends the file as the raw body, with its name in a header.
+    // That avoids hand-rolling a multipart parser for a single-file upload.
+    const raw = decodeURIComponent(req.headers['x-filename'] || '');
+    const ext = path.extname(raw).toLowerCase();
+    if (!IMAGE_TYPES[ext])
+      return json(res, 400, { error: 'Pictures must be JPG, PNG, WEBP or GIF.' });
+
+    let buf;
+    try { buf = await readBuffer(req, MAX_UPLOAD); }
+    catch { return json(res, 413, { error: 'That picture is larger than 8 MB.' }); }
+    if (!buf.length) return json(res, 400, { error: 'That file was empty.' });
+
+    // Keep her filename, made safe, and never overwrite an existing picture.
+    let base = path.basename(raw, ext).toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 'picture';
+    let name = base + ext;
+    for (let i = 2; fs.existsSync(path.join(UPLOADS, name)); i++) name = `${base}-${i}${ext}`;
+
+    const dest = safeJoin(UPLOADS, name);
+    if (!dest) return json(res, 400, { error: 'Bad name.' });
+    await fsp.writeFile(dest, buf);
+    return json(res, 200, { ok: true, name, url: '/uploads/' + name, bytes: buf.length });
+  }
+  const up = p.match(/^\/uploads\/([\w.-]+)$/);
+  if (up && req.method === 'DELETE') {
+    const f = safeJoin(UPLOADS, up[1]);
+    if (!f) return json(res, 400, { error: 'Bad name.' });
+    if (fs.existsSync(f)) await fsp.rename(f, path.join(TRASH, `${stamp()}__upload__${up[1]}`));
+    return json(res, 200, { ok: true });
+  }
+
+  // ---- the bin, and previous versions
+  if (p === '/trash' && req.method === 'GET') {
+    const files = await fsp.readdir(TRASH);
+    const list = await Promise.all(files.map(async f => {
+      const st = await fsp.stat(path.join(TRASH, f));
+      const m = f.match(/^(.+?)__(?:(upload)__)?(.+)$/);
+      const isUpload = !!(m && m[2]);
+      let title = m ? m[3] : f;
+      if (!isUpload && f.endsWith('.md')) {
+        try { title = parsePost(await fsp.readFile(path.join(TRASH, f), 'utf8')).title || title; }
+        catch { /* keep the filename */ }
+      }
+      return { name: f, title, kind: isUpload ? 'picture' : 'post', at: st.mtime.toISOString() };
+    }));
+    list.sort((a, b) => b.at.localeCompare(a.at));
+    return json(res, 200, list);
+  }
+  const restore = p.match(/^\/trash\/([\w.:-]+)\/restore$/);
+  if (restore && req.method === 'POST') {
+    const src = safeJoin(TRASH, restore[1]);
+    if (!src || !fs.existsSync(src)) return json(res, 404, { error: 'That item is no longer in the bin.' });
+    const m = restore[1].match(/^(.+?)__(?:(upload)__)?(.+)$/);
+    if (!m) return json(res, 400, { error: 'Bad name.' });
+    const dest = m[2] ? safeJoin(UPLOADS, m[3]) : safeJoin(BLOG, m[3]);
+    if (!dest) return json(res, 400, { error: 'Bad name.' });
+    if (fs.existsSync(dest)) return json(res, 409, { error: 'Something with that name already exists.' });
+    await fsp.rename(src, dest);
+    return json(res, 200, { ok: true, restored: m[3] });
+  }
+  const hist = p.match(/^\/history\/([\w.-]+\.md)$/);
+  if (hist && req.method === 'GET') {
+    const dir = path.join(HISTORY, hist[1]);
+    if (!fs.existsSync(dir)) return json(res, 200, []);
+    const files = (await fsp.readdir(dir)).sort().reverse();
+    const list = await Promise.all(files.map(async f => {
+      const d = parsePost(await fsp.readFile(path.join(dir, f), 'utf8'));
+      return { version: f, title: d.title, at: f.replace(/\.md$/, '') };
+    }));
+    return json(res, 200, list);
+  }
+  const revert = p.match(/^\/history\/([\w.-]+\.md)\/([\w.-]+\.md)\/restore$/);
+  if (revert && req.method === 'POST') {
+    const src = safeJoin(path.join(HISTORY, revert[1]), revert[2]);
+    const dest = safeJoin(BLOG, revert[1]);
+    if (!src || !dest || !fs.existsSync(src)) return json(res, 404, { error: 'That version is gone.' });
+    await keepVersion(dest, revert[1]);       // the revert itself is undoable
+    await fsp.copyFile(src, dest);
+    return json(res, 200, { ok: true });
+  }
+
+  // ---- download everything she has written, as one file
+  if (p === '/backup' && req.method === 'GET') {
+    const files = [];
+    const walk = async (dir, rel = '') => {
+      for (const e of await fsp.readdir(dir, { withFileTypes: true })) {
+        if (e.name.startsWith('.')) continue;          // skip .trash and .history
+        const abs = path.join(dir, e.name), r = rel ? `${rel}/${e.name}` : e.name;
+        if (e.isDirectory()) await walk(abs, r);
+        else files.push({ path: r, data: await fsp.readFile(abs) });
+      }
+    };
+    await walk(CONTENT);
+    const tar = buildTar(files);
+    return send(res, 200, 'application/x-tar', tar, {
+      'Content-Disposition': `attachment; filename="medpsycmoss-content-${stamp().slice(0, 10)}.tar"`,
+    });
   }
 
   if (p === '/publish' && req.method === 'POST') return json(res, 200, await publish());
@@ -309,6 +503,13 @@ const server = http.createServer(async (req, res) => {
     if (pathname === '/admin' || pathname.startsWith('/admin/')) {
       const rel = pathname.replace(/^\/admin\/?/, '') || 'index.html';
       return serveStatic(res, UI, rel, false);
+    }
+
+    // Pictures are served straight from the volume, so one she uploads is live
+    // immediately and does not wait for a publish. The build also copies them
+    // into dist/ so the site still works if it is ever served statically.
+    if (pathname.startsWith('/uploads/')) {
+      return serveStatic(res, UPLOADS, pathname.replace(/^\/uploads\//, ''), true);
     }
 
     return serveStatic(res, DIST, pathname === '/' ? 'index.html' : pathname, true);
