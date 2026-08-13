@@ -1,0 +1,190 @@
+# Sveltia CMS. Everything she can edit is defined here.
+#
+# Nothing in this file invents a field the build does not read. If you add a
+# field, add it to build-from-content.mjs in the same commit or it will silently
+# do nothing.
+
+backend:
+  name: github
+  repo: M-Basim78/website
+  branch: homepage-rebuild
+  base_url: https://medpsycmoss-cms-auth.workers.dev   # see docs/cms.md
+
+# Edits are committed straight to the branch. Set to true if you would rather
+# review her changes as pull requests before they go live.
+publish_mode: simple
+
+media_folder: local-site/rebuild/img
+public_folder: /img
+
+collections:
+  # -------------------------------------------------------------- articles --
+  - name: blog
+    label: Blog posts and interviews
+    label_singular: post
+    folder: local-site/content/blog
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "blog_{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [title, kind]
+    fields:
+      - { name: title, label: Title, widget: string }
+      - name: slug
+        label: Web address
+        widget: string
+        hint: "Must start with a slash, for example /blog/my-post. Changing this on an existing post breaks old links."
+        pattern: ['^/[a-z0-9/-]+$', 'Lower case letters, numbers and hyphens only, starting with /']
+      - name: kind
+        label: Type
+        widget: select
+        options: [blog, interview]
+        default: blog
+      - name: description
+        label: Search engine description
+        widget: string
+        required: false
+        hint: "Roughly 155 characters. Shown in Google results."
+      - name: body
+        label: Body
+        widget: markdown
+        hint: "Use ## for a subheading. Plain paragraphs otherwise."
+        modes: [rich_text, raw]
+
+  # -------------------------------------------------------------- products --
+  - name: products
+    label: Store products
+    files:
+      - name: products
+        label: Products, prices and descriptions
+        file: local-site/content/products.json
+        description: >
+          Prices here must match Gator. Gator takes the payment; this only
+          controls what the website advertises.
+        fields:
+          - name: products
+            label: Products
+            widget: list
+            summary: "{{fields.name}}  {{fields.price}}"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: price, label: Price, widget: string, pattern: ['^\$[0-9]+\.[0-9]{2}$', 'Like $50.00'] }
+              - { name: description, label: Description, widget: text }
+              - { name: chip, label: Badge, widget: string, required: false, hint: "MOST POPULAR, NEW, and so on. Leave empty for none." }
+              - { name: category, label: Category tag, widget: string, required: false }
+              - { name: cta, label: Button text, widget: string, required: false }
+              - name: store_path
+                label: Gator product path
+                widget: string
+                hint: "Do not change unless the product was rebuilt in Gator. This is what the Buy button opens."
+              - { name: id, label: Gator id, widget: string, required: false }
+              - { name: cover, label: Cover image name, widget: string, required: false }
+              - { name: feature, label: Show as the large tile, widget: boolean, default: false }
+
+  # ----------------------------------------------------------------- stats --
+  - name: stats
+    label: Homepage numbers
+    files:
+      - name: stats
+        label: Credibility strip
+        file: local-site/content/stats.json
+        description: >
+          These are the only statistics allowed anywhere on the site. Do not add
+          a number here that cannot be backed up.
+        fields:
+          - name: stats
+            label: Numbers
+            widget: list
+            summary: "{{fields.value}}  {{fields.label}}"
+            fields:
+              - { name: value, label: Number, widget: string, hint: "For example 300+" }
+              - { name: label, label: Label, widget: string }
+              - { name: id, label: Internal id, widget: string, required: false }
+              - { name: source, label: Where it came from, widget: string, required: false }
+
+  # ---------------------------------------------------------- testimonials --
+  - name: testimonials
+    label: Testimonials
+    files:
+      - name: testimonials
+        label: Student and physician quotes
+        file: local-site/content/testimonials.json
+        description: >
+          The six under Featured appear on the homepage. Quotes must stay exactly
+          as the person wrote them.
+        fields:
+          - name: featured
+            label: Featured on the homepage
+            widget: list
+            summary: "{{fields.attribution}}  {{fields.quote}}"
+            fields:
+              - { name: quote, label: Quote, widget: text }
+              - { name: attribution, label: Who said it, widget: string, hint: "Initials and role, for example MS4. Avoid full names." }
+              - { name: context, label: Context, widget: string, required: false }
+              - { name: id, label: Internal id, widget: string, required: false }
+              - { name: topics, label: Topics, widget: list, required: false }
+              - { name: source, label: Source file, widget: string, required: false }
+          - name: pool
+            label: Not shown, kept for product pages
+            widget: list
+            required: false
+            summary: "{{fields.attribution}}  {{fields.quote}}"
+            fields:
+              - { name: quote, label: Quote, widget: text }
+              - { name: attribution, label: Who said it, widget: string }
+              - { name: context, label: Context, widget: string, required: false }
+              - { name: id, label: Internal id, widget: string, required: false }
+              - { name: topics, label: Topics, widget: list, required: false }
+              - { name: source, label: Source file, widget: string, required: false }
+
+  # ------------------------------------------------------------- site copy --
+  - name: site
+    label: Homepage wording
+    files:
+      - name: site
+        label: Headings and intros
+        file: local-site/content/site.json
+        fields:
+          - name: home
+            label: Homepage
+            widget: object
+            fields:
+              - { name: title, label: Browser tab title, widget: string }
+              - { name: description, label: Search engine description, widget: string }
+              - { name: hero_sub, label: Opening paragraph, widget: text }
+              - { name: ecg_tag, label: Text on the heartbeat strip, widget: string }
+              - name: kicker
+                label: Status line
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value, widget: string }
+              - name: marquee
+                label: Scrolling topics
+                widget: list
+                field: { name: topic, label: Topic, widget: string }
+              - name: free
+                label: Free guides section
+                widget: object
+                fields:
+                  - { name: label, label: Small label, widget: string }
+                  - { name: heading, label: Heading, widget: string }
+                  - { name: intro, label: Intro, widget: text }
+              - name: store
+                label: Store section
+                widget: object
+                fields:
+                  - { name: label, label: Small label, widget: string }
+                  - { name: heading, label: Heading, widget: string }
+                  - { name: intro, label: Intro, widget: text }
+          - name: footer
+            label: Footer
+            widget: object
+            fields:
+              - { name: bio, label: Short bio, widget: text }
+              - name: disclaimer
+                label: Legal disclaimer
+                widget: text
+                hint: "This is a professional and legal requirement. Change the wording only if you are certain."
