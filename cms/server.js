@@ -149,11 +149,27 @@ function publish() {
 const DATA_FILES = { products: 'products.json', stats: 'stats.json',
                      testimonials: 'testimonials.json', site: 'site.json' };
 
+/**
+ * Read and parse a JSON request body.
+ *
+ * Returns a sentinel rather than throwing, so a truncated upload or a client
+ * bug produces a clear 400 instead of a 500 or, before the await fix above, a
+ * dead process.
+ */
+const BAD_JSON = Symbol('bad json');
+async function readJson(req) {
+  const raw = await readBody(req);
+  if (!raw) return {};
+  try { return JSON.parse(raw); } catch { return BAD_JSON; }
+}
+
 async function api(req, res, url, authed) {
   const p = url.pathname.replace(/^\/admin\/api/, '');
 
   if (p === '/login' && req.method === 'POST') {
-    const { password } = JSON.parse(await readBody(req) || '{}');
+    const body = await readJson(req);
+    if (body === BAD_JSON) return json(res, 400, { error: 'Could not read that request.' });
+    const { password } = body;
     if (!checkPassword(password || '')) return json(res, 401, { error: 'Wrong password.' });
     const tok = makeToken();
     return json(res, 200, { ok: true, user: USER }, );
@@ -183,7 +199,8 @@ async function api(req, res, url, authed) {
       return json(res, 200, { file: post[1], ...parsePost(await fsp.readFile(file, 'utf8')) });
     }
     if (req.method === 'PUT') {
-      const body = JSON.parse(await readBody(req) || '{}');
+      const body = await readJson(req);
+      if (body === BAD_JSON) return json(res, 400, { error: 'That change could not be read. Please try again.' });
       if (!body.title || !/^\/[a-z0-9/_-]+$/i.test(body.slug || ''))
         return json(res, 400, { error: 'A title and a valid web address are required.' });
       await fsp.writeFile(file, serializePost(body));
@@ -195,7 +212,8 @@ async function api(req, res, url, authed) {
     }
   }
   if (p === '/posts' && req.method === 'POST') {
-    const body = JSON.parse(await readBody(req) || '{}');
+    const body = await readJson(req);
+    if (body === BAD_JSON) return json(res, 400, { error: 'That post could not be read. Please try again.' });
     const name = (body.slug || '').replace(/^\//, '').replace(/[^\w-]+/g, '_');
     if (!name || !body.title) return json(res, 400, { error: 'A title and web address are required.' });
     const file = safeJoin(BLOG, `${name}.md`);
@@ -246,6 +264,17 @@ async function serveStatic(res, base, rel, cacheable) {
 }
 
 /* ------------------------------------------------------------- server ----- */
+
+// This process serves the public site as well as the editor, so an unhandled
+// error must never be allowed to end it. Log and keep serving; a request that
+// fails is far better than a site that disappears.
+process.on('unhandledRejection', (e) => {
+  console.error('unhandled rejection:', e && e.message ? e.message : e);
+});
+process.on('uncaughtException', (e) => {
+  console.error('uncaught exception:', e && e.message ? e.message : e);
+});
+
 const server = http.createServer(async (req, res) => {
   let url;
   try { url = new URL(req.url, 'http://localhost'); } catch { return send(res, 400, MIME['.txt'], 'bad'); }
@@ -270,7 +299,11 @@ const server = http.createServer(async (req, res) => {
         res.setHeader('Set-Cookie', 'mpm_session=; HttpOnly; Path=/; Max-Age=0');
         return json(res, 200, { ok: true });
       }
-      return api(req, res, url, authed);
+      // `await` matters: api() is async, and without it a rejection inside
+      // escapes the try/catch below as an unhandled rejection, which takes the
+      // whole process down. This server also serves the public site, so a
+      // malformed save request used to take the entire website offline.
+      return await api(req, res, url, authed);
     }
 
     if (pathname === '/admin' || pathname.startsWith('/admin/')) {
