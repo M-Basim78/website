@@ -22,8 +22,17 @@ services:
       # required: any long random string. Changing it signs everyone out.
       SESSION_SECRET: "${SESSION_SECRET:?set SESSION_SECRET to a long random string}"
 
+    # Loopback only; put a reverse proxy in front for TLS.
+    #
+    # The host port is 8899 because 8080 was already taken on the deploy server
+    # and the container refused to start. Override HOST_PORT in the environment
+    # if 8899 is busy too; the container always listens on 8080 inside.
+    #
+    # On Coolify, if you let it route by domain it reaches the container over the
+    # Docker network and this publish is not needed at all. Removing it avoids
+    # host port collisions entirely.
     ports:
-      - "127.0.0.1:8080:8080"   # loopback only; put a reverse proxy in front for TLS
+      - "127.0.0.1:${HOST_PORT:-8899}:8080"
 
     # Only content/ is a volume, and that distinction matters.
     #
