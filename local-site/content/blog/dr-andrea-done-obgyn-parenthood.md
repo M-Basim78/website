@@ -1,0 +1,294 @@
+---
+title: "Empathy through Parenthood: Interview with incoming OBGYN Resident Andrea Done, DO"
+slug: "/dr-andrea-done-obgyn-parenthood"
+kind: interview
+description: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+---
+
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+Andrea Done, DO: When I was an undergrad having a very high risk pregnancy and I had twins. They were mono, mono twins. And during my third trimester, I had to be inpatient at a hospital.
+
+I know what that was like. I know how tired I was. I know how difficult breastfeeding is. I know how much it hurts after having a C section. It's not fun. It's a major surgery. So I feel like being able to, take that extra time to sit down with mom and really check in and say, Well, how are you doing?
+
+Like, Yes. I know that you're telling me about your baby and I think it's wonderful and your baby's adorable, but how are you, how are you dealing with this transition, especially if they're first time moms, because it's so hard. You just kind of lose a sense of yourself as you're finding this new person, because you didn't just give birth to a person you're giving almost birth to yourself as you know, a parent.
+
+Intro to Podcast: [00:01:00]
+
+Stephanie Moss, MD: Welcome to Life as a Patient Doctor. I'm your host, Stephanie Moss, navigating life as a patient and a future MD. Walk alongside me as I reflect on the challenges and lessons I've learned undergoing medical school with invisible disabilities. Join me as I interview other doctors, students, and healthcare workers on their own journeys.
+
+Listen to their unique stories on how they have balanced their health while caring for others in the health profession.
+
+Introduction to a Remarkable Journey: Meet Future Dr. Andrea Done
+
+Stephanie Moss, MD: Welcome, everyone. Today I have a very special guest. I have a fourth year medical student, future Dr. Andrea Done, who was born and raised in Peru and moved to northern Utah in 2004. She received her Bachelor's of Science in Psychology with a Neuroscience minor from Weber University and has a Master's in Biomedical Sciences from Campbell University School of Osteopathic Medicine.
+
+She is currently a fourth year medical student. student at Rocky Vista University D. O. School, Osteopathic Medicine, in Southern Utah. She's very passionate about osteopathic manipulative medicine, or OMM, and teaching.
+
+She spent an extra year in medical school as a pre doctoral osteopathic principles and practice fellow, which allowed her to hone in her skills and teaching of OMM.
+
+When she's not working, Andrea loves to spend time with her family. When she's not doing either of those things, you can find her reading way too many books, going to fantasy balls, croqueting uteruses, obsessing over the K pop boy band Stray Kids, or hiking with her rescue dog, Marcel. Thank you so much for joining us, Andrea.
+
+Andrea Done, DO: Thanks for having me.
+
+Stephanie Moss, MD: I am so happy to kind of just hear your story.
+
+Done's direct experience with the intricacies of pregnancy and childbirth, coupled with her academic interest in psychology and biopsychology, uniquely positioned her to pursue a career where empathy and scientific understanding intersect.
+
+Andrea's Unexpected Path to Medicine: From Psychology to OB GYN
+
+Stephanie Moss, MD: So I know we We talked a little bit about the locations of your journey, but I would just want to hear from you what brought you into medicine and kind of your journey to date.
+
+Andrea Done, DO: Yeah. So it's a very long story. When I started college, I was going to do psychology and maybe like do counseling or something like that.
+
+I had never thought about medicine in my entire life. And then I took a biopsych class and I thought. Of the brains were like the coolest thing ever. And in my head, I was like, Oh, maybe I could go to medical school. And I don't know, be a neurosurgeon or something that was not the path for me. I'm so thankful.
+
+But I ended up when I was an undergrad having a very high risk pregnancy and I had twins. They were mono, mono twins. So if you are not familiar with that it's when you have identical twins and. Usually they share a chorionic sac, but not an amniotic sac. So in my case, my twins were sharing their amniotic sac.
+
+So they were all floating around in their space together. And as sweet as that sounds, it is very high risk because at any point one of them could like grab the cord of the other one and, you know, shut off blood supply to the other, or pull on the cord and it could, you know, cause, bad, bad things. So that was probably two or so years into college for me.
+
+So I, you know, the beginning of the pregnancy was fine. We didn't even know that we were having twins until our 20 week anatomy ultrasound. So me and my husband were very surprised. So what they told me was that because of all of these things I needed to, first of all, I'll have a C section. A vaginal delivery is not an option because if you deliver one twin, it could pull on the placenta.
+
+While the other twin is not delivered. It's the whole thing. So c section was the only option for us. And during my third trimester, I had to be inpatient at a hospital. And then that was going to last until delivery. So what that looked like for us is I went in at I think 28 weeks in one day. It was the day after Christmas.
+
+And I stayed there until I had my C section. So my boys were born when they were 33 and 5. Very little.
+
+They stayed in the NICU for 3 weeks and 2 days. But we were very lucky, very blessed. They were very healthy. They just needed to what they called be feeders and growers. So they just needed time to learn how to feed and grow.
+
+But they didn't have any other issues and yeah, that was a long time ago. My twins just turned nine. So yeah, they, they are doing really well. They're super smart and sweet and so sassy. So yeah. Long story short, going through all of that, I realized that I really loved pregnancy and everything that had to do with it.
+
+I mean, I was reading research papers while I was in the NICU with my kids. That's probably why they're so smart now, to be honest. But I just loved it. I thought, Oh, this is so cool. Like the C section was cool. The, you know, the postpartum period and it kind of sold me on medicine. That's when I was like, okay, I definitely want to do this.
+
+This is what I want to do. So I ended up thinking maybe I should do OB GYN and that was back many, many years ago. Now I'm a fourth year. I did apply OB GYN and now we're just waiting to see if I matched.
+
+Andrea Done's narrative begins in Peru and takes her to northern Utah, where she pursued a Bachelor's of Science in Psychology at Weber University. Her academic journey didn't stop there; she furthered her education with a Master's in Biomedical Sciences, demonstrating an unwavering commitment to her blossoming passion for medicine.
+
+Perhaps the most pivotal moment in Done's journey was her high-risk pregnancy with monoamniotic-monochorionic (mono-mono) twins during her undergraduate years. This challenging period, marked by a mandatory inpatient stay and the complexities of a C-section, spurred her interest in obstetrics and gynecology (OB GYN).
+
+Stephanie Moss, MD: What, so you were in college. What did that look like going through college and also Kind of going back to school. I can imagine that that might have been a little challenging.
+
+Andrea Done, DO: Yeah. Man, it was so long ago. Let me think about it for a second. I remember I had probably about a year and a half left before I graduated. And I am very much someone who if you told me I can't do something I'm going to do it.
+
+So I planned that semester where I was in the hospital and had my twins to do everything online, and I did. I don't like to brag but I did get a 4. 0 that semester, and On top of everything with my kids and everything I was doing a research project like if you tell me I can't do it I will, and I was told that I couldn't do it.
+
+So I did, I did the thing. And I am very lucky because Utah is very family friendly I mean everyone has their families kind of early so it just kind of was very helpful to be in that culture where no one really like looks at you funny if you're, you know, You know, six months pregnant waiting for the shuttle to get your classes.
+
+And I lived near my parents. So we did have that support. My mom was very helpful. Like, I don't think I could have done it without my mom. I mean, even now, like she helps us with the kids so that I could do med school and my husband works and all of that. But yeah, I mean, just having that family support and really knowing like, Yes, I want to do this.
+
+And I don't know, you just get it done. It's hard, but like, if that's what you want to do, you just work for it. And I didn't ever really felt like I was losing time with my kids. I felt like I was really fortunate that I was able to, you know, go to class and then come home and take care of my twins.And yeah,
+
+Stephanie Moss, MD: I love that. I'm so glad you talked about the importance of having that family to really support you through. All the transitions of life because it really can make or break just having A supportive community with you, you know, I resonate a lot when you're saying like hey, they tell me I can't do it Like that's it.
+
+I kept thinking of like that's the pre med mindset like you can't tell me what i'm gonna do like if I want to do it I do it And i'm sure that's helped you get where you are today.
+
+But it was not just her academic pursuits that shaped her path; it was also her personal experiences that deeply influenced her choice of specialty. When detailing her background, Done shares not just her academic achievements but the richness of her life outside medicine, from crocheting uteruses to hiking with her rescue dog, Marcel.
+
+Choosing OB GYN: A Personal and Professional Calling
+
+Stephanie Moss, MD: you mentioned that you were interested in OB GYN. Did the pregnancy experience alone or did other factors kind of play in on your specialty decision?
+
+Andrea Done, DO: Yeah, so I think coming into med school definitely because that's kind of what said yes, I should do this, I should go into medicine. I feel like I wanted to be very open minded going into third year because you know you never know there's many things that could be interesting. When I was pre med I shadowed at the NICU where my kids were at after the fact.
+
+And then I also shadowed, you know, family medicine so I was like, you know, these are all really cool. I'm going to keep an open mind and see where it takes me. But I realized preclinical years that the repro courses was really where I shined, where I was the happiest. And I understood it cause I mean, having been through it, it makes more sense to be like, Oh yeah, this is what happened when I was, this far along or whatever.
+
+And then during the clinical years, OB was my second rotation. And I mean, I talked about this in interviews, like I, Literally, I loved every single thing. I love the patients. I love the OR. I love clinic. I would come home and I felt so energized. Like I was just always happy, always smiling. I think I studied every single day for those four rotations just because I loved it so much.
+
+I was like, I want to learn all the things. I'm not tired. Whereas with other rotations, I wasn't as happy. I wasn't as happy. I was like, I can't wait for this to be over. But every single day at OBGYN has just been the best day ever. Even when it's hard, like, I don't know. I just knew that this is where I belonged.
+
+Stephanie Moss, MD: Oh, yes. I totally resonate with that of just finding what energizes you. I like that of just the fact that , you're working long hours and you just are loving, loving the connection, the patients, the surgery, the OR.
+
+Empathy in Medicine: Learning from Personal Experiences
+
+Stephanie Moss, MD: How has going through that pregnancy or even being the NICU shifted or did it shift your perspective when interacting with patients in those similar type environments?
+
+Andrea Done, DO: Yeah, that's a great question. I feel like having gone through it, I feel more, it's, it's difficult to say because everyone experiences things differently, right? But just knowing myself and how I was before I had my kids and how I am now, I feel like I'm much more empathetic.
+
+So going into, round on a patient who just had a baby, Like a day ago.
+
+I said, mom, but you know, anyone who has a uterus as a parent. And. Yeah, I just, I don't know, it's just so special to be able to like say, I know what that was like for me, so I want to make sure that I'm there for you and the way that you need me to, so tell me what you need from me. And just really checking in like really truly tell me how, how you are feeling like don't sugarcoat it don't tell me that everything is wonderful if it's not because I want to know.
+
+I feel like that's made it so. that my interactions with those patients have been, I don't know, better in a way for them because I remember what it was like when people rounded on me and they didn't ask those questions. I was like, well, I'm struggling, but I feel like I shouldn't be. So I'm not going to bring it up.
+
+Stephanie Moss, MD: I'm so glad you said that. I feel like those are the statements and things we need to hear of how How helpful it is for the health provider to use their own experience to be more empathetic.
+
+I feel like that's, that's such a common theme I'm hearing through the all, like, through interviewing everyone, is just how the empathy and seeing things from the patient's perspective can really shift the dynamic in the sense of you're asking questions that maybe if you hadn't experienced it yourself, you would have never thought to ask. So I love that, like still picturing little baby cute twins at nine years old. Oh my goodness.
+
+Done's personal experiences profoundly impact her approach to patient care, particularly in the context of OB GYN. She emphasizes the importance of empathetic interactions with patients, recognizing the holistic challenges new mothers face. Her ability to relate to her patients on a deeply personal level, informed by her own experiences, enriches her practice and patient relationships.
+
+This empathy extends beyond clinical interactions; it influences her advocacy for more family-friendly policies in medical education and practice, highlighting the importance of support systems for medical professionals navigating parenthood.
+
+Balancing Motherhood and Medical School: Strategies and Support
+
+Stephanie Moss, MD: Now being a mother in med school, I feel like we don't talk about that enough of that balance of being a medical student, being a mother. Do you have any thoughts or suggestions or experience that you'd like to share?
+
+Andrea Done, DO: Well, So when I started med school my twins were four and I had a four month old baby, so I have three, three boys.
+
+And that was, that was hard because that entire first year, my almost 5 years old now oh my goodness they are getting so big so fast youngest did not sleep that entire first year and first year of med school was a beast. I mean, you're trying to get used to this like super rigorous program and you have to go to anatomy lab.
+
+And because I'm a DO, we had DO lab or OMM lab, I should say.
+
+I was breastfeeding at the time. So it was this like, okay, I had this hands free pump, so I could pump on the go. I would say if, if that is what you're going through right now, I highly recommend it because I could go to this little room and pump while I listened to lecture.
+
+That was very helpful. And, you know, pump before lab and after lab. And then I would go home. I think living close to home. Was also very helpful. So I lived on campus at the time because we had housing. And I would just like go home during lunchtime and breastfeed the baby and eat and see my kids and then go back.
+
+So I think, having family close by or a support system close by is helpful. My husband was a stay at home dad during my first year. That was helpful especially because the baby didn't eat, didn't sleep. So, having that support and like little things like a hands free pump, which I'm hoping, I'm hoping since it's been so long that it's much more affordable now.
+
+But that was a huge lifesaver because I could just pump on the go and then, you You know, store the milk and not miss anything in between classes and things like that.
+
+Stephanie Moss, MD: Thank sharing that. I think it's something that we kind of skip over a lot. We're just like, oh yeah, they'll breastfeed at some point.
+
+But thank you for the very specifics of when you did it and how you balance that.
+
+"Having family close by or a support system close by is helpful. My husband was a stay at home dad during my first year. That was helpful especially because the baby didn't eat, didn't sleep.
+
+So, having that support and like little things like a hands free pump, which I'm hoping, I'm hoping since it's been so long that it's much more affordable now.But that was a huge lifesaver" Dr. Done
+
+Advocating for Family-Friendly Policies in Medical Education
+
+Stephanie Moss, MD: I've heard that you can also ask for accommodations post pregnancy. Is that something that you did or have any recommendations for? That way you can get the support you need.
+
+Andrea Done, DO: Yeah, I didn't ask for any. Because I was four months postpartum.I felt like I had recovered enough from my surgery at that point. And because I had that hands free pump and we had a room on campus. I never actually used it because they had that little room in the back of the auditoriums but you could go pump and they had a TV where you could watch lecture from there and a fridge.
+
+So I thought that was helpful. But yeah, I just went into the room. I pumped in the night, like ran home and dropped it off during lunch. So I personally didn't need it. But I know that you've talked about it in your podcast she did a great job of talking about it.
+
+So I would, I would listen to her advice on that.
+
+Stephanie Moss, MD: Oh, thank you. Yeah, Konterri. Yeah, she just recently talked about that. Yeah, of using accommodations . I think you made a statement that you were you were receiving accommodations, even though you didn't go through the formal path of, you know, a letter or whatever you were still able to get.
+
+You know, that room or in that time, which I think is helpful, to show both sides that sometimes you don't have to go through like official school things. And it's still possible. It's just everyone's individual decision.
+
+Andrea Done, DO: Absolutely. I also, I don't know, I haven't double checked it in a long time, but I was told a long time ago that legally they have to provide a pumping room.
+
+So all I had to do was ask "Hey, I'm breastfeeding. Where could I go pump?"
+
+And then they showed me, they're like, you can use this whenever you want. So I don't know if you necessarily need to go through an accommodations process, but legally they have to provide that for you. So I should be willing to work with you on that.
+
+Stephanie Moss, MD: Thank you. Yeah, that is important to mention like there is that legal responsibility for them to provide something when you came into medical school, you said that your baby was already born Right.
+
+Did you ever have any challenges of whether or not to disclose that you're a breastfeeding or any thoughts regarding that because of a little bit of the stigma in medicine? Did that come up it at all for you?
+
+Andrea Done, DO: No, it didn't. So, again, because, because I'm in Utah and Utah's very like family friendly and like whole culture is, you know, I felt like, in that sense at least, I never felt, you know, that it was taboo or, or anyone was going to look at me differently. I mean, I showed up to orientation and I was pumping while we were eating.
+
+Like, I'm just gonna feed my baby. I'm sorry. Like, I don't need to ask permission for this.
+
+Yeah, maybe I could talk a little bit about what it was like being pregnant because I had my son during my master's program. And my master's program was two years, and it was very much like to prepare you for medical school.
+
+So the first year was exactly first year med school, and then the second year was more of like. research and, you know, preparing you to start medical school and things like that. So I had my son during my second year. And when I interviewed at my school, we were still doing everything in person because it was before COVID.
+
+And I was six months pregnant at the time, I believe. So it was very obvious. But I never brought it up and no one ever brought it up either. So I think it really depends on like the school and the culture of the place, how they're going to react to that. But yeah, even in like my master's program like I never felt That I shouldn't disclose it.
+
+Like I think I told the person that was in charge of the program, like right away, 'Hey, I'm pregnant. I'm having a baby.' Everybody was super excited. And, I asked, should I, you know, even bring up that I'm pregnant or what am I going to do if I show up to this interview? Cause it was a December interview and I was six months pregnant and, she was very supportive and she said, you know, just don't tell them like they legally cannot ask you.
+
+So if you don't feel comfortable, don't tell them. Now, my personal statement was about my twin, so I felt comfortable enough to talk about it because I knew, and it's kind of the same with residency, I knew if they didn't want me as I was, as a mom, then it wasn't the place for me.
+
+Andrea Done, DO: But yeah, they didn't bring it up, which I, at the time I was glad about, but. I don't think I would have minded if they had asked me just because I felt that it needed to be somewhere that would support me as a mom.
+
+But it is illegal, so I was glad that they didn't ask. It would have been a red flag otherwise.
+
+Stephanie Moss, MD: Right, yeah, it's that, it's that weird, I love how you said, yeah, that you did, you did have to balance like, Okay, I'm showing like I can't hide I'm in person which is thankfully kind of nice now and I don't know if you had the in the virtual interviews but all mine were virtual or at least the majority were and so like up here you would never know but I'm glad you also said like They can't ask you anyway, even if you did show.
+
+Are there any recommendations for specific interview questions , that you asked either for medical school or more recently in residency for knowing the fact that you have a family?
+
+Andrea Done, DO: Yeah, great question. I think this mostly came up during, like, the social hours that they would have with the residents.
+
+I would ask them, like, is there's anyone in your program that has a family? Like, what does that look like?
+
+And I would try, if I did happen to see them, like, in person, like, during audition rotations, because I did a lot of those. If I saw someone that I knew had a family, I would pull them aside and be like, how, you know, this, how has this experience been for you?
+
+Especially if they were moms, if they had kids already, or if they were pregnant, like, was the program supportive? Do you feel like, They supported you or was there like, I don't know, any red flags or, they said, yes, we'll support you, but then at the end of the day you get pregnant and then everyone's like, oh, why did you do that type of thing.
+
+And I just kind of filtered it out that way. I wasn't sure if it was gonna work. I wasn't sure if at least virtually you would be able to tell what the culture would be like, but you totally can. I remember I asked, and I won't name the program. But I asked someone who was pregnant at the time and I said, Oh, you know, I know you've had your kids in residency.
+
+What was that like for you? Like, were they supportive? And this person said the culture is changing and they left it at that. And I said, Oh, that's a red flag. So it's very interesting. They worded it very professionally. But yeah, you can just tell they, they give you little hints, even if they don't outright say it. Like. No, or you know.
+
+Stephanie Moss, MD: Thank you for mentioning that i'm so glad that you've had a positive experience and able to catch those red flags or those hints I feel I was at the same boat during my interviews of like will I be able to tell? Because I didn't do audition rotations because the majority were right where I live.
+
+So I just you know didn't have time but it is kind of interesting how they do those little like Not 100 percent positive, but like you said, the professional answer is like, hmm, or not elaborating that, that is also kind of like, oh, you can kind of feel it, right?
+
+Andrea Done, DO: Yeah, yeah, and it's totally different when they are supportive because they will talk about it, and they will give you way more detail than you asked for, which I'm always grateful for.
+
+And I think it's interesting because you can also see like, What it looks like, how many people have families or want to start families and feel comfortable doing that during residency. So, yeah, it's, it's very interesting. It's been an interesting process.
+
+Stephanie Moss, MD: Right. Oh, totally. So we talked, about your pregnancy, we talked about kind of your experience.
+
+"Legally they have to provide a pumping room.So all I had to do was ask 'Hey, I'm breastfeeding. Where could I go pump?'And then they showed me, they're like, you can use this whenever you want. So I don't know if you necessarily need to go through an accommodations process, but legally they have to provide that for you. So I should be willing to work with you on that."
+
+"I tIold the person that was in charge of the program, like right away, 'Hey, I'm pregnant. I'm having a baby.' Everybody was super excited. And, I asked, should I, you know, even bring up that I'm pregnant or what am I going to do if I show up to this interview?
+
+Cause it was a December interview and I was six months pregnant and, she was very supportive and she said, you know, just don't tell them like they legally cannot ask you." Dr. Done
+
+The Importance of Diversity in Medicine: A Latina's Perspective
+
+Stephanie Moss, MD: I'm interested to kind of hear your thoughts on breaking stereotypes and promoting all types of diversity, including like, having a family I would love to just hear your thoughts on how it can be a benefit to medicine.
+
+Andrea Done, DO: Yeah, great question. I feel like we talked about before, because I've been in some of these scenarios and these patients shoes are more empathetic. I feel like having someone like that in medicine is important because then patients feel like they're heard and, they have someone on their corner I feel like that can apply to everything, you know, like I'm Latina.
+
+There's not a lot of us in medicine. Yeah,
+
+I just love my Spanish speaking patients so much because, you know, you walk in and I don't look Peruvian, let's be honest, I don't. And I know that they speak Spanish and I start speaking to them in Spanish and they're like, oh. Oh, you speak Spanish and they just get so happy because they know that they're going to have someone that understands them, you know, that knows their culture, that knows how things work.
+
+And I feel like they feel so much more at ease than, you know, if they had to see someone use an interpreter. So , having people like us in medicine, I think it's so important just because of that, just because we can relate to those patients that are not in the majority that may not feel totally comfortable coming to see a doctor but they have us in their corner. So that's why I think it's so important.
+
+Stephanie Moss, MD: I'm so glad you mentioned that. I don't know why it did hit me. Like we said, you're from Peru and just like, Oh, that was a part of the bio. Oh my goodness. Yes. I totally relate to that. Cause I'm also Latina and I also speak Spanish. And I'm with you.
+
+There's something so special and it makes you, it forms that connection with the patient that they're like, okay, I can share. I don't have to hold back. totally get that. It made me think about kind of your experience going into medicine as Latina. Did you ever have any Latina mentors growing up in medicine? Or did you have any family members in medicine?
+
+Andrea Done, DO: So I think even to this day, I don't think I have any Latina mentors to be honest with you.So, I have connected with some people over Twitter a long time ago. I don't even know if I still use it. My aunt's husband, so my uncle he is a doctor, but the experience is different because he is American and, you know, he's a man, so. I tried to ask questions, but it's just, it's not the same.
+
+So yeah, that's another reason why I think we need more Latina physicians because I just, I personally, I don't think I've seen a single Latina physician this entire time that I've been in med school and being pre med. I know they're out there, but. I haven't seen them, so we definitely need more of us out there.
+
+Stephanie Moss, MD: I'm so sorry that you didn't have that. I haven't really either, soI feel that. Well, I am glad, like, that's one of the reasons I like Chicago and being in Chicago, because there is Slightly more. 'cause we have like a large Latinx population. But yeah, it is sad that even, even with Chicago, with the huge population, I think I can like, name on my hand the amount of Latina physicians that I know in the area.
+
+So yeah, that, that definitely hits in a different way. Like thinking about that and also it is amazing that you similarly. Only have zero to one mentors in your family I think that says something of just , the extra struggle the extra perseverance that you must have. And. resilience to get to where you are today.
+
+Dr. Done’s reflections on diversity in medicine—stemming from her cultural background and personal experiences—resonate with the need for more inclusive representation in the medical field. Her connection with Spanish-speaking patients and the unique empathy she brings as a Latina in medicine highlight the invaluable role that diverse backgrounds play in enhancing patient care and understanding.
+
+Final Thoughts and Advice for Aspiring Medical Professionals
+
+Stephanie Moss, MD: As we start to finish up, is there any last advice or pearls of wisdom you have for other students in pre medicine or in medical school that are similar going through their journeys, maybe even with health conditions or just real life experiences and how to navigate and persevere like you did?
+
+Andrea Done, DO: Honestly, I keep thinking about this. If it's something you want to do, just go for it. Yes, it's going to be hard, but no one gets to tell us what we can and cannot do. Only we can do that. So Reach out to people that can help you find mentors. I know we just talked about how hard it is to find someone, you know, that you can relate to.
+
+But you know, someone like you or me, I'm always happy to talk to pre meds or med students. Like I always adopt all of like, all of my friends. I'm like, you're going to be, you're going to be my, my child. You're my mentee. Like I will help you like however you need me to.
+
+Finding a support system or a mentor. The internet is fantastic for that. You can find someone. And if you want it badly enough, just go for it because no one should tell us what we can and cannot do.
+
+Stephanie Moss, MD: Yes. I love that. Thank you for that motivation. If there's any individuals that want to get your advice and mentorship, how can they best connect with you, Andrea?
+
+Andrea Done, DO: Yeah, so you can reach me on Instagram. That's probably what I check the most, probably too much. But it's @ student Dr D and hopefully I haven't changed it by the time this comes out because I have to change it when I graduate.
+
+Stephanie Moss, MD: Right. Yeah, I know that's a good point. So I'll try to get it , before May. That's for sure. I'll make sure to include it. And then I'll, I'll go back and change it when it's. Doctor instead of just student doctor. That is definitely a moment I feel like in our medical school career to finally like remove that student from it.
+
+I hear you. I know trying to figure that out too. It's like, okay, what's it going to be? Anyway thank you Andrea so much for sharing your journey. I'm just going to quickly review all the amazing things you said.
+
+So you grew up in Peru and you came to the U. S. and you were doing an awesome job doing psychology and going that route and then in college you had this experience where you started a family but had some challenges in the pregnancy, high risk pregnancy, had twins but you still kept working.
+
+You were studying in the hospital, studying when your babies were in the NICU, and even that challenging experience didn't turn you off. It did the complete opposite. It motivated you to go into medicine, and you took that initiative , To shadow in the NICU and go to medicine.
+
+And you ended up going to your master's. And even when you went to medical school with a brand new baby, you still kept going, found a way to breast pump while being a medical student, which was so helpful to kind of hear your journey and how [00:31:00] you navigate it. And then you even talked about. How going through multiple pregnancies and being a patient yourself really helps shift the dynamic of how you work with patients
+
+You ask them questions that maybe you didn't receive, but you know that they would appreciate example like talking about how they're really feeling and how the emotions and the pains that sometimes we as patients don't want to be because there's internal thing of don't want to seem weak or complaining, but you really are a huge advocate for being empathetic and talking about how that journey is a huge benefit for patients.
+
+And you even included it in your personal statement to OB GYN residency. And then you also talked about in addition to being a mom during medical school, but also being a Latina and how. That is another way to connect with patients speaking the same language, speaking in their own culture and how much it can be truly a benefit for patients.
+
+And lastly, the biggest thing is just to find mentorship, whether you're a pre med or in medical school, it's important to have that community because that's how you have been able to Be successful have that family and community with you and to support you.
+
+So thank you so much, Andrea, for sharing your story. And I look forward to seeing where you go to your residency but I wanted to remind everyone who is listening, if you're struggling, Know, you're not alone. Struggle is part of life.
+
+Of life and part of medicine. It doesn't make you weaker or lessen to struggle.
+
+It just means it's part of the journey, and I hope that these experiences provide some humanistic outlook to medicine and some support and advice of how you can also. Get the support you need. Just know you're not alone.
+
+And just like Andrea said, don't give up. No one can tell you that you can't do something.
+
+"Yes, it's going to be hard, but no one gets to tell us what we can and cannot do. Only we can do that. So Reach out to people that can help you find mentors. I know we just talked about how hard it is to find someone, you know, that you can relate to." Dr. Done
+
+Andrea Done, DO, through her journey from psychology to obstetrics and gynecology, motherhood, and beyond, illustrates the profound impact of personal experiences on professional paths. Her story is a powerful reminder of the strength found in diversity, the necessity of empathy in medicine, and the importance of advocating for supportive policies that accommodate all aspects of a medical professional’s life.
+
+As she prepares for residency, Done's trajectory not only underscores the resilience required to navigate the challenges of medical education and practice but also highlights the transformative power of personal experiences in shaping compassionate and empathetic physicians.
+
+Conclusion and Contact Information
+
+Stephanie Moss, MD: So thank you so much for joining . I like to also say we have Andrea's social media. I'll put that below my social medias @medpsycmoss, maybe doctor in a couple of months. Dr. MedPsycMoss.
+
+We'll see, you can also see my blog and resources that I've acquired during medical school, both as a patient and a doctor. And I hope to see you all next time. Thank you for joining us. Take care.

@@ -1,0 +1,29 @@
+{
+  "_note": "The ONLY statistics permitted anywhere on this site. Supplied directly by Stephanie Moss and worded from her own message. Do not add, extrapolate or round any other number. Anything not in this file must not appear as a claim.",
+  "stats": [
+    {
+      "id": "workbook-purchasers",
+      "value": "300+",
+      "label": "Workbook purchasers",
+      "source": "client"
+    },
+    {
+      "id": "students-advised",
+      "value": "200+",
+      "label": "Students advised",
+      "source": "client"
+    },
+    {
+      "id": "combined-views",
+      "value": "1M+",
+      "label": "Combined views across YouTube, podcast and blog",
+      "source": "client"
+    },
+    {
+      "id": "role",
+      "value": "PGY-3",
+      "label": "Psychiatry chief resident for academics",
+      "source": "scrape: index.md, about-me.md"
+    }
+  ]
+}

@@ -43,7 +43,7 @@ const copyDir = (from, to) => {
 
 // ---- assets -----------------------------------------------------------------
 let assets = 0;
-for (const dir of ['css', 'js', 'img', 'fonts', 'data', 'partials']) {
+for (const dir of ['css', 'js', 'img', 'fonts', 'data', 'admin', 'partials']) {
   if (dir === 'partials') continue;                 // build-time only
   assets += copyDir(path.join(R, dir), path.join(OUT, dir));
 }
@@ -142,7 +142,7 @@ fs.writeFileSync(path.join(OUT, 'sitemap.xml'),
   ).join('\n') + `\n</urlset>\n`);
 
 fs.writeFileSync(path.join(OUT, 'robots.txt'),
-  `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
+  `User-agent: *\nAllow: /\nDisallow: /admin\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
 
 // ---- report -----------------------------------------------------------------
 const nested = urls.filter(u => (u.match(/\//g) || []).length > 1);
