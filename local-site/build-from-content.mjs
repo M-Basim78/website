@@ -42,6 +42,13 @@ const shellOf = (file) => {
 };
 const SHELL = shellOf('store.html');
 
+// Pixel sizes recorded when she uploaded each picture. Missing is fine; the
+// <img> simply goes out without width and height.
+let PIC_SIZES = {};
+try {
+  PIC_SIZES = JSON.parse(fs.readFileSync(path.join(C, 'uploads', 'sizes.json'), 'utf8'));
+} catch { /* no pictures uploaded yet */ }
+
 // ------------------------------------------------------------- articles ----
 let posts = 0;
 for (const f of fs.readdirSync(path.join(C, 'blog')).filter(x => x.endsWith('.md'))) {
@@ -55,7 +62,11 @@ for (const f of fs.readdirSync(path.join(C, 'blog')).filter(x => x.endsWith('.md
     const img = t.match(/^!\[([^\]]*)\]\(([^)\s]+)\)$/);
     if (img) {
       const alt = esc(img[1]);
-      return `<figure class="post-img"><img src="${esc(img[2])}" alt="${alt}" loading="lazy" decoding="async">` +
+      const src = img[2];
+      // width/height reserve the space, so the page does not jump on load
+      const d = PIC_SIZES[src.replace(/^\/uploads\//, '')];
+      const dims = d ? ` width="${d.w}" height="${d.h}"` : '';
+      return `<figure class="post-img"><img src="${esc(src)}" alt="${alt}"${dims} loading="lazy" decoding="async">` +
              (alt ? `<figcaption>${alt}</figcaption>` : '') + `</figure>`;
     }
     return t.startsWith('## ') ? `<h2>${esc(t.slice(3))}</h2>` : `<p>${esc(t)}</p>`;

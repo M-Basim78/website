@@ -92,22 +92,82 @@ async function loadUploads() {
   }
 }
 
+/**
+ * Shrink a picture before it is uploaded.
+ *
+ * The server has no image library on purpose, so this happens here. A photo
+ * straight off a phone is 8 MB and 4000px wide; the site never displays one
+ * wider than 1600, so sending the original wastes her upload and every
+ * visitor's download.
+ *
+ * Re-encoding through a canvas also drops the EXIF block, which removes the GPS
+ * coordinates phones embed in photos. That matters for a physician posting
+ * pictures.
+ */
+const MAX_EDGE = 1600;
+
+async function shrink(file) {
+  // createImageBitmap applies the EXIF rotation, so portrait photos stay upright.
+  let bmp;
+  try { bmp = await createImageBitmap(file, { imageOrientation: 'from-image' }); }
+  catch { return null; }                       // not decodable, let the server judge
+
+  const scale = Math.min(1, MAX_EDGE / Math.max(bmp.width, bmp.height));
+  const w = Math.round(bmp.width * scale);
+  const h = Math.round(bmp.height * scale);
+
+  const canvas = document.createElement('canvas');
+  canvas.width = w; canvas.height = h;
+  canvas.getContext('2d').drawImage(bmp, 0, 0, w, h);
+  bmp.close && bmp.close();
+
+  // GIFs may be animated; a canvas would flatten them to one frame.
+  if (file.type === 'image/gif') return null;
+
+  const blob = await new Promise(ok => canvas.toBlob(ok, 'image/webp', 0.82))
+    || await new Promise(ok => canvas.toBlob(ok, 'image/jpeg', 0.85));
+  if (!blob) return null;
+
+  // If shrinking somehow made it bigger, keep the original.
+  if (blob.size >= file.size && scale === 1) return null;
+
+  const ext = blob.type === 'image/webp' ? '.webp' : '.jpg';
+  const base = file.name.replace(/\.[^.]+$/, '');
+  return { blob, name: base + ext, w, h, from: file.size };
+}
+
 $('#upfile').addEventListener('change', async (e) => {
   const file = e.target.files && e.target.files[0];
   e.target.value = '';
   if (!file) return;
-  if (file.size > 8 * 1024 * 1024) { toast('That picture is larger than 8 MB.', 'bad'); return; }
+
+  toast('Preparing the picture...');
+  let body = file, name = file.name, dims = null, before = file.size;
+  try {
+    const small = await shrink(file);
+    if (small) { body = small.blob; name = small.name; dims = small; }
+  } catch { /* fall through and send the original */ }
+
+  if (body.size > 8 * 1024 * 1024) {
+    toast('That picture is still larger than 8 MB after resizing. Please use a smaller one.', 'bad');
+    return;
+  }
+
   toast('Uploading...');
   try {
-    const r = await fetch('/admin/api/uploads', {
-      method: 'POST',
-      headers: { 'Content-Type': file.type || 'application/octet-stream',
-                 'x-filename': encodeURIComponent(file.name) },
-      body: file,
-    });
+    const headers = {
+      'Content-Type': body.type || 'application/octet-stream',
+      'x-filename': encodeURIComponent(name),
+    };
+    if (dims) { headers['x-width'] = String(dims.w); headers['x-height'] = String(dims.h); }
+
+    const r = await fetch('/admin/api/uploads', { method: 'POST', headers, body });
     const data = await r.json().catch(() => ({}));
     if (!r.ok) throw new Error(data.error || 'Upload failed.');
-    toast('Picture added.');
+
+    toast(dims && before > body.size
+      ? `Picture added, resized from ${kb(before)} to ${kb(body.size)}.`
+      : 'Picture added.');
     loadUploads();
   } catch (ex) { toast(ex.message, 'bad'); }
 });

@@ -158,6 +158,33 @@ it stays accessible.
 - served straight from the volume, so a new picture is live immediately; the
   build also copies them into `dist/` so the folder is a complete site on its own
 
+### Large photos are shrunk before they upload
+
+A photo off a phone is around 4000px wide and several megabytes. The site never
+displays one wider than 1600, so the browser resizes and re-encodes it to WebP
+**before** it is sent. Measured on a 4032x3024 photo: **1.7 MB in, 349 KB out**,
+and she sees "resized from 1.7 MB to 349 KB" when it lands.
+
+This happens in the browser on purpose. The container deliberately has no npm
+install and no dependencies, and adding `sharp` would pull libvips into the image
+for one feature. Doing it client-side keeps that property, and saves her upload
+as well as every visitor's download.
+
+Two things fall out of it for free:
+
+- **EXIF is dropped.** Re-encoding through a canvas discards the metadata block,
+  including the GPS coordinates phones embed in photos. That is worth having for
+  a physician posting pictures.
+- **Rotation is respected.** The decode asks for the EXIF orientation, so
+  portrait photos are not sideways.
+
+Animated GIFs are passed through untouched, because a canvas would flatten them
+to a single frame. If a picture is already small the original is kept.
+
+The pixel size is recorded in `content/uploads/sizes.json` and the build puts
+`width` and `height` on the `<img>`, so the page does not jump while a picture
+loads. That file is build input and is stripped from `dist/`.
+
 ## 8. Nothing is lost by accident
 
 **Deleting is not deletion.** A deleted post or picture moves to `content/.trash`
@@ -188,6 +215,10 @@ docker run --rm -v <vol>:/c -v $PWD:/b alpine tar czf /b/content.tgz /c
   second build target.
 - **The bin is never emptied automatically.** It grows. Not a problem at this
   scale, but somebody should clear it out once a year.
-- **Pictures are not resized.** An 8 MB photo is served at 8 MB. The existing
-  site images were optimised by `build-images.mjs`; hers are not put through it.
-  Worth adding if she starts uploading straight off a phone.
+- **Resizing needs a modern browser.** It uses `createImageBitmap` and canvas
+  WebP, which every current browser has. On something very old the original is
+  uploaded instead and the 8 MB limit still applies, so nothing breaks, it is
+  just not shrunk.
+- **One size is produced, not a responsive set.** Every picture is capped at
+  1600px and served at that size to phones too. At her volume that is the right
+  trade; a `srcset` would mean generating several files per upload.

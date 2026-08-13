@@ -173,6 +173,20 @@ function buildTar(files) {
   return Buffer.concat(blocks);
 }
 
+/**
+ * Pixel sizes of uploaded pictures, kept beside them in the volume.
+ *
+ * The build reads this to put width and height on each <img>, which reserves
+ * the right space and stops the page shifting as pictures load.
+ */
+const SIZES = path.join(UPLOADS, 'sizes.json');
+async function noteSize(name, w, h) {
+  let all = {};
+  try { all = JSON.parse(await fsp.readFile(SIZES, 'utf8')); } catch { /* first one */ }
+  all[name] = { w, h };
+  await fsp.writeFile(SIZES, JSON.stringify(all, null, 2) + '\n');
+}
+
 /** Keep the previous version of a post before overwriting or deleting it. */
 async function keepVersion(file, name) {
   if (!fs.existsSync(file)) return;
@@ -352,7 +366,14 @@ async function api(req, res, url, authed) {
     const dest = safeJoin(UPLOADS, name);
     if (!dest) return json(res, 400, { error: 'Bad name.' });
     await fsp.writeFile(dest, buf);
-    return json(res, 200, { ok: true, name, url: '/uploads/' + name, bytes: buf.length });
+
+    // Remember the pixel size, so the build can put width and height on the
+    // <img> and the page does not jump while the picture loads.
+    const w = parseInt(req.headers['x-width'], 10);
+    const h = parseInt(req.headers['x-height'], 10);
+    if (w > 0 && h > 0) await noteSize(name, w, h);
+
+    return json(res, 200, { ok: true, name, url: '/uploads/' + name, bytes: buf.length, width: w || null, height: h || null });
   }
   const up = p.match(/^\/uploads\/([\w.-]+)$/);
   if (up && req.method === 'DELETE') {
