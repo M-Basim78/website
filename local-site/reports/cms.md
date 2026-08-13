@@ -102,6 +102,29 @@ change in between:
 - **her edit survived the redeploy** and was still live
 - **the developer's template change also landed** in the same deploy
 
+### A crash found and fixed on re-verification
+
+Saving a post with a malformed request body **killed the whole server**, and
+because this process serves the public site as well as the editor, the entire
+website went down until the container restarted.
+
+The cause was one missing keyword. `api()` is async and was called as
+`return api(...)` instead of `return await api(...)`, so a rejection inside it
+escaped the surrounding `try/catch` as an unhandled rejection and Node ended the
+process. The login route never had the bug because its parse sits directly in the
+awaited try block, which is why signing in with bad input returned a clean error
+while saving a post did not.
+
+Three changes:
+
+- `return await api(...)`, so the existing handler catches it
+- malformed bodies now return **400** with a readable message instead of a 500
+- `unhandledRejection` and `uncaughtException` are logged rather than fatal, so
+  no future mistake in the editor can take the public site offline
+
+Re-verified after the fix: valid save returns 200 and appears on the live page,
+malformed save returns 400, and the server and the public site both stay up.
+
 ## 6. Two things to tell her
 
 **The price here must match Gator.** This controls what the website advertises;
