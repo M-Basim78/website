@@ -11,24 +11,46 @@ cd website/local-site
 docker compose up -d --build
 ```
 
-That publishes on `127.0.0.1:8080`. It binds to loopback on purpose: put your
+That publishes on `127.0.0.1:8899`. It binds to loopback on purpose: put your
 existing reverse proxy (Caddy, Traefik, nginx) or Cloudflare in front of it for
-TLS. **Do not expose 8080 to the internet directly.**
+TLS. **Do not expose it to the internet directly.**
+
+The container always listens on **8080 inside**. Only the host port is 8899, and
+only because 8080 was already in use on the deploy server, which stopped the
+container from starting:
+
+```
+failed to bind port 127.0.0.1:8080/tcp: address already in use
+```
+
+If 8899 is taken too, set `HOST_PORT` in the environment rather than editing this
+file:
+
+```bash
+HOST_PORT=9412 docker compose up -d
+```
 
 Check it:
 
 ```bash
 docker compose ps          # expect healthy
-curl -I localhost:8080/    # expect 200
+curl -I localhost:8899/    # expect 200
 ```
 
 Minimal Caddy in front:
 
 ```
 medpsycmoss.com {
-    reverse_proxy 127.0.0.1:8080
+    reverse_proxy 127.0.0.1:8899
 }
 ```
+
+### On Coolify
+
+If Coolify routes by domain it reaches the container over the Docker network and
+the published port is not used at all. The cleanest fix for a port clash there is
+to **delete the `ports:` block entirely** and let Coolify handle routing. It is
+kept here so a plain `docker compose up` on any box still works.
 
 ## Rebuilding the site
 
@@ -56,7 +78,7 @@ Then `docker compose up -d --build`.
 | base | `nginx:1.27-alpine`, 83.8 MB image |
 | user | unprivileged `nginx`, `no-new-privileges` |
 | filesystem | read only, with tmpfs for cache and run |
-| port | 8080 inside, bound to `127.0.0.1:8080` outside |
+| port | 8080 inside, bound to `127.0.0.1:8899` outside (`HOST_PORT` overrides) |
 | health | `wget` against `/` every 30s |
 | logs | json-file, capped at 3 x 10 MB |
 
