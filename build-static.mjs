@@ -54,6 +54,11 @@ for (const f of ['favicon.svg']) {
   if (fs.existsSync(path.join(R, f))) { fs.copyFileSync(path.join(R, f), path.join(OUT, f)); assets++; }
 }
 
+// Pictures she uploads live in content/uploads (the volume), not in rebuild/.
+// Copy them so dist/ is a complete site on its own.
+const uploads = copyDir(path.resolve('content', 'uploads'), path.join(OUT, 'uploads'));
+assets += uploads;
+
 // ---- pages ------------------------------------------------------------------
 const urls = [];
 const collisions = new Map();

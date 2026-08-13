@@ -1,3 +1,9 @@
 node_modules/
 .cache/
 *.log
+
+# CMS runtime state, lives in the content volume
+content/.trash/
+content/.history/
+content/uploads/*
+!content/uploads/.gitkeep

@@ -39,8 +39,114 @@ $('#logout').addEventListener('click', async () => {
 $$('.tabs button').forEach(b => b.addEventListener('click', () => {
   $$('.tabs button').forEach(x => x.classList.toggle('on', x === b));
   $$('[data-panel]').forEach(p => { p.hidden = p.dataset.panel !== b.dataset.tab; });
-  if (b.dataset.tab !== 'posts') loadData(b.dataset.tab);
+  const t = b.dataset.tab;
+  if (t === 'uploads') loadUploads();
+  else if (t === 'trash') loadTrash();
+  else if (t !== 'posts') loadData(t);
 }));
+
+/* -------------------------------------------------------------- pictures -- */
+const kb = (n) => n < 1024 * 1024
+  ? Math.round(n / 1024) + ' KB'
+  : (n / 1024 / 1024).toFixed(1) + ' MB';
+
+async function loadUploads() {
+  const box = $('#uploads');
+  box.innerHTML = '<p class="hint">Loading...</p>';
+  try {
+    const list = await api('/uploads');
+    if (!list.length) {
+      box.innerHTML = '<p class="hint">No pictures yet. Press "Add a picture" above.</p>';
+      return;
+    }
+    box.innerHTML = list.map(u => `
+      <figure class="pic">
+        <img src="${esc(u.url)}" alt="${esc(u.name)}" loading="lazy">
+        <figcaption>
+          <span class="pic-name" title="${esc(u.name)}">${esc(u.name)}</span>
+          <span class="pic-size">${kb(u.bytes)}</span>
+        </figcaption>
+        <div class="pic-actions">
+          <button data-copy="${esc(u.url)}">Copy</button>
+          <button data-del="${esc(u.name)}" class="danger">Delete</button>
+        </div>
+      </figure>`).join('');
+
+    $$('#uploads [data-copy]').forEach(b => b.addEventListener('click', async () => {
+      // What she pastes into a post to place the picture.
+      const snippet = `![Describe this picture](${b.dataset.copy})`;
+      try { await navigator.clipboard.writeText(snippet); toast('Copied. Paste it into a post on its own line.'); }
+      catch { prompt('Copy this and paste it into a post on its own line:', snippet); }
+    }));
+
+    $$('#uploads [data-del]').forEach(b => b.addEventListener('click', async () => {
+      if (!confirm(`Delete ${b.dataset.del}? It goes to the Bin and can be restored.`)) return;
+      try {
+        await api('/uploads/' + encodeURIComponent(b.dataset.del), { method: 'DELETE' });
+        toast('Moved to the Bin.');
+        loadUploads();
+      } catch (ex) { toast(ex.message, 'bad'); }
+    }));
+  } catch (ex) {
+    box.innerHTML = `<p class="hint">${esc(ex.message)}</p>`;
+  }
+}
+
+$('#upfile').addEventListener('change', async (e) => {
+  const file = e.target.files && e.target.files[0];
+  e.target.value = '';
+  if (!file) return;
+  if (file.size > 8 * 1024 * 1024) { toast('That picture is larger than 8 MB.', 'bad'); return; }
+  toast('Uploading...');
+  try {
+    const r = await fetch('/admin/api/uploads', {
+      method: 'POST',
+      headers: { 'Content-Type': file.type || 'application/octet-stream',
+                 'x-filename': encodeURIComponent(file.name) },
+      body: file,
+    });
+    const data = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(data.error || 'Upload failed.');
+    toast('Picture added.');
+    loadUploads();
+  } catch (ex) { toast(ex.message, 'bad'); }
+});
+
+/* ------------------------------------------------------------------- bin -- */
+async function loadTrash() {
+  const box = $('#trash');
+  box.innerHTML = '<p class="hint">Loading...</p>';
+  try {
+    const list = await api('/trash');
+    if (!list.length) {
+      box.innerHTML = '<p class="hint">The Bin is empty. Nothing has been deleted.</p>';
+      return;
+    }
+    box.innerHTML = `<ul class="list">${list.map(t => `
+      <li>
+        <span class="t">${esc(t.title)}</span>
+        <span class="meta">${t.kind} &middot; deleted ${new Date(t.at).toLocaleString()}</span>
+        <button data-restore="${esc(t.name)}">Restore</button>
+      </li>`).join('')}</ul>`;
+
+    $$('#trash [data-restore]').forEach(b => b.addEventListener('click', async () => {
+      try {
+        await api('/trash/' + encodeURIComponent(b.dataset.restore) + '/restore', { method: 'POST' });
+        toast('Restored. Press Publish to put it back on the site.');
+        loadTrash();
+        loadPosts();
+      } catch (ex) { toast(ex.message, 'bad'); }
+    }));
+  } catch (ex) {
+    box.innerHTML = `<p class="hint">${esc(ex.message)}</p>`;
+  }
+}
+
+$('#backup').addEventListener('click', () => {
+  // Straight download; the browser handles it from the Content-Disposition.
+  window.location = '/admin/api/backup';
+  toast('Downloading a copy of everything you have written.');
+});
 
 /* ----------------------------------------------------------------- posts -- */
 let posts = [], current = null;

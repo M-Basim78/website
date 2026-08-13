@@ -51,6 +51,13 @@ for (const f of fs.readdirSync(path.join(C, 'blog')).filter(x => x.endsWith('.md
   const blocks = body.trim().split(/\n{2,}/).map(b => {
     const t = b.trim();
     if (!t) return '';
+    // A picture on its own line: ![description](/uploads/name.jpg)
+    const img = t.match(/^!\[([^\]]*)\]\(([^)\s]+)\)$/);
+    if (img) {
+      const alt = esc(img[1]);
+      return `<figure class="post-img"><img src="${esc(img[2])}" alt="${alt}" loading="lazy" decoding="async">` +
+             (alt ? `<figcaption>${alt}</figcaption>` : '') + `</figure>`;
+    }
     return t.startsWith('## ') ? `<h2>${esc(t.slice(3))}</h2>` : `<p>${esc(t)}</p>`;
   }).filter(Boolean);
 

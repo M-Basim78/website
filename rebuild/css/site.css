@@ -1105,3 +1105,13 @@
     text-underline-offset:3px;
   }
   .see-all:hover{color:var(--primary-hi)}
+
+  /* ============ pictures inside an article ============ */
+  .post-img{margin:26px 0}
+  .post-img img{
+    width:100%;height:auto;display:block;
+    border-radius:16px;border:1px solid var(--line-soft);
+  }
+  .post-img figcaption{
+    margin-top:9px;font-size:13.5px;color:var(--muted);text-wrap:pretty;
+  }

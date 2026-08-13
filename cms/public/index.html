@@ -32,6 +32,8 @@
       <button data-tab="stats">Numbers</button>
       <button data-tab="testimonials">Testimonials</button>
       <button data-tab="site">Homepage wording</button>
+        <button data-tab="uploads">Pictures</button>
+        <button data-tab="trash">Bin</button>
     </nav>
     <div class="right">
       <span class="status" id="status"></span>
@@ -88,6 +90,31 @@
     <section data-panel="site" hidden>
       <div class="head"><h2>Homepage wording</h2></div>
       <div id="site"></div>
+    </section>
+
+    <section data-panel="uploads" hidden>
+      <div class="head">
+        <h2>Pictures</h2>
+        <label class="btn" for="upfile">Add a picture</label>
+        <input id="upfile" type="file" accept="image/jpeg,image/png,image/webp,image/gif" hidden>
+      </div>
+      <p class="hint">
+        JPG, PNG, WEBP or GIF, up to 8 MB. After uploading, press <b>Copy</b> and
+        paste the result into a post on its own line to place the picture there.
+      </p>
+      <div id="uploads" class="grid-pics"></div>
+    </section>
+
+    <section data-panel="trash" hidden>
+      <div class="head">
+        <h2>Bin</h2>
+        <button id="backup" class="btn ghost">Download a copy of everything</button>
+      </div>
+      <p class="hint">
+        Anything you delete is kept here, so nothing is lost by accident. Restoring
+        a post puts it straight back. Publish afterwards to update the live site.
+      </p>
+      <div id="trash"></div>
     </section>
   </main>
 </div>
