@@ -1,35 +1,55 @@
-# Deploy on the VPS with:  docker compose up -d --build
+# Deploy:  docker compose up -d --build
 #
-# This serves plain HTTP on the host port below. Terminate TLS in front of it,
-# either with a reverse proxy already on the box (Caddy, Traefik, nginx) or by
-# putting Cloudflare in front of the domain. Do not expose 8080 publicly without
-# one of those.
+# One service: it serves the public site and hosts the editor at /admin.
+#
+# Set CMS_PASSWORD_HASH and SESSION_SECRET before deploying. Generate the hash
+# with:  node cms/hash-password.js "her password"
+# Never put the plain password in this file.
 
 services:
-  web:
+  medpsycmoss:
     build:
       context: .
       dockerfile: Dockerfile
     image: medpsycmoss-site:latest
     container_name: medpsycmoss-site
     restart: unless-stopped
+
+    environment:
+      CMS_USER: "${CMS_USER:-stephanie}"
+      # required: node cms/hash-password.js "<password>"
+      CMS_PASSWORD_HASH: "${CMS_PASSWORD_HASH:?set CMS_PASSWORD_HASH, see cms/hash-password.js}"
+      # required: any long random string. Changing it signs everyone out.
+      SESSION_SECRET: "${SESSION_SECRET:?set SESSION_SECRET to a long random string}"
+
     ports:
-      - "127.0.0.1:8080:8080"   # bind to loopback; the reverse proxy reaches it
-    read_only: true             # nothing writes to disk at runtime
-    tmpfs:
-      - /tmp
-      - /var/cache/nginx
-      - /var/run
+      - "127.0.0.1:8080:8080"   # loopback only; put a reverse proxy in front for TLS
+
+    # Only content/ is a volume, and that distinction matters.
+    #
+    # content/ holds her words, so it must survive a redeploy.
+    # rebuild/ and dist/ are derived, so they must NOT be volumes: a named volume
+    # there would shadow the image forever and silently ignore every template,
+    # layout and code change you deploy. The entrypoint rebuilds them from the
+    # image plus her content at every start, so both sides land.
+    volumes:
+      - content:/app/content
+
     security_opt:
       - no-new-privileges:true
+
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8080/"]
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/healthz"]
       interval: 30s
       timeout: 3s
       retries: 3
-      start_period: 5s
+      start_period: 10s
+
     logging:
       driver: json-file
       options:
         max-size: "10m"
         max-file: "3"
+
+volumes:
+  content:

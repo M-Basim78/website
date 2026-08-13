@@ -1,29 +1,42 @@
-# MedPsycMoss, static site.
+# MedPsycMoss: the public site and the editor, in one container.
 #
-# dist/ is committed rather than built here on purpose: regenerating it needs the
-# 2 GB crawl archive, a running dev server and a headless browser, none of which
-# belong in a production image. Rebuild it locally with:
+# Node serves dist/ and hosts the editor at /admin. Saving writes to content/,
+# and Publish runs the same build scripts a developer would, so she can change
+# the site without anyone's help and without a GitHub account.
 #
-#   node build-resources.mjs && node build-products.mjs && node build-static.mjs
-#
-# The image is then just nginx plus 2.8 MB of static files.
+# No nginx: the editor has to write content and re-run the build, so one process
+# that can do both beats two containers sharing a volume.
 
-FROM nginx:1.27-alpine
+FROM node:22-alpine
 
-RUN rm -f /etc/nginx/conf.d/default.conf
-COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
-COPY dist/ /usr/share/nginx/html/
+LABEL org.opencontainers.image.title="MedPsycMoss" \
+      org.opencontainers.image.description="Static site for Stephanie Moss, MD, with a built-in editor"
 
-# Unprivileged: nginx:alpine ships an `nginx` user, and the conf listens on 8080
-# so no capability to bind a low port is needed.
-RUN chown -R nginx:nginx /usr/share/nginx/html \
- && touch /var/run/nginx.pid && chown nginx:nginx /var/run/nginx.pid \
- && chown -R nginx:nginx /var/cache/nginx
-USER nginx
+WORKDIR /app
 
+# No npm install: the CMS has no dependencies and the build scripts are plain Node.
+COPY cms/                   ./cms/
+COPY rebuild/               ./rebuild/
+COPY dist/                  ./dist/
+COPY build-from-content.mjs build-static.mjs ./
+
+# content/ ships as a seed, not as the live directory. At boot the entrypoint
+# copies it in only if the volume is empty, so a redeploy never overwrites her
+# writing, while rebuild/ and dist/ still come fresh from the image and pick up
+# template and code changes.
+COPY content/               ./content-seed/
+RUN mkdir -p /app/content
+
+RUN addgroup -S app && adduser -S app -G app \
+ && chmod +x /app/cms/entrypoint.sh \
+ && chown -R app:app /app/content /app/rebuild /app/dist
+USER app
+
+ENV PORT=8080 NODE_ENV=production
 EXPOSE 8080
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget -qO- http://127.0.0.1:8080/ >/dev/null 2>&1 || exit 1
+  CMD wget -q -O /dev/null http://127.0.0.1:8080/healthz || exit 1
 
-CMD ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["/app/cms/entrypoint.sh"]
+CMD ["node", "cms/server.js"]

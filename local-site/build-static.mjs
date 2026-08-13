@@ -16,8 +16,11 @@ const R = path.resolve('rebuild');
 const OUT = path.resolve('dist');
 const ORIGIN = 'https://medpsycmoss.com';
 
-fs.rmSync(OUT, { recursive: true, force: true });
+// Empty the directory rather than removing it. Removing it needs write access to
+// the parent, which the unprivileged container user does not have, and it would
+// also break if dist/ were ever a mount point.
 fs.mkdirSync(OUT, { recursive: true });
+for (const e of fs.readdirSync(OUT)) fs.rmSync(path.join(OUT, e), { recursive: true, force: true });
 
 // The dev server mounts everything under /new/. Production serves from the root,
 // so that prefix has to go from HTML, CSS and JS alike. Doing it as a blanket
