@@ -24,3 +24,9 @@ backup/assets/
 
 # The small, text-only backup artifacts ARE tracked; see .gitignore exceptions
 # below and README.md for what is and isn't in this repo.
+
+# Screenshots dropped into the repo root for review. Never commit these:
+# one of them was a personal PayPal dispute, and this repo is public.
+WhatsApp Image*.jpeg
+WhatsApp Image*.jpg
+*.jpeg
