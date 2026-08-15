@@ -2,7 +2,7 @@
 title: "Patient Examples Demonstrating the Significance of the Mind-Body Connection in Medicine"
 slug: "/blog/mind-body-connection-in-medicine"
 kind: blog
-description: "All Patient Stories have been de-identified to protect their identity &amp; personal health information"
+description: "All Patient Stories have been de-identified to protect their identity & personal health information"
 ---
 
 All Patient Stories have been de-identified to protect their identity & personal health information

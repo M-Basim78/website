@@ -2,7 +2,7 @@
 title: "Secrets to Getting Infertility Treatment Covered"
 slug: "/blog/infertility-treatment-coverage"
 kind: blog
-description: "Here are some secrets I have learned over the past year in regards to getting my Infertility &amp; IVF Medications Fully Covered (TWICE) through my Student"
+description: "Here are some secrets I have learned over the past year in regards to getting my Infertility & IVF Medications Fully Covered (TWICE) through my Student"
 ---
 
 Here are some secrets I have learned over the past year in regards to getting my Infertility & IVF Medications Fully Covered (TWICE) through my Student Health Insurance

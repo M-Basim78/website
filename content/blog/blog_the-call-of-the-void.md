@@ -2,7 +2,7 @@
 title: "Navigating Suicidal Ideation: A Journey from Darkness to Hope"
 slug: "/blog/the-call-of-the-void"
 kind: blog
-description: "***Trigger Warning: Suicide &amp; Abuse***"
+description: "***Trigger Warning: Suicide & Abuse***"
 ---
 
 ***Trigger Warning: Suicide & Abuse***
