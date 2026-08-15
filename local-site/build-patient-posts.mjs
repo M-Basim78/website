@@ -13,7 +13,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { assign } from './guides-taxonomy.mjs';
+import { assign, decode } from './guides-taxonomy.mjs';
 
 const R = path.resolve('rebuild');
 const MARK_OPEN = '<!-- related-posts:start -->';
@@ -21,7 +21,8 @@ const MARK_CLOSE = '<!-- related-posts:end -->';
 
 const esc = s => String(s || '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const tidy = s => String(s || '').replace(/\s+[—–]\s+/g, ', ').replace(/[—–]/g, '-')
+// decode first, so an entity in the source is not escaped twice on output
+const tidy = s => decode(String(s || '')).replace(/\s+[—–]\s+/g, ', ').replace(/[—–]/g, '-')
   .replace(/\s+/g, ' ').trim();
 const trim = (s, n) => { s = tidy(s); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '...'; };
 
@@ -69,10 +70,9 @@ for (const [slug, rule] of Object.entries(LIBRARIES)) {
     continue;
   }
 
+  // cat/t/d inside one span: .fr is a two column flex, content then tag.
   const rows = matches.map(p => `        <a class="fr" href="${esc(p.url)}">
-          <span class="cat">HER WRITING</span>
-          <span class="t">${esc(trim(p.title, 110))}</span>
-          <span class="d">${esc(trim(p.desc || '', 150))}</span>
+          <span><span class="cat">HER WRITING</span><span class="t">${esc(trim(p.title, 110))}</span><span class="d">${esc(trim(p.desc || '', 150))}</span></span>
           <span class="tagm">READ</span>
         </a>`).join('\n');
 

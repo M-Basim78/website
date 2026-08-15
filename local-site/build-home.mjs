@@ -35,10 +35,9 @@ let html = fs.readFileSync(FILE, 'utf8');
 const { groups } = assign();
 const total = new Set(groups.flatMap(g => g.posts.map(p => p.slug))).size;
 
+// cat/t/d inside one span: .fr is a two column flex, content then tag.
 const rows = groups.map(g => `        <a class="fr" href="/free-guides/${g.key}">
-          <span class="cat">${esc(g.name.toUpperCase())}</span>
-          <span class="t">${esc(g.name)}</span>
-          <span class="d">${esc(g.blurb)}</span>
+          <span><span class="cat">${esc(g.name.toUpperCase())}</span><span class="t">${esc(g.name)}</span><span class="d">${esc(g.blurb)}</span></span>
           <span class="tagm">FREE</span>
         </a>`).join('\n');
 

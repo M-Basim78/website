@@ -2,7 +2,7 @@
 title: "My Ovarian Follicle Stimulation & Preservation Journey"
 slug: "/blog/fertility-preservation-during-medical-school"
 kind: blog
-description: "My Ovarian Follicle Stimulation &amp; Removal Journey"
+description: "My Ovarian Follicle Stimulation & Removal Journey"
 ---
 
 My Ovarian Follicle Stimulation & Removal Journey

@@ -43,6 +43,21 @@ export function postTags() {
   return map;
 }
 
+/**
+ * Turn HTML entities back into characters.
+ *
+ * Titles and descriptions are read out of built HTML, so they arrive holding
+ * "&amp;". Escaping that again on output produced "&amp;amp;", which is what a
+ * reader actually saw: "ERAS &amp; PS Guide". Decode on the way in, escape on
+ * the way out, once each.
+ */
+export const decode = s => String(s || '')
+  .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+  .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
+  .replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&nbsp;/g, ' ')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+  .replace(/&amp;/g, '&');            // last, or it would double-decode
+
 /** Every blog post page that actually exists in rebuild/, with its article text. */
 export function builtPosts() {
   const out = [];
@@ -52,7 +67,7 @@ export function builtPosts() {
     const slug = f.slice('blog_'.length, -5);
     const html = fs.readFileSync(path.join(REBUILD, f), 'utf8');
     const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
-    const title = (h1 ? h1[1] : '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+    const title = decode((h1 ? h1[1] : '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim());
 
     // Article text only. <main> excludes the header, footer and dock, so the
     // shared chrome cannot make every post match every keyword.
@@ -67,7 +82,7 @@ export function builtPosts() {
     const desc = html.match(/<meta name="description" content="([^"]*)"/);
     out.push({
       slug, file: f, url: '/blog/' + slug, title, body,
-      desc: desc ? desc[1] : '',
+      desc: decode(desc ? desc[1] : ''),
     });
   }
   return out;

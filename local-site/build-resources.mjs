@@ -17,6 +17,8 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { chromium } from 'playwright';
 import { inventory, REBUILD, ROOT, clean, hasArchive } from './lib-pages.mjs';
+import { decode } from './guides-taxonomy.mjs';
+import { headerHTML, dockHTML } from './update-nav.mjs';
 
 const BASE = 'http://localhost:8123';
 // page.evaluate(string) in the Node API evaluates the string as an *expression*,
@@ -42,7 +44,9 @@ const dedash = s => String(s || '')
   .replace(/[\u2014\u2013]/g, '-')
   .replace(/\s*,\s*,/g, ',');
 
-const tidy = s => fixTerms(dedash(clean(s)).replace(/\s*\|\s*$/, '').trim());
+// decode first: some archived text genuinely contains "&amp;", and escaping
+// that on output would print "&amp;amp;" to the reader.
+const tidy = s => fixTerms(dedash(decode(clean(s))).replace(/\s*\|\s*$/, '').trim());
 
 /**
  * Gator splits headings across positioned text nodes, so stripping its
@@ -171,20 +175,7 @@ function shell({ slug, title, desc, h1, kicker, intro, body, crumbs, ld }) {
 
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="top">
-  <div class="wrap top-in">
-    <a href="/" class="logo"><span class="mp">MedPsyc</span><span class="moss">Moss</span><span class="md">STEPHANIE MOSS, MD</span></a>
-    <nav aria-label="Primary">
-      <ul class="top-links">
-        <li><a href="/store">STORE</a></li>
-        <li><a href="/resources" aria-current="page">FREE</a></li>
-        <li><a href="/about-me">PATIENT&amp;DOCTOR</a></li>
-        <li><a href="/podcast">PODCAST</a></li>
-      </ul>
-    </nav>
-    <a href="/store" class="btn">Browse the store</a>
-  </div>
-</header>
+${headerHTML('patients')}
 
 <main id="main">
 
@@ -240,7 +231,10 @@ function grab(file, startRe, endRe) {
   return rest.slice(0, m.index + m[0].length);
 }
 const FOOTER = grab('resources.html', /<footer/, /<\/footer>/);
-const DOCK = grab('resources.html', /<nav class="dock"/, /<\/nav>/);
+// Header and dock come from update-nav.mjs, the single source for the shell.
+// They used to be inlined here, so regenerating these 83 pages quietly reverted
+// them to the old four tab navigation and dropped the mobile dock.
+const DOCK = dockHTML('patients');
 
 // ------------------------------------------------------------------ bodies
 
@@ -249,10 +243,9 @@ function hubBody(lib, kids, pages) {
     const p = pages[slug];
     const name = tidy(fixCase(p?.title || titleFromSlug(slug)));
     const n = p ? p.entries.length + (p.internal || []).length : 0;
+    // cat/t/d inside one span: .fr is a two column flex, content then tag.
     return `        <a class="fr" href="/${esc(slug)}">
-          <span class="cat">${esc(String(i + 1).padStart(2, '0'))}</span>
-          <span class="t">${esc(name)}</span>
-          <span class="d">${n} link${n === 1 ? '' : 's'} she has collected on this topic.</span>
+          <span><span class="cat">${esc(String(i + 1).padStart(2, '0'))}</span><span class="t">${esc(name)}</span><span class="d">${n} link${n === 1 ? '' : 's'} she has collected on this topic.</span></span>
           <span class="tagm">FREE</span>
         </a>`;
   }).join('\n');
@@ -325,9 +318,7 @@ function leafBody(page, opts = {}) {
       // Internal links stay same-tab and keep their ranking value.
       const attrs = e.internal ? '' : ' rel="noopener nofollow" target="_blank"';
       return `        <a class="fr" href="${esc(e.href)}"${attrs}>
-          <span class="cat">${esc(k)}</span>
-          <span class="t">${esc(label)}</span>
-          <span class="d">${esc(blurb || e.host)}</span>
+          <span><span class="cat">${esc(k)}</span><span class="t">${esc(label)}</span><span class="d">${esc(blurb || e.host)}</span></span>
           <span class="tagm">${e.internal ? 'READ' : 'OPEN'}</span>
         </a>`;
     }).join('\n');

@@ -2,7 +2,7 @@
 title: "Considerations Before Taking a Leave of Absence (LOA) from Medical School"
 slug: "/blog/leave-of-absence"
 kind: blog
-description: "Survey Responses &amp; Advice"
+description: "Survey Responses & Advice"
 ---
 
 Survey Responses & Advice

@@ -2,7 +2,7 @@
 title: "Living with Chronic Medical Conditions as a Clinical Medical Student"
 slug: "/blog/living-with-chronic-medical-conditions-as-a-clinical-medical-student"
 kind: blog
-description: "Audio &amp; Video Reading from the Podcast"
+description: "Audio & Video Reading from the Podcast"
 ---
 
 Audio & Video Reading from the Podcast

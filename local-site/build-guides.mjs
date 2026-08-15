@@ -15,7 +15,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { assign } from './guides-taxonomy.mjs';
+import { assign, decode } from './guides-taxonomy.mjs';
 import { headerHTML, dockHTML } from './update-nav.mjs';
 
 const R = path.resolve('rebuild');
@@ -29,7 +29,9 @@ const esc = s => String(s || '')
 
 // House rule: no em or en dashes in visible copy.
 const dedash = s => String(s || '').replace(/\s+[—–]\s+/g, ', ').replace(/[—–]/g, '-');
-const tidy = s => dedash(String(s || '').replace(/\s+/g, ' ').trim());
+// decode first: some source text genuinely contains "&amp;", and escaping that
+// on output would print "&amp;amp;" to the reader.
+const tidy = s => dedash(decode(String(s || '')).replace(/\s+/g, ' ').trim());
 
 const trim = (s, n) => {
   s = tidy(s);
@@ -103,10 +105,11 @@ ${ld}
 `;
 }
 
+// The category, title and blurb go inside ONE span. .fr is a two column flex,
+// content then tag; making them siblings gave each its own column and crushed
+// the title to a few characters wide on a phone.
 const postRow = (p, cat) => `        <a class="fr" href="${esc(p.url)}">
-          <span class="cat">${esc(cat)}</span>
-          <span class="t">${esc(trim(p.title, 110))}</span>
-          <span class="d">${esc(trim(p.desc || '', 150))}</span>
+          <span><span class="cat">${esc(cat)}</span><span class="t">${esc(trim(p.title, 110))}</span><span class="d">${esc(trim(p.desc || '', 150))}</span></span>
           <span class="tagm">READ</span>
         </a>`;
 
