@@ -40,3 +40,6 @@ WhatsApp Image*.jpg
 *secret*
 *.env
 .env*
+# the template carries no secrets and should be committed
+!*.env.example
+!.env.example
