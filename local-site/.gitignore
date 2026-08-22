@@ -12,3 +12,8 @@ content/.trash/
 content/.history/
 content/uploads/*
 !content/uploads/.gitkeep
+
+# Shop runtime data. Orders hold customer emails; content/products holds the
+# paid files she sells. Neither belongs in a repository, and this one is public.
+content/orders/
+content/products/

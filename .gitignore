@@ -30,3 +30,13 @@ backup/assets/
 WhatsApp Image*.jpeg
 WhatsApp Image*.jpg
 *.jpeg
+
+# Credentials. This repository is public: API keys, secrets and any document
+# holding them must never be committed, by any name.
+*.docx
+*.xlsx
+*API*Key*
+*api*key*
+*secret*
+*.env
+.env*

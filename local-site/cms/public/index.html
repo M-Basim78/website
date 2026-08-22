@@ -32,6 +32,7 @@
       <button data-tab="stats">Numbers</button>
       <button data-tab="testimonials">Testimonials</button>
       <button data-tab="site">Homepage wording</button>
+        <button data-tab="orders">Orders</button>
         <button data-tab="uploads">Pictures</button>
         <button data-tab="trash">Bin</button>
     </nav>
@@ -61,8 +62,9 @@
     <section data-panel="products" hidden>
       <div class="head">
         <h2>Products</h2>
-        <p class="note">The price here is what the website advertises. Gator takes the
-          payment, so change it in both places or they will disagree.</p>
+        <p class="note">The price here is the price customers are charged. Change it
+          and the checkout charges the new amount straight away, there is nowhere
+          else to update.</p>
       </div>
       <div id="products"></div>
     </section>
@@ -90,6 +92,12 @@
     <section data-panel="site" hidden>
       <div class="head"><h2>Homepage wording</h2></div>
       <div id="site"></div>
+    </section>
+
+    <section data-panel="orders" hidden>
+      <div class="head"><h2>Orders</h2></div>
+      <p class="hint" id="orders-status"></p>
+      <div id="orders"></div>
     </section>
 
     <section data-panel="uploads" hidden>

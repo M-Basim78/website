@@ -1115,3 +1115,25 @@
   .post-img figcaption{
     margin-top:9px;font-size:13.5px;color:var(--muted);text-wrap:pretty;
   }
+
+  /* ============ product option picker ============ */
+  .choose{
+    display:flex;flex-direction:column;gap:12px;margin-top:22px;
+    align-items:stretch;
+  }
+  .choose label{
+    font-family:var(--mono);font-size:11px;letter-spacing:0.12em;
+    text-transform:uppercase;color:var(--pulse-ink);
+  }
+  .choose select{
+    font-family:var(--body);font-size:15px;padding:14px 14px;border-radius:12px;
+    border:1px solid var(--line);background:#fff;color:var(--ink);min-height:50px;
+  }
+  .choose select:focus-visible{border-color:var(--pulse-ink)}
+  .choose .btn{width:100%}
+  @media(min-width:780px){
+    .choose{flex-direction:row;align-items:center;gap:14px}
+    .choose label{flex:0 0 auto}
+    .choose select{flex:1 1 auto;max-width:320px}
+    .choose .btn{width:auto;flex:0 0 auto}
+  }

@@ -22,6 +22,18 @@ services:
       # required: any long random string. Changing it signs everyone out.
       SESSION_SECRET: "${SESSION_SECRET:?set SESSION_SECRET to a long random string}"
 
+      # ---- the shop ----------------------------------------------------------
+      # Where Stripe sends the customer back to, so it must be the public
+      # address, not the port this container listens on.
+      SITE_ORIGIN: "${SITE_ORIGIN:-https://medpsycmoss.com}"
+      # Her live secret key. Without it the shop refuses checkout rather than
+      # pretending to work, and the rest of the site runs normally.
+      STRIPE_SECRET_KEY: "${STRIPE_SECRET_KEY:-}"
+      # From the webhook endpoint you create in her Stripe dashboard. Without it
+      # every webhook is rejected, which is the correct default: an unverified
+      # webhook must never fulfil an order.
+      STRIPE_WEBHOOK_SECRET: "${STRIPE_WEBHOOK_SECRET:-}"
+
     # Loopback only; put a reverse proxy in front for TLS.
     #
     # The host port is 8899 because 8080 was already taken on the deploy server

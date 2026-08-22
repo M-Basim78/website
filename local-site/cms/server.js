@@ -23,6 +23,7 @@ const fsp = require('fs/promises');
 const path = require('path');
 const crypto = require('crypto');
 const { execFile } = require('child_process');
+const { Store, fromCents, verifySignature } = require('./store.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
@@ -36,6 +37,11 @@ const UPLOADS = path.join(CONTENT, 'uploads');
 const TRASH = path.join(CONTENT, '.trash');
 const HISTORY = path.join(CONTENT, '.history');
 for (const d of [UPLOADS, TRASH, HISTORY]) fs.mkdirSync(d, { recursive: true });
+
+// The shop. ORIGIN is what Stripe redirects back to, so it must be the public
+// address, not the loopback port the container listens on.
+const ORIGIN = process.env.SITE_ORIGIN || 'https://medpsycmoss.com';
+const store = new Store({ contentDir: CONTENT, origin: ORIGIN });
 
 // Pictures she can upload. No SVG: it can carry script, and nothing here needs it.
 const IMAGE_TYPES = {
@@ -451,6 +457,20 @@ async function api(req, res, url, authed) {
     });
   }
 
+  // ---- orders, so she can see what sold without logging into Stripe
+  if (p === '/orders' && req.method === 'GET') {
+    const list = await store.listOrders(300);
+    return json(res, 200, {
+      connected: store.configured,
+      orders: list.map(o => ({
+        id: o.id, created: o.created, product: o.product_name, option: o.option,
+        amount: fromCents(o.amount, o.currency), email: o.email, name: o.name,
+        fulfilment: o.fulfilment, downloads: o.downloads,
+        state: store.downloadState(o),
+      })),
+    });
+  }
+
   if (p === '/publish' && req.method === 'POST') return json(res, 200, await publish());
 
   return json(res, 404, { error: 'No such endpoint.' });
@@ -490,6 +510,81 @@ process.on('uncaughtException', (e) => {
   console.error('uncaught exception:', e && e.message ? e.message : e);
 });
 
+/* ------------------------------------------------------- order page ------ */
+/**
+ * What the buyer sees after paying.
+ *
+ * The webhook may not have landed yet when Stripe redirects them here, which is
+ * normal and takes a second or two. In that case we say so and reload, rather
+ * than telling a paying customer that nothing happened.
+ */
+function orderPage(order, id) {
+  const esc = (t) => String(t == null ? '' : t)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  let heading, body, refresh = '';
+
+  if (!order) {
+    heading = 'Finishing your order';
+    body = '<p class="sub">Your payment went through. We are just recording it, this takes a moment.</p>';
+    refresh = '<meta http-equiv="refresh" content="3">';
+  } else {
+    const paid = fromCents(order.amount, order.currency);
+    const what = esc(order.product_name) + (order.option ? ' (' + esc(order.option) + ')' : '');
+
+    if (order.fulfilment === 'download') {
+      const state = store.downloadState(order);
+      if (state === 'ready') {
+        heading = 'Thank you, here is your download';
+        body =
+          '<p class="sub">' + what + ', ' + paid + '.</p>' +
+          '<div class="hero-cta"><a class="btn" href="/api/store/download/' + esc(order.token) + '">Download it now</a></div>' +
+          '<p class="fine">This link works for 30 days and up to ' + (order.max_downloads || 8) +
+          ' downloads. Save the file somewhere safe. A copy of this page has been sent to ' +
+          (order.email ? esc(order.email) : 'your email') + '.</p>';
+      } else {
+        heading = 'Thank you, your order is recorded';
+        body =
+          '<p class="sub">' + what + ', ' + paid + '.</p>' +
+          '<p class="fine">Your file is being prepared and Dr. Moss will email it to ' +
+          (order.email ? esc(order.email) : 'you') + ' shortly. Your order reference is ' +
+          esc(order.id).slice(0, 24) + '.</p>';
+      }
+    } else if (order.fulfilment === 'booking') {
+      const product = store.find(order.product_id);
+      const link = product && product.booking_url;
+      heading = 'Thank you, now pick your time';
+      body =
+        '<p class="sub">' + what + ', ' + paid + '.</p>' +
+        (link
+          ? '<div class="hero-cta"><a class="btn" href="' + esc(link) + '">Choose your time</a></div>'
+          : '<p class="fine">Dr. Moss will email ' + (order.email ? esc(order.email) : 'you') +
+            ' to arrange a time that suits you.</p>') +
+        '<p class="fine">Your order reference is ' + esc(order.id).slice(0, 24) + '.</p>';
+    } else {
+      heading = 'Thank you, send your draft over';
+      body =
+        '<p class="sub">' + what + ', ' + paid + '.</p>' +
+        '<p class="fine">Reply to your receipt email with your document attached, and Dr. Moss will ' +
+        'come back to you within 48 to 72 hours. Your order reference is ' + esc(order.id).slice(0, 24) + '.</p>';
+    }
+  }
+
+  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n' +
+    '<meta charset="UTF-8">\n' +
+    '<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">\n' +
+    '<meta name="robots" content="noindex">\n' + refresh +
+    '<title>' + esc(heading) + ' | MedPsycMoss</title>\n' +
+    '<link rel="stylesheet" href="/css/site.css">\n' +
+    '<style>.fine{color:var(--muted);font-size:14px;margin-top:18px;max-width:60ch}' +
+    '.order-wrap{padding:70px 0 90px}</style>\n' +
+    '</head>\n<body>\n<main id="main"><section class="hero order-wrap"><div class="mesh"></div><div class="wrap">' +
+    '<p class="kicker"><span>ORDER: <b>CONFIRMED</b></span></p>' +
+    '<h1 class="tight">' + esc(heading) + '</h1>' + body +
+    '<div class="hero-cta" style="margin-top:26px"><a class="btn dark" href="/store">Back to the store</a></div>' +
+    '</div></section></main>\n</body>\n</html>\n';
+}
+
 const server = http.createServer(async (req, res) => {
   let url;
   try { url = new URL(req.url, 'http://localhost'); } catch { return send(res, 400, MIME['.txt'], 'bad'); }
@@ -524,6 +619,83 @@ const server = http.createServer(async (req, res) => {
     if (pathname === '/admin' || pathname.startsWith('/admin/')) {
       const rel = pathname.replace(/^\/admin\/?/, '') || 'index.html';
       return serveStatic(res, UI, rel, false);
+    }
+
+    // ---------------------------------------------------------------- store
+    // All public: a buyer is not logged in, and Stripe certainly is not.
+
+    if (pathname === '/api/store/checkout' && req.method === 'POST') {
+      let body;
+      try { body = JSON.parse(await readBody(req) || '{}'); }
+      catch { return json(res, 400, { error: 'Could not read that request.' }); }
+      try {
+        // Only an id crosses the wire. The amount is decided server side.
+        const out = await store.createCheckout({
+          productId: String(body.productId || ''),
+          optionId: String(body.optionId || ''),
+          email: typeof body.email === 'string' ? body.email.slice(0, 200) : '',
+        });
+        return json(res, 200, { url: out.url });
+      } catch (e) {
+        console.error('checkout:', e.message);
+        return json(res, 400, { error: e.message });
+      }
+    }
+
+    if (pathname === '/api/store/webhook' && req.method === 'POST') {
+      // The signature covers the exact bytes Stripe sent, so read it raw and do
+      // not parse before verifying.
+      const raw = (await readBuffer(req, 1024 * 1024)).toString('utf8');
+      const sig = req.headers['stripe-signature'];
+      if (!verifySignature(raw, sig, store.webhookSecret)) {
+        console.error('webhook: bad signature, refused');
+        return json(res, 400, { error: 'Bad signature.' });
+      }
+      let event;
+      try { event = JSON.parse(raw); }
+      catch { return json(res, 400, { error: 'Bad payload.' }); }
+
+      // Acknowledge fast. Anything slow here means Stripe retries a payment we
+      // have already taken.
+      try {
+        if (event.type === 'checkout.session.completed') {
+          const order = await store.recordOrder(event.data.object);
+          console.log('order recorded:', order.id, order.product_name, order.email);
+        } else if (event.type === 'charge.refunded' || event.type === 'charge.dispute.created') {
+          console.log('stripe event:', event.type, event.data.object.id);
+        }
+      } catch (e) {
+        console.error('webhook handling:', e.message);
+        // Still 200: the signature was good and retrying will not fix our bug.
+      }
+      return json(res, 200, { received: true });
+    }
+
+    if (pathname.startsWith('/api/store/download/') && req.method === 'GET') {
+      const token = pathname.replace('/api/store/download/', '');
+      const order = await store.orderByToken(token);
+      if (!order) return send(res, 404, MIME['.txt'], 'That download link is not valid.\n');
+
+      const state = store.downloadState(order);
+      if (state === 'expired') return send(res, 410, MIME['.txt'], 'That download link has expired.\n');
+      if (state === 'exhausted') return send(res, 429, MIME['.txt'], 'That link has been used too many times.\n');
+
+      const file = store.fileFor(order);
+      if (!file) return send(res, 503, MIME['.txt'], 'That file is not available yet.\n');
+
+      await store.countDownload(order);
+      const name = path.basename(file);
+      const data = await fsp.readFile(file);
+      return send(res, 200, MIME[path.extname(name).toLowerCase()] || 'application/octet-stream', data, {
+        'Content-Disposition': 'attachment; filename="' + name + '"',
+        'Cache-Control': 'no-store',
+      });
+    }
+
+    if (pathname.startsWith('/order/')) {
+      const id = pathname.replace('/order/', '').trim();
+      const order = await store.getOrder(id);
+      return send(res, 200, MIME['.html'], orderPage(order, id));
     }
 
     // Pictures are served straight from the volume, so one she uploads is live
