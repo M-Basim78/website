@@ -40,10 +40,37 @@ $$('.tabs button').forEach(b => b.addEventListener('click', () => {
   $$('.tabs button').forEach(x => x.classList.toggle('on', x === b));
   $$('[data-panel]').forEach(p => { p.hidden = p.dataset.panel !== b.dataset.tab; });
   const t = b.dataset.tab;
-  if (t === 'uploads') loadUploads();
+  if (t === 'orders') loadOrders();
+  else if (t === 'uploads') loadUploads();
   else if (t === 'trash') loadTrash();
   else if (t !== 'posts') loadData(t);
 }));
+
+/* ---------------------------------------------------------------- orders -- */
+async function loadOrders() {
+  const box = $('#orders');
+  const status = $('#orders-status');
+  box.innerHTML = '<p class="hint">Loading...</p>';
+  try {
+    const data = await api('/orders');
+    status.textContent = data.connected
+      ? 'Every sale made through the website. Payments are handled by Stripe; this is a record, not the money itself.'
+      : 'The shop is not connected to Stripe yet, so there are no orders to show.';
+
+    if (!data.orders.length) {
+      box.innerHTML = '<p class="hint">No orders yet.</p>';
+      return;
+    }
+    box.innerHTML = `<ul class="list">${data.orders.map(o => `
+      <li>
+        <span class="t">${esc(o.product)}${o.option ? ' <small>(' + esc(o.option) + ')</small>' : ''}</span>
+        <span class="meta">${esc(o.amount)} &middot; ${esc(o.email || 'no email')} &middot; ${new Date(o.created).toLocaleString()}</span>
+        <span class="meta">${esc(o.fulfilment)}${o.fulfilment === 'download' ? ' &middot; ' + o.downloads + ' downloads &middot; ' + esc(o.state) : ''}</span>
+      </li>`).join('')}</ul>`;
+  } catch (ex) {
+    box.innerHTML = `<p class="hint">${esc(ex.message)}</p>`;
+  }
+}
 
 /* -------------------------------------------------------------- pictures -- */
 const kb = (n) => n < 1024 * 1024

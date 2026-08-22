@@ -1,76 +1,96 @@
 {
+  "_note": "Prices here are what the site charges. The checkout reads them server side, so this file is the single source of truth. Verified against the live Gator store on 2026-08-19.",
+  "currency": "usd",
   "products": [
     {
       "id": "p_3380308",
-      "store_path": "p_3380308/testing-accommodations-workbook-mcat-usmle-comlex",
-      "name": "Testing Accommodations Workbook: MCAT, USMLE, COMLEX",
+      "store_path": "p_3380308/testing-accommodations-workbook-examples",
+      "name": "Testing Accommodations: Workbook + Examples",
       "description": "Walk away with a complete accommodations request you can adapt to your own diagnosis. Inside: her full example application for USMLE Step 1, 2 and 3, a template for your personal statement, a template to hand your health professional for the supporting letter, the most requested DSM-5 criteria for ADHD, MDD, GAD, panic and PTSD, and workbook pages on how to disclose in applications and at school. Bonus: an anonymous personal statement from a medical student with ADHD, MDD and GAD.",
       "price": "$50.00",
       "chip": "MOST POPULAR",
       "category": "USMLE ACCOMMODATIONS",
       "cta": "Grab the workbook",
       "cover": "accommod",
-      "feature": true
-    },
-    {
-      "id": "p_3370950",
-      "store_path": "p_3370950/advising-with-dr-moss-1-hr",
-      "name": "Advising with Dr. Moss, 1 hr",
-      "description": "Leave with a plan for your own situation, not general advice. One hour on failed exams, accommodations, a possible dismissal, a leave of absence, gap years, career pivots in or out of medicine, or applying with red flags or as an IMG.",
-      "price": "$70.00",
-      "chip": "POPULAR",
-      "category": "ADVISING",
-      "cta": "Book a session",
-      "cover": "advising",
-      "feature": false
+      "feature": true,
+      "fulfilment": "download",
+      "file": "testing-accommodations-workbook.pdf"
     },
     {
       "id": "p_3313250",
       "store_path": "p_3313250/mock-interview-with-dr-moss",
       "name": "Mock Interview with Dr. Moss",
       "description": "Practise the interview before it counts. A 30 minute mock plus feedback, one-to-one, with the option to have it recorded so you can watch yourself back. You get constructive feedback on your answers, body language, virtual background and overall presentation, and practice on the hard questions: academic failures, health conditions and disabilities, red flags, gap years and leaves of absence.",
-      "price": "$100.00",
-      "chip": "",
+      "price": "$125.00",
+      "chip": "LIMITED NUMBER AVAILABLE",
       "category": "INTERVIEWS",
       "cta": "Book a mock interview",
       "cover": "mock",
-      "feature": false
+      "feature": false,
+      "fulfilment": "booking",
+      "booking_url": ""
+    },
+    {
+      "id": "p_3370950",
+      "store_path": "p_3370950/advising-with-dr-moss-1-hr",
+      "name": "Advising with Dr. Moss, 1 hr",
+      "description": "Leave with a plan for your own situation, not general advice. One hour on failed exams, accommodations, a possible dismissal, a leave of absence, gap years, career pivots in or out of medicine, or applying with red flags or as an IMG.",
+      "price": "$100.00",
+      "chip": "POPULAR",
+      "category": "ADVISING",
+      "cta": "Book a session",
+      "cover": "advising",
+      "feature": false,
+      "fulfilment": "booking",
+      "booking_url": ""
     },
     {
       "id": "p_3291607",
       "store_path": "p_3291607/application-or-personal-statement-editing",
       "name": "Application or Personal Statement Editing",
-      "description": "Get your application read by someone who received over 24 interviews dual-applying to psychiatry and family medicine. One pass across all 10 activities, your 3 most meaningful, publications and impactful experience, with a full analysis of content, voice and tone, custom feedback and proofreading. Turnaround is 48 to 72 hours. Options at checkout for a dual application with two personal statements, or two edits of the same statement.",
-      "price": "$60.00",
+      "description": "Get your application read by someone who received over 24 interviews dual-applying to psychiatry and family medicine. One pass across all 10 activities, your 3 most meaningful, publications and impactful experience, with a full analysis of content, voice and tone, custom feedback and proofreading. Turnaround is 48 to 72 hours.",
+      "price": "$100.00",
       "chip": "NOW ACCEPTING",
       "category": "APPLICATIONS",
       "cta": "Send your draft",
       "cover": "",
-      "feature": false
+      "feature": false,
+      "fulfilment": "email",
+      "options": {
+        "label": "Additional editing",
+        "choices": [
+          { "id": "one", "label": "1 Edit", "add": "$0.00" },
+          { "id": "two", "label": "2 Edits", "add": "$50.00" }
+        ]
+      }
     },
     {
-      "id": "p_3387065",
-      "store_path": "p_3387065/2026-eras-and-ps-for-fellowship",
-      "name": "2026 ERAS & PS for Fellowship",
-      "description": "See exactly what a successful application looks like. Her complete 2026 psychiatry fellowship submission: all 10 activities with the 3 most meaningful, updated 2026 publications, impactful experiences, geographic preference and two personal statements. Built from three years of helping applicants tell their own stories, and just as usable for a residency application as a fellowship one.",
-      "price": "$30.00",
-      "chip": "NEW",
-      "category": "ERAS & FELLOWSHIP",
-      "cta": "See the real application",
-      "cover": "fellowship",
-      "feature": false
+      "id": "p_3380355",
+      "store_path": "p_3380355/advising-with-dr-moss-30min",
+      "name": "Advising with Dr. Moss, 30 min",
+      "description": "A focused half hour on one question. Good for a single decision: whether to disclose, how to explain a gap, which programs to signal, or what to do next after a failed exam.",
+      "price": "$60.00",
+      "chip": "",
+      "category": "ADVISING",
+      "cta": "Book a session",
+      "cover": "advising",
+      "feature": false,
+      "fulfilment": "booking",
+      "booking_url": ""
     },
     {
-      "id": "p_3291868",
-      "store_path": "p_3291868/residency-application-workbook",
-      "name": "Residency Application Workbook",
-      "description": "Build your own ERAS application step by step. 45+ worksheet-style pages for the 2025 to 2026 cycle: finding letter writers, drafting the personal statement, deciding which activities are meaningful, working out what matters to you in a program, and a checklist for dual applying. Includes unlimited access to updates by email.",
-      "price": "$12.00",
-      "chip": "WORKBOOK",
-      "category": "RESIDENCY",
-      "cta": "Grab the workbook",
-      "cover": "workbook",
-      "feature": false
+      "id": "p_3313253",
+      "store_path": "p_3313253/residency-mock-interview-course-",
+      "name": "Residency Mock Interview Course + Workbook",
+      "description": "Prepare for interview season at your own pace. The course covers how residency interviews are scored, what to say about academic failures, health conditions and leaves of absence, and how to present yourself on camera, with a workbook to draft and practise your own answers.",
+      "price": "$50.00",
+      "chip": "POPULAR",
+      "category": "INTERVIEWS",
+      "cta": "Start the course",
+      "cover": "mock",
+      "feature": false,
+      "fulfilment": "download",
+      "file": "residency-mock-interview-course.pdf"
     }
   ]
 }

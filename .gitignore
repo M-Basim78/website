@@ -1,9 +1,19 @@
 node_modules/
 .cache/
-*.log
+verify-out/
+*.png
 
-# CMS runtime state, lives in the content volume
+# dist/ is the deployable artifact and is committed on purpose
+!dist/
+
+# Runtime state, created by the CMS and living in the content volume.
+# The bin and the version history are per-deployment, not source.
 content/.trash/
 content/.history/
 content/uploads/*
 !content/uploads/.gitkeep
+
+# Shop runtime data. Orders hold customer emails; content/products holds the
+# paid files she sells. Neither belongs in a repository, and this one is public.
+content/orders/
+content/products/
