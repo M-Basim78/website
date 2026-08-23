@@ -642,7 +642,12 @@ const server = http.createServer(async (req, res) => {
       }
     }
 
-    if (pathname === '/api/store/webhook' && req.method === 'POST') {
+    // A webhook endpoint is configured once, by hand, in the Stripe dashboard.
+    // A typo there fails silently and every order stops being fulfilled, so we
+    // accept the obvious spellings rather than 404 someone's real payments.
+    // Canonical is /api/store/webhook.
+    const isWebhook = /^\/api\/(store|stripe)\/webhook\/?$/i.test(pathname);
+    if (isWebhook && req.method === 'POST') {
       // The signature covers the exact bytes Stripe sent, so read it raw and do
       // not parse before verifying.
       const raw = (await readBuffer(req, 1024 * 1024)).toString('utf8');
