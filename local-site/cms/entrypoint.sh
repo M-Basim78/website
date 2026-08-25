@@ -15,6 +15,7 @@ if [ -z "$(ls -A /app/content 2>/dev/null)" ]; then
 fi
 
 echo "rebuilding the site from content/"
+node /app/build-store.mjs
 node /app/build-from-content.mjs
 node /app/build-static.mjs
 

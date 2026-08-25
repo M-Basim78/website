@@ -234,7 +234,11 @@ function publish() {
   const run = (script) => new Promise((ok, bad) =>
     execFile(process.execPath, [path.join(ROOT, script)], { cwd: ROOT, timeout: 300000 },
       (err, so, se) => err ? bad(new Error(`${script}: ${se || err.message}`)) : ok(so)));
-  return run('build-from-content.mjs')
+  // build-store.mjs first: it regenerates the whole store grid from
+  // products.json, so a product she adds or removes appears or disappears.
+  // build-from-content.mjs then refreshes the text and prices in place.
+  return run('build-store.mjs')
+    .then(() => run('build-from-content.mjs'))
     .then(() => run('build-static.mjs'))
     .then((out) => {
       lastPublish = new Date().toISOString();

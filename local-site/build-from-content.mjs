@@ -161,10 +161,15 @@ ${SHELL.dock}
 
 // ------------------------------------------------------------- products ----
 // Rewrites the name, description, price, chip and category inside each existing
-// store tile and product page, keyed on data-p. Everything else in the markup is
-// left untouched, so the layout the designers built survives an edit.
+// store tile and product page, keyed on data-buy. Everything else in the markup
+// is left untouched, so the layout the designers built survives an edit.
+//
+// This used to key on data-p, which the shop rewrite removed from every page.
+// The result was silent and dangerous: a price edit updated nothing on screen
+// while checkout, which reads products.json server side, charged the new amount.
+// The site would advertise one price and take another.
 const { products } = JSON.parse(fs.readFileSync(path.join(C, 'products.json'), 'utf8'));
-const byPath = new Map(products.map(p => [p.store_path, p]));
+const byId = new Map(products.map(p => [p.id, p]));
 
 let tiles = 0;
 for (const f of fs.readdirSync(R).filter(x => x.endsWith('.html'))) {
@@ -172,29 +177,39 @@ for (const f of fs.readdirSync(R).filter(x => x.endsWith('.html'))) {
   let html = fs.readFileSync(file, 'utf8');
   let touched = false;
 
-  html = html.replace(/<a class="tile([^"]*)"([^>]*?)data-p="([^"]+)"([^>]*)>([\s\S]*?)<\/a>/g,
+  html = html.replace(/<a class="tile([^"]*)"([^>]*?)data-buy="([^"]+)"([^>]*)>([\s\S]*?)<\/a>/g,
     (whole, cls, pre, dp, post, inner) => {
-      const p = byPath.get(dp);
+      const p = byId.get(dp);
       if (!p) return whole;
       let out = inner;
-      const sub = (re, to) => { if (re.test(out)) { out = out.replace(re, to); touched = true; } };
+      // A FUNCTION replacer, never a string. Her prices start "$1", and in a
+      // string replacement "$1" means backreference to group 1, so "$135.00"
+      // silently spliced the matched markup back in and left "35.00" behind.
+      const sub = (re, to) => { if (re.test(out)) { out = out.replace(re, () => to); touched = true; } };
       sub(/<h3>[\s\S]*?<\/h3>/, `<h3>${esc(p.name)}</h3>`);
       sub(/<p>[\s\S]*?<\/p>/, `<p>${esc(p.description)}</p>`);
       sub(/<span class="price">[\s\S]*?<\/span>/, `<span class="price">${esc(p.price)}</span>`);
+      // build-store.mjs renders the price as the first span inside .num.
+      // Rebuilt by hand rather than with $1/$2, for the same reason as above.
+      if (/<span class="num"><span>[^<]*<\/span>/.test(out)) {
+        out = out.replace(/<span class="num"><span>[^<]*<\/span>/,
+          () => `<span class="num"><span>${esc(p.price)}</span>`);
+        touched = true;
+      }
       if (p.chip) sub(/<span class="chip">[\s\S]*?<\/span>/, `<span class="chip">${esc(p.chip)}</span>`);
       if (p.category) sub(/<span class="cat">[\s\S]*?<\/span>/, `<span class="cat">${esc(p.category)}</span>`);
-      return `<a class="tile${cls}"${pre}data-p="${dp}"${post}>${out}</a>`;
+      return `<a class="tile${cls}"${pre}data-buy="${dp}"${post}>${out}</a>`;
     });
 
   // The /products/* pages carry the price in the buy button rather than a tile,
   // so the tile rewrite above misses them. Without this a price edit updates the
   // store and the homepage but leaves the product page advertising the old
   // figure, which is the exact drift this whole exercise exists to prevent.
-  html = html.replace(/(<a class="btn"[^>]*?data-p="([^"]+)"[^>]*>)([\s\S]*?)(<\/a>)/g,
+  html = html.replace(/(<a class="btn"[^>]*?data-buy="([^"]+)"[^>]*>)([\s\S]*?)(<\/a>)/g,
     (whole, open, dp, label, close) => {
-      const p = byPath.get(dp);
+      const p = byId.get(dp);
       if (!p) return whole;
-      const next = label.replace(/\$[0-9]+(?:\.[0-9]{2})?/, p.price);
+      const next = label.replace(/\$[0-9]+(?:\.[0-9]{2})?/, () => p.price);
       if (next === label) return whole;
       touched = true;
       return open + next + close;
