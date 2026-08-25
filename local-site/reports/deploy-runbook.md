@@ -1,0 +1,189 @@
+# Deploying to the VPS, step by step
+
+You have SSH. The code comes from git; only the secrets and the paid files go
+over scp, because those are deliberately not in the repository.
+
+Replace `USER@VPS_IP` throughout.
+
+---
+
+## 1. On the VPS: install Docker
+
+```bash
+ssh USER@VPS_IP
+curl -fsSL https://get.docker.com | sh
+sudo usermod -aG docker $USER
+exit          # log out and back in so the group applies
+```
+
+```bash
+ssh USER@VPS_IP
+docker --version && docker compose version
+```
+
+## 2. Clone the site
+
+```bash
+git clone -b medpsycmoss https://github.com/byteboom-ai/websites.git medpsycmoss
+cd medpsycmoss
+```
+
+Updating later is `git pull && docker compose up -d --build`, which is the whole
+reason not to scp the site across.
+
+## 3. Send the secrets
+
+`docker-compose.yml` sits at the repo root, so `.env` goes beside it. From your
+machine:
+
+```bash
+scp local-site/.env USER@VPS_IP:~/medpsycmoss/.env
+```
+
+Then on the VPS, fix the one value that must differ in production:
+
+```bash
+cd ~/medpsycmoss
+sed -i 's|^SITE_ORIGIN=.*|SITE_ORIGIN=https://medpsycmoss.com|' .env
+sed -i 's|^PORT=.*|PORT=8080|' .env      # the port inside the container
+chmod 600 .env
+grep -c . .env                            # sanity check it arrived
+```
+
+**`SITE_ORIGIN` matters.** It is where Stripe sends the buyer after paying. Leave
+it as localhost and every customer is redirected to a dead address the moment
+they have handed over money.
+
+## 4. Start it
+
+```bash
+docker compose up -d --build
+docker compose ps                    # expect healthy
+curl -I http://127.0.0.1:8899/       # expect 200
+```
+
+It binds to loopback on purpose. TLS comes from the proxy in the next step.
+
+## 5. TLS
+
+```bash
+sudo apt install -y caddy
+```
+
+`/etc/caddy/Caddyfile`:
+
+```
+medpsycmoss.com, www.medpsycmoss.com {
+    reverse_proxy 127.0.0.1:8899
+}
+```
+
+```bash
+sudo systemctl reload caddy
+```
+
+Caddy gets and renews the certificate by itself, but only once DNS points here,
+so do step 7 first if it fails.
+
+## 6. Send the paid product files
+
+These are the workbooks customers pay for. They are gitignored and belong in the
+volume, not the image.
+
+```bash
+# from your machine, once you have exported them from Gator
+scp -r ./products-from-gator/* USER@VPS_IP:~/upload/
+```
+
+```bash
+# on the VPS, copy them into the running container's volume
+docker cp ~/upload/. medpsycmoss-site:/app/content/products/
+docker exec medpsycmoss-site ls -la /app/content/products/
+rm -rf ~/upload
+```
+
+Filenames must match the `file` field in `content/products.json`, currently:
+
+```
+testing-accommodations-workbook.pdf
+residency-mock-interview-course.pdf
+```
+
+Until they are there the order page does not offer a broken download; it tells
+the buyer she will email the file. So this is not a launch blocker, but she has
+to send them by hand until it is done.
+
+## 7. Point the domain
+
+DNS is at Bluehost. Set the A records for `@` and `www` to the VPS IP.
+
+**There is no MX record on this domain**, so there is no email to break. That is
+the usual way a DNS move goes wrong and it does not apply here.
+
+**Before you do this, read the sequencing note at the bottom.**
+
+## 8. Check it end to end
+
+```bash
+curl -I https://medpsycmoss.com/                       # 200
+curl -I https://medpsycmoss.com/store/                 # 200
+curl -sI https://medpsycmoss.com/admin | head -1       # 200
+curl -s -o /dev/null -w "%{http_code}\n" -X POST \
+     https://medpsycmoss.com/API/stripe/webhook        # 400, refusing unsigned
+```
+
+That last one returning **400 and not 404** is the important one: 400 means the
+webhook route is reachable and rejecting an unsigned request, which is correct.
+404 would mean orders silently never get fulfilled.
+
+Then in Stripe: **Developers, Webhooks, your endpoint, Send test webhook**,
+choose `checkout.session.completed`. It should show a 200 response, and the
+Orders tab in `/admin` should show the test order.
+
+## 9. Housekeeping
+
+```bash
+sudo ufw allow OpenSSH && sudo ufw allow 80 && sudo ufw allow 443 && sudo ufw enable
+```
+
+Port 8899 stays closed: Caddy reaches it over loopback.
+
+Back up the volume on a schedule, because it holds everything she writes plus
+every order:
+
+```bash
+docker run --rm -v medpsycmoss_content:/c -v $PWD:/b alpine \
+  tar czf /b/content-$(date +%F).tgz /c
+```
+
+---
+
+## The sequencing that actually matters
+
+**The moment the A record moves, Gator stops serving her site, including the
+shop.** Before you switch DNS, all of these must be true:
+
+1. The site is up on the VPS over HTTPS and you have clicked through it
+2. The contact form has a recipient address, or student enquiries vanish silently
+3. Either the new store is taking payments, or `store.medpsycmoss.com` is live on
+   Gator and the checkout links point there
+
+And before cutover, because they cannot be recovered afterwards:
+
+- export her Gator orders, customers and product files
+- screenshot 12 months of traffic stats: they are generated by the server that
+  hosts the site and stop the day it moves
+- have Google Analytics and Search Console already running on the new site
+
+## Update later
+
+```bash
+ssh USER@VPS_IP
+cd ~/medpsycmoss
+git pull
+docker compose up -d --build
+```
+
+`content/` is a volume, so everything she has written and every order survives.
+`rebuild/` and `dist/` come fresh from the image, so your changes land. The
+entrypoint rebuilds from both at every start.
