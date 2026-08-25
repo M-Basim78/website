@@ -18,7 +18,7 @@ WORKDIR /app
 COPY cms/                   ./cms/
 COPY rebuild/               ./rebuild/
 COPY dist/                  ./dist/
-COPY build-from-content.mjs build-static.mjs ./
+COPY build-from-content.mjs build-static.mjs build-store.mjs ./
 
 # content/ ships as a seed, not as the live directory. At boot the entrypoint
 # copies it in only if the volume is empty, so a redeploy never overwrites her
