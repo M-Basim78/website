@@ -6,3 +6,8 @@
 !dist/
 !build-from-content.mjs
 !build-static.mjs
+!build-store.mjs
+
+# This list is an allowlist: anything not named here is invisible to the build.
+# A COPY of a file missing from it fails with "not found" even though the file
+# is committed, which is exactly how build-store.mjs broke the image.
