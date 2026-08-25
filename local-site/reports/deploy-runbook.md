@@ -3,22 +3,61 @@
 You have SSH. The code comes from git; only the secrets and the paid files go
 over scp, because those are deliberately not in the repository.
 
-Replace `USER@VPS_IP` throughout.
+Replace `VPS_IP` throughout. Everything runs as the `ubuntu` user created in step 0.
 
 ---
+
+## 0. Create a non-root user first
+
+Everything below runs as `ubuntu`, not root. As root, on the VPS:
+
+```bash
+adduser ubuntu                 # prompts for a password, the rest can be blank
+usermod -aG sudo ubuntu
+```
+
+Give it your SSH key so you can log in the same way you log in as root:
+
+```bash
+rsync --archive --chown=ubuntu:ubuntu ~/.ssh /home/ubuntu/
+```
+
+**Now open a SECOND terminal and prove it works before you touch anything else:**
+
+```bash
+ssh ubuntu@VPS_IP
+sudo whoami                    # must print: root
+```
+
+Only once that succeeds, go back to the root session and close the door:
+
+```bash
+# /etc/ssh/sshd_config
+PermitRootLogin no
+PasswordAuthentication no      # only if you are certain your key works
+```
+
+```bash
+sudo systemctl reload ssh      # 'sshd' on some distros
+```
+
+Keep the root session open until you have opened yet another new connection as
+`ubuntu` and confirmed it still works. A reload does not drop existing sessions,
+which is what gives you a way back if the config is wrong.
 
 ## 1. On the VPS: install Docker
 
 ```bash
-ssh USER@VPS_IP
-curl -fsSL https://get.docker.com | sh
-sudo usermod -aG docker $USER
-exit          # log out and back in so the group applies
+ssh ubuntu@VPS_IP
+curl -fsSL https://get.docker.com | sudo sh
+sudo usermod -aG docker ubuntu
+exit          # log out and back in so the group membership applies
 ```
 
 ```bash
-ssh USER@VPS_IP
+ssh ubuntu@VPS_IP
 docker --version && docker compose version
+docker run --rm hello-world     # proves ubuntu can use docker without sudo
 ```
 
 ## 2. Clone the site
@@ -37,7 +76,7 @@ reason not to scp the site across.
 machine:
 
 ```bash
-scp local-site/.env USER@VPS_IP:~/medpsycmoss/.env
+scp local-site/.env ubuntu@VPS_IP:~/medpsycmoss/.env
 ```
 
 Then on the VPS, fix the one value that must differ in production:
@@ -92,7 +131,7 @@ volume, not the image.
 
 ```bash
 # from your machine, once you have exported them from Gator
-scp -r ./products-from-gator/* USER@VPS_IP:~/upload/
+scp -r ./products-from-gator/* ubuntu@VPS_IP:~/upload/
 ```
 
 ```bash
@@ -178,7 +217,7 @@ And before cutover, because they cannot be recovered afterwards:
 ## Update later
 
 ```bash
-ssh USER@VPS_IP
+ssh ubuntu@VPS_IP
 cd ~/medpsycmoss
 git pull
 docker compose up -d --build
