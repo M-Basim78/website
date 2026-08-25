@@ -6,6 +6,31 @@ const crypto = require('crypto');
 const path = require('path');
 const { Store, toCents, verifySignature } = require('./store.js');
 
+/* ----------------------------------------------------------- safety gate --
+ * These tests create checkout sessions and fire webhooks. Against a LIVE key
+ * that means real Stripe objects on her real account, and a mistake means real
+ * money and a real customer record. Test mode exists for exactly this and runs
+ * the same code paths.
+ *
+ * Set ALLOW_LIVE=i-understand only if you genuinely mean it.
+ */
+(function liveGate() {
+  const key = process.env.STRIPE_SECRET_KEY || '';
+  const live = key.startsWith('sk_live_') || key.startsWith('rk_live_');
+  if (live && process.env.ALLOW_LIVE !== 'i-understand') {
+    console.error('');
+    console.error('  REFUSING TO RUN.');
+    console.error('  STRIPE_SECRET_KEY is a LIVE key (' + key.slice(0, 8) + '...).');
+    console.error('  These tests would create real objects on her Stripe account.');
+    console.error('');
+    console.error('  Use the test key instead: Stripe dashboard, Developers, API keys,');
+    console.error('  with the Test mode toggle ON. It starts sk_test_.');
+    console.error('');
+    process.exit(2);
+  }
+  if (live) console.error('  WARNING: running against a LIVE key because ALLOW_LIVE is set.');
+})();
+
 let pass = 0, fail = 0;
 const ok = (name, cond, extra) => {
   if (cond) { pass++; console.log('  PASS  ' + name); }
