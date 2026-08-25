@@ -2,9 +2,9 @@
 #
 # One service: it serves the public site and hosts the editor at /admin.
 #
-# Set CMS_PASSWORD_HASH and SESSION_SECRET before deploying. Generate the hash
-# with:  node cms/hash-password.js "her password"
-# Never put the plain password in this file.
+# Set a password and SESSION_SECRET in .env before deploying, never in this file.
+# Either CMS_PASSWORD (hashed at boot) or CMS_PASSWORD_HASH from
+# `node cms/hash-password.js "her password"`.
 
 services:
   medpsycmoss:
@@ -17,8 +17,12 @@ services:
 
     environment:
       CMS_USER: "${CMS_USER:-stephanie}"
-      # required: node cms/hash-password.js "<password>"
-      CMS_PASSWORD_HASH: "${CMS_PASSWORD_HASH:?set CMS_PASSWORD_HASH, see cms/hash-password.js}"
+      # Set ONE of these two. The server hashes CMS_PASSWORD at boot, so changing
+      # it here and restarting is all a password reset takes. CMS_PASSWORD_HASH
+      # keeps the plain password off the server, which is tidier but means using
+      # cms/hash-password.js to change it. If both are set the hash wins.
+      CMS_PASSWORD: "${CMS_PASSWORD:-}"
+      CMS_PASSWORD_HASH: "${CMS_PASSWORD_HASH:-}"
       # required: any long random string. Changing it signs everyone out.
       SESSION_SECRET: "${SESSION_SECRET:?set SESSION_SECRET to a long random string}"
 
