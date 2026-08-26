@@ -25,6 +25,8 @@ const crypto = require('crypto');
 const { execFile } = require('child_process');
 const { Store, fromCents, verifySignature } = require('./store.js');
 const { Analytics } = require('./analytics.js');
+const { Inbox } = require('./inbox.js');
+const mail = require('./mail.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
@@ -68,6 +70,10 @@ const SECRET_FOR_ANALYTICS = crypto.createHash('sha256')
 // rather than beside the store because it needs the secret above.
 const analytics = new Analytics({ contentDir: CONTENT, salt: SECRET_FOR_ANALYTICS });
 analytics.prune(400).catch(() => {});
+
+// The contact form and the mailing list. Disk first, email second: see
+// cms/inbox.js. Works fully with no SMTP configured.
+const inbox = new Inbox({ contentDir: CONTENT });
 
 const scrypt = (pw, salt) =>
   crypto.scryptSync(pw, salt, 64).toString('hex');
@@ -499,6 +505,7 @@ async function api(req, res, url, authed) {
       count: items.length,
       urgent: items.filter(x => x.todo.urgent).length,
       oldest: items.length ? items[0].order.created : '',
+      unreadMessages: await inbox.unreadCount(),
     });
   }
 
@@ -516,6 +523,45 @@ async function api(req, res, url, authed) {
     const days = Number(url.searchParams.get('days') || 30);
     const [summary, since] = await Promise.all([analytics.summary(days), analytics.since()]);
     return json(res, 200, Object.assign({ since: since }, summary));
+  }
+
+  // ---- messages
+  if (p === '/messages' && req.method === 'GET') {
+    const list = await inbox.list(300);
+    return json(res, 200, {
+      mail: { configured: mail.configured(), to: mail.cfg().to },
+      unread: list.filter(m => !m.read_at).length,
+      messages: list,
+    });
+  }
+
+  const mread = p.match(/^\/messages\/([\w.-]+)\/read$/);
+  if (mread && req.method === 'POST') {
+    const body = await readJson(req);
+    if (body === BAD_JSON) return json(res, 400, { error: 'Could not read that request.' });
+    const rec = await inbox.markRead(mread[1], body.read !== false);
+    if (!rec) return json(res, 404, { error: 'No such message.' });
+    return json(res, 200, { ok: true, read_at: rec.read_at });
+  }
+
+  const mdel = p.match(/^\/messages\/([\w.-]+)$/);
+  if (mdel && req.method === 'DELETE') {
+    const gone = await inbox.remove(mdel[1]);
+    return json(res, gone ? 200 : 404, gone ? { ok: true } : { error: 'No such message.' });
+  }
+
+  // ---- mailing list
+  if (p === '/subscribers' && req.method === 'GET') {
+    const data = await inbox.subscribers();
+    const live = data.list.filter(x => !x.unsubscribed_at);
+    return json(res, 200, { count: live.length, list: live.slice(-500).reverse() });
+  }
+
+  if (p === '/subscribers.csv' && req.method === 'GET') {
+    return send(res, 200, 'text/csv; charset=utf-8', await inbox.subscribersCsv(), {
+      'Content-Disposition': 'attachment; filename="subscribers.csv"',
+      'Cache-Control': 'no-store',
+    });
   }
 
   if (p === '/publish' && req.method === 'POST') return json(res, 200, await publish());
@@ -568,6 +614,44 @@ process.on('uncaughtException', (e) => {
  * normal and takes a second or two. In that case we say so and reload, rather
  * than telling a paying customer that nothing happened.
  */
+/**
+ * The answer to a form post made without JavaScript.
+ *
+ * Redirecting back to /contact/?sent=1 looked tidy and was wrong: that page is
+ * static, so the only thing that could turn the query into a confirmation was
+ * the JavaScript the visitor does not have. They would land back on an empty
+ * form with no sign it had worked, and send it again. This is a real page.
+ */
+function formResultPage(ok, kind, error) {
+  const esc = (t) => String(t == null ? '' : t)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  const heading = ok
+    ? (kind === 'list' ? 'You are on the list' : 'Thank you, your message has been sent')
+    : 'That did not send';
+  const sub = ok
+    ? (kind === 'list'
+        ? 'You will hear from Dr. Moss when there is something worth sending.'
+        : 'Dr. Moss will reply to the address you gave. She reads everything herself.')
+    : (error || 'Please go back and try again.');
+
+  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n' +
+    '<meta charset="UTF-8">\n' +
+    '<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">\n' +
+    '<meta name="robots" content="noindex">\n' +
+    '<title>' + esc(heading) + ' | MedPsycMoss</title>\n' +
+    '<link rel="stylesheet" href="/css/site.css">\n' +
+    '<style>.order-wrap{padding:70px 0 90px}.fine{color:var(--muted);font-size:14px;margin-top:18px;max-width:60ch}</style>\n' +
+    '</head>\n<body>\n<main id="main"><section class="hero order-wrap"><div class="mesh"></div><div class="wrap">' +
+    '<p class="kicker"><span>' + (ok ? 'SENT' : 'NOT SENT') + '</span></p>' +
+    '<h1 class="tight">' + esc(heading) + '</h1>' +
+    '<p class="sub">' + esc(sub) + '</p>' +
+    '<div class="hero-cta" style="margin-top:26px">' +
+    '<a class="btn dark" href="/contact/">Back to the contact page</a> ' +
+    '<a class="btn" href="/">Back to the site</a></div>' +
+    '</div></section></main>\n</body>\n</html>\n';
+}
+
 function orderPage(order, id) {
   const esc = (t) => String(t == null ? '' : t)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -704,6 +788,80 @@ const server = http.createServer(async (req, res) => {
     // ---------------------------------------------------------------- store
     // All public: a buyer is not logged in, and Stripe certainly is not.
 
+    // ------------------------------------------------------------- forms
+    // Public, like the store. Both accept a normal browser form post and a
+    // fetch; the browser gets a redirect it can bookmark, the fetch gets JSON.
+    if ((pathname === '/api/contact' || pathname === '/api/subscribe') && req.method === 'POST') {
+      const wantsJson = String(req.headers.accept || '').indexOf('json') >= 0 ||
+        String(req.headers['content-type'] || '').indexOf('json') >= 0;
+      const kind = pathname === '/api/subscribe' ? 'list' : 'message';
+      const back = (ok, why) =>
+        send(res, ok ? 200 : 400, MIME['.html'], formResultPage(ok, kind, why));
+      const done = (code, ok, payload) => wantsJson
+        ? json(res, code, Object.assign({ ok: ok }, payload || {}))
+        : back(ok, payload && payload.error);
+
+      let body;
+      try {
+        const raw = await readBody(req, 64 * 1024);
+        body = String(req.headers['content-type'] || '').indexOf('json') >= 0
+          ? JSON.parse(raw || '{}')
+          : Object.fromEntries(new URLSearchParams(raw));
+      } catch { return done(400, false, { error: 'Could not read that.' }); }
+
+      // Validate BEFORE throttling, and only count submissions that actually
+      // write something. Someone who mistypes their address twice and then gets
+      // it right is not a flood, and charging them for the mistakes is how a
+      // contact form ends up refusing the person it exists for.
+      if (pathname === '/api/subscribe') {
+        const pre = inbox.validate(Object.assign({}, body, {
+          name: body.name || 'x', subject: 'x', message: 'xx',
+        }));
+        if (!pre.ok) return done(400, false, { error: pre.error });
+        if (pre.spam) return done(200, true, {});
+        if (inbox.throttled(req)) {
+          return done(429, false, { error: 'That is a lot of sign-ups. Please try again shortly.' });
+        }
+        const r = await inbox.subscribe(body);
+        if (!r.ok) return done(400, false, { error: r.error });
+        return done(200, true, { already: !!r.already });
+      }
+
+      const v = inbox.validate(body);
+      if (!v.ok) return done(400, false, { error: v.error });
+      // A honeypot hit is accepted and dropped. Telling a bot it was caught
+      // only teaches whoever wrote it to leave the field alone next time. It
+      // still counts against the throttle, because it is a bot.
+      if (v.spam) { inbox.throttled(req); return done(200, true, {}); }
+
+      if (inbox.throttled(req)) {
+        return done(429, false, { error: 'That is a lot of messages. Please try again shortly.' });
+      }
+
+      const record = await inbox.save(v.value, req);
+      console.log('message:', record.id, record.email, record.subject);
+
+      // Already saved. The email is a courtesy on top, and cannot fail the
+      // request: sendQuietly never throws.
+      mail.sendQuietly({
+        subject: 'Website enquiry: ' + record.subject,
+        replyTo: record.email,
+        fromName: 'MedPsycMoss website',
+        text: [
+          record.name + ' <' + record.email + '> wrote:',
+          '',
+          record.message,
+          '',
+          '--',
+          'Reply to this email and it goes straight back to them.',
+          'It is also saved in your editor under Messages.',
+          ORIGIN + '/admin',
+        ].join('\n'),
+      }).catch(() => {});
+
+      return done(200, true, {});
+    }
+
     if (pathname === '/api/store/checkout' && req.method === 'POST') {
       let body;
       try { body = JSON.parse(await readBody(req) || '{}'); }
@@ -746,6 +904,49 @@ const server = http.createServer(async (req, res) => {
         if (event.type === 'checkout.session.completed') {
           const order = await store.recordOrder(event.data.object);
           console.log('order recorded:', order.id, order.product_name, order.email);
+
+          // The buyer's own copy. Until now the order page was the only place
+          // their download link existed, so closing the tab lost it and Stripe's
+          // receipt proves payment but carries no link. Sent once, on the first
+          // webhook only, because recordOrder is idempotent and returns the
+          // existing record on a redelivery.
+          if (order.email && !order.emailed_at) {
+            const lines = ['Thank you for your order.', '', order.product_name +
+              (order.option ? ' (' + order.option + ')' : '') + ' - ' +
+              fromCents(order.amount, order.currency), ''];
+
+            const state = store.downloadState(order);
+            if (state === 'ready') {
+              lines.push('Download it here:', ORIGIN + '/api/store/download/' + order.token, '',
+                'That link works for 30 days and up to ' + (order.max_downloads || 8) +
+                ' downloads, so save the file somewhere safe.');
+            } else if (order.fulfilment === 'email-file') {
+              lines.push('This one is too large to download from the site, so Dr. Moss will',
+                'email it to you within 12 to 24 hours.');
+            } else if (order.fulfilment === 'booking') {
+              const product = store.find(order.product_id);
+              if (product && product.booking_url) lines.push('Pick your time here:', product.booking_url);
+              else lines.push('Dr. Moss will email you to arrange a time that suits you.');
+            } else {
+              lines.push('Reply to this email with your document attached and Dr. Moss will',
+                'come back to you within 48 to 72 hours.');
+            }
+
+            lines.push('', 'Your order reference is ' + String(order.id).slice(0, 24) + '.', '',
+              'Dr. Stephanie Moss, MD', ORIGIN.replace(/^https?:\/\//, ''));
+
+            const sent = await mail.sendQuietly({
+              to: order.email,
+              subject: 'Your order: ' + order.product_name,
+              fromName: 'Dr. Stephanie Moss',
+              text: lines.join('\n'),
+            });
+            if (sent.sent) {
+              order.emailed_at = new Date().toISOString();
+              await fsp.writeFile(store.orderPath(order.id),
+                JSON.stringify(order, null, 2) + '\n').catch(() => {});
+            }
+          }
         } else if (event.type === 'charge.refunded' || event.type === 'charge.dispute.created') {
           console.log('stripe event:', event.type, event.data.object.id);
         }

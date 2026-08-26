@@ -32,6 +32,7 @@
       <button data-tab="stats">Numbers</button>
       <button data-tab="testimonials">Testimonials</button>
       <button data-tab="site">Homepage wording</button>
+        <button data-tab="messages">Messages</button>
         <button data-tab="orders">Orders</button>
         <button data-tab="visitors">Visitors</button>
         <button data-tab="uploads">Pictures</button>
@@ -64,6 +65,12 @@
       <span class="gk">Orders waiting on you</span>
       <span class="grow"><span class="gn" id="g-pending">0</span></span>
       <span class="gsub" id="g-oldest"></span>
+    </button>
+
+    <button class="gcard note" id="g-msgs" type="button" hidden>
+      <span class="gk">Unread messages</span>
+      <span class="grow"><span class="gn" id="g-unread">0</span></span>
+      <span class="gsub">from the contact form</span>
     </button>
   </div>
 
@@ -116,6 +123,22 @@
     <section data-panel="site" hidden>
       <div class="head"><h2>Homepage wording</h2></div>
       <div id="site"></div>
+    </section>
+
+    <section data-panel="messages" hidden>
+      <div class="head">
+        <h2>Messages</h2>
+        <p class="note" id="msg-note"></p>
+      </div>
+      <div id="messages"></div>
+
+      <div class="head" style="margin-top:34px">
+        <h2>Mailing list</h2>
+        <a class="btn ghost" id="subs-csv" href="/admin/api/subscribers.csv">Download as CSV</a>
+        <p class="note">Everyone who signed up through the website. Download the CSV to
+          import them into whichever mailing tool you use.</p>
+      </div>
+      <div id="subscribers"></div>
     </section>
 
     <section data-panel="orders" hidden>

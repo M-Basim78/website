@@ -41,6 +41,7 @@ $$('.tabs button').forEach(b => b.addEventListener('click', () => {
   $$('[data-panel]').forEach(p => { p.hidden = p.dataset.panel !== b.dataset.tab; });
   const t = b.dataset.tab;
   if (t === 'orders') loadOrders();
+  else if (t === 'messages') loadMessages();
   else if (t === 'visitors') loadVisitors();
   else if (t === 'uploads') loadUploads();
   else if (t === 'trash') loadTrash();
@@ -506,6 +507,76 @@ $('#publish').addEventListener('click', async () => {
 });
 
 /* ------------------------------------------------------------------ boot -- */
+/* -------------------------------------------------------------- messages -- */
+/* Written to disk before anything is emailed, so this screen is the record and
+   the email is the notification. With no SMTP configured this is the ONLY place
+   an enquiry appears, which is why it is a first-class tab and not a footnote. */
+
+async function messageAction(id, method, body) {
+  return api('/messages/' + encodeURIComponent(id) + (method === 'DELETE' ? '' : '/read'),
+    method === 'DELETE' ? { method: 'DELETE' } : { method: 'POST', body: JSON.stringify(body) });
+}
+
+function msgCard(m) {
+  const subject = encodeURIComponent('Re: ' + m.subject);
+  const quoted = m.message.split('\n').map(l => '> ' + l).join('\n');
+  const body = encodeURIComponent(
+    'Hi ' + (m.name || '').split(' ')[0] + ',\n\n\n\n' +
+    'Dr. Stephanie Moss, MD\nmedpsycmoss.com\n\n' + quoted + '\n');
+  return '<div class="msg' + (m.read_at ? '' : ' unread') + '">' +
+    '<span class="subj">' + esc(m.subject) + '</span>' +
+    '<span class="acts">' +
+      '<a class="btn small" href="mailto:' + esc(m.email) + '?subject=' + subject + '&body=' + body + '">Reply</a>' +
+      '<button class="btn small ghost" data-msgread="' + esc(m.id) + '" data-read="' + (m.read_at ? '0' : '1') + '">' +
+        (m.read_at ? 'Mark unread' : 'Mark read') + '</button>' +
+      '<button class="btn small danger" data-msgdel="' + esc(m.id) + '">Delete</button>' +
+    '</span>' +
+    '<span class="from">' + esc(m.name) + ' &middot; <a href="mailto:' + esc(m.email) + '">' + esc(m.email) + '</a></span>' +
+    '<span class="body">' + esc(m.message) + '</span>' +
+    '<span class="when">' + esc(ago(m.created)) + ' &middot; ' + new Date(m.created).toLocaleString() + '</span>' +
+    '</div>';
+}
+
+async function loadMessages() {
+  const box = $('#messages'), subs = $('#subscribers'), note = $('#msg-note');
+  box.innerHTML = '<p class="hint">Loading...</p>';
+  try {
+    const d = await api('/messages');
+    note.textContent = d.mail.configured
+      ? 'Everything sent through the contact form. A copy also goes to ' + d.mail.to + '.'
+      : 'Everything sent through the contact form. Email sending is not set up yet, so this page is the only copy: check it regularly.';
+
+    box.innerHTML = d.messages.length
+      ? d.messages.map(msgCard).join('')
+      : '<p class="hint">No messages yet.</p>';
+
+    const sv = await api('/subscribers');
+    subs.innerHTML = sv.count
+      ? '<div class="subs">' + sv.list.map(x =>
+          '<div class="row"><span class="e">' + esc(x.email) + '</span>' +
+          '<span class="d">' + esc(x.name || '') + ' &middot; ' + esc(ago(x.joined)) + '</span></div>').join('') +
+        '</div>'
+      : '<p class="hint">Nobody has signed up yet.</p>';
+  } catch (ex) {
+    box.innerHTML = '<p class="hint">' + esc(ex.message) + '</p>';
+  }
+}
+
+document.addEventListener('click', async (e) => {
+  const r = e.target.closest('[data-msgread]');
+  if (r) {
+    await messageAction(r.dataset.msgread, 'POST', { read: r.dataset.read === '1' }).catch(() => {});
+    loadMessages(); loadPending(); return;
+  }
+  const del = e.target.closest('[data-msgdel]');
+  if (del) {
+    if (!confirm('Delete this message? It cannot be undone.')) return;
+    await messageAction(del.dataset.msgdel, 'DELETE').catch((ex) => toast(ex.message, 'bad'));
+    toast('Message deleted.');
+    loadMessages(); loadPending();
+  }
+});
+
 /* --------------------------------------------------------------- traffic -- */
 /* Everything here is drawn from divs. Thirty numbers do not justify pulling a
    charting library into a container that otherwise has no dependencies. */
@@ -557,6 +628,7 @@ async function loadGlance() {
 async function loadPending() {
   let d;
   try { d = await api('/orders/pending'); } catch { return; }
+  loadUnread(d);                      // one request feeds both cards
   const card = $('#g-orders');
   if (!d.count) { card.hidden = true; return; }
   $('#g-pending').textContent = nfmt(d.count);
@@ -565,6 +637,20 @@ async function loadPending() {
     : '';
   card.hidden = false;
 }
+
+async function loadUnread(d) {
+  const card = $('#g-msgs');
+  try { d = d || await api('/orders/pending'); } catch { return; }
+  const n = d.unreadMessages || 0;
+  if (!n) { card.hidden = true; return; }
+  $('#g-unread').textContent = nfmt(n);
+  card.hidden = false;
+}
+
+$('#g-msgs').addEventListener('click', () => {
+  const tab = $$('.tabs button').find(b => b.dataset.tab === 'messages');
+  if (tab) tab.click();
+});
 
 $('#g-orders').addEventListener('click', () => {
   const tab = $$('.tabs button').find(b => b.dataset.tab === 'orders');

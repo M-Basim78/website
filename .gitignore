@@ -65,3 +65,6 @@ local-site/content/products/
 # Docker volume and are covered by the backup button in the editor.
 local-site/content/analytics/
 local-site/content/orders/
+
+local-site/content/messages/
+local-site/content/subscribers.json
