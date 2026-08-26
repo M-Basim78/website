@@ -302,6 +302,71 @@ class Store {
     return p.startsWith(base) && fs.existsSync(p) ? p : null;
   }
 
+  /**
+   * Does this order need her to do something by hand?
+   *
+   * Most of her shop is not self-serve. She emails the accommodations workbook
+   * because it is too large to host, and she sends her calendar for advising and
+   * mock interviews. A flat list of orders does not show any of that: it says
+   * what happened, not what is outstanding, and an order she has not acted on
+   * looks exactly like one she has.
+   *
+   * Returns null when there is nothing for her to do.
+   */
+  todoFor(order) {
+    if (!order || order.fulfilled_at) return null;      // she has ticked it off
+    const product = this.find(order.product_id);
+
+    if (order.fulfilment === 'email-file') {
+      return { kind: 'send-file', urgent: true,
+        what: 'Email the file. She promised it within 12 to 24 hours.' };
+    }
+
+    if (order.fulfilment === 'booking') {
+      // With a booking link on the product the buyer books themselves, so there
+      // is nothing to chase. Without one the order page has told them she will
+      // be in touch, and that promise is now hers to keep.
+      if (product && product.booking_url) return null;
+      return { kind: 'send-calendar', urgent: true,
+        what: 'Send your calendar so they can pick a time.' };
+    }
+
+    if (order.fulfilment === 'download' && this.downloadState(order) === 'file-missing') {
+      return { kind: 'file-missing', urgent: true,
+        what: 'They paid for a download and the file is not on the server. Send it by hand.' };
+    }
+
+    if (order.fulfilment === 'send-draft' || order.fulfilment === 'email') {
+      // Nothing to do until their document arrives. It is still worth showing:
+      // someone who pays 100 dollars and then forgets to send anything is a
+      // refund request in a fortnight if nobody notices.
+      return { kind: 'await-draft', urgent: false,
+        what: 'Waiting for them to email their draft.' };
+    }
+
+    return null;
+  }
+
+  /** Everything still waiting on her, oldest first: a queue, not a feed. */
+  async todo() {
+    const out = [];
+    for (const o of await this.listOrders(500)) {
+      const t = this.todoFor(o);
+      if (t) out.push({ order: o, todo: t });
+    }
+    return out.sort((a, b) => String(a.order.created).localeCompare(String(b.order.created)));
+  }
+
+  /** Tick an order off, or put it back. */
+  async setFulfilled(id, done) {
+    const order = await this.getOrder(id);
+    if (!order) return null;
+    if (done) order.fulfilled_at = new Date().toISOString();
+    else delete order.fulfilled_at;
+    await fsp.writeFile(this.orderPath(order.id), JSON.stringify(order, null, 2) + '\n');
+    return order;
+  }
+
   downloadState(order) {
     // The token is the signal, not the fulfilment mode: an order has a file to
     // give if and only if one was minted for it at the time of purchase.

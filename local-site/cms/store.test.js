@@ -108,6 +108,49 @@ console.log('\nprice is decided by the server, never the browser');
   ok('every promised file is on disk', allFiles);
 }
 
+console.log('\nthe fulfilment queue knows what she still has to do');
+{
+  const store = new Store({
+    contentDir: path.resolve(__dirname, '..', 'content'),
+    origin: 'https://medpsycmoss.com',
+  });
+  const live = { token: 'x'.repeat(32), max_downloads: 8,
+                 expires: new Date(Date.now() + 864e5).toISOString() };
+  const order = (pid, ful, extra) => Object.assign({
+    id: 'cs_x', product_id: pid, fulfilment: ful, downloads: 0, token: '',
+  }, extra || {});
+
+  // She emails the accommodations workbook by hand, so it must appear.
+  const t1 = store.todoFor(order('p_3380308', 'email-file'));
+  ok('an email-file order needs her', !!t1 && t1.kind === 'send-file');
+  ok('and it is marked urgent', !!t1 && t1.urgent === true);
+
+  // A booking with no calendar link means she promised to be in touch.
+  const t2 = store.todoFor(order('p_3370950', 'booking'));
+  ok('a booking with no link needs her', !!t2 && t2.kind === 'send-calendar');
+
+  // A plain download fulfils itself and must NOT clutter the queue.
+  const t3 = store.todoFor(order('p_3291868', 'download', live));
+  ok('a working download needs nothing', t3 === null);
+
+  // ...unless the file has gone missing, which is the one she must know about.
+  const t4 = store.todoFor(order('p_no_such_product', 'download', live));
+  ok('a download with no file needs her', !!t4 && t4.kind === 'file-missing');
+
+  // Editing waits on the customer. Worth showing, but not something to chase.
+  const t5 = store.todoFor(order('p_3291607', 'send-draft'));
+  ok('editing waits on the customer', !!t5 && t5.kind === 'await-draft');
+  ok('and is not marked urgent', !!t5 && t5.urgent === false);
+
+  // Ticking it off takes it out of the queue, whatever kind it was.
+  ok('a fulfilled order leaves the queue',
+    store.todoFor(order('p_3380308', 'email-file',
+      { fulfilled_at: '2026-08-26T00:00:00Z' })) === null);
+
+  // The old spelling still routes, so orders taken before the rename read right.
+  ok('the old "email" spelling still queues', !!store.todoFor(order('p_3291607', 'email')));
+}
+
 console.log('\nfile serving cannot escape the products folder');
 {
   const store = new Store({

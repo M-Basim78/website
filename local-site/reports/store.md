@@ -150,6 +150,44 @@ Undercharging by $30 to $40 on three products. All corrected, and the grid is no
 generated from `products.json` by `build-store.mjs`, so it cannot drift again.
 `check-prices.mjs` asserts every displayed price equals what checkout charges.
 
+## 3b. How she knows a sale happened
+
+Most of this shop is not self-serve. She emails the accommodations workbook,
+and she sends her calendar for advising and mock interviews. So a notification
+is not enough on its own: it tells her something happened, it does not tell her
+what is still outstanding, and a notification that arrives while she is on a
+ward round is a notification that is gone.
+
+Two layers, and neither needs email set up:
+
+**Stripe pushes the alert.** Her Stripe account already emails her on every
+successful payment, and the Stripe mobile app pushes it to her phone. The
+message carries the product name because checkout sets it. Nothing to build,
+and it works before this site is even live.
+
+  Stripe dashboard, Settings, Notifications: turn on successful payments.
+  Then install the Stripe app and allow notifications.
+
+**The editor holds the worklist.** The Orders tab opens with **Waiting on you**:
+every order that still needs her, oldest first, each with what to do, the
+buyer's address as a prefilled mailto, and a Mark done button. A card at the top
+of the editor shows the count whenever it is above zero, and disappears when it
+is not. A card that permanently reads zero is furniture; one that appears is a
+signal.
+
+What lands in the queue:
+
+| | |
+|---|---|
+| `email-file` | she emails the file, urgent |
+| `booking` with no `booking_url` | she sends her calendar, urgent |
+| `download` whose file has gone missing | urgent, and should never happen |
+| `send-draft` | waiting on the customer, not urgent |
+| `download` that works | nothing, it fulfils itself |
+
+Setting `booking_url` on the three booking products takes them out of the queue
+entirely, because the buyer then books themselves.
+
 ## 4. Still needed before it can take money
 
 1. **Her three Stripe strings** (section 1)
