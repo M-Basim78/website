@@ -38,6 +38,18 @@ services:
       # webhook must never fulfil an order.
       STRIPE_WEBHOOK_SECRET: "${STRIPE_WEBHOOK_SECRET:-}"
 
+      # ---- sending mail ------------------------------------------------------
+      # Entirely optional. With SMTP_HOST unset the contact form still works and
+      # still records every message; she just reads them in the editor instead of
+      # getting an email too. Sending needs no DNS: it logs into an existing
+      # mailbox and sends as that account, so the domain needs no MX or SPF.
+      SMTP_HOST: "${SMTP_HOST:-}"
+      SMTP_PORT: "${SMTP_PORT:-465}"
+      SMTP_USER: "${SMTP_USER:-}"
+      SMTP_PASS: "${SMTP_PASS:-}"
+      MAIL_FROM: "${MAIL_FROM:-}"
+      MAIL_TO: "${MAIL_TO:-}"
+
     # Loopback only; put a reverse proxy in front for TLS.
     #
     # The host port is 8899 because 8080 was already taken on the deploy server

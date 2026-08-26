@@ -251,3 +251,35 @@ textarea.f{min-height:340px;resize:vertical;font:14px/1.7 ui-monospace,'JetBrain
 .todo .item .who{font-size:13px}
 .todo .item .who a{color:var(--primary);font-weight:600}
 .done-list{opacity:.75}
+
+/* A third card, same rule as the others: on screen only when it matters. */
+.gcard.note{border-color:rgba(110,31,53,.30);background:linear-gradient(160deg,var(--tint),#fff 70%)}
+.gcard.note .gn{color:var(--primary)}
+
+/* Messages */
+.msg{
+  background:#fff;border:1px solid var(--line-soft);border-radius:14px;
+  padding:16px 18px;margin-bottom:12px;display:grid;gap:6px;
+  grid-template-columns:1fr auto;align-items:start;
+}
+.msg.unread{border-left:3px solid var(--primary)}
+.msg .subj,.msg .from,.msg .body,.msg .when{grid-column:1}
+.msg .subj{font-weight:700;font-size:15px}
+.msg .from{font-size:13.5px}
+.msg .from a{color:var(--primary);font-weight:600}
+.msg .body{font-size:14px;white-space:pre-wrap;color:var(--ink);margin-top:4px;
+  padding:10px 12px;background:var(--tint);border-radius:9px;max-width:78ch}
+.msg .when{font-size:12.5px;color:var(--muted)}
+/* Row 1 only, laid out across. Spanning every row made the actions column
+   taller than the subject beside it, and the grid distributed that height as a
+   blank band under every subject line. */
+.msg .acts{grid-column:2;grid-row:1;display:flex;gap:6px;padding-left:16px;align-self:start}
+@media(max-width:640px){
+  .msg{grid-template-columns:1fr}
+  .msg .acts{grid-column:1;grid-row:auto;padding-left:0;margin-top:8px;flex-wrap:wrap}
+}
+.subs{background:#fff;border:1px solid var(--line-soft);border-radius:14px;padding:6px 0}
+.subs .row{display:flex;justify-content:space-between;gap:14px;padding:9px 18px;font-size:13.5px}
+.subs .row + .row{border-top:1px solid var(--line-soft)}
+.subs .row .e{font-weight:600}
+.subs .row .d{color:var(--muted);font-size:12.5px}

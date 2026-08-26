@@ -107,4 +107,67 @@
     });
   })();
 
-  document.getElementById('yr').textContent = new Date().getFullYear();
+  /* Contact form and mailing list.
+     Progressive enhancement, not a requirement: without JavaScript the form
+     still posts normally and the server answers with a redirect carrying
+     ?sent=1, which the block below turns into the same confirmation. With
+     JavaScript nobody leaves the page. */
+  (function(){
+    function status(form){
+      // The contact form ships a live region already; the list form does not,
+      // so borrow its note line rather than inventing a second pattern.
+      return form.querySelector('[role="status"]') ||
+             form.querySelector('.form-note');
+    }
+
+    function say(form, text, bad){
+      var el = status(form);
+      if (!el) return;
+      el.textContent = text;
+      el.style.color = bad ? '#B3261E' : '';
+    }
+
+    function wire(sel, url, success){
+      var form = document.querySelector(sel);
+      if (!form) return;
+      form.addEventListener('submit', function(ev){
+        if (!window.fetch || !window.FormData) return;   // let the browser post
+        ev.preventDefault();
+        var btn = form.querySelector('[type="submit"]');
+        var was = btn ? btn.textContent : '';
+        if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
+        say(form, '');
+
+        var data = {};
+        new FormData(form).forEach(function(v, k){ data[k] = v; });
+
+        fetch(url, {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+          body: JSON.stringify(data)
+        }).then(function(r){
+          return r.json().catch(function(){ return {ok: r.ok}; });
+        }).then(function(j){
+          if (j && j.ok) {
+            form.reset();
+            say(form, j.already ? 'You are already on the list.' : success);
+          } else {
+            say(form, (j && j.error) || 'That did not send. Please try again.', true);
+          }
+        }).catch(function(){
+          say(form, 'That did not send. Please check your connection and try again.', true);
+        }).then(function(){
+          if (btn) { btn.disabled = false; btn.textContent = was; }
+        });
+      });
+    }
+
+    wire('.contact-form', '/api/contact',
+      'Thank you, your message has been sent. Dr. Moss will reply to the address you gave.');
+    wire('.sub-form', '/api/subscribe',
+      'You are on the list. Thank you.');
+
+  })();
+
+  var yr = document.getElementById('yr');
+  if (yr) yr.textContent = new Date().getFullYear();
