@@ -48,32 +48,111 @@ $$('.tabs button').forEach(b => b.addEventListener('click', () => {
 }));
 
 /* ---------------------------------------------------------------- orders -- */
+/** "3 days ago", because "2026-08-23T14:02Z" is not how anyone thinks. */
+function ago(iso) {
+  const d = Math.floor((Date.now() - new Date(iso)) / 864e5);
+  if (!isFinite(d)) return '';
+  if (d <= 0) return 'today';
+  if (d === 1) return 'yesterday';
+  if (d < 14) return d + ' days ago';
+  return new Date(iso).toLocaleDateString();
+}
+
+async function markDone(id, done, btn) {
+  if (btn) { btn.disabled = true; btn.textContent = done ? 'Marking...' : 'Undoing...'; }
+  try {
+    await api('/orders/' + encodeURIComponent(id) + '/done', {
+      method: 'POST', body: JSON.stringify({ done: done }),
+    });
+    toast(done ? 'Marked as done.' : 'Put back on the list.');
+    await loadOrders();
+    loadPending();
+  } catch (ex) {
+    toast(ex.message, 'bad');
+    if (btn) { btn.disabled = false; btn.textContent = done ? 'Mark done' : 'Undo'; }
+  }
+}
+
+function todoItem(o) {
+  const t = o.todo;
+  // mailto with the order already written into it, so acting on one of these is
+  // a click and not a copy-paste job across three fields.
+  const subject = encodeURIComponent('Your order: ' + o.product);
+  const body = encodeURIComponent(
+    'Hi' + (o.name ? ' ' + o.name.split(' ')[0] : '') + ',\n\n' +
+    'Thank you for buying ' + o.product + '.\n\n\n\n' +
+    'Dr. Stephanie Moss, MD\nmedpsycmoss.com\n\n' +
+    'Order reference: ' + o.id.slice(0, 24) + '\n');
+
+  const mail = o.email
+    ? '<a href="mailto:' + esc(o.email) + '?subject=' + subject + '&body=' + body + '">' + esc(o.email) + '</a>'
+    : '<span class="meta">no email on the order</span>';
+
+  return '<div class="item' + (t.urgent ? ' urgent' : '') + '">' +
+    '<span class="t">' + esc(o.product) + (o.option ? ' <small>(' + esc(o.option) + ')</small>' : '') + '</span>' +
+    '<span class="act"><button class="btn small ghost" data-done="' + esc(o.id) + '">Mark done</button></span>' +
+    '<span class="what">' + esc(t.what) + '</span>' +
+    '<span class="who">' + mail + '</span>' +
+    '<span class="meta">' + esc(o.amount) + ' &middot; paid ' + esc(ago(o.created)) + '</span>' +
+    '</div>';
+}
+
 async function loadOrders() {
   const box = $('#orders');
+  const todoBox = $('#orders-todo');
   const status = $('#orders-status');
   box.innerHTML = '<p class="hint">Loading...</p>';
+  todoBox.innerHTML = '';
   try {
     const data = await api('/orders');
+    // Saying "no orders to show" while orders are on screen is worse than saying
+    // nothing. Report the Stripe connection and the orders separately.
     status.textContent = data.connected
       ? 'Every sale made through the website. Payments are handled by Stripe; this is a record, not the money itself.'
-      : 'The shop is not connected to Stripe yet, so there are no orders to show.';
+      : data.orders.length
+        ? 'Showing recorded orders. Stripe is not connected right now, so no new ones can come in.'
+        : 'The shop is not connected to Stripe yet, so there are no orders to show.';
 
     if (!data.orders.length) {
       box.innerHTML = '<p class="hint">No orders yet.</p>';
       return;
     }
-    box.innerHTML = `<ul class="list">${data.orders.map(o => `
+
+    // Anything she still has to do by hand goes first, oldest at the top, so the
+    // one that has been waiting longest is the one she sees.
+    const todo = data.orders.filter(o => o.todo)
+      .sort((a, b) => String(a.created).localeCompare(String(b.created)));
+
+    todoBox.innerHTML = todo.length
+      ? '<div class="todo-head"><h3>Waiting on you</h3>' +
+        '<span class="n">' + todo.length + ' ' + (todo.length === 1 ? 'order' : 'orders') +
+        '. Mark each one done once you have sent it.</span></div>' +
+        '<div class="todo">' + todo.map(todoItem).join('') + '</div>'
+      : '<div class="todo-head"><h3>Nothing waiting on you</h3>' +
+        '<span class="n">Every order has been dealt with.</span></div>';
+
+    box.innerHTML = '<h3 style="font-size:16px;margin-bottom:12px">All orders</h3>' +
+      '<ul class="list' + (todo.length ? ' done-list' : '') + '">' + data.orders.map(o => `
       <li>
         <span class="t">${esc(o.product)}${o.option ? ' <small>(' + esc(o.option) + ')</small>' : ''}</span>
         <span class="meta">${esc(o.amount)} &middot; ${esc(o.email || 'no email')} &middot; ${new Date(o.created).toLocaleString()}</span>
-        <span class="meta">${esc(o.fulfilment)}${o.fulfilment === 'download' ? ' &middot; ' + o.downloads + ' downloads &middot; ' + esc(o.state) : ''}</span>
-      </li>`).join('')}</ul>`;
+        <span class="meta">${esc(o.fulfilment)}${o.fulfilment === 'download' ? ' &middot; ' + o.downloads + ' downloads &middot; ' + esc(o.state) : ''}${
+          o.fulfilled_at ? ' &middot; done ' + esc(ago(o.fulfilled_at)) : ''}</span>
+        ${o.fulfilled_at ? '<button class="btn small ghost" data-undone="' + esc(o.id) + '">Undo</button>' : ''}
+      </li>`).join('') + '</ul>';
   } catch (ex) {
     box.innerHTML = `<p class="hint">${esc(ex.message)}</p>`;
   }
 }
 
-/* -------------------------------------------------------------- pictures -- */
+// One listener for both lists, so re-rendering never leaves a dead button.
+document.addEventListener('click', (e) => {
+  const d = e.target.closest('[data-done]');
+  if (d) return markDone(d.dataset.done, true, d);
+  const u = e.target.closest('[data-undone]');
+  if (u) return markDone(u.dataset.undone, false, u);
+});
+
 const kb = (n) => n < 1024 * 1024
   ? Math.round(n / 1024) + ' KB'
   : (n / 1024 / 1024).toFixed(1) + ' MB';
@@ -475,6 +554,23 @@ async function loadGlance() {
   $('#glance').hidden = false;
 }
 
+async function loadPending() {
+  let d;
+  try { d = await api('/orders/pending'); } catch { return; }
+  const card = $('#g-orders');
+  if (!d.count) { card.hidden = true; return; }
+  $('#g-pending').textContent = nfmt(d.count);
+  $('#g-oldest').textContent = d.oldest
+    ? 'oldest paid ' + ago(d.oldest)
+    : '';
+  card.hidden = false;
+}
+
+$('#g-orders').addEventListener('click', () => {
+  const tab = $$('.tabs button').find(b => b.dataset.tab === 'orders');
+  if (tab) tab.click();
+});
+
 $('#g-open').addEventListener('click', () => {
   const tab = $$('.tabs button').find(b => b.dataset.tab === 'visitors');
   if (tab) tab.click();
@@ -542,7 +638,8 @@ async function loadVisitors(days = 30) {
 async function start() {
   $('#login').hidden = true; $('#app').hidden = false;
   await loadPosts();
-  loadGlance();          // not awaited: the card must never hold up the editor
+  loadGlance();          // not awaited: the cards must never hold up the editor
+  loadPending();
   const me = await api('/me');
   if (me.lastPublish) $('#status').textContent = 'Last published ' + new Date(me.lastPublish).toLocaleString();
 }

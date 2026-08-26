@@ -484,8 +484,31 @@ async function api(req, res, url, authed) {
         amount: fromCents(o.amount, o.currency), email: o.email, name: o.name,
         fulfilment: o.fulfilment, downloads: o.downloads,
         state: store.downloadState(o),
+        fulfilled_at: o.fulfilled_at || '',
+        todo: store.todoFor(o),
       })),
     });
+  }
+
+  // Just the count, for the card at the top of the editor. Cheap enough to call
+  // on every load, and it is the number she actually needs on sight.
+  if (p === '/orders/pending' && req.method === 'GET') {
+    const items = await store.todo();
+    return json(res, 200, {
+      connected: store.configured,
+      count: items.length,
+      urgent: items.filter(x => x.todo.urgent).length,
+      oldest: items.length ? items[0].order.created : '',
+    });
+  }
+
+  const done = p.match(/^\/orders\/([A-Za-z0-9_-]+)\/done$/);
+  if (done && req.method === 'POST') {
+    const body = await readJson(req);
+    if (body === BAD_JSON) return json(res, 400, { error: 'Could not read that request.' });
+    const order = await store.setFulfilled(done[1], body.done !== false);
+    if (!order) return json(res, 404, { error: 'No such order.' });
+    return json(res, 200, { ok: true, fulfilled_at: order.fulfilled_at || '' });
   }
 
   // ---- traffic

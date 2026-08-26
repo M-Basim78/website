@@ -57,6 +57,14 @@
       <span class="gsub" id="g-people"></span>
       <span class="gspark" id="g-spark" aria-hidden="true"></span>
     </button>
+
+    <!-- Only ever on screen when something is actually waiting. A card that
+         permanently reads zero is furniture; one that appears is a signal. -->
+    <button class="gcard alert" id="g-orders" type="button" hidden>
+      <span class="gk">Orders waiting on you</span>
+      <span class="grow"><span class="gn" id="g-pending">0</span></span>
+      <span class="gsub" id="g-oldest"></span>
+    </button>
   </div>
 
   <main>
@@ -113,6 +121,7 @@
     <section data-panel="orders" hidden>
       <div class="head"><h2>Orders</h2></div>
       <p class="hint" id="orders-status"></p>
+      <div id="orders-todo"></div>
       <div id="orders"></div>
     </section>
 

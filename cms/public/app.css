@@ -223,3 +223,31 @@ textarea.f{min-height:340px;resize:vertical;font:14px/1.7 ui-monospace,'JetBrain
 /* The track behind each row, so relative size is readable without a second column. */
 .vrow .nm{position:relative;padding:5px 8px;border-radius:7px;background:
   linear-gradient(to right,var(--tint-deep) var(--pct,0%),transparent var(--pct,0%))}
+
+/* The glance row holds one card normally and two when something is waiting. */
+.glance{display:flex;gap:14px;flex-wrap:wrap;align-items:stretch}
+.gcard.alert{border-color:rgba(179,38,30,.35);background:linear-gradient(160deg,#FFF6F5,#fff 70%)}
+.gcard.alert:hover{border-color:var(--bad)}
+.gcard.alert .gn{color:var(--bad)}
+
+/* The fulfilment queue: what she still has to do by hand. */
+.todo{display:grid;gap:10px;margin-bottom:26px}
+.todo-head{display:flex;align-items:baseline;gap:10px;margin-bottom:12px}
+.todo-head h3{font-size:16px}
+.todo-head .n{font-size:13px;color:var(--muted)}
+.todo .item{
+  background:#fff;border:1px solid var(--line-soft);border-left:3px solid var(--accent);
+  border-radius:12px;padding:14px 16px;display:grid;gap:3px;
+  grid-template-columns:1fr auto;align-items:start;
+}
+.todo .item.urgent{border-left-color:var(--bad)}
+/* Every text row is placed in column 1 explicitly. Left to auto-placement the
+   button took the first cell and the whole card read back to front. */
+.todo .item .t,.todo .item .what,.todo .item .who,.todo .item .meta{grid-column:1}
+.todo .item .t{font-weight:600;font-size:14.5px}
+.todo .item .what{font-size:13.5px;color:var(--ink)}
+.todo .item .meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+.todo .item .act{grid-column:2;grid-row:1 / -1;align-self:center;padding-left:16px}
+.todo .item .who{font-size:13px}
+.todo .item .who a{color:var(--primary);font-weight:600}
+.done-list{opacity:.75}
