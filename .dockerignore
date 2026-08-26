@@ -11,3 +11,15 @@
 # This list is an allowlist: anything not named here is invisible to the build.
 # A COPY of a file missing from it fails with "not found" even though the file
 # is committed, which is exactly how build-store.mjs broke the image.
+
+# ...with three exceptions carved back out, because !content/ would otherwise
+# sweep in everything underneath it. Later rules win.
+#
+# content/products/ is the files customers pay for. They belong in the volume on
+# the server, put there by hand, and must never be baked into an image that
+# could be pushed to a registry.
+content/products/
+# Runtime state. Orders hold customer emails; analytics holds per-day visitor
+# hashes. Both are written by the running site and live in the volume.
+content/orders/
+content/analytics/

@@ -22,6 +22,14 @@ const html = fs.readFileSync('dist/store/index.html', 'utf8');
 let bad = 0;
 
 for (const p of products) {
+  // A hidden product has no tile to compare against, by design. Skipping it
+  // silently would be the wrong trade: the point of this check is that nothing
+  // about a price is invisible, so say it is being skipped and why.
+  if (p.visible === false) {
+    console.log('  SKIP  ' + p.id.padEnd(11) + 'hidden from the store, charges ' + p.price);
+    continue;
+  }
+
   const hasOptions = !!(p.options && p.options.choices && p.options.choices.length);
   let shown;
 

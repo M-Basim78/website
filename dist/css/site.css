@@ -631,7 +631,14 @@
     .bento{grid-template-columns:repeat(6,1fr)}
     .tile.feature{grid-column:span 4}
     .tile.t2{grid-column:span 2}
-    .tile.t3,.tile.t4,.tile.t5,.tile.t6{grid-column:span 3}
+    /* Halves. t7-t10 arrived with the four products Gator was hiding; the
+       grid sizes itself from the product count now, see build-store.mjs. */
+    .tile.t3,.tile.t4,.tile.t5,.tile.t6,
+    .tile.t7,.tile.t8,.tile.t9,.tile.t10{grid-column:span 3}
+    /* An odd tile at the end of the grid, rather than a half beside a gap. */
+    .tile.wide{grid-column:span 6}
+    .tile.wide h3{max-width:26ch}
+    .tile.wide p{max-width:70ch}
     .tile .cover{width:140px}
     .quotes{grid-template-columns:repeat(3,1fr);align-items:start}
     .dual-panel{border-radius:30px}

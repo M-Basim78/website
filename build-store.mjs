@@ -17,13 +17,33 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const R = path.resolve('rebuild');
-const products = JSON.parse(fs.readFileSync(path.resolve('content', 'products.json'), 'utf8')).products;
+const all = JSON.parse(fs.readFileSync(path.resolve('content', 'products.json'), 'utf8')).products;
+
+// visible:false is how Gator hides a product: it stays real and buyable by id,
+// it just does not appear in the shop. Mirroring that here means the new store
+// shows exactly what the old one shows, and unhiding is a one word edit.
+const products = all.filter(p => p.visible !== false);
+const hidden = all.length - products.length;
 
 const esc = s => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-// The bento sizes, in the order the layout expects.
-const SIZES = ['feature', 't2', 't3', 'blue t4', 't5', 't6'];
+/**
+ * The bento is a six column grid: the first tile spans four, the second two,
+ * and everything after that is a half.
+ *
+ * This used to be a fixed list of six class names, which silently capped the
+ * shop at six products. It is computed now, so hiding or adding a product
+ * relays the grid instead of leaving a hole in it. An odd tile at the end takes
+ * the full width rather than sitting next to a gap.
+ */
+function sizeFor(i, n) {
+  if (i === 0) return 'feature';
+  if (i === 1) return 't2';
+  const lonelyLast = i === n - 1 && (n - 2) % 2 === 1;
+  const blue = i % 4 === 3 ? 'blue ' : '';
+  return blue + (lonelyLast ? 'wide' : 't' + Math.min(i + 1, 10));
+}
 
 const cover = (p) => p.cover
   ? `        <span class="cover"><img src="/new/img/${esc(p.cover)}.webp"
@@ -32,8 +52,8 @@ const cover = (p) => p.cover
                loading="lazy" decoding="async" alt="Cover of ${esc(p.name)}."></span>\n`
   : '';
 
-function tile(p, i) {
-  const size = SIZES[i] || 't6';
+function tile(p, i, list) {
+  const size = sizeFor(i, list.length);
   const hasOptions = !!(p.options && p.options.choices && p.options.choices.length);
   // A product with a choice to make cannot go straight to checkout, so its tile
   // jumps to the picker below the grid instead.
@@ -103,7 +123,8 @@ if (withOptions.length) {
 
 fs.writeFileSync(storeFile, html);
 console.log('store grid rebuilt: ' + products.length + ' products, ' +
-  withOptions.length + ' with an option picker');
+  withOptions.length + ' with an option picker' +
+  (hidden ? ', ' + hidden + ' hidden' : ''));
 
 // ------------------------------------------- repoint every Gator checkout URL
 let repointed = 0, filesTouched = 0;

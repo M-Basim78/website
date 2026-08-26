@@ -75,18 +75,68 @@ redirect is only there to show them something.
 is an HMAC, both of which Node does natively, so the container still installs
 nothing.
 
-## 3. The six products
+## 3. The ten products
 
-Verified against her live Gator store on 2026-08-19.
+Reconciled product by product against her Gator admin on 2026-08-26, from the
+full product editor rather than from the storefront. That distinction turned out
+to matter, twice.
 
-| Product | Price | After payment |
-|---|---|---|
-| Testing Accommodations: Workbook + Examples | $50 | download |
-| Residency Mock Interview Course + Workbook | $50 | download |
-| Advising with Dr. Moss, 30 min | $60 | booking |
-| Advising with Dr. Moss, 1 hr | $100 | booking |
-| Application or Personal Statement Editing | $100 (+$50 for 2 edits) | she emails |
-| Mock Interview with Dr. Moss | $125 | booking |
+| Product | Price | After payment | File |
+|---|---|---|---|
+| Medical School Application Workbook | $10 | download | `medical-school-application-workbook.pdf` |
+| Residency Application Workbook | $12 | download | `residency-application-workbook.pdf` |
+| Full ERAS & PS Residency Application | $30 | download | `full-residency-eras-application.pdf` |
+| 2026 ERAS & PS for Fellowship | $30 | download | `eras-ps-fellowship-2026.pdf` |
+| Testing Accommodations: Workbook + Examples | $50 | **she emails it** | too large to serve |
+| Residency Mock Interview Course + Workbook | $50 | download | `residency-mock-interview-course.pdf` |
+| Advising with Dr. Moss, 30 min | $60 | booking | none |
+| Advising with Dr. Moss, 1 hr | $100 | booking **+ file** | `advising-appointment-instructions.pdf` |
+| Application or Personal Statement Editing | $100 (+$50 for 2 edits) | customer sends a draft | none |
+| Mock Interview with Dr. Moss | $125 | booking **+ file** | `mock-interview-instructions.pdf` |
+
+The Medical School Application Workbook is `visible: false`, matching what Gator
+has hidden today. It is fully working; unhiding it is a one word edit.
+
+**Not included: the FULL Package for Residency, $500.** It is hidden in Gator, so
+it was never served publicly, so the crawl never saw it. There is no product id,
+no images and no archived description. It needs her to unhide it or to send the
+details by hand. It is a bundle of things she already sells individually, priced
+at $500 against a stated $700 of value, so it is worth asking whether it was
+paused deliberately.
+
+### Correction: two products were not delisted, they were invisible
+
+An earlier version of this document said the $12 workbook and the $30 ERAS
+application were "products she no longer sells". That was wrong, and the mistake
+came from reading her storefront instead of her admin.
+
+Her Gator admin lists **nine visible products**. Her live storefront renders
+**six**. Three products she believes are on sale have not been appearing:
+
+- Full ERAS & PS Residency Application, $30
+- 2026 ERAS & PS for Fellowship, $30
+- Residency Application Workbook, $12
+
+They have been building the store from what the storefront showed, which is why
+they were dropped. All three are on the new store. Worth telling her, because on
+Gator they are still invisible and still not selling.
+
+### A fulfilment mode is not a file
+
+`fulfilment` says how the product is delivered; `file` says whether there is
+something to hand over. They are independent, and conflating them was a real bug:
+
+- **`download`** — signed link on the order page, 30 days, 8 uses
+- **`booking`** — she sends a calendar link. Two of these *also* ship an
+  instructions PDF, and while the download was keyed off `fulfilment === 'download'`
+  those buyers paid $100 and $125 and were shown nothing at all
+- **`email-file`** — she emails the file herself. The accommodations workbook is
+  too large to serve, and her own product copy says she sends it within 12 to 24
+  hours. It had been configured as a `download` pointing at a file that does not
+  exist and never will, so the site would have taken $50 and offered a dead link
+- **`send-draft`** — the customer emails their document in. (`email` is the old
+  spelling and is still honoured, so orders taken before the rename still read
+  correctly)
 
 ### Our prices had gone stale
 
@@ -95,25 +145,25 @@ The site was advertising **the July prices**, and the live store had moved on:
 - Advising 1 hr was listed at **$70**, actually **$100**
 - Mock Interview at **$100**, actually **$125**
 - Editing at **$60**, actually **$100**
-- Two products she no longer sells were still on the page ($12 workbook, $30 ERAS)
-- Two she does sell were missing (30 min advising, Mock Interview Course)
 
 Undercharging by $30 to $40 on three products. All corrected, and the grid is now
 generated from `products.json` by `build-store.mjs`, so it cannot drift again.
+`check-prices.mjs` asserts every displayed price equals what checkout charges.
 
 ## 4. Still needed before it can take money
 
 1. **Her three Stripe strings** (section 1)
-2. **The two paid files.** Put them in `content/products/` under the names in
-   `products.json`. Until they are there the order page does not offer a broken
-   download; it tells the buyer she will email the file. Nothing is lost, but she
-   has to send it by hand
-3. **Booking links.** Set `booking_url` on each of the three booking products,
+2. **Booking links.** Set `booking_url` on each of the three booking products,
    from Cal.com or Calendly. Until then the order page says she will email to
    arrange a time
-4. **Email.** There is no SMTP yet, so the buyer's only copy of a download link
+3. **Email.** There is no SMTP yet, so the buyer's only copy of a download link
    is the order page. Stripe sends its own receipt, which is proof of payment but
    carries no link. Worth adding once a mail provider is chosen
+4. **A decision on the $500 package** (section 3)
+
+The paid files are **done**: all seven are exported and in `content/products/`.
+They are gitignored and excluded from the Docker image, so they reach the server
+by `docker cp` once. See step 6 of the deploy runbook.
 
 ## 5. Running it
 
@@ -136,8 +186,16 @@ swap in her live values at the end.
 ### Tests
 
 ```bash
-node cms/store.test.js                       # 17 unit tests, no server needed
-node cms/store.e2e.js http://localhost:8184  # 26 tests against a running server
+node cms/store.test.js                       # 18 unit tests, no server needed
+node cms/store.e2e.js http://localhost:8184  # 31 tests against a running server
+node cms/analytics.test.js                   # 29 tests, see reports/traffic.md
+```
+
+The e2e suite needs a server with `STRIPE_WEBHOOK_SECRET` set, or every webhook
+test fails on the signature check:
+
+```bash
+PORT=8184 CMS_PASSWORD=x SESSION_SECRET=x   STRIPE_WEBHOOK_SECRET=whsec_e2e_secret_for_testing node cms/server.js
 ```
 
 The e2e suite fakes Stripe, so it proves the parts that would cost real money
@@ -149,7 +207,11 @@ without touching an account:
 - the same webhook twice does not create a second order
 - download links are unguessable, expire after 30 days, cap at 8 uses, and
   cannot be walked out of the products folder
-- with the file missing the page offers no dead download button
+- with the file missing the page says 503, not a broken link
+- a booking that carries an instructions sheet offers **both** the calendar
+  link and the download, and one that carries no file offers neither
+- every product in the real catalogue is deliverable: nothing declares a
+  file that is not on disk, and nothing is a `download` with no file
 
 ## 6. Known limits
 
@@ -161,3 +223,7 @@ without touching an account:
   paid files. Both are gitignored and must stay that way: this repository is
   public. They live in the Docker volume and are covered by the backup button
 - **One currency**, USD, set at the top of `products.json`
+- **A catalogue change in git does not reach a running server.** `content/`
+  is a volume and the entrypoint never overwrites a file that is already
+  there, because her edits must win. Pushing one is a deliberate
+  `docker cp`: step 6 of the deploy runbook

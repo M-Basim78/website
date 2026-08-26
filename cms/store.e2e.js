@@ -114,58 +114,59 @@ function sessionEvent(id, productId, amount, opts) {
     ok('tampered body refused', r.status === 400);
   }
 
-  console.log('\na genuine webhook fulfils the order');
-  let token = '';
+  const fsx = require('fs'), pathx = require('path');
+  const FILES = pathx.resolve(__dirname, '..', 'content', 'products');
+
+  console.log('\nan email-file product never offers a download');
   {
+    // Her accommodations workbook is too large to serve, so she sends it by
+    // hand. The page must say so, and must not show a button that cannot work.
     const sid = 'cs_test_' + crypto.randomBytes(8).toString('hex');
-    const body = sessionEvent(sid, 'p_3380308', 5000);
-    let r = await post('/api/store/webhook', body, { 'stripe-signature': sign(body, WEBHOOK_SECRET) });
+    const body = sessionEvent(sid, 'p_3380308', 5000, { fulfilment: 'email-file' });
+    const r = await post('/api/store/webhook', body, { 'stripe-signature': sign(body, WEBHOOK_SECRET) });
     ok('signed webhook accepted', r.status === 200);
 
-    // The order page should now know about it.
-    r = await fetch(BASE + '/order/' + sid);
-    const html = await r.text();
-    ok('order page renders', r.status === 200);
+    const html = await (await fetch(BASE + '/order/' + sid)).text();
     ok('order page names the product', /Testing Accommodations/.test(html));
-    ok('order page shows the amount paid', /\$50\.00/.test(html), html.slice(0, 0));
+    ok('order page shows the amount paid', /\$50\.00/.test(html));
+    ok('no download button is shown', !/\/api\/store\/download\//.test(html));
+    ok('buyer is told she will email it', /email/i.test(html));
+  }
 
-    // Her real PDF is not exported from Gator yet. With the file absent the page
-    // must NOT offer a download it cannot serve; it should say she will email it.
-    ok('missing file: no dead download button is shown',
-      !/\/api\/store\/download\//.test(html));
-    ok('missing file: buyer is told she will email it', /email/i.test(html));
+  console.log('\na genuine webhook fulfils a download order');
+  let token = '';
+  const DL_PRODUCT = 'p_3288429';                       // Full ERAS application, $30
+  const DL_FILE = pathx.join(FILES, 'full-residency-eras-application.pdf');
+  {
+    const sid = 'cs_test_' + crypto.randomBytes(8).toString('hex');
+    const body = sessionEvent(sid, DL_PRODUCT, 3000);
+    const r = await post('/api/store/webhook', body, { 'stripe-signature': sign(body, WEBHOOK_SECRET) });
+    ok('signed webhook accepted', r.status === 200);
 
-    // Now drop a stand-in file in and prove the real download path works.
-    const fsx = require('fs'), pathx = require('path');
-    const FILES = pathx.resolve(__dirname, '..', 'content', 'products');
-    const stand = pathx.join(FILES, 'testing-accommodations-workbook.pdf');
-    fsx.mkdirSync(FILES, { recursive: true });
-    fsx.writeFileSync(stand, '%PDF-1.4 stand-in for the real workbook');
-    try {
-      const withFile = await (await fetch(BASE + '/order/' + sid)).text();
-      const m = withFile.match(/\/api\/store\/download\/([A-Za-z0-9_-]+)/);
-      token = m ? m[1] : '';
-      ok('with the file present, a download link appears', !!token);
+    const html = await (await fetch(BASE + '/order/' + sid)).text();
+    ok('order page names the product', /ERAS/.test(html));
+    ok('order page shows the amount paid', /\$30\.00/.test(html));
 
-      if (token) {
-        const dl = await fetch(BASE + '/api/store/download/' + token);
-        const disp = dl.headers.get('content-disposition') || '';
-        ok('download returns the file', dl.status === 200, 'got ' + dl.status);
-        ok('download is sent as an attachment', /attachment/.test(disp), disp);
-        ok('download is not cached', /no-store/.test(dl.headers.get('cache-control') || ''));
-        const body2 = await dl.text();
-        ok('download body is the file', body2.indexOf('%PDF') === 0);
-      }
+    const m = html.match(/\/api\/store\/download\/([A-Za-z0-9_-]+)/);
+    token = m ? m[1] : '';
+    ok('a download link appears', !!token);
 
-      // Idempotency: Stripe delivers more than once.
-      const before = token;
-      await post('/api/store/webhook', body, { 'stripe-signature': sign(body, WEBHOOK_SECRET) });
-      const again = await (await fetch(BASE + '/order/' + sid)).text();
-      const m2 = again.match(/\/api\/store\/download\/([A-Za-z0-9_-]+)/);
-      ok('duplicate webhook does not create a second order', m2 && m2[1] === before);
-    } finally {
-      try { fsx.unlinkSync(stand); } catch {}
+    if (token) {
+      const dl = await fetch(BASE + '/api/store/download/' + token);
+      const disp = dl.headers.get('content-disposition') || '';
+      ok('download returns the file', dl.status === 200, 'got ' + dl.status);
+      ok('download is sent as an attachment', /attachment/.test(disp), disp);
+      ok('download is not cached', /no-store/.test(dl.headers.get('cache-control') || ''));
+      const head = Buffer.from(await dl.arrayBuffer()).subarray(0, 4).toString();
+      ok('download body is the real PDF', head === '%PDF', 'got ' + JSON.stringify(head));
     }
+
+    // Idempotency: Stripe delivers the same event more than once, by design.
+    const before = token;
+    await post('/api/store/webhook', body, { 'stripe-signature': sign(body, WEBHOOK_SECRET) });
+    const again = await (await fetch(BASE + '/order/' + sid)).text();
+    const m2 = again.match(/\/api\/store\/download\/([A-Za-z0-9_-]+)/);
+    ok('duplicate webhook does not create a second order', !!(m2 && m2[1] === before));
   }
 
   console.log('\ndownload links are guarded');
@@ -173,24 +174,55 @@ function sessionEvent(id, productId, amount, opts) {
     let r = await fetch(BASE + '/api/store/download/not-a-real-token');
     ok('unknown token refused', r.status === 404);
 
-    r = await fetch(BASE + '/api/store/download/' + token);
-    // The stand-in file was removed above, so this is the file-missing path.
-    ok('valid token but missing file says 503, not 404',
-      r.status === 503, 'got ' + r.status);
+    // A file can go missing from the volume without the product changing. That
+    // has to read as "not available yet", not as a broken link.
+    const aside = DL_FILE + '.aside';
+    fsx.renameSync(DL_FILE, aside);
+    try {
+      r = await fetch(BASE + '/api/store/download/' + token);
+      ok('valid token but missing file says 503, not 404', r.status === 503, 'got ' + r.status);
+    } finally {
+      fsx.renameSync(aside, DL_FILE);
+    }
 
     r = await fetch(BASE + '/api/store/download/' + encodeURIComponent('../../../etc/passwd'));
     ok('path traversal in the token refused', r.status === 404 || r.status === 400, 'got ' + r.status);
   }
 
-  console.log('\nbooking and editing products route differently');
+  console.log('\nbookings route by whether they carry a file');
   {
+    // The mock interview is a booking that ALSO ships an instructions sheet.
+    // Both have to appear: keying the download off the fulfilment mode meant
+    // these buyers paid 125 dollars and were shown nothing.
     const sid = 'cs_test_' + crypto.randomBytes(8).toString('hex');
     const body = sessionEvent(sid, 'p_3313250', 12500, { fulfilment: 'booking' });
     await post('/api/store/webhook', body, { 'stripe-signature': sign(body, WEBHOOK_SECRET) });
     const html = await (await fetch(BASE + '/order/' + sid)).text();
-    ok('booking order asks the buyer to pick a time', /pick your time|Choose your time|arrange a time/i.test(html));
-    ok('booking order shows $125.00', /\$125\.00/.test(html));
-    ok('booking order mints no download link', !/\/api\/store\/download\//.test(html));
+    ok('booking asks the buyer to pick a time', /pick your time|Choose your time|arrange a time/i.test(html));
+    ok('booking shows $125.00', /\$125\.00/.test(html));
+    ok('booking with instructions offers the download', /\/api\/store\/download\//.test(html));
+
+    // 30 minute advising carries no file, so it must offer no download.
+    const sid2 = 'cs_test_' + crypto.randomBytes(8).toString('hex');
+    const body2 = sessionEvent(sid2, 'p_3380355', 6000, { fulfilment: 'booking' });
+    await post('/api/store/webhook', body2, { 'stripe-signature': sign(body2, WEBHOOK_SECRET) });
+    const html2 = await (await fetch(BASE + '/order/' + sid2)).text();
+    ok('booking without a file offers no download', !/\/api\/store\/download\//.test(html2));
+    ok('booking without a file still shows $60.00', /\$60\.00/.test(html2));
+  }
+
+  console.log('\nevery product a customer can buy is deliverable');
+  {
+    // A pass over the real catalogue, so a product added later cannot quietly
+    // ship promising a file that is not on disk.
+    const list = JSON.parse(fsx.readFileSync(
+      pathx.resolve(__dirname, '..', 'content', 'products.json'), 'utf8')).products;
+    const bad = [];
+    for (const pr of list) {
+      if (pr.file && !fsx.existsSync(pathx.join(FILES, pr.file))) bad.push(pr.id + ' -> ' + pr.file);
+      if (pr.fulfilment === 'download' && !pr.file) bad.push(pr.id + ' is a download with no file');
+    }
+    ok('every declared product file exists', bad.length === 0, bad.join('; '));
   }
 
   console.log('\n' + (fail ? 'FAILED' : 'ALL PASSED') + '   ' + pass + ' passed, ' + fail + ' failed\n');

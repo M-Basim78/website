@@ -41,6 +41,7 @@ $$('.tabs button').forEach(b => b.addEventListener('click', () => {
   $$('[data-panel]').forEach(p => { p.hidden = p.dataset.panel !== b.dataset.tab; });
   const t = b.dataset.tab;
   if (t === 'orders') loadOrders();
+  else if (t === 'visitors') loadVisitors();
   else if (t === 'uploads') loadUploads();
   else if (t === 'trash') loadTrash();
   else if (t !== 'posts') loadData(t);
@@ -426,9 +427,122 @@ $('#publish').addEventListener('click', async () => {
 });
 
 /* ------------------------------------------------------------------ boot -- */
+/* --------------------------------------------------------------- traffic -- */
+/* Everything here is drawn from divs. Thirty numbers do not justify pulling a
+   charting library into a container that otherwise has no dependencies. */
+
+const nfmt = (n) => Number(n || 0).toLocaleString();
+
+/** "6 Aug" - short enough for an axis, unambiguous for her. */
+const dshort = (iso) => {
+  const [y, m, d] = String(iso).split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d))
+    .toLocaleDateString(undefined, { day: 'numeric', month: 'short', timeZone: 'UTC' });
+};
+
+/** The change against the window before, phrased so it needs no explaining. */
+function delta(now, before) {
+  if (!before) return { cls: 'flat', text: now ? 'first full period' : '' };
+  const pct = Math.round(((now - before) / before) * 100);
+  if (pct === 0) return { cls: 'flat', text: 'same as the 30 days before' };
+  return {
+    cls: pct > 0 ? 'up' : 'down',
+    text: (pct > 0 ? '+' : '') + pct + '% vs the period before',
+  };
+}
+
+async function loadGlance() {
+  let d;
+  try { d = await api('/analytics?days=30'); } catch { return; }
+
+  $('#g-visits').textContent = nfmt(d.views);
+  const dd = delta(d.views, d.previous.views);
+  const el = $('#g-delta');
+  el.textContent = dd.text;
+  el.className = 'gd ' + dd.cls;
+  $('#g-people').textContent = d.views
+    ? nfmt(d.visitors) + ' ' + (d.visitors === 1 ? 'visitor' : 'visitors')
+    : 'No visits recorded yet.';
+
+  // Sparkline. The tallest day is full height; a day with nothing still shows a
+  // sliver, so a gap reads as quiet rather than as broken.
+  const max = Math.max(1, ...d.perDay.map(x => x.views));
+  $('#g-spark').innerHTML = d.perDay.map(x => {
+    const h = Math.max(6, Math.round((x.views / max) * 100));
+    return '<i class="' + (x.views === max && max > 0 ? 'hi' : '') + '" style="height:' + h + '%"></i>';
+  }).join('');
+
+  $('#glance').hidden = false;
+}
+
+$('#g-open').addEventListener('click', () => {
+  const tab = $$('.tabs button').find(b => b.dataset.tab === 'visitors');
+  if (tab) tab.click();
+});
+
+$('#vis-range').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-days]');
+  if (!b) return;
+  $$('#vis-range button').forEach(x => x.classList.toggle('on', x === b));
+  loadVisitors(Number(b.dataset.days));
+});
+
+function rows(list, empty) {
+  if (!list.length) return '<p class="empty">' + empty + '</p>';
+  const max = Math.max(...list.map(x => x.count));
+  return '<div class="vlist">' + list.map(x =>
+    '<div class="vrow">' +
+      '<span class="nm" style="--pct:' + Math.round((x.count / max) * 100) + '%" title="' +
+        esc(x.name) + '">' + esc(x.name) + '</span>' +
+      '<span class="ct">' + nfmt(x.count) + '</span>' +
+    '</div>').join('') + '</div>';
+}
+
+async function loadVisitors(days = 30) {
+  const box = $('#visitors');
+  box.innerHTML = '<p class="hint">Loading...</p>';
+  let d;
+  try { d = await api('/analytics?days=' + days); }
+  catch (ex) { box.innerHTML = '<p class="empty">Could not load this: ' + esc(ex.message) + '</p>'; return; }
+
+  $('#vis-since').textContent = d.since
+    ? 'Counting since ' + dshort(d.since) + '.'
+    : 'Counting starts the moment the site goes live.';
+
+  const max = Math.max(1, ...d.perDay.map(x => x.views));
+  const chart = d.perDay.map(x =>
+    '<span class="col" data-label="' + dshort(x.date) + ': ' + nfmt(x.views) +
+      (x.views === 1 ? ' visit' : ' visits') + '">' +
+      '<i class="' + (x.views ? 'v' : '') + '" style="height:' +
+        Math.max(2, Math.round((x.views / max) * 100)) + '%"></i>' +
+    '</span>').join('');
+
+  const dd = delta(d.views, d.previous.views);
+
+  box.innerHTML =
+    '<div class="vgrid">' +
+      '<div class="vbox wide">' +
+        '<h3>' + nfmt(d.views) + ' visits over ' + days + ' days' +
+          (dd.text ? ' <span class="gd ' + dd.cls + '">' + esc(dd.text.replace('30 days', days + ' days')) + '</span>' : '') +
+        '</h3>' +
+        '<div class="chart">' + chart + '</div>' +
+        '<div class="chart-x"><span>' + dshort(d.from) + '</span><span>' + dshort(d.to) + '</span></div>' +
+      '</div>' +
+      '<div class="vbox"><h3>Most read pages</h3>' +
+        rows(d.topPages, 'Nothing recorded yet.') + '</div>' +
+      '<div class="vbox"><h3>Where people came from</h3>' +
+        rows(d.topReferrers, 'Nothing recorded yet.') +
+        '<p class="empty" style="margin-top:12px">"Direct" means they typed the address, ' +
+        'used a bookmark, or followed a link from an app that does not say where it came from ' +
+        '(Instagram in-app links usually land here).</p>' +
+      '</div>' +
+    '</div>';
+}
+
 async function start() {
   $('#login').hidden = true; $('#app').hidden = false;
   await loadPosts();
+  loadGlance();          // not awaited: the card must never hold up the editor
   const me = await api('/me');
   if (me.lastPublish) $('#status').textContent = 'Last published ' + new Date(me.lastPublish).toLocaleString();
 }

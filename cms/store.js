@@ -240,8 +240,14 @@ class Store {
 
     const meta = session.metadata || {};
     const product = this.find(meta.product_id);
-    const fulfilment = meta.fulfilment || (product && product.fulfilment) || 'email';
+    const fulfilment = meta.fulfilment || (product && product.fulfilment) || 'send-draft';
     const details = session.customer_details || {};
+
+    // A file is not the same thing as a fulfilment mode. Two of her bookings
+    // hand over an instructions sheet as well as a calendar link, and keying the
+    // download token off fulfilment === 'download' meant those buyers paid 100
+    // dollars and received nothing at all. The token follows the file.
+    const hasFile = !!(product && product.file);
 
     const order = {
       id: session.id,
@@ -256,11 +262,10 @@ class Store {
       name: details.name || '',
       fulfilment: fulfilment,
       // Unguessable, expiring, and not shareable forever.
-      token: fulfilment === 'download' ? crypto.randomBytes(24).toString('base64url') : '',
+      token: hasFile ? crypto.randomBytes(24).toString('base64url') : '',
       downloads: 0,
       max_downloads: 8,
-      expires: fulfilment === 'download'
-        ? new Date(Date.now() + 30 * 864e5).toISOString() : '',
+      expires: hasFile ? new Date(Date.now() + 30 * 864e5).toISOString() : '',
     };
 
     await fsp.writeFile(this.orderPath(session.id), JSON.stringify(order, null, 2) + '\n');
@@ -298,7 +303,9 @@ class Store {
   }
 
   downloadState(order) {
-    if (!order || order.fulfilment !== 'download') return 'n/a';
+    // The token is the signal, not the fulfilment mode: an order has a file to
+    // give if and only if one was minted for it at the time of purchase.
+    if (!order || !order.token) return 'n/a';
     if (order.expires && new Date(order.expires) < new Date()) return 'expired';
     if ((order.downloads || 0) >= (order.max_downloads || 8)) return 'exhausted';
     return this.fileFor(order) ? 'ready' : 'file-missing';
