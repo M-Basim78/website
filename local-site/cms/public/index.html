@@ -33,6 +33,7 @@
       <button data-tab="testimonials">Testimonials</button>
       <button data-tab="site">Homepage wording</button>
         <button data-tab="orders">Orders</button>
+        <button data-tab="visitors">Visitors</button>
         <button data-tab="uploads">Pictures</button>
         <button data-tab="trash">Bin</button>
     </nav>
@@ -42,6 +43,21 @@
       <button class="btn ghost" id="logout">Sign out</button>
     </div>
   </header>
+
+  <!-- Traffic at a glance. Outside <main>'s panels on purpose: it shows on every
+       tab, so signing in answers "is anyone reading this" before she clicks
+       anything. Hidden until the numbers arrive, so it never flashes a zero. -->
+  <div class="glance" id="glance" hidden>
+    <button class="gcard" id="g-open" type="button">
+      <span class="gk">Visits, last 30 days</span>
+      <span class="grow">
+        <span class="gn" id="g-visits">-</span>
+        <span class="gd" id="g-delta"></span>
+      </span>
+      <span class="gsub" id="g-people"></span>
+      <span class="gspark" id="g-spark" aria-hidden="true"></span>
+    </button>
+  </div>
 
   <main>
     <!-- posts -->
@@ -98,6 +114,21 @@
       <div class="head"><h2>Orders</h2></div>
       <p class="hint" id="orders-status"></p>
       <div id="orders"></div>
+    </section>
+
+    <section data-panel="visitors" hidden>
+      <div class="head">
+        <h2>Who is visiting</h2>
+        <p class="note">Counted by your own website, on your own server. No cookies, no
+          Google, nothing that follows anyone around the internet: a visitor is a
+          number for one day and unrecognisable the next. <span id="vis-since"></span></p>
+      </div>
+      <div class="vrange" id="vis-range">
+        <button type="button" data-days="7">7 days</button>
+        <button type="button" data-days="30" class="on">30 days</button>
+        <button type="button" data-days="90">90 days</button>
+      </div>
+      <div id="visitors"></div>
     </section>
 
     <section data-panel="uploads" hidden>

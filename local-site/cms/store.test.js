@@ -3,6 +3,7 @@
  *   node cms/store.test.js
  */
 const crypto = require('crypto');
+const fs = require('fs');
 const path = require('path');
 const { Store, toCents, verifySignature } = require('./store.js');
 
@@ -85,14 +86,26 @@ console.log('\nprice is decided by the server, never the browser');
   ok('unknown product is not found', store.find('p_does_not_exist') === null);
 
   // Every product must produce a chargeable amount and a known fulfilment route.
-  const kinds = ['download', 'booking', 'email'];
-  let allPriced = true, allRouted = true;
+  // 'email' is the old spelling of 'send-draft' and is still honoured by the
+  // order page, so an order taken before the rename still reads correctly.
+  const kinds = ['download', 'booking', 'email-file', 'send-draft', 'email'];
+  let allPriced = true, allRouted = true, allFiles = true;
   for (const p of store.products().list) {
     if (toCents(p.price) === null || toCents(p.price) <= 0) { allPriced = false; console.log('     unpriced: ' + p.id); }
     if (kinds.indexOf(p.fulfilment) < 0) { allRouted = false; console.log('     bad fulfilment: ' + p.id); }
+    // A product that promises a download must have the file on disk. Getting
+    // this wrong takes the customer's money and shows them a dead link, which
+    // is exactly what happened to the accommodations workbook.
+    if (p.file && !fs.existsSync(path.join(__dirname, '..', 'content', 'products', p.file))) {
+      allFiles = false; console.log('     missing file: ' + p.id + ' -> ' + p.file);
+    }
+    if (p.fulfilment === 'download' && !p.file) {
+      allFiles = false; console.log('     download with no file: ' + p.id);
+    }
   }
   ok('every product has a valid price', allPriced);
   ok('every product has a known fulfilment route', allRouted);
+  ok('every promised file is on disk', allFiles);
 }
 
 console.log('\nfile serving cannot escape the products folder');

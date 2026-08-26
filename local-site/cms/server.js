@@ -24,6 +24,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { execFile } = require('child_process');
 const { Store, fromCents, verifySignature } = require('./store.js');
+const { Analytics } = require('./analytics.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
@@ -43,6 +44,7 @@ for (const d of [UPLOADS, TRASH, HISTORY]) fs.mkdirSync(d, { recursive: true });
 const ORIGIN = process.env.SITE_ORIGIN || 'https://medpsycmoss.com';
 const store = new Store({ contentDir: CONTENT, origin: ORIGIN });
 
+
 // Pictures she can upload. No SVG: it can carry script, and nothing here needs it.
 const IMAGE_TYPES = {
   '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png',
@@ -55,6 +57,17 @@ const PORT = Number(process.env.PORT || 8080);
 const USER = process.env.CMS_USER || 'stephanie';
 const SECRET = process.env.SESSION_SECRET || crypto.randomBytes(32).toString('hex');
 const SESSION_HOURS = 12;
+// A separate salt from the session secret: the two protect different things
+// and neither should be derivable from the other.
+const SECRET_FOR_ANALYTICS = crypto.createHash('sha256')
+  .update('analytics|' + SECRET).digest('hex');
+
+// Traffic counting. Her Bluehost stats are produced by the server that hosts the
+// site and stop the day the domain moves, so this replaces the part of them she
+// reads. Cookieless and no third party: see cms/analytics.js. Declared here
+// rather than beside the store because it needs the secret above.
+const analytics = new Analytics({ contentDir: CONTENT, salt: SECRET_FOR_ANALYTICS });
+analytics.prune(400).catch(() => {});
 
 const scrypt = (pw, salt) =>
   crypto.scryptSync(pw, salt, 64).toString('hex');
@@ -475,6 +488,13 @@ async function api(req, res, url, authed) {
     });
   }
 
+  // ---- traffic
+  if (p === '/analytics' && req.method === 'GET') {
+    const days = Number(url.searchParams.get('days') || 30);
+    const [summary, since] = await Promise.all([analytics.summary(days), analytics.since()]);
+    return json(res, 200, Object.assign({ since: since }, summary));
+  }
+
   if (p === '/publish' && req.method === 'POST') return json(res, 200, await publish());
 
   return json(res, 404, { error: 'No such endpoint.' });
@@ -483,15 +503,16 @@ async function api(req, res, url, authed) {
 /* ------------------------------------------------------------ static ------ */
 async function serveStatic(res, base, rel, cacheable) {
   let file = safeJoin(base, rel);
-  if (!file) return send(res, 403, MIME['.txt'], 'no');
+  if (!file) { send(res, 403, MIME['.txt'], 'no'); return { code: 403, html: false }; }
   if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, 'index.html');
   if (!fs.existsSync(file)) {
     const alt = file.endsWith('.html') ? null : file + '/index.html';
     if (alt && fs.existsSync(alt)) file = alt;
     else {
       const notFound = path.join(base, '404.html');
-      if (fs.existsSync(notFound)) return send(res, 404, MIME['.html'], fs.readFileSync(notFound));
-      return send(res, 404, MIME['.txt'], 'Not found');
+      if (fs.existsSync(notFound)) { send(res, 404, MIME['.html'], fs.readFileSync(notFound)); return { code: 404, html: true }; }
+      send(res, 404, MIME['.txt'], 'Not found');
+      return { code: 404, html: false };
     }
   }
   const ext = path.extname(file).toLowerCase();
@@ -500,6 +521,8 @@ async function serveStatic(res, base, rel, cacheable) {
     headers['Cache-Control'] = 'public, max-age=31536000, immutable';
   else headers['Cache-Control'] = 'no-cache, must-revalidate';
   send(res, 200, MIME[ext] || 'application/octet-stream', fs.readFileSync(file), headers);
+  // Returned so the caller can tell a real page view from an asset or a 404.
+  return { code: 200, html: ext === '.html' };
 }
 
 /* ------------------------------------------------------------- server ----- */
@@ -535,26 +558,28 @@ function orderPage(order, id) {
   } else {
     const paid = fromCents(order.amount, order.currency);
     const what = esc(order.product_name) + (order.option ? ' (' + esc(order.option) + ')' : '');
+    const to = order.email ? esc(order.email) : 'you';
+    const ref = '<p class="fine">Your order reference is ' + esc(order.id).slice(0, 24) + '.</p>';
+    const HELP = 'medpsycmoss@gmail.com';
 
-    if (order.fulfilment === 'download') {
-      const state = store.downloadState(order);
-      if (state === 'ready') {
-        heading = 'Thank you, here is your download';
-        body =
-          '<p class="sub">' + what + ', ' + paid + '.</p>' +
-          '<div class="hero-cta"><a class="btn" href="/api/store/download/' + esc(order.token) + '">Download it now</a></div>' +
-          '<p class="fine">This link works for 30 days and up to ' + (order.max_downloads || 8) +
-          ' downloads. Save the file somewhere safe. A copy of this page has been sent to ' +
-          (order.email ? esc(order.email) : 'your email') + '.</p>';
-      } else {
-        heading = 'Thank you, your order is recorded';
-        body =
-          '<p class="sub">' + what + ', ' + paid + '.</p>' +
-          '<p class="fine">Your file is being prepared and Dr. Moss will email it to ' +
-          (order.email ? esc(order.email) : 'you') + ' shortly. Your order reference is ' +
-          esc(order.id).slice(0, 24) + '.</p>';
-      }
-    } else if (order.fulfilment === 'booking') {
+    // The download block is independent of the fulfilment mode. Her advising and
+    // mock interview products are bookings that ALSO come with an instructions
+    // sheet, and keying the download off fulfilment meant those buyers paid and
+    // were shown nothing. Whether there is a file to hand over is its own
+    // question from how the rest of the product is delivered.
+    const state = store.downloadState(order);
+    const dl = state === 'ready'
+      ? '<div class="hero-cta"><a class="btn" href="/api/store/download/' + esc(order.token) + '">Download it now</a></div>' +
+        '<p class="fine">This link works for 30 days and up to ' + (order.max_downloads || 8) +
+        ' downloads. Save the file somewhere safe.</p>'
+      : '';
+    const stale = state === 'expired'
+      ? 'This download link has expired. Email ' + HELP + ' with the reference below and Dr. Moss will send the file again.'
+      : state === 'exhausted'
+        ? 'This link has been used the maximum number of times. Email ' + HELP + ' with the reference below and Dr. Moss will send the file again.'
+        : '';
+
+    if (order.fulfilment === 'booking') {
       const product = store.find(order.product_id);
       const link = product && product.booking_url;
       heading = 'Thank you, now pick your time';
@@ -562,15 +587,43 @@ function orderPage(order, id) {
         '<p class="sub">' + what + ', ' + paid + '.</p>' +
         (link
           ? '<div class="hero-cta"><a class="btn" href="' + esc(link) + '">Choose your time</a></div>'
-          : '<p class="fine">Dr. Moss will email ' + (order.email ? esc(order.email) : 'you') +
-            ' to arrange a time that suits you.</p>') +
-        '<p class="fine">Your order reference is ' + esc(order.id).slice(0, 24) + '.</p>';
+          : '<p class="fine">Dr. Moss will email ' + to + ' to arrange a time that suits you.</p>') +
+        (dl ? '<p class="fine">Your appointment instructions are ready:</p>' + dl : '') +
+        (stale ? '<p class="fine">' + stale + '</p>' : '') +
+        ref;
+
+    } else if (order.fulfilment === 'email-file') {
+      // The accommodations workbook is too large to serve from here, so she
+      // sends it by hand. Saying so plainly is what stops the "where is my
+      // file" email three hours later.
+      heading = 'Thank you, your file is on its way';
+      body =
+        '<p class="sub">' + what + ', ' + paid + '.</p>' +
+        '<p class="fine">This one is too large to download from the site, so Dr. Moss emails it to ' +
+        to + ' within 12 to 24 hours. If it has not arrived by then, reply to your receipt or write ' +
+        'to ' + HELP + ' and she will send it straight over.</p>' +
+        ref;
+
+    } else if (order.fulfilment === 'download') {
+      if (dl) {
+        heading = 'Thank you, here is your download';
+        body =
+          '<p class="sub">' + what + ', ' + paid + '.</p>' + dl +
+          '<p class="fine">A copy of this page has been sent to ' + to + '.</p>' + ref;
+      } else {
+        heading = 'Thank you, your order is recorded';
+        body =
+          '<p class="sub">' + what + ', ' + paid + '.</p>' +
+          '<p class="fine">' + (stale || ('Your file is being prepared and Dr. Moss will email it to ' + to + ' shortly.')) +
+          '</p>' + ref;
+      }
+
     } else {
       heading = 'Thank you, send your draft over';
       body =
         '<p class="sub">' + what + ', ' + paid + '.</p>' +
         '<p class="fine">Reply to your receipt email with your document attached, and Dr. Moss will ' +
-        'come back to you within 48 to 72 hours. Your order reference is ' + esc(order.id).slice(0, 24) + '.</p>';
+        'come back to you within 48 to 72 hours.</p>' + dl + ref;
     }
   }
 
@@ -714,12 +767,29 @@ const server = http.createServer(async (req, res) => {
       return serveStatic(res, UPLOADS, pathname.replace(/^\/uploads\//, ''), true);
     }
 
-    return serveStatic(res, DIST, pathname === '/' ? 'index.html' : pathname, true);
+    // The only place a public page is served, so the only place a visit is
+    // counted. Assets, 404s, the editor, the API and the order pages are all
+    // excluded: an order URL carries a Stripe session id that has no business
+    // in a traffic file.
+    const served = await serveStatic(res, DIST, pathname === '/' ? 'index.html' : pathname, true);
+    if (served && served.code === 200 && served.html) {
+      try { analytics.record(req, pathname); } catch { /* never fail a page over a count */ }
+    }
+    return served;
   } catch (e) {
     console.error(req.method, pathname, e.message);
     if (!res.headersSent) json(res, 500, { error: 'Something went wrong.' });
   }
 });
+
+// A redeploy is a SIGTERM. Without this the day's counts since the last flush
+// are lost, which on a quiet day is most of them.
+for (const sig of ['SIGTERM', 'SIGINT']) {
+  process.on(sig, () => {
+    analytics.flush().catch(() => {}).then(() => process.exit(0));
+    setTimeout(() => process.exit(0), 2000).unref();
+  });
+}
 
 server.listen(PORT, () => {
   console.log(`

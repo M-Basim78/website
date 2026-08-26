@@ -59,3 +59,9 @@ product-images/
 pdfs/
 content/products/
 local-site/content/products/
+
+# Runtime data written by the running site, not source. Order records hold
+# customer emails; analytics holds per-day visitor hashes. Both live in the
+# Docker volume and are covered by the backup button in the editor.
+local-site/content/analytics/
+local-site/content/orders/

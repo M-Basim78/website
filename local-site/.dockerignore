@@ -1,0 +1,22 @@
+# The build context is deliberately narrow.
+#
+# The most important line here is content/products/. Those are the files
+# customers pay for. They belong in the volume on the server, put there by hand,
+# never baked into an image that could be pushed to a registry.
+
+.git
+.gitignore
+node_modules
+.env
+.env.*
+!.env.example
+
+# The paid product files. See above.
+content/products/
+
+# Working files that have no business in a running container.
+reports/
+*.log
+*.zip
+*.csv
+_*.mjs

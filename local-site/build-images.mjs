@@ -30,6 +30,10 @@ const COVERS = {
   workbook:   G0 + '3d48ca8d6901465581fe623f98339cb7',
   accommod:   BSVC('bbca3e80d90745ce9bd15cdd676d23cc'),
   mock:       G0 + '2247331888734dea8b2cb19cddd79218',
+  // Added when the four products Gator was hiding came across. Every product
+  // gallery puts its cover at index 4; the first three are site chrome.
+  'eras-full': G0 + '7728fb4e62e149498fec37ca42395be2',
+  medschool:  G0 + '5c9f87fe27e1428bb0ea43af1f961ba1',
 };
 
 // The patient-side portrait is published on her leave-of-absence and Step 1
