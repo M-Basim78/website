@@ -51,3 +51,11 @@ WhatsApp Image*.jpg
 # Regenerated from the archive by extract-product-images.py. Derived data, and
 # 12 MB of it, so it stays out of the repository.
 product-images/
+
+# The files customers pay for. Exported from Gator by hand, because a paywalled
+# file is never served publicly and no crawl can reach it. They belong in the
+# content volume on the server, delivered through a signed link. This repository
+# is public: committing them gives away every product she sells.
+pdfs/
+content/products/
+local-site/content/products/
