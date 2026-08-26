@@ -47,3 +47,7 @@ WhatsApp Image*.jpg
 # Customer and order exports. These hold real names, emails, addresses and
 # payment records. This repository is public: never commit them.
 *.csv
+
+# Regenerated from the archive by extract-product-images.py. Derived data, and
+# 12 MB of it, so it stays out of the repository.
+product-images/
