@@ -43,3 +43,7 @@ WhatsApp Image*.jpg
 # the template carries no secrets and should be committed
 !*.env.example
 !.env.example
+
+# Customer and order exports. These hold real names, emails, addresses and
+# payment records. This repository is public: never commit them.
+*.csv
