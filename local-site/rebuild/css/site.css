@@ -136,6 +136,11 @@
   .hero h1 .ghost{
     color:transparent;-webkit-text-stroke:1.5px rgba(27,42,74,0.55);
   }
+  /* A second row with real words in it, rather than one. "OF THE CHART" is
+     twice the length of the word it replaced, and at the full clamp it runs off
+     a 360px phone. Stepping this row down keeps the two rows reading as one
+     block while leaving the first line at full size. */
+  .hero h1 .long{font-size:0.8em;letter-spacing:-0.025em}
   .hero .sub{
     color:var(--muted);font-size:clamp(15px,4.1vw,16.5px);
     max-width:44ch;margin-top:24px;text-wrap:pretty;
