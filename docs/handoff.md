@@ -152,7 +152,7 @@ silently fail a real student, and it should not go live as is.
 
 | # | Question | Why it matters |
 |---|---|---|
-| 1 | **YouTube handle.** Her live About page uses `@StephMossMD`; her footer and homepage use `@doctormoss`. Both are in the scrape. | One of them is wrong on her current site. The rebuild uses `@doctormoss` everywhere for now. |
+| 1 | ~~**YouTube handle.**~~ **RESOLVED 2026-08-30.** Her live site used two: `@StephMossMD` on About, `@doctormoss` in the footer and homepage. She confirmed `@doctormoss` is somebody else. The whole site now uses `https://www.youtube.com/@stephmossmd`, which also matches her Instagram handle. | Closed. |
 | 2 | **Dead link.** The chicago.gov CHHRGE PDF returns **404**. It is dead on her live site too. | Needs a replacement URL or removal from `/about-me` and `/my-work`. |
 | 3 | **Store subdomain.** Plan is `store.medpsycmoss.com`. | Every checkout link is built from one constant, `STORE_BASE` in `rebuild/js/site.js`. Changing that one line repoints the entire site. Nothing else moves. |
 | 4 | **Two statistics were dropped.** An "about 80%" insurance coverage figure and a "1 in 4 female physicians" infertility statistic appear in her prose but are not in `stats.json`. | We only publish numbers she supplied. If she wants these, she needs to confirm them and give a source. |
