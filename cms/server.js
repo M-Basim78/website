@@ -64,6 +64,27 @@ const SESSION_HOURS = 12;
 const SECRET_FOR_ANALYTICS = crypto.createHash('sha256')
   .update('analytics|' + SECRET).digest('hex');
 
+/**
+ * Old URLs that must keep working.
+ *
+ * Thirteen /blog/ paths on the Gator site were never real posts. Gator answers
+ * any unknown /blog/* path with its post template rather than a 404, so the
+ * crawl captured thirteen copies of "This is the post title", and the Free
+ * Guides section linked to every one of them. Each duplicates a real post under
+ * a different slug, so they redirect to it instead of 404ing: an old bookmark,
+ * an inbound link and a Google result all still land on the article.
+ *
+ * Read from content/, so a future rename is an edit rather than a deploy.
+ */
+let REDIRECTS = {};
+function loadRedirects() {
+  try {
+    const raw = JSON.parse(fs.readFileSync(path.join(CONTENT, 'redirects.json'), 'utf8'));
+    REDIRECTS = raw.permanent || {};
+  } catch { REDIRECTS = {}; }
+}
+loadRedirects();
+
 // Traffic counting. Her Bluehost stats are produced by the server that hosts the
 // site and stop the day the domain moves, so this replaces the part of them she
 // reads. Cookieless and no third party: see cms/analytics.js. Declared here
@@ -989,6 +1010,14 @@ const server = http.createServer(async (req, res) => {
     // into dist/ so the site still works if it is ever served statically.
     if (pathname.startsWith('/uploads/')) {
       return serveStatic(res, UPLOADS, pathname.replace(/^\/uploads\//, ''), true);
+    }
+
+    // A moved page, before anything tries to serve it. 301 rather than 302:
+    // these are permanent, and search engines should pass on the ranking.
+    const moved = REDIRECTS[pathname.replace(/\/+$/, '')] || REDIRECTS[pathname];
+    if (moved) {
+      res.writeHead(301, { Location: moved, 'Cache-Control': 'no-cache' });
+      return res.end();
     }
 
     // The only place a public page is served, so the only place a visit is

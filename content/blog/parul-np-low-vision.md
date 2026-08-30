@@ -245,6 +245,6 @@ If individuals want to connect with you, is there a preferred way that you would
 
 Parul Aurora, NP: I share my email address all the time. So I'll put it in the bottom. Sure.
 
-Stephanie Moss, MD: That sounds great. Wonderful. So I'll include that on the bottom, thank you, Parul, so much. I will make sure to include all those resources and add them to my website at medpsycmoss.com. You can follow me on social media @medpsycmoss or @mdpsycmoss if you have any feedback or any ideas or even want to be on the podcast and share your story, please send me a message at medpsycmosss@gmail.com
+Stephanie Moss, MD: That sounds great. Wonderful. So I'll include that on the bottom, thank you, Parul, so much. I will make sure to include all those resources and add them to my website at medpsycmoss.com. You can follow me on social media @medpsycmoss or @mdpsycmoss if you have any feedback or any ideas or even want to be on the podcast and share your story, please send me a message at medpsycmoss@gmail.com
 
 Thank you so much, everyone. Take care!
