@@ -319,7 +319,7 @@ Reflecting on my journey, including the challenges of standardized exams and cli
 
 Dr. Moss: Thank you so much. I really hope this was helpful to you. The next one I'm going to be talking about how to actually disclose because I had the opportunity to decide whether or not to disclose my own disability when I was applying to residency. So stay tuned for that episode.
 
-Also check out my website, MedPsycMoss.com. You can follow me @MedPsychMoss on all social media. I would love to hear from you what you still need, what is helpful, what challenges have you had, so I can make sure I can address them and help. Thank you so much for listening in today. And just remember, you are not alone.
+Also check out my website, MedPsycMoss.com. You can follow me @MedPsycMoss on all social media. I would love to hear from you what you still need, what is helpful, what challenges have you had, so I can make sure I can address them and help. Thank you so much for listening in today. And just remember, you are not alone.
 
 Message of Hope [00:41:00]
 

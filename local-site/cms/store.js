@@ -28,6 +28,26 @@ const path = require('path');
 
 const API = 'https://api.stripe.com/v1';
 
+/* ---------------------------------------------------------------- trimming -- */
+
+/**
+ * Shorten text for Stripe's checkout without slicing a word in half.
+ *
+ * A blunt slice(0, 500) cut her mock interview course at "every recording added
+ * later is yo", which is what a customer read on the payment page with their
+ * card already out. Prefer to end on a sentence; fall back to a word boundary;
+ * only ever cut mid-word if the text has neither in range.
+ */
+function trimTo(text, max) {
+  const s = String(text == null ? '' : text).trim();
+  if (s.length <= max) return s;
+  const window = s.slice(0, max - 1);
+  const sentence = Math.max(window.lastIndexOf('. '), window.lastIndexOf('! '), window.lastIndexOf('? '));
+  if (sentence > max * 0.6) return window.slice(0, sentence + 1);
+  const word = window.lastIndexOf(' ');
+  return (word > max * 0.5 ? window.slice(0, word) : window).replace(/[,;:\s]+$/, '') + '\u2026';
+}
+
 /* ------------------------------------------------------------------ money -- */
 
 /** "$1,250.00" -> 125000 cents. null if it is not a price. */
@@ -188,7 +208,7 @@ class Store {
           unit_amount: q.amount,
           product_data: {
             name: name,
-            description: String(product.description || '').slice(0, 500),
+            description: trimTo(product.description, 500),
           },
         },
       }],
@@ -377,4 +397,4 @@ class Store {
   }
 }
 
-module.exports = { Store, toCents, fromCents, verifySignature, formEncode, stripe };
+module.exports = { Store, toCents, fromCents, verifySignature, formEncode, stripe, trimTo };

@@ -68,3 +68,6 @@ local-site/content/orders/
 
 local-site/content/messages/
 local-site/content/subscribers.json
+
+# Scratch files from probing the old site.
+local-site/_*

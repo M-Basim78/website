@@ -1,0 +1,18 @@
+{
+  "_note": "Old URLs that must keep working. The 13 /blog/ entries were never real posts: Gator soft-404s any unknown /blog/* path into its post template, so they were captured as empty pages and linked from the Free Guides section. Each one duplicates a real post under a different slug and now redirects to it.",
+  "permanent": {
+    "/blog/approved-letter-for-testing-accommodations": "/blog/usmle-accommodations",
+    "/blog/disabilities-accommodations-and-accessibility": "/blog/disability-accommodations",
+    "/blog/disability-accommodations-and-accessibility": "/blog/disability-accommodations",
+    "/blog/dual-applying-into-residency-a-strategic-guide-for-medical-students": "/blog/residency-app",
+    "/blog/financial-realities-of-being-a-medical-student-in-a-lower-social-economic-status": "/blog/finances",
+    "/blog/financial-traumas-during-medical-school": "/blog/financial-trauma",
+    "/blog/guide-to-applying-for-accommodations-on-the-usmle": "/blog/accommodations-usmle",
+    "/blog/how-to-not-fail-step": "/blog/step1",
+    "/blog/identity_and_trauma": "/blog/failure_identiy",
+    "/blog/journey-through-medical-school-m1-year": "/blog/ms1",
+    "/blog/surviving-the-taboos-of-medical-school": "/blog/taboos",
+    "/blog/the-decision-to-extend-my-leave-of-absence-loa-from-medical-school": "/blog/loa_extension",
+    "/blog/the-impact-of-caregiving-on-my-journey-to-become-a-physician": "/blog/a-personal-statement-for-medical-school-as-a-caregiver"
+  }
+}
