@@ -434,9 +434,13 @@
   .dock a.on,.dock a:hover{color:var(--pulse-ink)}
   .dock svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 
-  /* reveal */
-  .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
-  .reveal.in{opacity:1;transform:none}
+  /* reveal.
+     The hidden state is applied by JavaScript adding .js to <html>, so with
+     scripting off nothing is ever hidden in the first place. Before this,
+     .reveal{opacity:0} applied unconditionally and a page with no JS showed
+     a header, a footer and nothing in between. */
+  .js .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+  .js .reveal.in{opacity:1;transform:none}
 
   /* ============ podcast page: show cards ============ */
   /* A .tile cannot be reused here: .tile is a single <a>, and each show card
@@ -677,7 +681,7 @@
   }
   @media(prefers-reduced-motion:reduce){
     *{animation:none!important;transition:none!important}
-    .reveal{opacity:1;transform:none}
+    .js .reveal{opacity:1;transform:none}
     html{scroll-behavior:auto}
     .trace{stroke-dasharray:none!important;stroke-dashoffset:0!important}
   }

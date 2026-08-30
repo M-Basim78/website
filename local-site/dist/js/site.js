@@ -75,17 +75,43 @@
     t.innerHTML += t.innerHTML;
   })();
 
-  /* scroll reveals */
+  /* scroll reveals
+
+     threshold:0, not 0.12, and the difference is not cosmetic.
+
+     A threshold asks what FRACTION of the element is on screen. A blog post is
+     one .reveal element thirteen thousand pixels tall, so at a 900px viewport
+     at most 6.5% of it can ever be visible at once. It could never reach 12%,
+     the observer never fired, and .reveal{opacity:0} left forty per cent of her
+     blog permanently blank. The HTML was always there, which is why it looked
+     fine in the source and blank on screen.
+
+     threshold:0 fires as soon as any part of the element enters, which is what
+     "reveal on scroll" was always meant to mean. The small negative rootMargin
+     keeps the effect by waiting until it is properly in view rather than
+     touching the very bottom edge.
+
+     The failsafe below is the belt to that braces: if anything is still hidden
+     shortly after load, show it. Nothing on this site is worth hiding because
+     an observer misbehaved. */
   (function(){
     var els = document.querySelectorAll('.reveal');
+    var show = function(el){ el.classList.add('in'); };
     if (reduce || !('IntersectionObserver' in window)) {
-      for (var i = 0; i < els.length; i++) els[i].classList.add('in');
+      for (var i = 0; i < els.length; i++) show(els[i]);
       return;
     }
     var io = new IntersectionObserver(function(es){
-      es.forEach(function(en){ if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-    }, {threshold: 0.12});
-    els.forEach(function(e){ io.observe(e); });
+      es.forEach(function(en){ if (en.isIntersecting) { show(en.target); io.unobserve(en.target); } });
+    }, {threshold: 0, rootMargin: '0px 0px -6% 0px'});
+    for (var i = 0; i < els.length; i++) io.observe(els[i]);
+
+    setTimeout(function(){
+      for (var j = 0; j < els.length; j++) {
+        var r = els[j].getBoundingClientRect();
+        if (r.top < window.innerHeight && r.bottom > 0) show(els[j]);
+      }
+    }, 1500);
   })();
 
   /* dock highlights current section */

@@ -180,6 +180,7 @@ for (const [slug, p] of Object.entries(PRODUCTS)) {
 
 <link rel="preload" href="/new/fonts/bricolage-grotesque-300-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/new/fonts/inter-400-600.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="/new/css/site.css">
 <script src="/new/js/site.js" defer></script>
 </head>
