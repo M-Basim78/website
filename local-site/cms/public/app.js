@@ -346,6 +346,11 @@ function postForm(p, isNew) {
     <label class="f">Search engine description
       <span class="hint">About 155 characters. This is what Google shows.</span>
       <input class="f" id="p-desc" value="${esc(p.description)}"></label>
+    <label class="f">YouTube video
+      <span class="hint">Paste the link to the video for this post. The thumbnail appears at the
+        top of the page and clicks through to YouTube. Leave it blank for no video.</span>
+      <input class="f" id="p-video" value="${esc(p.video || '')}"
+             placeholder="https://www.youtube.com/watch?v=..."></label>
     <label class="f">Body
       <span class="hint">Leave a blank line between paragraphs. Start a line with ## for a subheading.</span>
       <textarea class="f" id="p-body">${esc(p.body)}</textarea></label>
@@ -375,6 +380,7 @@ function readPostForm() {
     slug: $('#p-slug').value.trim(),
     kind: $('#p-kind').value,
     description: $('#p-desc').value.trim(),
+    video: $('#p-video').value.trim(),
     body: $('#p-body').value,
   };
 }

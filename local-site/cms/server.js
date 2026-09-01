@@ -258,12 +258,16 @@ function parsePost(src) {
     d[kv[1]] = v;
   }
   return { title: d.title || '', slug: d.slug || '', kind: d.kind || 'blog',
-           description: d.description || '', body: m[2] };
+           description: d.description || '', video: d.video || '', body: m[2] };
 }
 const yq = (s) => `"${String(s || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
 const serializePost = (p) =>
   `---\ntitle: ${yq(p.title)}\nslug: ${yq(p.slug)}\nkind: ${p.kind === 'interview' ? 'interview' : 'blog'}\n` +
-  `description: ${yq(p.description)}\n---\n\n${(p.body || '').trim()}\n`;
+  `description: ${yq(p.description)}\n` +
+  // Written only when there is one, so 77 existing posts do not all gain an
+  // empty line the first time they are opened and saved.
+  (p.video ? `video: ${yq(p.video)}\n` : '') +
+  `---\n\n${(p.body || '').trim()}\n`;
 
 /* --------------------------------------------------------------- publish -- */
 let publishing = false;
@@ -931,6 +935,30 @@ const server = http.createServer(async (req, res) => {
           // receipt proves payment but carries no link. Sent once, on the first
           // webhook only, because recordOrder is idempotent and returns the
           // existing record on a redelivery.
+          // Tell HER. Stripe can email a merchant on a successful payment, but
+          // only if that box is ticked in her dashboard, and she had not seen
+          // one. This does not depend on a setting in somebody else's product:
+          // if the shop takes money, she hears about it from her own site.
+          mail.sendQuietly({
+            subject: 'Sale: ' + order.product_name + ' (' + fromCents(order.amount, order.currency) + ')',
+            fromName: 'MedPsycMoss store',
+            replyTo: order.email || undefined,
+            text: [
+              order.product_name + (order.option ? ' (' + order.option + ')' : ''),
+              fromCents(order.amount, order.currency),
+              '',
+              'Buyer: ' + (order.name || 'no name given'),
+              '       ' + (order.email || 'no email given'),
+              '',
+              store.todoFor(order)
+                ? 'THIS ONE NEEDS YOU: ' + store.todoFor(order).what
+                : 'Nothing to do. They already have their download.',
+              '',
+              'Reply to this email and it goes straight to them.',
+              ORIGIN + '/admin  ->  Orders',
+            ].join('\n'),
+          }).catch(() => {});
+
           if (order.email && !order.emailed_at) {
             const lines = ['Thank you for your order.', '', order.product_name +
               (order.option ? ' (' + order.option + ')' : '') + ' - ' +

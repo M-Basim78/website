@@ -17,6 +17,74 @@ const C = path.resolve('content');
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+/**
+ * Inline links inside a paragraph: [her words](https://example.com)
+ *
+ * Escaping happens FIRST and the anchor is built from the escaped pieces, so a
+ * post can never inject markup by containing a stray angle bracket. Only http,
+ * https, mailto and site-relative targets are allowed: javascript: in an href
+ * is the oldest trick there is, and she pastes links from her own inbox.
+ *
+ * An external link opens in a new tab with rel="noopener", because sending a
+ * reader away from a 20 minute article and losing their place is rude.
+ */
+const SAFE_HREF = /^(https?:\/\/|mailto:|\/(?!\/))/i;
+
+function inline(text) {
+  let out = esc(text);
+  // [label](target)
+  out = out.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (whole, label, href) => {
+    const clean = href.replace(/&amp;/g, '&');
+    if (!SAFE_HREF.test(clean)) return label;          // keep the words, drop the link
+    const external = /^https?:/i.test(clean) && !/medpsycmoss\.com/i.test(clean);
+    return `<a href="${esc(clean)}"` +
+      (external ? ' target="_blank" rel="noopener noreferrer"' : '') + `>${label}</a>`;
+  });
+  // A bare URL she pasted on its own, not already inside an anchor.
+  out = out.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g, (whole, pre, url) => {
+    const clean = url.replace(/&amp;/g, '&').replace(/[.,;:]+$/, '');
+    const tail = url.slice(clean.length);
+    const shown = clean.replace(/^https?:\/\//, '').replace(/\/$/, '');
+    return `${pre}<a href="${esc(clean)}" target="_blank" rel="noopener noreferrer">${esc(shown)}</a>${tail}`;
+  });
+  return out;
+}
+
+/**
+ * The video that belongs to a post.
+ *
+ * Every one of her posts has a YouTube video, and she wants the thumbnail at
+ * the top with a click through to YouTube. Not an iframe: an embed loads
+ * YouTube's player, its cookies and about a megabyte of script into a page that
+ * is otherwise dependency free, and it would be the slowest thing on the site.
+ * A thumbnail and a link cost one image.
+ */
+function youtubeId(url) {
+  const u = String(url || '').trim();
+  if (!u) return '';
+  const m = u.match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : (/^[A-Za-z0-9_-]{11}$/.test(u) ? u : '');
+}
+
+function videoCard(url, title) {
+  const id = youtubeId(url);
+  if (!id) return '';
+  const watch = 'https://www.youtube.com/watch?v=' + id;
+  // maxresdefault does not exist for every video; hqdefault always does, so the
+  // onerror swap means a card never renders as a broken image.
+  return `      <a class="ytcard" href="${esc(watch)}" target="_blank" rel="noopener noreferrer">
+        <span class="thumb">
+          <img src="https://i.ytimg.com/vi/${id}/maxresdefault.jpg"
+               onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${id}/hqdefault.jpg'"
+               alt="Watch: ${esc(title)}" width="1280" height="720" loading="lazy" decoding="async">
+          <span class="play" aria-hidden="true"></span>
+        </span>
+        <span class="meta"><span class="k">Watch on YouTube</span><span class="t">${esc(title)}</span></span>
+      </a>
+`;
+}
+
+
 // ---------------------------------------------------------------- helpers --
 function frontmatter(src) {
   const m = src.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
@@ -69,7 +137,7 @@ for (const f of fs.readdirSync(path.join(C, 'blog')).filter(x => x.endsWith('.md
       return `<figure class="post-img"><img src="${esc(src)}" alt="${alt}"${dims} loading="lazy" decoding="async">` +
              (alt ? `<figcaption>${alt}</figcaption>` : '') + `</figure>`;
     }
-    return t.startsWith('## ') ? `<h2>${esc(t.slice(3))}</h2>` : `<p>${esc(t)}</p>`;
+    return t.startsWith('## ') ? `<h2>${inline(t.slice(3))}</h2>` : `<p>${inline(t)}</p>`;
   }).filter(Boolean);
 
   const isInterview = data.kind === 'interview';
@@ -127,7 +195,7 @@ ${SHELL.header}
 
 <section aria-labelledby="a-title">
   <div class="wrap">
-    <article class="prose reveal">
+${videoCard(data.video, data.title)}    <article class="prose reveal">
 ${blocks.map(b => '      ' + b).join('\n')}
     </article>
     <div class="store-more reveal">

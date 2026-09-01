@@ -1098,6 +1098,49 @@
     .crumbs a,.crumbs span{min-height:0;min-width:0}
   }
 
+  /* ============ the video that belongs to a post ============
+     A thumbnail and a link, not an iframe. An embed would pull YouTube's
+     player, its cookies and roughly a megabyte of script into a page that has
+     no other dependency, and it would be the slowest thing on the site. */
+  .ytcard{
+    display:block;margin:0 auto 34px;max-width:760px;text-decoration:none;color:inherit;
+    border:1px solid var(--line-soft);border-radius:18px;overflow:hidden;background:var(--card);
+    box-shadow:0 16px 40px -30px rgba(27,42,74,0.45);
+    transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+  }
+  .ytcard:hover{transform:translateY(-3px);border-color:rgba(166,58,87,0.45);
+    box-shadow:0 26px 50px -30px rgba(27,42,74,0.5)}
+  .ytcard .thumb{position:relative;display:block;aspect-ratio:16/9;background:var(--bg-2)}
+  .ytcard .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  /* the play badge, drawn rather than shipped as an asset */
+  .ytcard .play{
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    width:74px;height:52px;border-radius:14px;background:rgba(110,31,53,0.92);
+    box-shadow:0 10px 26px -10px rgba(0,0,0,0.5);transition:background .25s ease,transform .25s ease;
+  }
+  .ytcard .play::after{
+    content:"";position:absolute;top:50%;left:52%;transform:translate(-50%,-50%);
+    border-style:solid;border-width:11px 0 11px 18px;border-color:transparent transparent transparent #fff;
+  }
+  .ytcard:hover .play{background:var(--accent);transform:translate(-50%,-50%) scale(1.06)}
+  .ytcard .meta{display:flex;flex-direction:column;gap:4px;padding:16px 20px 18px}
+  .ytcard .meta .k{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:0.14em;text-transform:uppercase;
+    color:var(--pulse-ink);font-weight:600;
+  }
+  .ytcard .meta .t{font-weight:600;font-size:15.5px;line-height:1.4;color:var(--ink)}
+  @media(min-width:780px){ .ytcard{margin-bottom:44px} }
+
+  /* a link inside her writing */
+  .prose a{
+    color:var(--pulse-ink);text-decoration:underline;
+    text-decoration-color:rgba(166,58,87,0.45);text-underline-offset:3px;
+    transition:text-decoration-color .2s ease,color .2s ease;
+  }
+  .prose a:hover{color:var(--primary-hi);text-decoration-color:var(--accent)}
+  /* a pasted URL can be longer than a phone is wide */
+  .prose a{overflow-wrap:anywhere}
+
   /* ============ article prose (blog posts, interviews) ============ */
   .prose{max-width:68ch}
   .prose p{color:var(--muted);font-size:16.5px;margin-bottom:20px;text-wrap:pretty}
