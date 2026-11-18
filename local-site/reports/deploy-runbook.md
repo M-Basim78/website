@@ -162,6 +162,7 @@ scp -r local-site/content/products ubuntu@VPS_IP:~/upload
 ```bash
 # on the VPS, into the running container's volume
 docker cp ~/upload/. medpsycmoss-site:/app/content/products/
+docker exec -u root medpsycmoss-site chown -R app:app /app/content
 docker exec medpsycmoss-site ls -la /app/content/products/
 rm -rf ~/upload
 ```
@@ -192,9 +193,18 @@ scp local-site/content/products.json ubuntu@VPS_IP:~/products.json
 ```bash
 # on the VPS
 docker cp ~/products.json medpsycmoss-site:/app/content/products.json
+docker exec -u root medpsycmoss-site chown -R app:app /app/content
 docker compose restart
 rm ~/products.json
 ```
+
+**Never skip the `chown`.** A file copied in by hand does not belong to `app`,
+the user the site runs as. The site can still read it, so the store looks fine,
+but she cannot save it. That is exactly what happened: `products.json` arrived
+owned by uid 1000, and every price edit she made from at least 30 October to 18
+November failed with "Something went wrong." The editor now saves by replacing
+the file, which works around it, but the `chown` keeps every file in the volume
+hers.
 
 Confirm all nine visible products arrived:
 
