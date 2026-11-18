@@ -233,6 +233,42 @@ async function noteSize(name, w, h) {
   await fsp.writeFile(SIZES, JSON.stringify(all, null, 2) + '\n');
 }
 
+/**
+ * Save a file by replacing it rather than overwriting it in place.
+ *
+ * Two reasons. A crash halfway through can never leave half a products.json
+ * behind. And a rename needs permission on the folder, not on the file. That
+ * was the live bug: products.json was pushed into the volume by hand and
+ * arrived owned by uid 1000, while this process runs as `app` (uid 100). It
+ * could read the file but not overwrite it, so from at least 30 October every
+ * price edit failed with "Something went wrong." Renaming over it works,
+ * because `app` owns the folder, and the replacement belongs to `app`, so the
+ * first save repairs it.
+ */
+async function writeReplacing(file, data) {
+  const tmp = `${file}.${process.pid}.${Date.now()}.tmp`;
+  try {
+    await fsp.writeFile(tmp, data);
+    await fsp.rename(tmp, file);
+  } catch (e) {
+    await fsp.unlink(tmp).catch(() => {});
+    throw e;
+  }
+}
+
+/**
+ * What the editor shows when the server fails. The failures she can actually
+ * hit are the disk refusing a write, and "Something went wrong." said neither
+ * that nothing was saved nor why, so a month passed before anyone knew.
+ */
+function failureMessage(e) {
+  const code = e && e.code;
+  if (code === 'ENOSPC') return 'Not saved: the server\'s disk is full.';
+  if (code === 'EACCES' || code === 'EPERM' || code === 'EROFS')
+    return 'Not saved: the server would not let the editor change that file.';
+  return 'Something went wrong.';
+}
+
 /** Keep the previous version of a post before overwriting or deleting it. */
 async function keepVersion(file, name) {
   if (!fs.existsSync(file)) return;
@@ -382,8 +418,9 @@ async function api(req, res, url, authed) {
     if (req.method === 'GET') return json(res, 200, JSON.parse(await fsp.readFile(file, 'utf8')));
     if (req.method === 'PUT') {
       const body = await readBody(req);
-      try { JSON.parse(body); } catch { return json(res, 400, { error: 'That is not valid data.' }); }
-      await fsp.writeFile(file, JSON.stringify(JSON.parse(body), null, 2) + '\n');
+      let data;
+      try { data = JSON.parse(body); } catch { return json(res, 400, { error: 'That is not valid data.' }); }
+      await writeReplacing(file, JSON.stringify(data, null, 2) + '\n');
       return json(res, 200, { ok: true });
     }
   }
@@ -1058,8 +1095,8 @@ const server = http.createServer(async (req, res) => {
     }
     return served;
   } catch (e) {
-    console.error(req.method, pathname, e.message);
-    if (!res.headersSent) json(res, 500, { error: 'Something went wrong.' });
+    console.error(req.method, pathname, e.code || '', e.message);
+    if (!res.headersSent) json(res, 500, { error: failureMessage(e) });
   }
 });
 

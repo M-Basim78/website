@@ -34,7 +34,11 @@ fi
 # own. To push one deliberately:
 #
 #   docker cp content/products.json medpsycmoss-site:/app/content/products.json
+#   docker exec -u root medpsycmoss-site chown -R app:app /app/content
 #   docker compose restart
+#
+# The chown is not optional. A file copied in by hand does not belong to app,
+# so the site can read it but not save it, and her edits to it fail.
 #
 # See reports/deploy-runbook.md.
 
